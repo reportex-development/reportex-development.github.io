@@ -365,3 +365,7 @@ menu {
 .menu__icon {
   display: none !important;
 }
+
+.menu__icon--active {
+  display: none !important;
+}
