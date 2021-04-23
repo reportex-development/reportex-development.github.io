@@ -143,7 +143,7 @@
 .room__container--available .room__container__status__title__label1,
 .room__container--available .room__container__status__countdown__hours__number,
 .room__container--available .room__container__status__countdown__minutes__number {
-  color: #3cf799;
+  color: blue;
 }
 
 /* Color for 'minutes label' and 'hours label' if available */
