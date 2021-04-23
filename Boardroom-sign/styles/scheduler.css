@@ -11,7 +11,7 @@
 
 /* Color for available label */
 .color__main-color-3 {
-  color: blue;
+  color: blue !important;
 }
 
 /* Color for reserved label */
