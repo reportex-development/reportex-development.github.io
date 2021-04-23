@@ -355,13 +355,13 @@
 /*************** Timeline End*************************/
 /*hides the circle menu icon on the right side */
 menu {
-  display: none;
+  display: none !important;
 }
 
 .menu {
-  display: none;
+  display: none !important;
 }
 
 .menu__icon {
-  display: none;
+  display: none !important;
 }
