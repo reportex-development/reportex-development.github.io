@@ -1,0 +1,32 @@
+{
+    "Name": "Schedule Board",
+    "Id": "appspace.card.schedule.board",
+    "Category": "Services",
+    "Thumbnail": "thumbnail.svg",
+    "Startup": "index.html",
+    "Schema": "schema.json",
+    "Developer": "Appspace",
+    "Model": "model.json",
+    "NaturalDuration": true,
+    "DisplayFormats": [
+        {
+            "Type": "tv"
+        },
+        {
+            "Type": "mobile"
+        }
+    ],
+    "Network": {
+        "RequiresConnection": true
+    },
+    "ConstellationScopes": {
+        "default": "",
+        "device": "maps.read reservation.readwrite",
+        "editing": "maps.read reservation.read",
+        "preview": "maps.read reservation.readwrite",
+        "themeediting": "maps.read reservation.read"
+    },
+    "BaseCardTemplate": false,
+    "Version": "1.14.0",
+    "Description": "Appspace Schedule Board Card"
+}

@@ -1,0 +1,21 @@
+To change the type of font weight in the scheduler showing the Aaa vs Bbb you need to search for:
+schedule-name and Schedule-time 
+then search through to change the appropriate items.
+
+To change the list of boardroam spacing:
+.asui asui-schedule-table .schedule-row-height {
+    min-height: 3.25vmax;
+    max-height: 3.25vmax;
+}
+Search through and make sure all of those heights for the asui-schedule-table . schedule-row-height is set to the same min and max value
+
+
+Change side bar with boardrooms width:
+look for schedule-items-block
+and schedule-items-block, schedule-items-header 
+
+Then to change the header width:
+schedule-header-block
+
+When you change the boardroom pane width and hearder width then you need to change the are that is covered in the center:
+schedule-list-block, schedule-timeline-block
