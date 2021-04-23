@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="scheduleBoard">
+
+<head>
+  <meta charset="utf-8" />
+  <!-- inject:css -->
+  <link rel="stylesheet" href="assets/css/system-430820b15e.css">
+  <link rel="stylesheet" href="assets/css/headerbackgroundimage.css">
+  <!-- endinject -->
+  <!-- inject:js -->
+  <script src="system-01-91f863c456.js"></script>
+  <script src="system-02-30cbee4ff5.js"></script>
+  <!-- endinject -->
+</head>
+
+<body>
+  <div ng-controller="mainController">
+    <div class="main-controller">
+      <ct-background class="main-background" color="backgroundColor" media="backgroundMedia" mask-color="maskColor"></ct-background>
+      <div ui-view class="main-view"></div>
+      <div class="dialog-holder" ng-show="showDialog">
+        <ct-dialog on-api-ready="onDialogApiReady(api)" on-close="onDialogClose"></ct-dialog>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
