@@ -177,7 +177,7 @@
 
 .room__container--available {
   background-color: rgba(0, 0, 0, 1);
-  display: none;
+  display: none !important;
 }
 
 .room__container--reserved {
