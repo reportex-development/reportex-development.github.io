@@ -11,7 +11,7 @@
 
 /* Color for available label */
 .color__main-color-3 {
-  color: blue !important;
+  color: #3cd2f7 !important;
 }
 
 /* Color for reserved label */
@@ -68,7 +68,7 @@
 
 /* Border color screensaver layout when available */
 .screensaver__container--available {
-  border-color: #3cf799;
+  border-color: #3cd2f7;
 }
 
 /****************** Horizontal Room section *********************/
@@ -143,17 +143,17 @@
 .room__container--available .room__container__status__title__label1,
 .room__container--available .room__container__status__countdown__hours__number,
 .room__container--available .room__container__status__countdown__minutes__number {
-  color: blue;
+  color: #3cd2f7;
 }
 
 /* Color for 'minutes label' and 'hours label' if available */
 .room__container--available .room__container__status__countdown__hours__time,
 .room__container--available .room__container__status__countdown__minutes__time {
-  color: #3cf799;
+  color: #3cd2f7;
   border: 1px solid transparent;
-  -moz-border-image: -moz-linear-gradient(top, #3cf799 0, #57f171 100%);
-  -webkit-border-image: -webkit-linear-gradient(top, #3cf799 0, #57f171 100%);
-  border-image: linear-gradient(to bottom, #3cf799 0, #57f171 100%);
+  -moz-border-image: -moz-linear-gradient(top, #3cd2f7 0, #57f171 100%);
+  -webkit-border-image: -webkit-linear-gradient(top, #3cd2f7 0, #57f171 100%);
+  border-image: linear-gradient(to bottom, #3cd2f7 0, #57f171 100%);
   border-image-slice: 1;
 }
 
@@ -247,7 +247,7 @@
 /* Current time pin color when available */
 .bg__main-color-2,
 .timeline__content__now::before {
-  background-color: #3cf799;
+  background-color: #3cd2f7;
 }
 
 /* Current time pin color when reserved */
