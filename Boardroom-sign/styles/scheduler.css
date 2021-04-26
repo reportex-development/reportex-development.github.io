@@ -96,11 +96,14 @@
 }
 
 .screensaver__container--reserved {
-  background-image:
+  /*  background-image:
     linear-gradient(rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)),
-    /* your image */
+
+  IMAGE HERE maybe
     url("images/reportex-background.png") !important;
+
+    */
   background-position: center center;
   background-repeat: no-repeat;
   font-size: 12vh;
@@ -180,11 +183,13 @@
 }
 
 .room__container--reserved {
+  /* IMAGE HERE MAYBE
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)),
-    /* your image */
+
     url("images/reportex-background.png") !important;
+  */
   background-position: center center;
   background-repeat: no-repeat;
 }
