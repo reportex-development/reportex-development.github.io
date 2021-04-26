@@ -192,6 +192,7 @@
   */
   background-position: center center;
   background-repeat: no-repeat;
+  background-image: url("images/reportex-background.png") !important;
 }
 
 /* Background Image added to everywhere*/
