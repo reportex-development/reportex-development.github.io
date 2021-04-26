@@ -354,6 +354,7 @@
 
 /*************** Timeline End*************************/
 /*hides the circle menu icon on the right side */
+/**
 menu {
   display: none !important;
 }
@@ -374,3 +375,4 @@ menu {
   background-color: rgba(0, 0, 0, 1);
   display: none !important;
 }
+**/
