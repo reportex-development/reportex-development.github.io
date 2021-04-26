@@ -100,7 +100,7 @@
     linear-gradient(rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)),
     /* your image */
-    url("../images/reportex-background.png") !important;
+    url("images/reportex-background.png") !important;
   background-position: center center;
   background-repeat: no-repeat;
   font-size: 12vh;
