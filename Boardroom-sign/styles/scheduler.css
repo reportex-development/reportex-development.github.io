@@ -14,7 +14,6 @@
   font-size: 12vh;
   font-weight: 700;
   font-variant: small-caps;
-  background-color: red;
   display: none;
 }
 
@@ -179,7 +178,7 @@
 
 .room__container--available {
   background-color: rgba(0, 0, 0, 1);
-  display: none !important;
+  /* display: none !important; */
 }
 
 .room__container--reserved {
