@@ -1,2 +1,5 @@
 document.getElementsByClassName("schedule-name").style.display = "none";
-console.log(document.getElementsByClassName("schedule-name"));
+
+var str = "";
+var n = str.search("</br>");
+document.getElementsByClassName("schedule-name").innerHTML = n;
