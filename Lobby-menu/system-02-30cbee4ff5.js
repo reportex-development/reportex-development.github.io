@@ -14174,7 +14174,7 @@ var TextEditorImageInput = function (_Handsontable$editors) {
         var scheduleTimeElm = document.createElement("span");
 		
 		var posOne = document.getElementsByClassName("schedule-name")[0]);
-		console.log(posOne.innerText);
+		console.log(posOne);
 		
         return scheduleTimeElm.classList.add("schedule-time"), scheduleTimeElm.textContent = schedule.startDateLabel + " - " + schedule.endDateLabel, scheduleContainerElm.appendChild(scheduleTimeElm), scheduleElm;
       }
