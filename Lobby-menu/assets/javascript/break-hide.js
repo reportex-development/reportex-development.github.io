@@ -1,0 +1,1 @@
+document.getElementsByClassName("schedule-name").style.display = "none";
