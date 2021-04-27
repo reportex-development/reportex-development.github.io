@@ -14154,7 +14154,7 @@ var TextEditorImageInput = function (_Handsontable$editors) {
           var scheduleOrganizerElm = document.createElement("span");
 		  console.log(schedule.name);
           scheduleOrganizerElm.classList.add("schedule-organizer"), scheduleOrganizerElm.textContent = schedule.organizer, scheduleContainerElm.appendChild(scheduleOrganizerElm);
-		  console.log(document.getElementsByClassName("schedule-name")[0]);
+		  
         }
 
         var scheduleTimeElm = document.createElement("span");
@@ -14172,6 +14172,9 @@ var TextEditorImageInput = function (_Handsontable$editors) {
         var scheduleNameElm = document.createElement("span");
         scheduleNameElm.classList.add("schedule-name"), scheduleNameElm.textContent = schedule.name, scheduleContainerElm.appendChild(scheduleNameElm);
         var scheduleTimeElm = document.createElement("span");
+		
+		console.log(document.getElementsByClassName("schedule-name")[0]);
+		
         return scheduleTimeElm.classList.add("schedule-time"), scheduleTimeElm.textContent = schedule.startDateLabel + " - " + schedule.endDateLabel, scheduleContainerElm.appendChild(scheduleTimeElm), scheduleElm;
       }
 
