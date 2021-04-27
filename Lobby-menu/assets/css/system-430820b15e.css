@@ -18280,8 +18280,8 @@ screen and (-ms-high-contrast:none) {
 	padding-right: .833vmax;
 	padding-bottom: .156vmax;
 	justify-content: space-between;
-	min-width: 25%;
-	max-width: 25%
+	min-width: 27%;
+	max-width: 27%
 }
 
 .asui asui-schedule-table .schedule-header-block .schedule-items-header .schedule-filter {
@@ -18651,8 +18651,8 @@ screen and (-ms-high-contrast:none) {
 
 /* Width of Sidebar */
 .asui asui-schedule-table .schedule-list-block .schedule-items-block {
-	min-width: 25%;
-	max-width: 25%;
+	min-width: 27%;
+	max-width: 27%;
 	background-color: transparent!important
 }
 
@@ -18743,8 +18743,8 @@ screen and (-ms-high-contrast:none) {
 .asui asui-schedule-table .schedule-list-block .schedule-timeline-block {
 	overflow-x: auto;
 	overflow-y: visible;
-	min-width: 75%;
-	max-width: 75%;
+	min-width: 73%;
+	max-width: 73%;
 	background-color: transparent!important;
 	scrollbar-width: none
 }
