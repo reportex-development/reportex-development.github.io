@@ -22,6 +22,7 @@ http://127.0.0.1:8000/api/home
 """
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('api.urls'))
+    path('api/', include('api.urls')),
+    path('', include('frontend.urls'))
 ]
 
