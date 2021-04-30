@@ -51,7 +51,7 @@ export default class CreateRoomPage extends Component {
       .then((data) => this.props.history.push('/room/' + data.code));
   }
 
-  render() {
+  render() { 
     return (
       <Grid container spacing={1}>
         <Grid item xs={12} align="center">
