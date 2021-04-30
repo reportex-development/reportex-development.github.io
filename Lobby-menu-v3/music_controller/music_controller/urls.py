@@ -1,5 +1,4 @@
 """music_controller URL Configuration
-
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.1/topics/http/urls/
 Examples:
@@ -16,13 +15,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-"""
-http://127.0.0.1:8000/api/home 
-
-"""
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('api.urls')),
     path('', include('frontend.urls'))
 ]
-

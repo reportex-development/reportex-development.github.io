@@ -1,11 +1,7 @@
 from django.urls import path
-from .views import RoomView
-
-"""
-http://127.0.0.1:8000/api/home 
-
-"""
+from .views import RoomView, CreateRoomView
 
 urlpatterns = [
-    path('home', RoomView().as_view()),
+    path('room', RoomView.as_view()),
+    path('create-room', CreateRoomView.as_view())
 ]
