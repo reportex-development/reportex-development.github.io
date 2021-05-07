@@ -1,4 +1,4 @@
-/* https://monikaszucs.github.io/styles/style.css  */
+/* https://reportex-development.github.io/Boardroom-sign/styles/scheduler.css  */
 
 
 /*************** Screensaver section ****************/
@@ -403,30 +403,27 @@
   background-image: url("../images/reportex-background-overlay.png") !important;
 }
 
-
-
-.room__container__status--available{
-  background-color:cornflowerblue;
-}
-
-.room__container{
-  background-color: orange;
-  
-}
-
-.room--available{
-  background-color: black;
-}
-
-.room{
-  background-color: red;
-}
-
-.room__container__room-details{
-  background-color: pink;
+.room__container__status__title__label1,
+.room__container__status__title__label2, {
+  font-size: 0px;
 }
 
 
+
+/*  Hiding Available for the rest of the day */
+.room__container__status__available-all-day__title__label1,
+.room__container__status__available-all-day__title__label2 {
+  font-size: 0px;
+}
+
+.screensaver__container__freeAllDay,
+.screensaver__container__freeAllDay__label1,
+.screensaver__container__freeAllDay__label2,
+.screensaver__container__freeAllDay__label3,
+.screensaver__container__freeAllDay__label4
+{
+  font-size: 0px;
+}
 
 
 
