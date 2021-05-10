@@ -120,6 +120,7 @@ export default class CreateRoomPage extends Component {
       </Grid>
     );
   }
+  
 
   render() {
     const title = this.props.update ? "Update Room" : "Create a Room";
