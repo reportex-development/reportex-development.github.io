@@ -1,12 +1,10 @@
 from django.urls import path
 from .views import index
 
-"""
-http://127.0.0.1:8000/api/home 
+app_name = 'frontend'
 
-"""
 urlpatterns = [
-    path('', index),
+    path('', index, name=''),
     path('join', index),
     path('create', index),
     path('join/1', index),
