@@ -1,1 +1,1 @@
-# To go to website go to https://reportex-development.github.io/
+# To go to website go to [go](https://reportex-development.github.io/){:target="_blank"}
