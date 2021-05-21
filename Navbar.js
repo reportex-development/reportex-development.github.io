@@ -1,4 +1,4 @@
-class WelcomeBack extends React.Component {
+class Navbar extends React.Component {
     constructor(props){
         super(props);
         this.state = {
