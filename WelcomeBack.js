@@ -1,5 +1,4 @@
-  
-class Banner extends React.Component {
+class WelcomeBack extends React.Component {
     constructor(props){
         super(props);
         this.state = {
@@ -21,5 +20,6 @@ class Banner extends React.Component {
             </>
         )
     }
+
 
 }
