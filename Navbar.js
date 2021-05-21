@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Button, Navbar } from 'react-bootstrap'
+import { Button, Navbar } from 'react-bootstrap';
 
 class Navbar extends React.Component {
     constructor(props){
