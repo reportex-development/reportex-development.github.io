@@ -53,10 +53,13 @@
             </ul>
         </div>
     </nav>
+
+    <div class="navigation"></div>
     <div class="container">
       <div class="welcome-back"></div>
     </div>
 
+    
     <div class="bg-image position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light"
         style="
           background-image: url('https://reportex-development.github.io/images/background/banner/header-banner.jpg');
@@ -199,9 +202,11 @@
 
     <script type="text/babel" src="WelcomeBack.js"></script>
     <script type="text/babel" src="CoolButton.js"></script>
+    <script type="text/babel" src="Navbar.js"></script>
 
     <script type="text/babel">
       ReactDOM.render(<WelcomeBack />, document.querySelector(".welcome-back"));
+      ReactDOM.render(<Navbar />, document.querySelector(".navigation"));
     </script>
 
   </body>
