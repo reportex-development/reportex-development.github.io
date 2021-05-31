@@ -1,0 +1,497 @@
+/* https://monikaszucs.github.io/styles/style.css  */
+
+
+/*************** Screensaver section ****************/
+/* Room name */
+.screensaver__container__room-details__name {
+    text-transform: capitalize;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 1.5em;
+    width: 133.333333333vh;
+    background-color: red;
+    display: none;
+  }
+  
+  /* Color for available label */
+  .color__main-color-3 {
+    color: #3cf799;
+    display: none;
+  }
+  
+  /* Color for reserved label */
+  .color__main-color-2 {
+    color: #ff2c55;
+    display: none;
+  }
+  
+  /* Reserved details section */
+  .screensaver__container__reserved__content {
+    
+    font-size: 0px;
+    
+  }
+  
+  /* Aaa vs Bbbb on Screen Saver Mode *****************************************************/ 
+  .screensaver__container__reserved__subject{
+    background-color:rgb(255, 127, 80, 0);
+    color: white;
+    font-size: 12vh;
+    font-weight: 700;
+    font-variant: small-caps;
+    font-family: Calibri;
+    font-style: normal;
+  
+    position: fixed;
+    margin:0;
+    padding:0;
+  
+    margin-left: 7.5vh;
+    top:0;
+    left:0;
+  
+    width: 100%;
+    height: 100%;
+  
+    padding-top: 170px !important;
+    z-index: 99;
+  }
+  
+  .screensaver__container__reserved__label2{
+    background-color:cyan;
+    display:none;
+  }
+  
+  .screensaver__container__reserved .screensaver__container__reserved__content .color__main-color-2{
+    display: block;
+  }
+  
+  
+  
+  .screensaver__container__reserved__date,
+  .screensaver__container__available__date-start,
+  .screensaver__container__available__spacer,
+  .screensaver__container__available__date-end {
+    background-color: darkgoldenrod;
+    display: none !important;
+  }
+  
+  
+  .screensaver__container__current-time__date{
+    display: none;
+  }
+  
+  
+  .screensaver__container__current-time__time,
+  .screensaver__container__current-time__date{
+    display: none;
+  }
+  
+  .screensaver__container__time-date{
+    display: none;
+  }
+  
+  .screensaver__container__available{
+    background-color: rgba(0, 0, 0, 1);
+    font-size: 0px;
+  }
+  
+  .screensaver__container__freeAllDay{
+    background-color: rgba(0, 0, 0, 1);
+    font-size: 0px;
+  }
+  
+  /* Available details section */
+  .screensaver__container__available__content {
+    font-family: Crestron, sans-serif;
+    font-style: normal;
+    font-size: 6vh;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    color: red;
+  }
+  
+  .screensaver__container__available__label2{
+    font-size: 0px;
+    color:rgba(0, 0, 0, 1)
+  }
+  
+  .screensaver__container__available__subject{
+    font-size: 0px;
+    color:rgba(0, 0, 0, 1)
+  }
+  
+  /* Available and Reserved Background Images */
+  .screensaver__container--available{
+    /*
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../images/reportex-background.png") !important;
+    */
+    background-color: black;
+  }
+  
+  .screensaver__container--reserved{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../images/reportex-background-overlay.png");
+  
+  
+    /*
+    position: fixed;
+    margin:0;
+    padding:0;
+  
+    top:0;
+    left:0;
+  
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    */
+  }
+  
+  /* Date screensaver */
+  .screensaver__container__current-time__date {
+    font-family: Crestron, sans-serif;
+    font-style: normal;
+    line-height: .75em;
+    font-size: 4.3333333333vh;
+    font-weight: 400;
+    display: none;
+  }
+  
+  /* Time screensaver */
+  .screensaver__container__current-time__time {
+    margin-top: 3.6666666667vh;
+    font-family: Crestron, sans-serif;
+    font-style: normal;
+    line-height: .75em;
+    font-size: 13vh;
+    font-weight: 400;
+    display: none;
+  }
+  
+  /* Time screensaver */
+  .screensaver__container__current-time{
+    background-color: pink;
+    display: none;
+  }
+  
+  /* Logo screensaver */
+  .screensaver__container__logo__img {
+    height: 9vh;
+    display: none;
+  }
+  
+  /* Border color screensaver layout when reserved ********************/
+  .screensaver__container--reserved {
+    border-color: rgba(255, 255, 255, 0);
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  /* Border color screensaver layout when available */
+  .screensaver__container--available {
+    border-color: rgba(255, 255, 255, 0);
+  
+  }
+  
+  .screensaver__container__notify .color__theme-color-2{
+    display: none;
+  }
+  
+  
+  .screensaver__container .container-fluid{
+    display: none;
+    font-size: 0px;
+  }
+  
+  /* Screen saver touch now to begin message  */
+  .screensaver__container__notify{
+    background-color: red;
+    display: none;
+    font-size: 0px;
+  }
+  
+  
+  
+  /****************** Horizontal Room section *********************/
+  /* Room name */
+  .room__container__room-details__name {
+    font-family: Crestron, sans-serif;
+    font-style: normal;
+    font-size: 4vh;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.2;
+    margin-top: -.25em;
+    background-color: blue;
+    
+  }
+  
+  /* Current time and date */
+  .room__container__current-time {
+    font-family: Crestron, sans-serif;
+    font-style: normal;
+    line-height: .75em;
+    font-size: 4vh;
+    font-weight: 400;
+    float: right;
+    margin-right: 5vh;
+    margin-top: 2.5vh;
+    display: none;
+  }
+  
+  /* 'Available' or 'Reserved' label */
+  .room__container__status__title__label1 {
+    font-family: Crestron, sans-serif;
+    font-style: normal;
+    line-height: .75em;
+    font-size: 6vh;
+    font-weight: 400;
+    margin-top: 4.3333333333vh;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: none;
+  }
+  
+  /* 'For next' label */
+  .room__container__status__title__label2 {
+    font-family: Crestron, sans-serif;
+    font-style: normal;
+    line-height: .75em;
+    font-size: 3.3333333333vh;
+    font-weight: 400;
+    margin-top: 2vh;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    background-color: red;
+    display: none;
+  }
+  
+  /* Color for 'reserved label' and 'countdown number' if reserved */
+  .room__container--reserved .room__container__status__title__label1,
+  .room__container--reserved .room__container__status__countdown__hours__number,
+  .room__container--reserved .room__container__status__countdown__minutes__number {
+    color: #ff2c55;
+    
+  }
+  
+  /* Color for 'minutes label' and 'hours label' if reserved */
+  .room__container--reserved .room__container__status__countdown__hours__time,
+  .room__container--reserved .room__container__status__countdown__minutes__time {
+    color: #ff2c55;
+    border: 1px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, #ff2c55 0, #f5317b 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #ff2c55 0, #f5317b 100%);
+    border-image: linear-gradient(to bottom, #ff2c55 0, #f5317b 100%);
+    border-image-slice: 1;
+  }
+  
+  .room__container--available {
+    background-color:red !important;
+  }
+  
+  /* Color for 'available label' and 'countdown number' if available */
+  .room__container--available .room__container__status__title__label1,
+  .room__container--available .room__container__status__countdown__hours__number,
+  .room__container--available .room__container__status__countdown__minutes__number {
+    color: #3cf799;
+    display: none;
+  }
+  
+  /* Color for 'minutes label' and 'hours label' if available */
+  .room__container--available .room__container__status__countdown__hours__time,
+  .room__container--available .room__container__status__countdown__minutes__time {
+    color: #3cf799;
+    border: 1px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, #3cf799 0, #57f171 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #3cf799 0, #57f171 100%);
+    border-image: linear-gradient(to bottom, #3cf799 0, #57f171 100%);
+    border-image-slice: 1;
+    display: none;
+  }
+  
+  /* Room countdown number */
+  .room__container__status__countdown__hours__number,
+  .room__container__status__countdown__minutes__number {
+    font-family: Crestron, sans-serif;
+    font-style: normal;
+    line-height: .75em;
+    font-size: 19.6666666667vh;
+    font-weight: 400;
+    margin-top: 7vh;
+    text-align: center;
+    position: relative;
+    display: none;
+  }
+  
+  /* Room label under countdown number */
+  .room__container__status__countdown__hours__time,
+  .room__container__status__countdown__minutes__time {
+    font-family: Crestron, sans-serif;
+    font-style: normal;
+    line-height: .75em;
+    font-size: 3.3333333333vh;
+    font-weight: 400;
+    margin-top: 3.3333333333vh;
+    min-width: 19vh;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.1666666667vh 2.1666666667vh;
+    display: none;
+  }
+  
+  /* Aaa vs Bbb Title here */
+  /* Room 'Walk up meeting' if reserved */
+  .room__container__status__details__subject {
+    font-family: Calibri;
+    font-style: normal;
+    line-height: .75em;
+    font-size: 12vh;
+    font-weight: 700;
+    font-variant: small-caps;
+  
+    /*
+    margin: 7vh auto 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 133.333333333vh;
+    */
+  
+    line-height: 1.2;
+    color: white;
+  
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+  }
+  
+  /* Room 'Walk up organizer' if reserved */
+  .room__container__status__details__organizer {
+    font-family: Crestron, sans-serif;
+    font-style: normal;
+    line-height: .75em;
+    font-size: 4vh;
+    font-weight: 400;
+    margin-top: 3vh;
+    display: none;
+  }
+  
+  /* Room 'Meeting date' if reserved */
+  .room__container__status__details__date {
+    font-family: Crestron, sans-serif;
+    font-style: normal;
+    line-height: .75em;
+    font-size: 4vh;
+    font-weight: 400;
+    margin-top: 2vh;
+    display: none;
+  }
+  
+  .room__container__status{
+    position: fixed;
+    margin:0;
+    padding:0;
+  
+    top:0;
+    left:0;
+  
+    width: 100%;
+    height: 100%;
+  
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../images/reportex-background-overlay.png");
+  }
+  
+  .room__container__status__title__label1,
+  .room__container__status__title__label2 {
+    font-size: 0px;
+  }
+  
+  
+  
+  /*  Hiding Available for the rest of the day */
+  .room__container__status__available-all-day__title__label1,
+  .room__container__status__available-all-day__title__label2 {
+    font-size: 0px;
+  }
+  
+  .screensaver__container__freeAllDay,
+  .screensaver__container__freeAllDay__label1,
+  .screensaver__container__freeAllDay__label2,
+  .screensaver__container__freeAllDay__label3,
+  .screensaver__container__freeAllDay__label4
+  {
+    font-size: 0px;
+  }
+  
+  
+  
+  
+  /*************** Timeline *************************/
+  /* Background and border color for the timeline events created in the past */
+  .timeline__content__event__content--finished {
+    border-color: rgba(228, 228, 228, .1);
+    background-color: rgba(228, 228, 228, .05);
+    display: none;
+  }
+  
+  /* Background color for the timeline events created in the future */
+  .bg__main-color-1 {
+    background-color: rgba(255, 44, 85, .1);
+    display: none;
+  }
+  
+  /* Border color for the timeline events created in the future */
+  .border__main-color-1 {
+    border-left-color: #ff2c55;
+    display: none;
+  }
+  
+  /* Background and border color for the active event from timeline */
+  .timeline__content__event__content--active,
+  .timeline__content__event__content--selected {
+    border-color: #ff2c55;
+    background-color: rgba(255, 44, 85, .8);
+    display: none;
+  }
+  
+  /* Current time pin color when available */
+  .bg__main-color-2,
+  .timeline__content__now::before {
+    background-color: #3cf799;
+    display: none;
+  }
+  
+  /* Current time pin color when reserved */
+  .timeline__content__now--reserved,
+  .timeline__content__now--reserved::before {
+    background-color: #ff2c55;
+    display: none;
+  }
+  
+  /* Hide Timeline area */
+  .timeline{
+    display: none;
+  }
+  
+  
+  
+  
+  /*************** Menu *************************/
+  .menu {
+    display: none !important;
+  }
+  
+  
