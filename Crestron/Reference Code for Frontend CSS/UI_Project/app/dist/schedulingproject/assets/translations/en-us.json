@@ -1,0 +1,127 @@
+{
+  "findRoom": "Find",
+  "help": "Help",
+  "end": "End",
+  "extend": "Extend",
+  "checkIn": "Check In",
+  "reserveNow": "Reserve now",
+  "hours": "hours",
+  "minutes": "minutes",
+  "hour": "hour",
+  "minute": "minute",
+  "and": "and",
+  "noon": "noon",
+  "vision": "Vision",
+  "private": "private",
+  "statusRoomTitle": {
+    "availableLabel1": "Available",
+    "availableLabel2": "for next",
+    "availableOccupiedLabel1": "Occupied / Not Scheduled",
+    "reservedLabel1": "Reserved",
+    "reservedLabel2": "for next"
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "close": "Close",
+    "end": "End now",
+    "extend": "Extend",
+    "addEvent": "Reserve now",
+    "ok": "Ok"
+  },
+  "freeAllDay": {
+    "label1": "available",
+    "label2": "For the rest of the day"
+  },
+  "splash": {
+    "loadingMessage": "Loading ..."
+  },
+  "endEvent": {
+    "question": "End current meeting",
+    "loadingMessage": "Loading",
+    "endsIn": "ends in"
+  },
+  "extendEvent": {
+    "headerTitle": "Extend This Meeting",
+    "endAt": "ends at",
+    "timeRollLabel": "MIN",
+    "loadingMessage": "Loading",
+    "endsIn": "ends in"
+  },
+  "checkInEvent": {
+    "loadingMessage": "Loading"
+  },
+  "reservation": {
+    "headerTitle": "New Meeting",
+    "subject": "Subject",
+    "organizer": "Organizer",
+    "starts": "Starts",
+    "ends": "Ends",
+    "loadingMessage": "Loading",
+    "defaultOrganizer": "Walk up organizer",
+    "defaultSubject": "Walk up meeting"
+  },
+  "details": {
+    "headerTitle": "Meeting Details",
+    "from": "From",
+    "attendees": "Participants",
+    "loadingMessage": "Retrieving meeting",
+    "recurring": "recurring meeting"
+  },
+  "findRoomData": {
+    "headerTitle": "Nearby Available Rooms",
+    "address": "Building address here",
+    "forNext": "for next",
+    "loadingMessage": "Retrieving meeting",
+    "noRooms": "No rooms are currently available"
+  },
+  "screenSaver": {
+    "availableUntil": "available until",
+    "available": "available",
+    "availableOccupied": "Occupied / Not Scheduled",
+    "reserved": "reserved",
+    "details": "details",
+    "meeting": "meeting",
+    "freeAllDay": "for the rest of the day",
+    "nextUp": "next up",
+    "notify": "Touch screen to begin"
+  },
+  "about": {
+    "systemInfo": "System Info",
+    "account": "Scheduling Account",
+    "serverConnection": "Server Connection",
+    "fusionStatus": "Fusion Push/Poll",
+    "googleAuthUserCode": "Google Auth User Code",
+    "googleAuthUrl": "Google Auth Url",
+    "firmware": "Firmware",
+    "appVersion": "Version",
+    "webVersion": "Web Version",
+    "hardwareId": "Hardware ID",
+    "online": "Online",
+    "offline": "Offline",
+    "hostName": "Hostname",
+    "ip": "IP Address",
+    "configUrl": "Local Configuration Url"
+  },
+  "helpLabels": {
+    "roomName": "Room name",
+    "reserveNow": "Reserve room now",
+    "moreAction": "Find, Reserve, and more",
+    "timelineTap": "Tap to add reservation, or see meeting details",
+    "timelineSwipe": "Swipe to see other times"
+  },
+  "error": {
+    "message": "Sorry, a system error has occurred.  Please try again.",
+    "messageAddEvent": "Sorry, there was an error creating the meeting. Please try again."
+  },
+  "success": {
+    "messageAddEvent": "The meeting was successfully created."
+  },
+  "offline": {
+    "label1": "Calendar Offline",
+    "label2": "Please check configuration"
+  },
+  "pin": {
+    "enterPasscode": "Enter Passcode",
+    "delete": "Delete"
+  }
+}

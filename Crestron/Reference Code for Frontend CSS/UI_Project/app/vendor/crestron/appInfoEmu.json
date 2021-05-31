@@ -1,0 +1,81 @@
+{
+    "version": "1.11",
+    "schedulePanelComVersion": "1.0",
+    "title": "Base data layout for the scheduling panel application",
+    "main": "index.html",
+    "settings": {
+        "accessControl": {
+            "pin": "0000",
+            "securityLevel": "Anonymous"
+        },
+        "room": {
+            "language" : "en_US",
+            "rtl": false,
+            "theme": "light-theme",
+            "verticalOrientation": false,
+            "dateFormat": "DMY",
+            "timeFormat": false,
+            "roomPrivacyLevel": "public/semi-public/private",
+            "availabilityThresholdRoomState": false, 
+            "availabilityThresholdMin": 10,
+            "styleOverrideUrl": "",
+            "idleTimeoutMinutes": 1
+        },
+        "automation": {
+            "forceOrgCheckIn": true,
+            "forceOrgCheckInMin": 5,
+            "forceOrgCheckInEndMin": 3,
+            "enDeclineForNoShow": true,
+            "declineForNoShowAppliesDur": 30
+        },
+        "display": {
+            "backgrounds" : {
+                "availableActive":{
+                    "enabled":false,
+                    "mediaSubType":"",
+                    "mediaType":"Image",
+                    "url":"http://thenextweb.com/wp-content/blogs.dir/1/files/2014/04/helping-climb.jpg"
+                },
+                "availableIdle":{
+                    "enabled":false,
+                    "mediaSubType":"",
+                    "mediaType":"Image",
+                    "url":"http://thenextweb.com/wp-content/blogs.dir/1/files/2014/04/helping-climb.jpg"
+                },
+                "reservedActive":{
+                    "enabled":false,
+                    "mediaSubType":"",
+                    "mediaType":"Image",
+                    "url":"http://thenextweb.com/wp-content/blogs.dir/1/files/2014/04/helping-climb.jpg"
+                },
+                "reservedIdle":{
+                    "enabled":false,
+                    "mediaSubType":"",
+                    "mediaType":"Image",
+                    "url":"http://thenextweb.com/wp-content/blogs.dir/1/files/2014/04/helping-climb.jpg"
+                }
+            },
+            "projectIconUrl": "https://s-media-cache-ak0.pinimg.com/736x/41/1a/48/411a4835d38ff899e55ce2802b08329c--learning-logo-geometric-designs.jpg"
+        },
+        "schedule": {
+            "source": "Fusion",
+            "reserveCustomEn": true,
+            "findBtnEnable": true
+        },
+        "reservation": {
+            "reservationEnable": true,
+            "reserveNowMaxDur": 120,
+            "reserveNowEvenEndTime": false,
+            "endEarlyType": "percentage",
+            "freeUpRoomEnMin": 0,
+            "freeUpRoomEnPer": 0,
+            "extendReservationType": "percentage",
+            "extendReservationMin": 180,
+            "extendReservationMinAfter": 0,
+            "extendReservationPerAfter": 0
+        },
+        "extras": {
+            "supportsInstanceManipulation":false
+        }
+    }
+}

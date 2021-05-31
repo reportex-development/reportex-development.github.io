@@ -1,0 +1,127 @@
+{
+  "findRoom": "Zoeken",
+  "help": "Help",
+  "end": "Afsluiten",
+  "extend": "Verlengen",
+  "checkIn": "Inchecken",
+  "reserveNow": "Reserveer nu",
+  "hours": "uur",
+  "minutes": "minuten",
+  "hour": "uur",
+  "minute": "minuut",
+  "and": "en",
+  "noon": "middag",
+  "vision": "Visie",
+  "private": "privé",
+  "statusRoomTitle": {
+    "availableLabel1": "Beschikbaar",
+    "availableLabel2": "voor de volgende",
+    "availableOccupiedLabel1": "Bezet / niet gepland",
+    "reservedLabel1": "Gereserveerd",
+    "reservedLabel2": "voor de volgende"
+  },
+  "buttons": {
+    "cancel": "Annuleren",
+    "close": "Sluiten",
+    "end": "Afsluiten",
+    "extend": "Verlengen",
+    "addEvent": "Reserveer nu",
+    "ok": "OK"
+  },
+  "freeAllDay": {
+    "label1": "beschikbaar",
+    "label2": "Voor de rest van de dag"
+  },
+  "splash": {
+    "loadingMessage": "Bezig met laden..."
+  },
+  "endEvent": {
+    "question": "Beëindig huidige vergadering",
+    "loadingMessage": "Laden",
+    "endsIn": "eindigt over"
+  },
+  "extendEvent": {
+    "headerTitle": "Verleng deze vergadering",
+    "endAt": "eindigt om",
+    "timeRollLabel": "MIN",
+    "loadingMessage": "Laden",
+    "endsIn": "eindigt over"
+  },
+  "checkInEvent": {
+    "loadingMessage": "Laden"
+  },
+  "reservation": {
+    "headerTitle": "Nieuwe vergadering",
+    "subject": "Onderwerp",
+    "organizer": "Organisator",
+    "starts": "Start",
+    "ends": "Eindigt",
+    "loadingMessage": "Laden",
+    "defaultOrganizer": "Walk up-organisator",
+    "defaultSubject": "Walk up-vergadering"
+  },
+  "details": {
+    "headerTitle": "Vergaderingdetails",
+    "from": "Van",
+    "attendees": "Deelnemers",
+    "loadingMessage": "Vergadering ophalen",
+    "recurring": "terugkerende vergadering"
+  },
+  "findRoomData": {
+    "headerTitle": "Beschikbare kamers in de buurt",
+    "address": "Gebouwadres hier",
+    "forNext": "voor volgende",
+    "loadingMessage": "Vergadering ophalen",
+    "noRooms": "Op het moment zijn er geen ruimten beschikbaar"
+  },
+  "screenSaver": {
+    "availableUntil": "beschikbaar tot",
+    "available": "beschikbaar",
+    "availableOccupied": "Bezet / niet gepland",
+    "reserved": "gereserveerd",
+    "details": "details",
+    "meeting": "vergadering",
+    "freeAllDay": "voor de rest van de dag",
+    "nextUp": "volgende",
+    "notify": "Touchscreen om te beginnen"
+  },
+  "about": {
+    "systemInfo": "Systeeminfo",
+    "account": "Planningsaccount",
+    "serverConnection": "Serververbinding",
+    "fusionStatus": "Fusion push/pull",
+    "googleAuthUserCode": "Google-verificatiegebruikerscode",
+    "googleAuthUrl": "Google-verificatie-URL",
+    "firmware": "Firmware",
+    "appVersion": "Versie",
+    "webVersion": "Webversie",
+    "hardwareId": "Hardware-ID",
+    "online": "Online",
+    "offline": "Offline",
+    "hostName": "Hostnaam",
+    "ip": "IP-adres",
+    "configUrl": "Lokale configuratie-URL"
+  },
+  "helpLabels": {
+    "roomName": "Kamernaam",
+    "reserveNow": "Reserveer ruimte nu",
+    "moreAction": "Zoeken, reserveren en meer",
+    "timelineTap": "Tik om de reservering toe te voegen of de vergaderingdetails te bekijken",
+    "timelineSwipe": "Veeg om andere tijden te bekijken"
+  },
+  "error": {
+    "message": "Sorry, er is een systeemfout opgetreden.  Probeer het nog een keer.",
+    "messageAddEvent": "Sorry, bij het maken van de vergadering is een fout opgetreden. Probeer het nog een keer."
+  },
+  "success": {
+    "messageAddEvent": "De vergadering is met succes gemaakt."
+  },
+  "offline": {
+    "label1": "Agenda is offline",
+    "label2": "Controleer uw configuratie"
+  },
+  "pin": {
+    "enterPasscode": "Toegangscode invoeren",
+    "delete": "Verwijderen"
+  }
+}

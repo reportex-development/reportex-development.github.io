@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="th" name="Thai" alias="th" rtl="false" variant="Thai">
+	<lookup key="global:findRoom"><![CDATA[ค้นหา]]></lookup>
+	<lookup key="global:help"><![CDATA[การช่วย]]></lookup>
+	<lookup key="global:end"><![CDATA[สิ้นสุด]]></lookup>
+	<lookup key="global:extend"><![CDATA[เพิ่มขยาย]]></lookup>
+	<lookup key="global:checkIn"><![CDATA[เข้าร่วม]]></lookup>
+	<lookup key="global:reserveNow"><![CDATA[จองตอนนี้]]></lookup>
+	<lookup key="global:hours"><![CDATA[ชั่วโมง]]></lookup>
+	<lookup key="global:minutes"><![CDATA[นาที]]></lookup>
+	<lookup key="global:hour"><![CDATA[ชั่วโมง]]></lookup>
+	<lookup key="global:minute"><![CDATA[นาที]]></lookup>
+	<lookup key="global:and"><![CDATA[และ]]></lookup>
+	<lookup key="global:noon"><![CDATA[ตอนบ่าย]]></lookup>
+	<lookup key="global:vision"><![CDATA[การมองเห็น]]></lookup>
+	<lookup key="global:private"><![CDATA[ส่วนตัว]]></lookup>
+	
+	<lookup key="statusRoomTitle:availableLabel1"><![CDATA[พร้อมใช้งานได้]]></lookup>
+	<lookup key="statusRoomTitle:availableLabel2"><![CDATA[ในอีก]]></lookup>
+	<lookup key="statusRoomTitle:availableOccupiedLabel1"><![CDATA[ที่ถูกครอบครอง / ไม่ได้กำหนดเวลาไว้]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel1"><![CDATA[จองแล้ว]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel2"><![CDATA[ในอีก]]></lookup>
+
+	<lookup key="buttons:cancel"><![CDATA[ยกเลิก]]></lookup>
+	<lookup key="buttons:close"><![CDATA[ปิด]]></lookup>
+	<lookup key="buttons:end"><![CDATA[สิ้นสุด]]></lookup>
+	<lookup key="buttons:extend"><![CDATA[เพิ่มขยาย]]></lookup>
+	<lookup key="buttons:addEvent"><![CDATA[จองตอนนี้]]></lookup>
+	<lookup key="buttons:ok"><![CDATA[ตกลง]]></lookup>
+	
+	<lookup key="freeAllDay:label1"><![CDATA[พร้อมใช้งานได้]]></lookup>
+	<lookup key="freeAllDay:label2"><![CDATA[สำหรับเวลาที่เหลือของวัน]]></lookup>
+
+	<lookup key="splash:loadingMessage"><![CDATA[กำลังโหลด...]]></lookup>
+		
+	<lookup key="endEvent:question"><![CDATA[สิ้นสุดการประชุมปัจจุบัน]]></lookup>
+	<lookup key="endEvent:loadingMessage"><![CDATA[กำลังโหลด]]></lookup>
+	<lookup key="endEvent:endsIn"><![CDATA[สิ้นสุดในอีก]]></lookup>
+		
+	<lookup key="extendEvent:headerTitle"><![CDATA[เพิ่มขยายการประชุมนี้]]></lookup>
+	<lookup key="extendEvent:endAt"><![CDATA[สิ้นสุดเวลา]]></lookup>
+	<lookup key="extendEvent:timeRollLabel"><![CDATA[นาที]]></lookup>
+	<lookup key="extendEvent:loadingMessage"><![CDATA[กำลังโหลด]]></lookup>
+	<lookup key="extendEvent:endsIn"><![CDATA[สิ้นสุดในอีก]]></lookup>
+		
+	<lookup key="checkInEvent:loadingMessage"><![CDATA[กำลังโหลด]]></lookup>
+		
+	<lookup key="reservation:headerTitle"><![CDATA[การประชุมใหม่]]></lookup>
+	<lookup key="reservation:subject"><![CDATA[หัวข้อ]]></lookup>
+	<lookup key="reservation:organizer"><![CDATA[ผู้จัด]]></lookup>
+	<lookup key="reservation:starts"><![CDATA[เริ่มต้น]]></lookup>
+	<lookup key="reservation:ends"><![CDATA[สิ้นสุด]]></lookup>
+	<lookup key="reservation:loadingMessage"><![CDATA[กำลังโหลด]]></lookup>
+	<lookup key="reservation:defaultOrganizer"><![CDATA[ผู้จัดประชุมที่ไม่ได้กำหนดล่วงหน้า]]></lookup>
+	<lookup key="reservation:defaultSubject"><![CDATA[การประชุมที่ไม่ได้กำหนดล่วงหน้า]]></lookup>
+
+	<lookup key="details:headerTitle"><![CDATA[รายละเอียดการประชุม]]></lookup>
+	<lookup key="details:from"><![CDATA[จาก]]></lookup>
+	<lookup key="details:attendees"><![CDATA[ผู้เข้าร่วม]]></lookup>
+	<lookup key="details:loadingMessage"><![CDATA[กำลังเรียกดูการประชุม]]></lookup>
+	<lookup key="details:recurring"><![CDATA[จัดการประชุมอีกครั้ง]]></lookup>
+		
+	<lookup key="findRoomData:headerTitle"><![CDATA[ห้องที่พร้อมใช้งานใกล้เคียง]]></lookup>
+	<lookup key="findRoomData:address"><![CDATA[ที่อยู่อาคารที่นี่]]></lookup>
+	<lookup key="findRoomData:forNext"><![CDATA[ในอีก]]></lookup>
+	<lookup key="findRoomData:loadingMessage"><![CDATA[กำลังเรียกดูการประชุม]]></lookup>
+	<lookup key="findRoomData:noRooms"><![CDATA[ไม่มีห้องที่พร้อมใช้งานในขณะนี้]]></lookup>
+
+	<lookup key="screenSaver:availableUntil"><![CDATA[ใช้ได้จนถึง]]></lookup>
+	<lookup key="screenSaver:available"><![CDATA[พร้อมใช้งานได้]]></lookup>
+	<lookup key="screenSaver:availableOccupied"><![CDATA[ที่ถูกครอบครอง / ไม่ได้กำหนดเวลาไว้]]></lookup>
+	<lookup key="screenSaver:reserved"><![CDATA[จองแล้ว]]></lookup>
+	<lookup key="screenSaver:details"><![CDATA[รายละเอียด]]></lookup>
+	<lookup key="screenSaver:meeting"><![CDATA[การประชุม]]></lookup>
+	<lookup key="screenSaver:freeAllDay"><![CDATA[สำหรับเวลาที่เหลือของวัน]]></lookup>
+	<lookup key="screenSaver:nextUp"><![CDATA[ต่อไป]]></lookup>
+	<lookup key="screenSaver:notify"><![CDATA[แตะหน้าจอเพื่อเริ่มต้น]]></lookup>
+
+	<lookup key="about:systemInfo"><![CDATA[ข้อมูลระบบ]]></lookup>
+	<lookup key="about:account"><![CDATA[การกำหนดเวลาบัญชี]]></lookup>
+	<lookup key="about:serverConnection"><![CDATA[การเชื่อมต่อเซิร์ฟเวอร์]]></lookup>
+	<lookup key="about:fusionStatus"><![CDATA[ระบบพุช/ดึงของ Fusion]]></lookup>
+	<lookup key="about:googleAuthUserCode"><![CDATA[รหัสผู้ใช้ของ Google Auth]]></lookup>
+	<lookup key="about:googleAuthUrl"><![CDATA[Url ของ Google Auth]]></lookup>
+	<lookup key="about:firmware"><![CDATA[เฟิร์มแวร์]]></lookup>
+	<lookup key="about:appVersion"><![CDATA[เวอร์ชัน]]></lookup>
+	<lookup key="about:webVersion"><![CDATA[เวอร์ชันเว็บ]]></lookup>
+	<lookup key="about:hardwareId"><![CDATA[ไอดีฮาร์ดแวร์]]></lookup>
+	<lookup key="about:online"><![CDATA[ออนไลน์]]></lookup>
+	<lookup key="about:offline"><![CDATA[ออฟไลน์]]></lookup>
+	<lookup key="about:hostName"><![CDATA[ชื่อโฮสต์]]></lookup>
+	<lookup key="about:ip"><![CDATA[ที่อยู่ IP]]></lookup>
+	<lookup key="about:configUrl"><![CDATA[Url การกำหนดค่าท้องถิ่น]]></lookup>
+
+	<lookup key="helpLabels:roomName"><![CDATA[ชื่อห้อง]]></lookup>
+	<lookup key="helpLabels:reserveNow"><![CDATA[จองห้องตอนนี้]]></lookup>
+	<lookup key="helpLabels:moreAction"><![CDATA[ค้นหา จอง และอื่นๆ]]></lookup>
+	<lookup key="helpLabels:timelineTap"><![CDATA[แตะเพื่อเพิ่มการจอง หรือดูรายละเอียดการประชุม]]></lookup>
+	<lookup key="helpLabels:timelineSwipe"><![CDATA[เลื่อนเพื่อดูเวลาอื่นๆ]]></lookup>
+
+	<lookup key="error:message"><![CDATA[ขออภัย เกิดข้อผิดพลาดขึ้นกับระบบ  โปรดลองอีกครั้ง]]></lookup>
+	<lookup key="error:messageAddEvent"><![CDATA[ขออภัย มีข้อผิดพลาดในการสร้างการประชุมนี้ โปรดลองอีกครั้ง]]></lookup>
+	<lookup key="success:messageAddEvent"><![CDATA[สร้างการประชุมสำเร็จแล้ว]]></lookup>
+
+	<lookup key="offline:label1"><![CDATA[ปฏิทินออฟไลน์]]></lookup>
+	<lookup key="offline:label2"><![CDATA[โปรดตรวจสอบการกำหนดค่า]]></lookup>
+
+	<lookup key="pin:enterPasscode"><![CDATA[ป้อนรหัสผ่าน]]></lookup>
+	<lookup key="pin:delete"><![CDATA[ลบ]]></lookup>
+</lang>

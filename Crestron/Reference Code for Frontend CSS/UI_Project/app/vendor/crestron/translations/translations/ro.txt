@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="ro" name="Romanian" alias="ro" rtl="false" variant="Romanian">
+	<lookup key="global:findRoom"><![CDATA[Găsiți]]></lookup>
+	<lookup key="global:help"><![CDATA[Ajutor]]></lookup>
+	<lookup key="global:end"><![CDATA[Încheiați]]></lookup>
+	<lookup key="global:extend"><![CDATA[Extindeți]]></lookup>
+	<lookup key="global:checkIn"><![CDATA[Înregistrare]]></lookup>
+	<lookup key="global:reserveNow"><![CDATA[Rezervați acum]]></lookup>
+	<lookup key="global:hours"><![CDATA[ore]]></lookup>
+	<lookup key="global:minutes"><![CDATA[minute]]></lookup>
+	<lookup key="global:hour"><![CDATA[oră]]></lookup>
+	<lookup key="global:minute"><![CDATA[minut]]></lookup>
+	<lookup key="global:and"><![CDATA[și]]></lookup>
+	<lookup key="global:noon"><![CDATA[prânz]]></lookup>
+	<lookup key="global:vision"><![CDATA[Vedere]]></lookup>
+	<lookup key="global:private"><![CDATA[confidențial]]></lookup>
+	
+	<lookup key="statusRoomTitle:availableLabel1"><![CDATA[Disponibil]]></lookup>
+	<lookup key="statusRoomTitle:availableLabel2"><![CDATA[pentru următoarele]]></lookup>
+	<lookup key="statusRoomTitle:availableOccupiedLabel1"><![CDATA[Ocupat / Nu este programată]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel1"><![CDATA[Rezervat]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel2"><![CDATA[pentru următoarele]]></lookup>
+
+	<lookup key="buttons:cancel"><![CDATA[Revocare]]></lookup>
+	<lookup key="buttons:close"><![CDATA[Închideți]]></lookup>
+	<lookup key="buttons:end"><![CDATA[Încheiați acum]]></lookup>
+	<lookup key="buttons:extend"><![CDATA[Extindeți]]></lookup>
+	<lookup key="buttons:addEvent"><![CDATA[Rezervați acum]]></lookup>
+	<lookup key="buttons:ok"><![CDATA[OK]]></lookup>
+	
+	<lookup key="freeAllDay:label1"><![CDATA[disponibil]]></lookup>
+	<lookup key="freeAllDay:label2"><![CDATA[Pentru restul zilei]]></lookup>
+
+	<lookup key="splash:loadingMessage"><![CDATA[În curs de încărcare...]]></lookup>
+		
+	<lookup key="endEvent:question"><![CDATA[Încheiați întâlnirea curentă]]></lookup>
+	<lookup key="endEvent:loadingMessage"><![CDATA[În curs de încărcare]]></lookup>
+	<lookup key="endEvent:endsIn"><![CDATA[se încheie în]]></lookup>
+		
+	<lookup key="extendEvent:headerTitle"><![CDATA[Prelungiți această întâlnire]]></lookup>
+	<lookup key="extendEvent:endAt"><![CDATA[se încheie la]]></lookup>
+	<lookup key="extendEvent:timeRollLabel"><![CDATA[MIN]]></lookup>
+	<lookup key="extendEvent:loadingMessage"><![CDATA[În curs de încărcare]]></lookup>
+	<lookup key="extendEvent:endsIn"><![CDATA[se încheie în]]></lookup>
+		
+	<lookup key="checkInEvent:loadingMessage"><![CDATA[În curs de încărcare]]></lookup>
+		
+	<lookup key="reservation:headerTitle"><![CDATA[Întâlnire nouă]]></lookup>
+	<lookup key="reservation:subject"><![CDATA[Subiect]]></lookup>
+	<lookup key="reservation:organizer"><![CDATA[Organizator]]></lookup>
+	<lookup key="reservation:starts"><![CDATA[Începe]]></lookup>
+	<lookup key="reservation:ends"><![CDATA[Se încheie]]></lookup>
+	<lookup key="reservation:loadingMessage"><![CDATA[În curs de încărcare]]></lookup>
+	<lookup key="reservation:defaultOrganizer"><![CDATA[Mergeți la organizator]]></lookup>
+	<lookup key="reservation:defaultSubject"><![CDATA[Mergeți la întâlnire]]></lookup>
+
+	<lookup key="details:headerTitle"><![CDATA[Detalii privind întâlnirea]]></lookup>
+	<lookup key="details:from"><![CDATA[De la]]></lookup>
+	<lookup key="details:attendees"><![CDATA[Participanți]]></lookup>
+	<lookup key="details:loadingMessage"><![CDATA[Se preia întâlnirea]]></lookup>
+	<lookup key="details:recurring"><![CDATA[întâlnire recurentă]]></lookup>
+		
+	<lookup key="findRoomData:headerTitle"><![CDATA[Încăperi disponibile în apropiere]]></lookup>
+	<lookup key="findRoomData:address"><![CDATA[Adresa clădirii aici]]></lookup>
+	<lookup key="findRoomData:forNext"><![CDATA[pentru următoarele]]></lookup>
+	<lookup key="findRoomData:loadingMessage"><![CDATA[Se preia întâlnirea]]></lookup>
+	<lookup key="findRoomData:noRooms"><![CDATA[Nicio încăpere nu este momentan disponibilă]]></lookup>
+
+	<lookup key="screenSaver:availableUntil"><![CDATA[disponibil până la]]></lookup>
+	<lookup key="screenSaver:available"><![CDATA[disponibil]]></lookup>
+	<lookup key="screenSaver:availableOccupied"><![CDATA[Ocupat / Nu este programată]]></lookup>
+	<lookup key="screenSaver:reserved"><![CDATA[rezervat]]></lookup>
+	<lookup key="screenSaver:details"><![CDATA[detalii]]></lookup>
+	<lookup key="screenSaver:meeting"><![CDATA[întâlnire]]></lookup>
+	<lookup key="screenSaver:freeAllDay"><![CDATA[pentru restul zilei]]></lookup>
+	<lookup key="screenSaver:nextUp"><![CDATA[următoarea rezervată]]></lookup>
+	<lookup key="screenSaver:notify"><![CDATA[Atingeți ecranul pentru a începe]]></lookup>
+
+	<lookup key="about:systemInfo"><![CDATA[Informații de sistem]]></lookup>
+	<lookup key="about:account"><![CDATA[Cont de programare]]></lookup>
+	<lookup key="about:serverConnection"><![CDATA[Conexiune server]]></lookup>
+	<lookup key="about:fusionStatus"><![CDATA[Push/Pull pentru Fusion]]></lookup>
+	<lookup key="about:googleAuthUserCode"><![CDATA[Cod de utilizator pentru Google Auth]]></lookup>
+	<lookup key="about:googleAuthUrl"><![CDATA[URL pentru Google Auth]]></lookup>
+	<lookup key="about:firmware"><![CDATA[Firmware]]></lookup>
+	<lookup key="about:appVersion"><![CDATA[Versiune]]></lookup>
+	<lookup key="about:webVersion"><![CDATA[Versiune Web]]></lookup>
+	<lookup key="about:hardwareId"><![CDATA[ID hardware]]></lookup>
+	<lookup key="about:online"><![CDATA[Conectat]]></lookup>
+	<lookup key="about:offline"><![CDATA[Neconectat]]></lookup>
+	<lookup key="about:hostName"><![CDATA[Nume gazdă]]></lookup>
+	<lookup key="about:ip"><![CDATA[Adresă IP]]></lookup>
+	<lookup key="about:configUrl"><![CDATA[URL pentru configurare locală]]></lookup>
+
+	<lookup key="helpLabels:roomName"><![CDATA[Nume încăpere]]></lookup>
+	<lookup key="helpLabels:reserveNow"><![CDATA[Rezervați încăperea acum]]></lookup>
+	<lookup key="helpLabels:moreAction"><![CDATA[Găsiți, rezervați și multe altele]]></lookup>
+	<lookup key="helpLabels:timelineTap"><![CDATA[Atingeți pentru a adăuga o rezervare sau pentru a vedea detaliile întâlnirii]]></lookup>
+	<lookup key="helpLabels:timelineSwipe"><![CDATA[Glisați pentru a vedea alte ore]]></lookup>
+
+	<lookup key="error:message"><![CDATA[Ne pare rău, a intervenit o eroare de sistem.  Încercaţi din nou.]]></lookup>
+	<lookup key="error:messageAddEvent"><![CDATA[Ne pare rău, a intervenit o eroare la crearea întâlnirii. Încercaţi din nou.]]></lookup>
+	<lookup key="success:messageAddEvent"><![CDATA[Întâlnirea a fost creată cu succes.]]></lookup>
+
+	<lookup key="offline:label1"><![CDATA[Calendar neconectat]]></lookup>
+	<lookup key="offline:label2"><![CDATA[Verificați configurarea]]></lookup>
+
+	<lookup key="pin:enterPasscode"><![CDATA[Introduceți codul de acces]]></lookup>
+	<lookup key="pin:delete"><![CDATA[Ștergeți]]></lookup>
+</lang>

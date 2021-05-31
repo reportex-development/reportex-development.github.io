@@ -1,0 +1,54 @@
+<!-- This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+    terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+    to redistribute derivative works of the provided sample code in source code format.  This license is located 
+    at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+    with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+    in unexpected behavior and a diminished user experience. -->
+
+<div class="find-room" data-ng-class="{'rtl': $root.isRtl}">
+    <div class="modal-header border__theme-color-9 color__theme-color-5">
+        {{ Helium.labels.findRoomData.headerTitle }}
+    </div>
+    <div class="modal-body">
+        <div class="find-room__container container-fluid">
+            <div class="find-room__container_address border__theme-color-9">
+                <div class="find-room__container__name color__theme-color-2">{{ Helium.values.roomName }}</div>
+                <div class="find-room__container__spinner">
+                    <i class="fa fa-spinner fa-pulse fa-fw" data-ng-show="model.isLoading"></i>
+                </div>
+            </div>
+            <div class="find-room__container__rooms">
+                <ul class="find-room__container__rooms__list">
+                    <li class="find-room__container__rooms__list__item border__theme-color-9"
+                        data-hlm-scroll-touch-el=""
+                            data-add-class-name="bg__theme-color-8"
+                            enable-press-action=true
+                            data-call-press-fn="openReservation( room )"
+                            data-scroll-direction="vertical"
+                        data-ng-repeat="room in model.rooms">
+                        <div class="find-room__container__rooms__list__item__details">
+                            <div class="color__theme-color-5" data-ng-bind="room.name" ></div>
+                            <span class="color__main-color-6 find-room__container__rooms__list__item__details__minutes">
+                                <span class="color__theme-color-2">{{ Helium.labels.findRoomData.forNext }}</span> {{room.availableForDuration}}</span>
+                        </div>
+                        <div class="find-room__container__rooms__list__item__arrow fa fa-chevron-right color__theme-color-5"></div>
+                    </li>
+                </ul>
+                <div class="find-room__container__rooms__list__no-rooms color__theme-color-2 relative-vertical-center" ng-if="model.noRooms">
+                    {{Helium.labels.findRoomData.noRooms}}
+                </div>
+            </div>
+            <div class="find-room__container__spacer border__theme-color-9"></div>
+        </div>
+    </div>
+    <div class="modal-footer border__theme-color-4">
+        <div class="find-roon__cancel">
+            <button class="color__theme-color-5 bg__theme-color-4" type="button"
+                data-hlm-touch-el=""
+                    data-add-class-name="bg__theme-color-8"
+                    enable-press-action=true
+                    data-call-fn-short="cancel( )">{{ Helium.labels.buttons.cancel }}
+            </button>
+        </div>
+    </div>
+</div>

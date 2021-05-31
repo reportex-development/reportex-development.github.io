@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="ar" name="Arabic" alias="ar" rtl="false" variant="Arabic">
+	<lookup key="global:findRoom"><![CDATA[اكتشاف]]></lookup>
+	<lookup key="global:help"><![CDATA[مساعدة]]></lookup>
+	<lookup key="global:end"><![CDATA[إنهاء]]></lookup>
+	<lookup key="global:extend"><![CDATA[تمديد]]></lookup>
+	<lookup key="global:checkIn"><![CDATA[تسجيل الوصول]]></lookup>
+	<lookup key="global:reserveNow"><![CDATA[حجز الآن]]></lookup>
+	<lookup key="global:hours"><![CDATA[ساعات]]></lookup>
+	<lookup key="global:minutes"><![CDATA[دقائق]]></lookup>
+	<lookup key="global:hour"><![CDATA[ساعة]]></lookup>
+	<lookup key="global:minute"><![CDATA[دقيقة]]></lookup>
+	<lookup key="global:and"><![CDATA[و]]></lookup>
+	<lookup key="global:noon"><![CDATA[الظهيرة]]></lookup>
+	<lookup key="global:vision"><![CDATA[الرؤية]]></lookup>
+	<lookup key="global:private"><![CDATA[خاصة]]></lookup>
+	
+	<lookup key="statusRoomTitle:availableLabel1"><![CDATA[متاح]]></lookup>
+	<lookup key="statusRoomTitle:availableLabel2"><![CDATA[لفترة]]></lookup>
+  <lookup key="statusRoomTitle:availableOccupiedLabel1"><![CDATA[المحتلة / غير المجدولة]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel1"><![CDATA[محجوز]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel2"><![CDATA[لفترة]]></lookup>
+
+	<lookup key="buttons:cancel"><![CDATA[إلغاء]]></lookup>
+	<lookup key="buttons:close"><![CDATA[إغلاق]]></lookup>
+	<lookup key="buttons:end"><![CDATA[إنهاء الآن]]></lookup>
+	<lookup key="buttons:extend"><![CDATA[تمديد]]></lookup>
+	<lookup key="buttons:addEvent"><![CDATA[حجز الآن]]></lookup>
+	<lookup key="buttons:ok"><![CDATA[موافق]]></lookup>
+	
+	<lookup key="freeAllDay:label1"><![CDATA[متاح]]></lookup>
+	<lookup key="freeAllDay:label2"><![CDATA[لبقية اليوم]]></lookup>
+
+	<lookup key="splash:loadingMessage"><![CDATA[جارٍ التحميل ...]]></lookup>
+		
+	<lookup key="endEvent:question"><![CDATA[إنهاء الاجتماع الحالي]]></lookup>
+	<lookup key="endEvent:loadingMessage"><![CDATA[جارٍ التحميل]]></lookup>
+	<lookup key="endEvent:endsIn"><![CDATA[ينتهي في]]></lookup>
+		
+	<lookup key="extendEvent:headerTitle"><![CDATA[تمديد هذا الاجتماع]]></lookup>
+	<lookup key="extendEvent:endAt"><![CDATA[ينتهي في]]></lookup>
+	<lookup key="extendEvent:timeRollLabel"><![CDATA[دقيقة]]></lookup>
+	<lookup key="extendEvent:loadingMessage"><![CDATA[جارٍ التحميل]]></lookup>
+	<lookup key="extendEvent:endsIn"><![CDATA[ينتهي في]]></lookup>
+		
+	<lookup key="checkInEvent:loadingMessage"><![CDATA[جارٍ التحميل]]></lookup>
+		
+	<lookup key="reservation:headerTitle"><![CDATA[اجتماع جديد]]></lookup>
+	<lookup key="reservation:subject"><![CDATA[الموضوع]]></lookup>
+	<lookup key="reservation:organizer"><![CDATA[المنظم]]></lookup>
+	<lookup key="reservation:starts"><![CDATA[يبدأ]]></lookup>
+	<lookup key="reservation:ends"><![CDATA[ينتهي]]></lookup>
+	<lookup key="reservation:loadingMessage"><![CDATA[جارٍ التحميل]]></lookup>
+	<lookup key="reservation:defaultOrganizer"><![CDATA[منظم الاجتماع العرضي:]]></lookup>
+	<lookup key="reservation:defaultSubject"><![CDATA[الاجتماع العرضي:]]></lookup>
+
+	<lookup key="details:headerTitle"><![CDATA[تفاصيل الاجتماع]]></lookup>
+	<lookup key="details:from"><![CDATA[من]]></lookup>
+	<lookup key="details:attendees"><![CDATA[المشاركون]]></lookup>
+	<lookup key="details:loadingMessage"><![CDATA[استعادة الاجتماع]]></lookup>
+	<lookup key="details:recurring"><![CDATA[تكرار الاجتماع]]></lookup>
+		
+	<lookup key="findRoomData:headerTitle"><![CDATA[الغرف القريبة المتاحة]]></lookup>
+	<lookup key="findRoomData:address"><![CDATA[عنوان المبنى هنا]]></lookup>
+	<lookup key="findRoomData:forNext"><![CDATA[لفترة]]></lookup>
+	<lookup key="findRoomData:loadingMessage"><![CDATA[استعادة الاجتماع]]></lookup>
+	<lookup key="findRoomData:noRooms"><![CDATA[لا توجد غرف متاحة حاليًا]]></lookup>
+
+	<lookup key="screenSaver:availableUntil"><![CDATA[متاح حتى]]></lookup>
+	<lookup key="screenSaver:available"><![CDATA[متاح]]></lookup>
+	<lookup key="screenSaver:availableOccupied"><![CDATA[المحتلة / غير المجدولة]]></lookup>
+	<lookup key="screenSaver:reserved"><![CDATA[محجوز]]></lookup>
+	<lookup key="screenSaver:details"><![CDATA[التفاصيل]]></lookup>
+	<lookup key="screenSaver:meeting"><![CDATA[اجتماع]]></lookup>
+	<lookup key="screenSaver:freeAllDay"><![CDATA[لبقية اليوم]]></lookup>
+	<lookup key="screenSaver:nextUp"><![CDATA[التالي]]></lookup>
+	<lookup key="screenSaver:notify"><![CDATA[المس الشاشة للبدء]]></lookup>
+
+	<lookup key="about:systemInfo"><![CDATA[معلومات النظام]]></lookup>
+	<lookup key="about:account"><![CDATA[جدولة الحساب]]></lookup>
+	<lookup key="about:serverConnection"><![CDATA[اتصال الخادم]]></lookup>
+	<lookup key="about:fusionStatus"><![CDATA[Fusion الدفع/السحب]]></lookup>
+	<lookup key="about:googleAuthUserCode"><![CDATA[Google Auth رمز المستخدم]]></lookup>
+	<lookup key="about:googleAuthUrl"><![CDATA[رابط Google Auth]]></lookup>
+	<lookup key="about:firmware"><![CDATA[البرنامج الثابت]]></lookup>
+	<lookup key="about:appVersion"><![CDATA[الإصدار]]></lookup>
+	<lookup key="about:webVersion"><![CDATA[إصدار الويب]]></lookup>
+	<lookup key="about:hardwareId"><![CDATA[مُعرّف الجهاز]]></lookup>
+	<lookup key="about:online"><![CDATA[متصل]]></lookup>
+	<lookup key="about:offline"><![CDATA[غير متصل]]></lookup>
+	<lookup key="about:hostName"><![CDATA[اسم المضيف]]></lookup>
+	<lookup key="about:ip"><![CDATA[عنوان IP]]></lookup>
+	<lookup key="about:configUrl"><![CDATA[رابط التكوين المحلي]]></lookup>
+
+	<lookup key="helpLabels:roomName"><![CDATA[اسم الغرفة]]></lookup>
+	<lookup key="helpLabels:reserveNow"><![CDATA[احجز الغرفة الآن]]></lookup>
+	<lookup key="helpLabels:moreAction"><![CDATA[اكتشف، واحجز، وأكثر من ذلك]]></lookup>
+	<lookup key="helpLabels:timelineTap"><![CDATA[انقر لإضافة حجز أو رؤية تفاصيل الاجتماع]]></lookup>
+	<lookup key="helpLabels:timelineSwipe"><![CDATA[امسح لرؤية أوقات أخرى]]></lookup>
+
+	<lookup key="error:message"><![CDATA[عذرًا، حدث خطأ في النظام.  يُرجى إعادة المحاولة.]]></lookup>
+	<lookup key="error:messageAddEvent"><![CDATA[عذرًا، حدث خطأ أثناء إنشاء الاجتماع. يُرجى إعادة المحاولة.]]></lookup>
+	<lookup key="success:messageAddEvent"><![CDATA[تم إنشاء الاجتماع بنجاح.]]></lookup>
+
+	<lookup key="offline:label1"><![CDATA[التقويم غير متصل]]></lookup>
+	<lookup key="offline:label2"><![CDATA[يُرجى التحقق من التكوين]]></lookup>
+
+	<lookup key="pin:enterPasscode"><![CDATA[إدخال رمز المرور]]></lookup>
+	<lookup key="pin:delete"><![CDATA[حذف]]></lookup>
+</lang>

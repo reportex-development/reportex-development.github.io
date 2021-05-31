@@ -1,0 +1,47 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+.success__container {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.success__container__message {
+    @include setProperty( 'margin-top', 56 );
+    @include setProperty( 'margin-left', 30 );
+    @include setProperty( 'margin-right', 30 );
+    @extend .font-normal-36;
+    line-height: 1;
+
+    @media screen and (orientation: portrait) {
+		line-height: 6vh;
+    }
+}
+
+
+.success__container__spacer {
+    @include setProperty( 'height', 56 );
+    width: 100%;
+    display: block;
+
+    @media screen and (orientation: portrait) {
+		height: 4.6vh;
+    }
+}
+
+.modal-success {
+    .modal-footer {
+        .cancel {
+            width: 100%;
+            float: left;
+        }
+        .cancel__btn {
+            @extend .font-normal-24;
+        }
+    }
+}

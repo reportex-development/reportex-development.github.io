@@ -1,0 +1,179 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+/** COLORS ***/
+.color__theme-color-2 {
+    color: rgba($theme-color-9, 0.6);
+}
+
+.color__theme-color-3 {
+    color: rgba($theme-color-9, 0.7);
+}
+
+.color__theme-color-4 {
+    color: rgba($theme-color-9, 0.8);
+}
+
+.color__theme-color-5 {
+    color: rgba($theme-color-9, 1);
+}
+
+.color__theme-color-6 {
+    color: rgba($theme-color-9, 0.4);
+}
+
+.color__theme-color-7 {
+    color: rgba($theme-color-9, 0.2);
+}
+
+.color__theme-color-8 {
+    color: rgba($theme-color-2, 1);
+}
+
+.color__theme-color-9 {
+    color: rgba($theme-color-2, 0.9);
+}
+
+.color__main-color-2 {
+    color: rgba($main-color-2, 1);
+}
+
+.color__main-color-3 {
+    color: rgba($main-color-3, 1);
+}
+
+.color__main-color-4 {
+    color: rgba($main-color-4, 1);
+}
+
+.color__main-color-5 {
+    color: rgba($main-color-5, 1);
+}
+
+.color__main-color-6 {
+    color: rgba($main-color-4, 0.6);
+}
+/** END COLORS ***/
+
+/** BACKGROUD COLORS ***/
+.bg__theme-color-1 {
+    background-color: rgba($theme-color-6, 1);
+}
+
+.bg__theme-color-2 {
+	background-color: rgba($theme-color-2, 0.9);
+}
+
+.bg__theme-color-3 {
+    background-color: rgba($theme-color-4, 0.8);
+}
+
+.bg__theme-color-4 {
+    background-color: rgba($theme-color-4, 0.98);
+}
+
+.bg__theme-color-6 {
+    background-color: rgba($theme-color-6, 0.9);
+}
+
+.bg__theme-color-7 {
+    background-color: rgba($theme-color-4, 1);
+}
+
+.bg__theme-color-8 {
+    background-color: rgba($theme-color-11, 1);
+}
+
+.bg__theme-color-9 {
+    background-color: rgba($theme-color-12, 0.9);
+}
+
+.bg__theme-color-10 {
+    background-color: rgba($theme-color-9, 1);
+}
+
+.bg__main-color-1 {
+     background-color: rgba($main-color-1, 0.1);
+}
+
+.bg__main-color-2 {
+     background-color: rgba($main-color-3, 1);
+}
+
+.bg__main-color-4 {
+    background-color: rgba($main-color-4, 0.8);
+}
+
+.bg__main-color-5 {
+    background-color: rgba($main-color-4, 1);
+}
+
+.bg__main-color-6 {
+    background-color: rgba($main-color-2, 1);
+}
+
+.bg__main-color-7 {
+    background-color: rgba($main-color-4, 0.9);
+}
+
+.bg__main-color-8 {
+    background-color: rgba($main-color-2, 0.9);
+}
+
+.bg__transparent  {
+    background: transparent;
+}
+/** END BACKGROUD COLORS ***/
+
+/** BORDER COLORS ***/
+.border__theme-color-1 {
+    border-color: rgba($theme-color-6, 0.9);
+}
+
+.border__theme-color-4 {
+    border-color: rgba($theme-color-9, 0.2);
+}
+
+.border__theme-color-9 {
+    border-color: rgba($theme-color-9, 0.1);
+}
+
+.border__main-color-1 {
+    border-color: rgba($main-color-1, 1);
+}
+
+.border__main-color-3 {
+    border-color: rgba($main-color-3, 1);
+}
+
+/** OFFLINE ***/
+.border--bottom__main-color-1 {
+    border-bottom-color: rgba($theme-color-9, 1);
+}
+
+.border--top__main-color-2 {
+    border-top-color: rgba($theme-color-2, 0.2);
+}
+
+/** SPLASH ***/
+.border--top__theme-color-8 {
+    border-top-color: rgba($theme-color-8, 0.5);
+}
+
+/** TIME-LINE ***/
+.border--left__theme-color-9 {
+    border-left-color: rgba($theme-color-9, 0.1);
+}
+
+.border--right__theme-color-1 {
+    border-right-color: rgba($theme-color-9, 0.1);
+}
+
+.border--bottom__theme-color-1 {
+    border-bottom-color: rgba($theme-color-9, 0.1);
+}
+/** END BORDER COLORS ***/

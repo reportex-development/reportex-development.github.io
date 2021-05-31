@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="hu" name="Hungarian" alias="hu" rtl="false" variant="Hungarian">
+	<lookup key="global:findRoom"><![CDATA[Keresés]]></lookup>
+	<lookup key="global:help"><![CDATA[Súgó]]></lookup>
+	<lookup key="global:end"><![CDATA[Befejezés]]></lookup>
+	<lookup key="global:extend"><![CDATA[Hosszabbít]]></lookup>
+	<lookup key="global:checkIn"><![CDATA[Belépés]]></lookup>
+	<lookup key="global:reserveNow"><![CDATA[Lefoglalás most]]></lookup>
+	<lookup key="global:hours"><![CDATA[óra]]></lookup>
+	<lookup key="global:minutes"><![CDATA[perc]]></lookup>
+	<lookup key="global:hour"><![CDATA[óra]]></lookup>
+	<lookup key="global:minute"><![CDATA[perc]]></lookup>
+	<lookup key="global:and"><![CDATA[és]]></lookup>
+	<lookup key="global:noon"><![CDATA[dél]]></lookup>
+	<lookup key="global:vision"><![CDATA[Kontrasztos]]></lookup>
+	<lookup key="global:private"><![CDATA[magánjellegű]]></lookup>
+	
+	<lookup key="statusRoomTitle:availableLabel1"><![CDATA[Elérhető]]></lookup>
+	<lookup key="statusRoomTitle:availableLabel2"><![CDATA[a következő időtartamban:]]></lookup>
+	<lookup key="statusRoomTitle:availableOccupiedLabel1"><![CDATA[Foglalva / Nem ütemezett]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel1"><![CDATA[Fenntartva]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel2"><![CDATA[a következő időtartamban:]]></lookup>
+
+	<lookup key="buttons:cancel"><![CDATA[Mégse]]></lookup>
+	<lookup key="buttons:close"><![CDATA[Bezárás]]></lookup>
+	<lookup key="buttons:end"><![CDATA[Befejezés most]]></lookup>
+	<lookup key="buttons:extend"><![CDATA[Hosszabbít]]></lookup>
+	<lookup key="buttons:addEvent"><![CDATA[Lefoglalás most]]></lookup>
+	<lookup key="buttons:ok"><![CDATA[OK]]></lookup>
+	
+	<lookup key="freeAllDay:label1"><![CDATA[elérhető]]></lookup>
+	<lookup key="freeAllDay:label2"><![CDATA[A nap további részére]]></lookup>
+
+	<lookup key="splash:loadingMessage"><![CDATA[Betöltés...]]></lookup>
+		
+	<lookup key="endEvent:question"><![CDATA[Jelenlegi találkozó befejezése]]></lookup>
+	<lookup key="endEvent:loadingMessage"><![CDATA[Betöltés]]></lookup>
+	<lookup key="endEvent:endsIn"><![CDATA[hátralévő idő:]]></lookup>
+		
+	<lookup key="extendEvent:headerTitle"><![CDATA[Találkozó meghosszabbítása]]></lookup>
+	<lookup key="extendEvent:endAt"><![CDATA[befejeződik:]]></lookup>
+	<lookup key="extendEvent:timeRollLabel"><![CDATA[P]]></lookup>
+	<lookup key="extendEvent:loadingMessage"><![CDATA[Betöltés]]></lookup>
+	<lookup key="extendEvent:endsIn"><![CDATA[hátralévő idő:]]></lookup>
+		
+	<lookup key="checkInEvent:loadingMessage"><![CDATA[Betöltés]]></lookup>
+		
+	<lookup key="reservation:headerTitle"><![CDATA[Új találkozó]]></lookup>
+	<lookup key="reservation:subject"><![CDATA[Tárgy]]></lookup>
+	<lookup key="reservation:organizer"><![CDATA[Szervező]]></lookup>
+	<lookup key="reservation:starts"><![CDATA[Kezdés]]></lookup>
+	<lookup key="reservation:ends"><![CDATA[Befejezés]]></lookup>
+	<lookup key="reservation:loadingMessage"><![CDATA[Betöltés]]></lookup>
+	<lookup key="reservation:defaultOrganizer"><![CDATA[Azonnali találkozó szervezője]]></lookup>
+	<lookup key="reservation:defaultSubject"><![CDATA[Azonnali találkozó]]></lookup>
+
+	<lookup key="details:headerTitle"><![CDATA[Találkozó részletei]]></lookup>
+	<lookup key="details:from"><![CDATA[Kezdet:]]></lookup>
+	<lookup key="details:attendees"><![CDATA[Résztvevők]]></lookup>
+	<lookup key="details:loadingMessage"><![CDATA[Találkozó lekérése]]></lookup>
+	<lookup key="details:recurring"><![CDATA[ismétlődő találkozó]]></lookup>
+		
+	<lookup key="findRoomData:headerTitle"><![CDATA[Közeli szabad helyiségek]]></lookup>
+	<lookup key="findRoomData:address"><![CDATA[Épület címe]]></lookup>
+	<lookup key="findRoomData:forNext"><![CDATA[a következő időtartamban:]]></lookup>
+	<lookup key="findRoomData:loadingMessage"><![CDATA[Találkozó lekérése]]></lookup>
+	<lookup key="findRoomData:noRooms"><![CDATA[Jelenleg nincsenek szabad helyiségek]]></lookup>
+
+	<lookup key="screenSaver:availableUntil"><![CDATA[rendelkezésre állás határideje]]></lookup>
+	<lookup key="screenSaver:available"><![CDATA[elérhető]]></lookup>
+	<lookup key="screenSaver:availableOccupied"><![CDATA[Foglalva / Nem ütemezett]]></lookup>
+	<lookup key="screenSaver:reserved"><![CDATA[foglalt]]></lookup>
+	<lookup key="screenSaver:details"><![CDATA[részletek]]></lookup>
+	<lookup key="screenSaver:meeting"><![CDATA[találkozó]]></lookup>
+	<lookup key="screenSaver:freeAllDay"><![CDATA[a nap további részére]]></lookup>
+	<lookup key="screenSaver:nextUp"><![CDATA[következő:]]></lookup>
+	<lookup key="screenSaver:notify"><![CDATA[A kezdéshez érintse meg a képernyőt]]></lookup>
+
+	<lookup key="about:systemInfo"><![CDATA[Rendszeradatok]]></lookup>
+	<lookup key="about:account"><![CDATA[Ütemező fiók]]></lookup>
+	<lookup key="about:serverConnection"><![CDATA[Kiszolgálói kapcsolat]]></lookup>
+	<lookup key="about:fusionStatus"><![CDATA[Fusion leküldés/ciklikus lekérdezés]]></lookup>
+	<lookup key="about:googleAuthUserCode"><![CDATA[Google Hitelesítő felhasználói kódja]]></lookup>
+	<lookup key="about:googleAuthUrl"><![CDATA[Google Hitelesítő URL-címe]]></lookup>
+	<lookup key="about:firmware"><![CDATA[Firmware]]></lookup>
+	<lookup key="about:appVersion"><![CDATA[Verzió]]></lookup>
+	<lookup key="about:webVersion"><![CDATA[Webes verzió]]></lookup>
+	<lookup key="about:hardwareId"><![CDATA[Hardverazonosító]]></lookup>
+	<lookup key="about:online"><![CDATA[Online]]></lookup>
+	<lookup key="about:offline"><![CDATA[Offline]]></lookup>
+	<lookup key="about:hostName"><![CDATA[Kiszolgálónév]]></lookup>
+	<lookup key="about:ip"><![CDATA[IP-cím]]></lookup>
+	<lookup key="about:configUrl"><![CDATA[Helyi konfiguráció URL-címe]]></lookup>
+
+	<lookup key="helpLabels:roomName"><![CDATA[Helyiség neve]]></lookup>
+	<lookup key="helpLabels:reserveNow"><![CDATA[Helyiség lefoglalása most]]></lookup>
+	<lookup key="helpLabels:moreAction"><![CDATA[Keresés, lefoglalás és további funkciók]]></lookup>
+	<lookup key="helpLabels:timelineTap"><![CDATA[Lefoglalás hozzáadásához vagy a találkozó részleteinek megjelenítéséhez koppintson]]></lookup>
+	<lookup key="helpLabels:timelineSwipe"><![CDATA[Pöccintsen további időpontok megjelenítéséhez]]></lookup>
+
+	<lookup key="error:message"><![CDATA[Sajnáljuk, rendszerhiba történt.  Kérjük, próbálkozzon újra.]]></lookup>
+	<lookup key="error:messageAddEvent"><![CDATA[Sajnáljuk, hiba történt a találkozó létrehozása során. Kérjük, próbálkozzon újra.]]></lookup>
+	<lookup key="success:messageAddEvent"><![CDATA[A találkozó sikeresen létrejött.]]></lookup>
+
+	<lookup key="offline:label1"><![CDATA[A naptár offline állapotban van]]></lookup>
+	<lookup key="offline:label2"><![CDATA[Ellenőrizze a konfigurációt]]></lookup>
+
+	<lookup key="pin:enterPasscode"><![CDATA[Jelszó megadása]]></lookup>
+	<lookup key="pin:delete"><![CDATA[Törlés]]></lookup>
+</lang>

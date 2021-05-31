@@ -1,0 +1,155 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+//Container
+.room {
+	height: 100%;
+	width: 100%;
+}
+
+//Background
+.room__image, .room__video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+	will-change: transform;
+  	transition: 1s opacity;
+	@include set-blur( 10px );
+}
+
+//Background filter
+.room__container::before {
+	//background: url("./assets/images/bg.jpg");
+	background-size: 100%;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	content: "";
+	z-index: -1;
+	@include set-blur( 10px );
+}
+.room__container::after {
+	background-blend-mode: multiply;
+	background-position: top left;
+	background-repeat: no-repeat;
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 100%;
+	top: 0;
+	z-index: -1;
+}
+
+//Time remaining counter
+.room__container__status__countdown {
+	margin: 0 auto;
+	text-align: center;
+	display: inline-block;
+}
+
+.room__container__status__countdown__hours,
+.room__container__status__countdown__minutes {
+	float: left;
+}
+.room__container__status__countdown__hours {
+	@include setProperty( 'margin-right', 17 );
+}
+
+.room__container__status__countdown__hours__number,
+.room__container__status__countdown__minutes__number {
+	@include setProperty( 'margin-top', 42 );
+	@extend .font-normal-118;
+	text-align: center;
+}
+
+.room__container__status__countdown__hours__time,
+.room__container__status__countdown__minutes__time, {
+	@include setProperty( 'margin-top', 20 );
+	@include setProperty( 'padding-top', 7 );
+	@include setProperty( 'padding-bottom', 7 );
+	@include setProperty( 'padding-left', 13 );
+	@include setProperty( 'padding-right', 13 );
+	@include setProperty( 'min-width', 114 );
+	@extend .font-normal-20;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.room__container__status__countdown__hours__time{
+	padding-left: 4vmin;
+	padding-right: 4vmin;
+}
+
+.room__container__status__countdown__hours__number,
+.room__container__status__countdown__minutes__number {
+	position: relative;
+}
+.room__container__status__countdown__hours__number::after,
+.room__container__status__countdown__minutes__number::after {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	content: attr(title);
+	z-index: -1;
+}
+
+//Offline mode
+.offline-mode {
+	position: absolute;
+	z-index: 3;
+	height: 100%;
+	width: 100%;
+}
+
+.offline-mode__action__button {
+	@extend .btn;
+	@include setProperty( 'height', 70 );
+	@include setProperty( 'width', 70 );
+	@include setProperty( 'font-size', 30 );
+	border-radius: 50%;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.offline-mode__message__icon {
+	@include setProperty( 'font-size', 50 );
+	float: left;
+}
+.offline-mode__message__text {
+	margin-left: 3.9vmax;
+	float: left;
+}
+
+.rtl {
+	.offline-mode__message__icon {
+		float: right;
+	}
+	.offline-mode__message__text {
+		margin-left: 0;
+		margin-right: 3.9vmax;
+		float: right;
+	}
+}
+
+.offline-mode__message__text__label1,
+.offline-mode__message__text__label2  {
+	@extend .font-normal-26;
+	line-height: 1;
+}
+
+// Not used
+// .room__container__theme__button {
+// 	@extend .font-normal-16;
+// 	border-width: 1px;
+// 	border-style: solid;
+// }

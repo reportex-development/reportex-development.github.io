@@ -1,0 +1,255 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+@import "room";
+
+.room__container {
+	height: 100%;
+	width: calc( 100% - #{$timeline-width}vmax - 1vmax);
+	display: table;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.rtl {
+	.room__container {
+		float: right;
+	}
+}
+
+.room__footer {
+	float: right;
+}
+
+.rtl {
+	.room__footer {
+		float: left;
+	}
+}
+
+.room__container__room-details {
+	float: left;
+	width: 100%;
+	padding-left: 20vmin;
+
+	margin: auto;
+	@include setProperty( 'margin-top', 33 );
+	@include setProperty( 'line-height', 56 );
+	@include setProperty( 'height', 56 );
+}
+
+.room__container__room-details__id,
+.room__container__room-details__name {
+	@extend .font-normal-41;
+	text-transform: none;
+	margin-top: -0.25em;
+
+	@include setProperty( 'line-height', 56 );
+	@include setProperty( 'height', 56 );
+}
+
+.room__container__room-details__name {
+ 	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	max-width: 45vw;
+	text-align: left;
+}
+
+// Used in room.html as part of the shrinkToFit directive.
+// Note: The shrinkToFit directive is not currently being used in room.html
+.room__container__room-details__name.ellipsis {
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.room__container__current-time {
+	padding-left: 20vmin;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 6.5vmin;
+}
+
+.rtl {
+	.room__container__room-details {
+		float: right;
+		padding-right: 20vmin;
+		padding-left: 0;
+	}
+
+	.room__container__room-details__name {
+		text-align: right;
+		unicode-bidi: plaintext;
+	}
+
+	.room__container__current-time {
+		padding-right: 20vmin;
+		padding-left: 0;
+		unicode-bidi: plaintext;
+	}
+}
+
+.room__container__current-time__date,
+.room__container__current-time__time {
+	@extend .font-normal-24;
+	text-transform: capitalize;
+}
+
+.room__container__status {
+	padding-left: 20vmin;
+	float: left;
+	width: 100%;
+	max-width: 58vmax;
+}
+
+.rtl {
+	.room__container__status {
+		padding-right: 20vmin;
+		padding-left: 0;
+	}
+}
+
+.room__container__status__title__label1 {
+	@include setProperty( 'margin-top', 17 );
+	@extend .font-normal-36;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.room__container__status__title__label2 {
+	@include setProperty( 'margin-top', 12 );
+	@extend .font-normal-20;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.room__container__status__details__subject {
+	@include setProperty( 'margin-top', 56 );
+	@extend .font-normal-36;
+	clear: both;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	line-height: 1.5em;
+	width: 100%;
+}
+
+.room__container__status__details__organizer {
+	@extend .font-normal-24;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	line-height: 1.5em;
+	width: 100%;
+}
+
+.rtl {
+	.room__container__status__details__subject,
+	.room__container__status__details__organizer {
+		unicode-bidi: plaintext;
+		text-align: right;
+	}
+}
+
+.room__container__status__details__date {
+	@extend .font-normal-24;
+}
+
+.rtl {
+	.room__container__status__details__date {
+		unicode-bidi: plaintext;
+		text-align: right;
+	}
+}
+
+.room__container__action {
+	padding-left: 20vmin;
+	@include setProperty( 'margin-top', 70 );
+	float: left;
+	width: 100%;
+}
+
+.rtl {
+	.room__container__action {
+		padding-right: 20vmin;
+		padding-left: 0;
+	}
+}
+
+.room__container__action__reserve-now {
+	@extend .btn;
+	@include setProperty( 'height', 70 );
+	@include setProperty( 'width', 70 );
+	border-radius: 50%;
+	font-size: 30px;
+	position: absolute;
+	@include setProperty( 'bottom', 142 );
+	border-width: 1px;
+	border-style: solid;
+}
+
+.room__container__action__reserve-now::before {
+	display: block;
+}
+
+.room__container__theme__button {
+	@extend .font-normal-16;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.room__container__status__available-all-day__title__label1 {
+	@include setProperty( 'margin-top', 77 );
+	@extend .font-normal-60;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.room__container__status__available-all-day__title__label2 {
+	@include setProperty( 'margin-top', 20 );
+	@extend .font-normal-20;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.offline-mode__action {
+	position:absolute;
+    @include setProperty( 'top', 20 );
+    @include setProperty( 'left', 26 );
+    border-radius: 100%;
+}
+
+.offline-mode__message {
+	position: absolute;
+	bottom: 20px;
+	right: 70px;
+}
+
+.rtl {
+	.offline-mode__message {
+		right: initial;
+		left: 70px;
+	}
+}
+
+.offline-mode__element.room__container__room-details__name {
+	position: absolute;
+	z-index: 5;
+	opacity: 0.4;
+}
+
+.offline-mode__element.room__container__current-time {
+	@include setProperty( 'margin-top', 15 );
+	z-index: 5;
+	opacity: 0.4;
+}

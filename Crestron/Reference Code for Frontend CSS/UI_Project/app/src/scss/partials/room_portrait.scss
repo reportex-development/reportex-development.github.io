@@ -1,0 +1,220 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission
+// to redistribute derivative works of the provided sample code in source code format.  This license is located
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result
+// in unexpected behavior and a diminished user experience.
+
+@import "room";
+
+//Background
+.room__image, .room__video {
+    width: auto;
+    height: 100%;
+}
+
+//Container
+.room__container {
+	height: 100%;
+	width: 100%;
+	display: table;
+	margin: 0;
+	padding: 0;
+}
+
+//Page header
+.room__container__room-details {
+	margin-top: 3.75vh;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+}
+
+.rtl {
+	.room__container__room-details {
+		unicode-bidi: plaintext;
+	}
+}
+
+.room__container__room-details__id,
+.room__container__room-details__name {
+	@extend .font-normal-36;
+	text-transform: none;
+	line-height: 1.2;
+	max-width: 70vw;
+	margin: 0 auto;
+	unicode-bidi: inherit;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.room__container__current-time {
+	position: absolute;
+	width: 100%;
+	top: 59vh;
+	text-align: center;
+}
+
+.rtl {
+	.room__container__current-time {
+		unicode-bidi: plaintext;
+	}
+}
+
+.room__container__current-time__date,
+.room__container__current-time__time {
+	@extend .font-normal-24;
+	text-transform: capitalize;
+	line-height: 1;
+	vertical-align: top;
+	unicode-bidi: inherit;
+}
+
+.room__container__current-time__spacer {
+	padding: 0 1vw;
+}
+
+//Status section
+.room__container__status {
+	width: 100%;
+	padding-top: 2vh;
+	text-align: center;
+}
+
+.room__container__status__title__label1 {
+	margin-top: 10vmin;
+	@extend .font-normal-36;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.room__container__status__title__label2 {
+	margin-top: 2vmin;
+	@extend .font-normal-20;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.room__container__status__available-all-day__title__label1 {
+	margin-top: 27vmin;
+	@extend .font-normal-60;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.room__container__status__available-all-day__title__label2 {
+	margin-top: 3.3vmin;
+	margin-bottom: 3vmin;
+	@extend .font-normal-20;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.room__container__status__available-occupied__title__label1 {
+	margin-top: 27vmin;
+	@extend .font-normal-36;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: block;
+    max-width: 98vw;
+}
+
+.room__container__status__details__subject {
+	@extend .font-normal-36;
+	margin-top: 9vmin;
+	margin-left: auto;
+	margin-right: auto;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	line-height: 1.2;
+	max-width: 98vw;
+}
+
+.room__container__status__details__organizer {
+	margin-top: 3vmin;
+	margin-left: auto;
+	margin-right: auto;
+	@extend .font-normal-24;
+	max-width: 80vw;
+}
+
+.room__container__status__details__date {
+	margin-top: 2vmin;
+	@extend .font-normal-24;
+}
+
+.rtl {
+	.room__container__status__details__date {
+		unicode-bidi: plaintext;
+	}
+}
+
+//Reserve button
+.room__container__action {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 8vh;
+}
+
+.room__container__action__reserve-now {
+	@extend .btn;
+	height: 7.29vh;
+	width: 7.29vh;
+	@include setProperty( 'font-size', 30 );
+	border-radius: 50%;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.room__container__action__reserve-now::before {
+	display: block;
+	border: 0;
+	@extend .btn;
+}
+
+//Timeline container
+.room__footer {
+	position: absolute;
+	bottom: 0;
+}
+
+//Offline mode
+.offline-mode__action {
+	position: absolute;
+	top: 2.3vh;
+	left: 2.3vh;
+}
+
+.offline-mode__message {
+	position: relative;
+    width: fit-content;
+    height: 8vh;
+    margin-top: 47.5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offline-mode__element.room__container__room-details__name {
+	z-index: 5;
+	opacity: 0.4;
+}
+
+.offline-mode__element.room__container__current-time {
+	z-index: 5;
+	opacity: 0.4;
+}
+
+.arabic {
+	.offline-mode__action {
+		right: 2.3vh;
+		left: initial;
+	}
+}

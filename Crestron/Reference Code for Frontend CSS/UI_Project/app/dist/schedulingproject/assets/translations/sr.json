@@ -1,0 +1,127 @@
+{
+  "findRoom": "Pronađite",
+  "help": "Pomoć",
+  "end": "Kraj",
+  "extend": "Produžetak",
+  "checkIn": "Registracija",
+  "reserveNow": "Rezervišite sada",
+  "hours": "časovi",
+  "minutes": "minuti",
+  "hour": "čas",
+  "minute": "minut",
+  "and": "i",
+  "noon": "podne",
+  "vision": "Vizuelno",
+  "private": "privatno",
+  "statusRoomTitle": {
+    "availableLabel1": "Raspoloživo",
+    "availableLabel2": "za sledeći",
+    "availableOccupiedLabel1": "Заузето / није заказано",
+    "reservedLabel1": "Rezervisano",
+    "reservedLabel2": "za sledeći"
+  },
+  "buttons": {
+    "cancel": "Otkažite",
+    "close": "Zatvorite",
+    "end": "Završite sada",
+    "extend": "Produžetak",
+    "addEvent": "Rezervišite sada",
+    "ok": "U redu"
+  },
+  "freeAllDay": {
+    "label1": "raspoloživo",
+    "label2": "Za ostatak dana"
+  },
+  "splash": {
+    "loadingMessage": "Učitavanje…"
+  },
+  "endEvent": {
+    "question": "Završite tekući sastanak",
+    "loadingMessage": "Učitavanje",
+    "endsIn": "završava se u"
+  },
+  "extendEvent": {
+    "headerTitle": "Produžite ovaj sastanak",
+    "endAt": "završava se u",
+    "timeRollLabel": "MIN",
+    "loadingMessage": "Učitavanje",
+    "endsIn": "završava se u"
+  },
+  "checkInEvent": {
+    "loadingMessage": "Učitavanje"
+  },
+  "reservation": {
+    "headerTitle": "Novi sastanak",
+    "subject": "Tema",
+    "organizer": "Organizator",
+    "starts": "Počinje",
+    "ends": "Završava",
+    "loadingMessage": "Učitavanje",
+    "defaultOrganizer": "Organizator namenskog sastanka",
+    "defaultSubject": "Namenski sastanak"
+  },
+  "details": {
+    "headerTitle": "Detalji sastanka",
+    "from": "Od",
+    "attendees": "Učesnici",
+    "loadingMessage": "Preuzimanje sastanka",
+    "recurring": "sastanak koji se ponavlja"
+  },
+  "findRoomData": {
+    "headerTitle": "Obližnje raspoložive sobe",
+    "address": "Adresa zgrade je ovde",
+    "forNext": "za sledeći",
+    "loadingMessage": "Preuzimanje sastanka",
+    "noRooms": "Trenutno nema raspoloživih soba"
+  },
+  "screenSaver": {
+    "availableUntil": "raspoloživo do",
+    "available": "raspoloživo",
+    "availableOccupied": "Заузето / није заказано",
+    "reserved": "rezervisano",
+    "details": "detalji",
+    "meeting": "sastanak",
+    "freeAllDay": "za ostatak dana",
+    "nextUp": "sledeće na redu",
+    "notify": "Dodirnite ekran radi početka"
+  },
+  "about": {
+    "systemInfo": "Informacija o sistemu",
+    "account": "Nalog za planiranje",
+    "serverConnection": "Konekcija sa serverom",
+    "fusionStatus": "Fusion Push/Poll",
+    "googleAuthUserCode": "Google Auth korisnički kod",
+    "googleAuthUrl": "Google Auth Url adresa",
+    "firmware": "Firmver",
+    "appVersion": "Verzija",
+    "webVersion": "Veb verzija",
+    "hardwareId": "ID hardvera",
+    "online": "Onlajn",
+    "offline": "Oflajn",
+    "hostName": "Ime domaćina",
+    "ip": "IP adresa",
+    "configUrl": "Url lokalne konfiguracije"
+  },
+  "helpLabels": {
+    "roomName": "Naziv sobe",
+    "reserveNow": "Rezervišite sobu sada",
+    "moreAction": "Pronađi, rezerviši i ostalo",
+    "timelineTap": "Dodirnite da dodate rezervaciju ili detalje sastanka",
+    "timelineSwipe": "Prevucite da pogledate i ostala vremena"
+  },
+  "error": {
+    "message": "Žao nam je, došlo je do greške. Pokušajte ponovo.",
+    "messageAddEvent": "Žao nam je, došlo je do greške prilkom kreiranja sastanka. Pokušajte ponovo."
+  },
+  "success": {
+    "messageAddEvent": "Sastanak je uspešno kreiran."
+  },
+  "offline": {
+    "label1": "Oflajn kalendar",
+    "label2": "Proverite konfiguraciju"
+  },
+  "pin": {
+    "enterPasscode": "Unesite lozinku",
+    "delete": "Brisanje"
+  }
+}

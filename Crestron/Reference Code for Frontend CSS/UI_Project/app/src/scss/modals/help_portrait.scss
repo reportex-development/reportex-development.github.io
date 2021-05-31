@@ -1,0 +1,124 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general
+// terms of Crestron's Software Development Tools License Agreement, with the exception that you are granted permission
+// to redistribute derivative works of the provided sample code in source code format.  This license is located
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience
+// with Crestron scheduling panels.  If edited in a way that's contrary to our instructions, this SDK could result
+// in unexpected behavior and a diminished user experience.
+
+.room__container__action__reserve-now {
+	position: relative;
+}
+
+.tooltip-help--layout {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
+	opacity: 0.1;
+}
+
+.tooltip-help {
+    @extend .font-covered-24;
+	&.room-details {
+		position: absolute;
+		right: 0;
+	    top: -1.5vh;
+		padding-top: 15vh;
+		width: 30vw;
+		font-style: italic;
+		@include setProperty( 'font-size', 24 );
+	}
+	&.room-details::after {
+		content: '';
+		position: absolute;
+		top: 8.5vh;
+		right: 27vw;
+		width: 23vw;
+		height: 9vh;
+		border: 0px;
+		// transform: scale(.9, .8);
+	}
+
+	&.reserve-now {
+		position: absolute;
+    	bottom: 11vh;
+		right: -1.5vw;
+		padding-right: 25vw;
+		padding-bottom: 0;
+		font-style: italic;
+		width: 50vw;
+		@include setProperty( 'font-size', 24 );
+		text-align: center;
+	}
+	&.reserve-now::after {
+		content: '';
+		position: absolute;
+		right: 2vh;
+		bottom: -4vh;
+		width: 25vw;
+		height: 7vh;
+		border: 0px;
+		transform: scale(-1, -1);
+	}
+
+	&.action-btn {
+		position: absolute;
+    	bottom: 76px;
+		right: 8px;
+		font-style: italic;
+		padding-bottom: 62px;
+		width: 100px;
+		@include setProperty( 'font-size', 24 );
+		text-align: right;
+	}
+	&.action-btn::after {
+		content: '';
+		position: absolute;
+		bottom: 0px;
+		left: 31px;
+		width: 96px;
+		height: 58px;
+		border: 0px;
+	}
+
+	&.timeline-tap {
+		position: absolute;
+    	bottom: 0;
+		right: 0;
+		font-style: italic;
+		width: 45vw;
+		@include setProperty( 'font-size', 24 );
+		padding-bottom: 42vh;
+		text-align: center;
+	}
+	&.timeline-tap::after {
+		content: '';
+		position: absolute;
+		right: 12vw;
+		top: 9vh;
+		width: 21vw;
+		height: 6vh;
+		transform: rotate(90deg);
+	}
+
+	&.timeline-swipe {
+		position: absolute;
+    	top: 18.5vh;
+		left: 19vw;
+		font-style: italic;
+		width: 58vw;
+		@include setProperty( 'font-size', 24 );
+		padding-bottom: 17vh;
+		padding-left: 30vw;
+		text-align: center;
+	}
+	&.timeline-swipe::after {
+		position: absolute;
+		left: 57vw;
+		bottom: 4vh;
+		width: 13vh;
+		height: 31vh;
+		content: '';
+		// transform: scale(0.85);
+	}
+}

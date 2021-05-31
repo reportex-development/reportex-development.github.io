@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguagesManifest>
+	<Languages>
+		<Language Key="0" Locale="en_US">
+			<CLocale>en-US</CLocale>
+			<IsoLocale>en</IsoLocale>
+			<Name>English</Name>
+			<LocalizedName>English</LocalizedName>
+			<ProgrammaticTextFilePath>English</ProgrammaticTextFilePath>
+			<ProgrammaticTextFiles>
+				<File>en_US.xml</File>
+			</ProgrammaticTextFiles>
+			<FixedTextFile>en_US.xml</FixedTextFile>
+		</Language>
+		<Language Key="1" Locale="he_IL">
+			<CLocale>he-IS</CLocale>
+			<IsoLocale>iw</IsoLocale>
+			<Name>Hebrew</Name>
+			<LocalizedName>![CDATA[עברית]]></LocalizedName>
+			<ProgrammaticTextFilePath>Hebrew</ProgrammaticTextFilePath>
+			<ProgrammaticTextFiles>
+				<File>iw.xml</File>
+			</ProgrammaticTextFiles>
+			<FixedTextFile>iw.xml</FixedTextFile>
+		</Language>
+	</Languages>
+</LanguagesManifest>

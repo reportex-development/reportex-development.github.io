@@ -1,0 +1,197 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general
+// terms of Crestron's Software Development Tools License Agreement, with the exception that you are granted permission
+// to redistribute derivative works of the provided sample code in source code format.  This license is located
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience
+// with Crestron scheduling panels.  If edited in a way that's contrary to our instructions, this SDK could result
+// in unexpected behavior and a diminished user experience.
+
+//config
+$menu-items: 6;
+$first-distance-small: 11vh;
+$open-distance-small: 13vh;
+
+%goo{
+  filter:url('#shadowed-goo');
+}
+
+.menu__overlay {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	display: none;
+}
+
+.menu__overlay--display {
+	display: block;
+}
+
+.menu__overlay::before {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	z-index: -1;
+	display: block;
+}
+
+.menu {
+    @extend %goo;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10vw;
+    height: 60vh;
+    z-index: 2;
+    text-align: center;
+}
+
+.arabic {
+  .menu {
+     left: initial;
+     right: 0;
+  }
+}
+
+.menu__open {
+    display: none;
+}
+
+.menu__open:checked ~ a label {
+    position: absolute;
+    top: 11vh;
+    left: 19vw;
+    line-height: 1;
+    display: inline;
+    min-width: 35vw;
+    text-align: left;
+}
+
+.menu__open__button {
+    position: absolute;
+    width: 5.83vh;
+    height: 5.83vh;
+    line-height: 5.83vh;
+
+    top: 2.3vh;
+    left: 3.25vh;
+
+    border-style: hidden;
+
+    text-align: center;
+    z-index: 2;
+    cursor: pointer;
+
+    transition: transform 200ms ease-out;
+    transform: scale(1.2,1.2) translate3d(0,0,0);
+}
+
+.arabic {
+    .menu__open:checked ~ a label {
+        left: initial;
+        right: 19vw;
+        text-align: right;
+    }
+
+    .menu__open__button {
+        right: 3.25vh;
+        left: initial;
+    }
+}
+
+.menu__open:checked + .menu__open__button {
+    border-radius: 100%;
+    transition: transform 200ms linear;
+    transform: scale(0.99,0.99) translate3d(0,0,0);
+}
+
+.menu__open + .menu__open__button .menu-open-label {
+    display: inline-block;
+}
+.menu__open + .menu__open__button .menu-close-label {
+    display: none;
+}
+
+.menu__open:checked + .menu__open__button .menu-close-label {
+    display: inline-block;
+}
+
+.menu__open:checked + .menu__open__button .menu-open-label {
+    display: none;
+}
+
+.menu__item {
+    position: absolute;
+    top: 0;
+    left: 4vw;
+    width: 13vw;
+    height: 13vw;
+    line-height: 13vw;
+    @extend .font-normal-16;
+    border-radius: 100%;
+    text-align: center;
+    transition: transform 200ms ease-out;
+    transform: translate3d(0, 0, 0);
+    visibility: hidden;
+}
+
+.menu__open:checked ~ .menu__item {
+    visibility: visible;
+}
+
+.arabic {
+    .menu__item {
+        right: 4vw;
+        left: initial;
+    }
+}
+
+.menu__item i.fa {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    @include setProperty( 'font-size', 25 );
+    vertical-align: middle;
+}
+
+a.menu__item {
+  text-decoration: none;
+}
+
+.menu__label {
+    @extend .font-normal-20;
+    font-weight: 300;
+    text-decoration: none;
+    display: none;
+    margin-top: -4.5em;
+    text-transform: capitalize;
+}
+
+.menu__item {
+    @for $i from 1 through $menu-items{
+        &:nth-child( #{ $i + 2 } ) {
+            // This duration cannot be changed, because is related to the javascript.
+            transition-duration: 280ms;
+            transform: scale( 0.75 ) translateY( 2.5vh );
+        }
+    }
+}
+
+.menu__open:checked ~ .menu__item {
+    transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+
+    @for $i from 1 through $menu-items {
+        &:nth-of-type( #{ $i } ) {
+            transition-duration: 90ms + ( 100ms * $i );
+            transform: translateY( $first-distance-small + ( $open-distance-small * ($i - 1) ) );
+        }
+    }
+}
+
+svg {
+    display: none;
+}

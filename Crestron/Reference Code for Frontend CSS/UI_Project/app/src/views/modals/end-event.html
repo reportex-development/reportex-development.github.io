@@ -1,0 +1,41 @@
+<!-- This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+    terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+    to redistribute derivative works of the provided sample code in source code format.  This license is located 
+    at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+    with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+    in unexpected behavior and a diminished user experience. -->
+
+<div class="modal-end-event" data-ng-class="{'rtl': $root.isRtl}">
+    <div class="modal-body">
+        <div class="end-event__container container-fluid">
+            <div class="end-event__container__header ">
+                {{ Helium.labels.endEvent.question }}
+            </div>
+            <div class="end-event__container__subject color__theme-color-5"
+                ng-bind-html="event.subject">
+            </div>
+            <div class="end-event__container__ends">
+                {{ Helium.labels.endEvent.endsIn }} {{ Helium.state.getRemainingTimeString( event ) }}
+            </div>
+            <div class="end-event__container__spacer"></div>
+        </div>
+    </div>
+    <div class="modal-footer border__theme-color-4">
+        <div class="cancel">
+            <button type="button" class="cancel__btn bg__theme-color-4 color__theme-color-5"
+                data-hlm-touch-el=""
+                data-add-class-name="bg__theme-color-8"
+                enable-press-action=true
+                data-call-fn-short="cancel( )">{{ Helium.labels.buttons.cancel }}</button>
+        </div>
+        <div class="end">
+            <button type="button" class="end__btn bg__theme-color-4 color__main-color-4"
+                data-hlm-touch-el=""
+                data-add-class-name="bg__main-color-5 color__theme-color-8"
+                data-remove-class-name="bg__theme-color-4 color__main-color-4"
+                enable-press-action=true
+                data-call-fn-short="end( )"
+                data-ng-disabled="loading.state">{{ Helium.labels.buttons.end }}</button>
+        </div>
+    </div>
+</div>

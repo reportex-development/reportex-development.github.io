@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="zh" name="Chinese (Simplified)" alias="zh" rtl="false" variant="Chinese (Simplified)">
+	<lookup key="global:findRoom"><![CDATA[查找]]></lookup>
+	<lookup key="global:help"><![CDATA[帮助]]></lookup>
+	<lookup key="global:end"><![CDATA[结束]]></lookup>
+	<lookup key="global:extend"><![CDATA[延长]]></lookup>
+	<lookup key="global:checkIn"><![CDATA[登记]]></lookup>
+	<lookup key="global:reserveNow"><![CDATA[立即预订]]></lookup>
+	<lookup key="global:hours"><![CDATA[小时]]></lookup>
+	<lookup key="global:minutes"><![CDATA[分钟]]></lookup>
+	<lookup key="global:hour"><![CDATA[小时]]></lookup>
+	<lookup key="global:minute"><![CDATA[分钟]]></lookup>
+	<lookup key="global:and"><![CDATA[和]]></lookup>
+	<lookup key="global:noon"><![CDATA[中午]]></lookup>
+	<lookup key="global:vision"><![CDATA[视力]]></lookup>
+	<lookup key="global:private"><![CDATA[私有]]></lookup>
+	
+	<lookup key="statusRoomTitle:availableLabel1"><![CDATA[可用]]></lookup>
+	<lookup key="statusRoomTitle:availableLabel2"><![CDATA[接下来的]]></lookup>
+	<lookup key="statusRoomTitle:availableOccupiedLabel1"><![CDATA[已占用 / 未预定]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel1"><![CDATA[已预订]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel2"><![CDATA[接下来的]]></lookup>
+
+	<lookup key="buttons:cancel"><![CDATA[取消]]></lookup>
+	<lookup key="buttons:close"><![CDATA[关闭]]></lookup>
+	<lookup key="buttons:end"><![CDATA[立即结束]]></lookup>
+	<lookup key="buttons:extend"><![CDATA[延长]]></lookup>
+	<lookup key="buttons:addEvent"><![CDATA[立即预订]]></lookup>
+	<lookup key="buttons:ok"><![CDATA[确定]]></lookup>
+	
+	<lookup key="freeAllDay:label1"><![CDATA[可用]]></lookup>
+	<lookup key="freeAllDay:label2"><![CDATA[一天剩下的时间]]></lookup>
+
+	<lookup key="splash:loadingMessage"><![CDATA[加载中...]]></lookup>
+		
+	<lookup key="endEvent:question"><![CDATA[结束当前会议]]></lookup>
+	<lookup key="endEvent:loadingMessage"><![CDATA[加载中]]></lookup>
+	<lookup key="endEvent:endsIn"><![CDATA[在…结束]]></lookup>
+		
+	<lookup key="extendEvent:headerTitle"><![CDATA[延长此次会议]]></lookup>
+	<lookup key="extendEvent:endAt"><![CDATA[在…结束]]></lookup>
+	<lookup key="extendEvent:timeRollLabel"><![CDATA[会议记录]]></lookup>
+	<lookup key="extendEvent:loadingMessage"><![CDATA[加载中]]></lookup>
+	<lookup key="extendEvent:endsIn"><![CDATA[在…结束]]></lookup>
+		
+	<lookup key="checkInEvent:loadingMessage"><![CDATA[加载中]]></lookup>
+		
+	<lookup key="reservation:headerTitle"><![CDATA[新会议]]></lookup>
+	<lookup key="reservation:subject"><![CDATA[主题]]></lookup>
+	<lookup key="reservation:organizer"><![CDATA[组织者]]></lookup>
+	<lookup key="reservation:starts"><![CDATA[开始]]></lookup>
+	<lookup key="reservation:ends"><![CDATA[结束]]></lookup>
+	<lookup key="reservation:loadingMessage"><![CDATA[加载中]]></lookup>
+	<lookup key="reservation:defaultOrganizer"><![CDATA[即兴会议组织者]]></lookup>
+	<lookup key="reservation:defaultSubject"><![CDATA[即兴会议]]></lookup>
+
+	<lookup key="details:headerTitle"><![CDATA[会议详情]]></lookup>
+	<lookup key="details:from"><![CDATA[从]]></lookup>
+	<lookup key="details:attendees"><![CDATA[与会者]]></lookup>
+	<lookup key="details:loadingMessage"><![CDATA[正在检索会议]]></lookup>
+	<lookup key="details:recurring"><![CDATA[定期会议]]></lookup>
+		
+	<lookup key="findRoomData:headerTitle"><![CDATA[附近可用房间]]></lookup>
+	<lookup key="findRoomData:address"><![CDATA[这里的建筑物地址]]></lookup>
+	<lookup key="findRoomData:forNext"><![CDATA[接下来的]]></lookup>
+	<lookup key="findRoomData:loadingMessage"><![CDATA[正在检索会议]]></lookup>
+	<lookup key="findRoomData:noRooms"><![CDATA[当前无可用房间]]></lookup>
+
+	<lookup key="screenSaver:availableUntil"><![CDATA[可用时间为]]></lookup>
+	<lookup key="screenSaver:available"><![CDATA[可用]]></lookup>
+	<lookup key="screenSaver:availableOccupied"><![CDATA[已占用 / 未预定]]></lookup>
+	<lookup key="screenSaver:reserved"><![CDATA[已预订]]></lookup>
+	<lookup key="screenSaver:details"><![CDATA[详情]]></lookup>
+	<lookup key="screenSaver:meeting"><![CDATA[会议]]></lookup>
+	<lookup key="screenSaver:freeAllDay"><![CDATA[一天剩下的时间]]></lookup>
+	<lookup key="screenSaver:nextUp"><![CDATA[下一场]]></lookup>
+	<lookup key="screenSaver:notify"><![CDATA[触摸屏幕以开始]]></lookup>
+
+	<lookup key="about:systemInfo"><![CDATA[系统信息]]></lookup>
+	<lookup key="about:account"><![CDATA[计划账户]]></lookup>
+	<lookup key="about:serverConnection"><![CDATA[服务器连接]]></lookup>
+	<lookup key="about:fusionStatus"><![CDATA[Fusion 推/拉]]></lookup>
+	<lookup key="about:googleAuthUserCode"><![CDATA[Google Auth 用户代码]]></lookup>
+	<lookup key="about:googleAuthUrl"><![CDATA[Google Auth URL]]></lookup>
+	<lookup key="about:firmware"><![CDATA[固件]]></lookup>
+	<lookup key="about:appVersion"><![CDATA[版本]]></lookup>
+	<lookup key="about:webVersion"><![CDATA[Web 版本]]></lookup>
+	<lookup key="about:hardwareId"><![CDATA[硬件 ID]]></lookup>
+	<lookup key="about:online"><![CDATA[在线]]></lookup>
+	<lookup key="about:offline"><![CDATA[离线]]></lookup>
+	<lookup key="about:hostName"><![CDATA[主机名]]></lookup>
+	<lookup key="about:ip"><![CDATA[IP 地址]]></lookup>
+	<lookup key="about:configUrl"><![CDATA[本地配置 URL]]></lookup>
+
+	<lookup key="helpLabels:roomName"><![CDATA[房间名]]></lookup>
+	<lookup key="helpLabels:reserveNow"><![CDATA[现在预订房间]]></lookup>
+	<lookup key="helpLabels:moreAction"><![CDATA[查找、预订等等]]></lookup>
+	<lookup key="helpLabels:timelineTap"><![CDATA[点击，添加预订或查看会议详情]]></lookup>
+	<lookup key="helpLabels:timelineSwipe"><![CDATA[滑动，查看其他时间]]></lookup>
+
+	<lookup key="error:message"><![CDATA[抱歉，出现一个系统错误。请重试。]]></lookup>
+	<lookup key="error:messageAddEvent"><![CDATA[抱歉，创建会议时出现错误。请重试。]]></lookup>
+	<lookup key="success:messageAddEvent"><![CDATA[会议创建成功。]]></lookup>
+
+	<lookup key="offline:label1"><![CDATA[日历离线]]></lookup>
+	<lookup key="offline:label2"><![CDATA[请检查配置]]></lookup>
+
+	<lookup key="pin:enterPasscode"><![CDATA[输入密码]]></lookup>
+	<lookup key="pin:delete"><![CDATA[删除]]></lookup>
+</lang>

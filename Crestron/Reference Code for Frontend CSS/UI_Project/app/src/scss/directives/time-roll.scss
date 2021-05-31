@@ -1,0 +1,138 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+.rtl {
+    .time-group-roll {
+        &.customTime {
+            direction: ltr !important;
+            .time-group-roll__custom {
+                height: 100%;    
+            }
+            .time-roll {
+                display: inline-block;
+                width: 50%;
+            }
+            .hlm-time-roll-ampm {
+                float: left;
+            }
+        }
+        &.ampmFormat {
+            .time-roll {
+                display: inline-block;
+                width: 33%;
+            }
+        }
+    }    
+}
+
+// Using methodology BEM
+.time-group-roll {
+    position: relative;
+    width: 100%;
+    @include setProperty( 'line-height', 120 );
+    @include setProperty( 'height', 120 );
+    @extend .font-normal-16;
+
+    &.customTime {
+        .time-group-roll__custom {
+            height: 100%;    
+        }
+        .time-roll {
+            display: inline-block;
+            width: 50%;
+        }
+    }
+
+    &.ampmFormat {
+        .time-roll {
+            display: inline-block;
+            width: 33%;
+        }
+    }
+}
+
+.time-roll {
+    position: relative;
+    width: 100%;
+    @include setProperty( 'line-height', 120 );
+    @include setProperty( 'height', 120 );
+    @extend .font-normal-16;
+}
+    
+.time-roll__center {
+    position: absolute;
+    @include setProperty( 'top', 40 );
+    @include setProperty( 'line-height', 40 );
+    @include setProperty( 'height', 40 );
+    width: 100%;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    pointer-events: none;
+}
+
+.time-roll__top {
+    position: absolute;
+    pointer-events: none;
+    z-index: 999;
+    top: 0;
+    @include setProperty( 'line-height', 40 );
+    @include setProperty( 'height', 40 );
+    width: 100%;
+    
+}
+        
+.time-roll__bottom {
+    position: absolute;
+    pointer-events: none;
+    z-index: 999;
+    @include setProperty( 'top', 80 );
+    @include setProperty( 'line-height', 40 );
+    @include setProperty( 'height', 40 );
+    width: 100%;
+}
+    
+.time-roll__viewport {
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    @include setProperty( 'line-height', 120 );
+    @include setProperty( 'height', 120 );
+    overflow: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    unicode-bidi: plaintext;
+
+    ul, & li {
+        list-style: none;
+        list-style-image: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        -webkit-transition: all 0.3s ease;
+        text-overflow: elipsis;
+        @include setProperty( 'line-height', 40 );
+        @include setProperty( 'height', 40 );
+        text-align: center;
+        -webkit-backface-visibility: hidden;
+        -webkit-transform: translate3d(0,0,0);
+        unicode-bidi: plaintext;
+        
+        span {
+            //@extend .font-normal-16;
+        }
+    }
+}
+
+.time-roll__viewport__selected span {
+    @include setProperty( 'font-size', 24 );
+}
+
+    

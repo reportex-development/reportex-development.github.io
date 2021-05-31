@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<lang locale="fr_CA" name="French" alias="fr-CA" rtl="false" variant="Canada">
+	<lookup key="global:findRoom"><![CDATA[Trouver]]></lookup>
+	<lookup key="global:help"><![CDATA[Aide]]></lookup>
+	<lookup key="global:end"><![CDATA[Fin]]></lookup>
+	<lookup key="global:extend"><![CDATA[Prolonger]]></lookup>
+	<lookup key="global:checkIn"><![CDATA[Enregistrement]]></lookup>
+	<lookup key="global:reserveNow"><![CDATA[Réserver maintenant]]></lookup>
+	<lookup key="global:hours"><![CDATA[heures]]></lookup>
+	<lookup key="global:minutes"><![CDATA[minutes]]></lookup>
+	<lookup key="global:hour"><![CDATA[heure]]></lookup>
+	<lookup key="global:minute"><![CDATA[minute]]></lookup>
+	<lookup key="global:and"><![CDATA[et]]></lookup>
+	<lookup key="global:noon"><![CDATA[midi]]></lookup>
+	<lookup key="global:vision"><![CDATA[Vision]]></lookup>
+	<lookup key="global:private"><![CDATA[privé]]></lookup>
+
+	<lookup key="statusRoomTitle:availableLabel1"><![CDATA[Disponible]]></lookup>
+	<lookup key="statusRoomTitle:availableLabel2"><![CDATA[pour suivant]]></lookup>
+	<lookup key="statusRoomTitle:availableOccupiedLabel1"><![CDATA[Occupé / non prévu]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel1"><![CDATA[Réservé]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel2"><![CDATA[pour suivant]]></lookup>
+
+	<lookup key="buttons:cancel"><![CDATA[Annuler]]></lookup>
+	<lookup key="buttons:close"><![CDATA[Fermer]]></lookup>
+	<lookup key="buttons:end"><![CDATA[Terminer maintenant]]></lookup>
+	<lookup key="buttons:extend"><![CDATA[Prolonger]]></lookup>
+	<lookup key="buttons:addEvent"><![CDATA[Réserver maintenant]]></lookup>
+	<lookup key="buttons:ok"><![CDATA[OK]]></lookup>
+
+	<lookup key="freeAllDay:label1"><![CDATA[disponible]]></lookup>
+	<lookup key="freeAllDay:label2"><![CDATA[Le reste de la journée]]></lookup>
+
+	<lookup key="splash:loadingMessage"><![CDATA[Chargement en cours…]]></lookup>
+
+	<lookup key="endEvent:question"><![CDATA[Terminer la réunion actuelle]]></lookup>
+	<lookup key="endEvent:loadingMessage"><![CDATA[Chargement en cours]]></lookup>
+	<lookup key="endEvent:endsIn"><![CDATA[se termine dans]]></lookup>
+
+	<lookup key="extendEvent:headerTitle"><![CDATA[Prolonger cette réunion]]></lookup>
+	<lookup key="extendEvent:endAt"><![CDATA[se termine à]]></lookup>
+	<lookup key="extendEvent:timeRollLabel"><![CDATA[MIN]]></lookup>
+	<lookup key="extendEvent:loadingMessage"><![CDATA[Chargement en cours]]></lookup>
+	<lookup key="extendEvent:endsIn"><![CDATA[se termine dans]]></lookup>
+
+	<lookup key="checkInEvent:loadingMessage"><![CDATA[Chargement en cours]]></lookup>
+
+	<lookup key="reservation:headerTitle"><![CDATA[Nouvelle réunion]]></lookup>
+	<lookup key="reservation:subject"><![CDATA[Objet]]></lookup>
+	<lookup key="reservation:organizer"><![CDATA[Organisateur]]></lookup>
+	<lookup key="reservation:starts"><![CDATA[Début]]></lookup>
+	<lookup key="reservation:ends"><![CDATA[Fin]]></lookup>
+	<lookup key="reservation:loadingMessage"><![CDATA[Chargement en cours]]></lookup>
+	<lookup key="reservation:defaultOrganizer"><![CDATA[Se diriger vers l’organisateur]]></lookup>
+	<lookup key="reservation:defaultSubject"><![CDATA[Se diriger vers la réunion]]></lookup>
+
+
+	<lookup key="details:headerTitle"><![CDATA[Détails de la réunion]]></lookup>
+	<lookup key="details:from"><![CDATA[Expéditeur]]></lookup>
+	<lookup key="details:attendees"><![CDATA[Participants]]></lookup>
+	<lookup key="details:loadingMessage"><![CDATA[Récupération de la réunion]]></lookup>
+	<lookup key="details:recurring"><![CDATA[réunion récurrente]]></lookup>
+
+	<lookup key="findRoomData:headerTitle"><![CDATA[Salles disponibles à proximité]]></lookup>
+	<lookup key="findRoomData:address"><![CDATA[Adresse du bâtiment ici]]></lookup>
+	<lookup key="findRoomData:forNext"><![CDATA[pour suivant]]></lookup>
+	<lookup key="findRoomData:loadingMessage"><![CDATA[Récupération de la réunion]]></lookup>
+	<lookup key="findRoomData:noRooms"><![CDATA[Aucune salle n’est actuellement disponible]]></lookup>
+
+
+	<lookup key="screenSaver:availableUntil"><![CDATA[disponible jusqu’à]]></lookup>
+	<lookup key="screenSaver:available"><![CDATA[disponible]]></lookup>
+	<lookup key="screenSaver:availableOccupied"><![CDATA[Occupé / non prévu]]></lookup>
+	<lookup key="screenSaver:reserved"><![CDATA[réservé]]></lookup>
+	<lookup key="screenSaver:details"><![CDATA[détails]]></lookup>
+	<lookup key="screenSaver:meeting"><![CDATA[réunion]]></lookup>
+	<lookup key="screenSaver:freeAllDay"><![CDATA[le reste de la journée]]></lookup>
+	<lookup key="screenSaver:nextUp"><![CDATA[suivant]]></lookup>
+	<lookup key="screenSaver:notify"><![CDATA[Toucher l’écran pour commencer]]></lookup>
+
+	<lookup key="about:systemInfo"><![CDATA[Infos système]]></lookup>
+	<lookup key="about:account"><![CDATA[Compte de planification]]></lookup>
+	<lookup key="about:serverConnection"><![CDATA[Connexion au serveur]]></lookup>
+	<lookup key="about:fusionStatus"><![CDATA[Fusion Push/Pull]]></lookup>
+	<lookup key="about:googleAuthUserCode"><![CDATA[Code d’utilisateur Google Auth]]></lookup>
+	<lookup key="about:googleAuthUrl"><![CDATA[URL Google Auth]]></lookup>
+	<lookup key="about:firmware"><![CDATA[Microprogramme]]></lookup>
+	<lookup key="about:appVersion"><![CDATA[Version]]></lookup>
+	<lookup key="about:webVersion"><![CDATA[Version Web]]></lookup>
+	<lookup key="about:hardwareId"><![CDATA[ID du matériel]]></lookup>
+	<lookup key="about:online"><![CDATA[En ligne]]></lookup>
+	<lookup key="about:offline"><![CDATA[Hors ligne]]></lookup>
+	<lookup key="about:hostName"><![CDATA[Nom d’hôte]]></lookup>
+	<lookup key="about:ip"><![CDATA[Adresse IP]]></lookup>
+	<lookup key="about:configUrl"><![CDATA[URL de la configuration locale]]></lookup>
+
+
+	<lookup key="helpLabels:roomName"><![CDATA[Nom de la salle]]></lookup>
+	<lookup key="helpLabels:reserveNow"><![CDATA[Réserver la salle maintenant]]></lookup>
+	<lookup key="helpLabels:moreAction"><![CDATA[Trouver, réserver, et plus encore]]></lookup>
+	<lookup key="helpLabels:timelineTap"><![CDATA[Toucher pour ajouter une réservation ou pour afficher plus de détails sur la réunion]]></lookup>
+	<lookup key="helpLabels:timelineSwipe"><![CDATA[Balayer pour voir d’autres heures]]></lookup>
+
+	<lookup key="error:message"><![CDATA[Désolé, une erreur système s’est produite Veuillez réessayer.]]></lookup>
+	<lookup key="error:messageAddEvent"><![CDATA[Désolé, une erreur s’est produite lors de la création de la réunion. Veuillez réessayer.]]></lookup>
+	<lookup key="success:messageAddEvent"><![CDATA[Réunion créée avec succès.]]></lookup>
+
+	<lookup key="offline:label1"><![CDATA[Calendrier hors ligne]]></lookup>
+	<lookup key="offline:label2"><![CDATA[Veuillez vérifier la configuration]]></lookup>
+
+	<lookup key="pin:enterPasscode"><![CDATA[Saisir le code d’authentification]]></lookup>
+	<lookup key="pin:delete"><![CDATA[Supprimer]]></lookup>
+
+</lang>

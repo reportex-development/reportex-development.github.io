@@ -1,0 +1,127 @@
+{
+  "findRoom": "Bul",
+  "help": "Yardım",
+  "end": "Sonlandır",
+  "extend": "Uzat",
+  "checkIn": "Kaydet",
+  "reserveNow": "Şimdi ayır",
+  "hours": "saat",
+  "minutes": "dakika",
+  "hour": "saat",
+  "minute": "dakika",
+  "and": "ve",
+  "noon": "öğlen",
+  "vision": "Görüş",
+  "private": "gizli",
+  "statusRoomTitle": {
+    "availableLabel1": "Uygun",
+    "availableLabel2": "sonraki için",
+    "availableOccupiedLabel1": "İşgal Edildi / Planlanmadı",
+    "reservedLabel1": "Ayrıldı",
+    "reservedLabel2": "sonraki için"
+  },
+  "buttons": {
+    "cancel": "İptal",
+    "close": "Kapat",
+    "end": "Şimdi sonlandır",
+    "extend": "Uzat",
+    "addEvent": "Şimdi ayır",
+    "ok": "Tamam"
+  },
+  "freeAllDay": {
+    "label1": "uygun",
+    "label2": "Günün geri kalanı için"
+  },
+  "splash": {
+    "loadingMessage": "Yükleniyor ..."
+  },
+  "endEvent": {
+    "question": "Mevcut toplantıyı sonlandır",
+    "loadingMessage": "Yükleniyor",
+    "endsIn": "kalan süre"
+  },
+  "extendEvent": {
+    "headerTitle": "Bu Toplantıyı Uzat",
+    "endAt": "bitiş saati",
+    "timeRollLabel": "DK",
+    "loadingMessage": "Yükleniyor",
+    "endsIn": "kalan süre"
+  },
+  "checkInEvent": {
+    "loadingMessage": "Yükleniyor"
+  },
+  "reservation": {
+    "headerTitle": "Yeni Toplantı",
+    "subject": "Konu",
+    "organizer": "Organizatör",
+    "starts": "Başlangıç",
+    "ends": "Bitiş",
+    "loadingMessage": "Yükleniyor",
+    "defaultOrganizer": "Walk up organizatör",
+    "defaultSubject": "Walk up toplantı"
+  },
+  "details": {
+    "headerTitle": "Toplantı Ayrıntıları",
+    "from": "Kimden",
+    "attendees": "Katılımcılar",
+    "loadingMessage": "Toplantı alınıyor",
+    "recurring": "yinelenen toplantı"
+  },
+  "findRoomData": {
+    "headerTitle": "Yakınlardaki Uygun Odalar",
+    "address": "Bina adresi buraya",
+    "forNext": "sonraki için",
+    "loadingMessage": "Toplantı alınıyor",
+    "noRooms": "Şu anda hiçbir oda uygun değil"
+  },
+  "screenSaver": {
+    "availableUntil": "şu zamana kadar uygun",
+    "available": "uygun",
+    "availableOccupied": "İşgal Edildi / Planlanmadı",
+    "reserved": "ayrıldı",
+    "details": "ayrıntılar",
+    "meeting": "toplantı",
+    "freeAllDay": "günün geri kalanı için",
+    "nextUp": "sonraki",
+    "notify": "Başlamak için ekrana dokunun"
+  },
+  "about": {
+    "systemInfo": "Sistem Bilgileri",
+    "account": "Zaman Çizelgesi Hesabı",
+    "serverConnection": "Sunucu Bağlantısı",
+    "fusionStatus": "Fusion Sahte Anket",
+    "googleAuthUserCode": "Google Auth Kullanıcı Kodu",
+    "googleAuthUrl": "Google Auth Url’si",
+    "firmware": "Aygıt Yazılımı",
+    "appVersion": "Sürüm",
+    "webVersion": "Web Sürümü",
+    "hardwareId": "Donanım Kimliği",
+    "online": "Çevrimiçi",
+    "offline": "Çevrimdışı",
+    "hostName": "Ana Bilgisayar Adı",
+    "ip": "IP Adresi",
+    "configUrl": "Yerel Yapılandırma Url’si"
+  },
+  "helpLabels": {
+    "roomName": "Oda adı",
+    "reserveNow": "Odayı şimdi ayır",
+    "moreAction": "Bulun, Ayırın ve daha fazlasını yapın",
+    "timelineTap": "Rezervasyon eklemek veya toplantı ayrıntılarını görmek için dokunun",
+    "timelineSwipe": "Diğer saatleri görmek için kaydırın"
+  },
+  "error": {
+    "message": "Üzgünüz, bir sistem hatası meydana geldi. Lütfen tekrar deneyin.",
+    "messageAddEvent": "Üzgünüz, toplantı oluşturulurken bir hata meydana geldi. Lütfen tekrar deneyin."
+  },
+  "success": {
+    "messageAddEvent": "Toplantı başarılı bir şekilde oluşturuldu."
+  },
+  "offline": {
+    "label1": "Takvim Çevrimdışı",
+    "label2": "Lütfen yapılandırmayı kontrol edin"
+  },
+  "pin": {
+    "enterPasscode": "Geçiş Kodunu Girin",
+    "delete": "Sil"
+  }
+}

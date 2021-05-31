@@ -1,0 +1,127 @@
+{
+  "findRoom": "Najít",
+  "help": "Nápověda",
+  "end": "Ukončit",
+  "extend": "Prodloužit",
+  "checkIn": "Přihlásit",
+  "reserveNow": "Rezervovat nyní",
+  "hours": "hodiny",
+  "minutes": "minuty",
+  "hour": "hodina",
+  "minute": "minuta",
+  "and": "a",
+  "noon": "poledne",
+  "vision": "Kontrast",
+  "private": "soukromé",
+  "statusRoomTitle": {
+    "availableLabel1": "Dostupné",
+    "availableLabel2": "pro další",
+    "availableOccupiedLabel1": "Obsazeno / Neplánováno",
+    "reservedLabel1": "Rezervováno",
+    "reservedLabel2": "pro další"
+  },
+  "buttons": {
+    "cancel": "Zrušit",
+    "close": "Zavřít",
+    "end": "Ukončit nyní",
+    "extend": "Prodloužit",
+    "addEvent": "Rezervovat nyní",
+    "ok": "OK"
+  },
+  "freeAllDay": {
+    "label1": "dostupné",
+    "label2": "Po zbytek dne"
+  },
+  "splash": {
+    "loadingMessage": "Načítání..."
+  },
+  "endEvent": {
+    "question": "Skončit aktuální schůzku",
+    "loadingMessage": "Načítání",
+    "endsIn": "končí za:"
+  },
+  "extendEvent": {
+    "headerTitle": "Prodloužit tuto schůzku",
+    "endAt": "končí v:",
+    "timeRollLabel": "MIN",
+    "loadingMessage": "Načítání",
+    "endsIn": "končí za:"
+  },
+  "checkInEvent": {
+    "loadingMessage": "Načítání"
+  },
+  "reservation": {
+    "headerTitle": "Nová schůzka",
+    "subject": "Věc:",
+    "organizer": "Pořadatel:",
+    "starts": "Začíná",
+    "ends": "Končí",
+    "loadingMessage": "Načítání",
+    "defaultOrganizer": "Pořadatel neplánované schůzky",
+    "defaultSubject": "Neplánovaná schůzka"
+  },
+  "details": {
+    "headerTitle": "Podrobnosti schůzky",
+    "from": "Od:",
+    "attendees": "Účastníci",
+    "loadingMessage": "Načítání schůzky",
+    "recurring": "opakovaná schůzka"
+  },
+  "findRoomData": {
+    "headerTitle": "Dostupné místnosti v blízkosti",
+    "address": "Adresa budovy zde",
+    "forNext": "pro další",
+    "loadingMessage": "Načítání schůzky",
+    "noRooms": "V současné době nejsou k dispozici žádné volné místnosti"
+  },
+  "screenSaver": {
+    "availableUntil": "k dispozici do",
+    "available": "dostupné",
+    "availableOccupied": "Obsazeno / Neplánováno",
+    "reserved": "rezervováno",
+    "details": "podrobnosti",
+    "meeting": "schůzka",
+    "freeAllDay": "po zbytek dne",
+    "nextUp": "další",
+    "notify": "Pro zahájení se dotkněte obrazovky"
+  },
+  "about": {
+    "systemInfo": "Informace o systému",
+    "account": "Účet pro vytvoření plánu",
+    "serverConnection": "Připojení k serveru",
+    "fusionStatus": "Fusion Push/Pull",
+    "googleAuthUserCode": "Uživatelský kód Google Auth",
+    "googleAuthUrl": "Url Google Auth",
+    "firmware": "Firmware",
+    "appVersion": "Verze",
+    "webVersion": "Webová verze",
+    "hardwareId": "ID hardwaru",
+    "online": "Online",
+    "offline": "Offline",
+    "hostName": "Název hostitele",
+    "ip": "IP adresa",
+    "configUrl": "Url lokální konfigurace"
+  },
+  "helpLabels": {
+    "roomName": "Název místnosti",
+    "reserveNow": "Rezervovat místnost nyní",
+    "moreAction": "Najít, rezervovat a jiné",
+    "timelineTap": "Klepnutím můžete přidat rezervaci nebo zobrazit podrobnosti o schůzce",
+    "timelineSwipe": "Přejetím prstem zobrazíte další časy"
+  },
+  "error": {
+    "message": "Omlouváme se, došlo k chybě systému.  Prosím zkuste to znovu.",
+    "messageAddEvent": "Omlouváme se, došlo k chybě při vytváření schůzky. Prosím zkuste to znovu."
+  },
+  "success": {
+    "messageAddEvent": "Schůzka byla úspěšně vytvořena."
+  },
+  "offline": {
+    "label1": "Offline kalendář",
+    "label2": "Zkontrolujte prosím konfiguraci"
+  },
+  "pin": {
+    "enterPasscode": "Zadejte přístupové heslo",
+    "delete": "Vymazat"
+  }
+}

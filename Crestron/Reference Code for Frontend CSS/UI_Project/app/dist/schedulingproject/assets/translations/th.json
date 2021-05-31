@@ -1,0 +1,127 @@
+{
+  "findRoom": "ค้นหา",
+  "help": "การช่วย",
+  "end": "สิ้นสุด",
+  "extend": "เพิ่มขยาย",
+  "checkIn": "เข้าร่วม",
+  "reserveNow": "จองตอนนี้",
+  "hours": "ชั่วโมง",
+  "minutes": "นาที",
+  "hour": "ชั่วโมง",
+  "minute": "นาที",
+  "and": "และ",
+  "noon": "ตอนบ่าย",
+  "vision": "การมองเห็น",
+  "private": "ส่วนตัว",
+  "statusRoomTitle": {
+    "availableLabel1": "พร้อมใช้งานได้",
+    "availableLabel2": "ในอีก",
+    "availableOccupiedLabel1": "ที่ถูกครอบครอง / ไม่ได้กำหนดเวลาไว้",
+    "reservedLabel1": "จองแล้ว",
+    "reservedLabel2": "ในอีก"
+  },
+  "buttons": {
+    "cancel": "ยกเลิก",
+    "close": "ปิด",
+    "end": "สิ้นสุด",
+    "extend": "เพิ่มขยาย",
+    "addEvent": "จองตอนนี้",
+    "ok": "ตกลง"
+  },
+  "freeAllDay": {
+    "label1": "พร้อมใช้งานได้",
+    "label2": "สำหรับเวลาที่เหลือของวัน"
+  },
+  "splash": {
+    "loadingMessage": "กำลังโหลด..."
+  },
+  "endEvent": {
+    "question": "สิ้นสุดการประชุมปัจจุบัน",
+    "loadingMessage": "กำลังโหลด",
+    "endsIn": "สิ้นสุดในอีก"
+  },
+  "extendEvent": {
+    "headerTitle": "เพิ่มขยายการประชุมนี้",
+    "endAt": "สิ้นสุดเวลา",
+    "timeRollLabel": "นาที",
+    "loadingMessage": "กำลังโหลด",
+    "endsIn": "สิ้นสุดในอีก"
+  },
+  "checkInEvent": {
+    "loadingMessage": "กำลังโหลด"
+  },
+  "reservation": {
+    "headerTitle": "การประชุมใหม่",
+    "subject": "หัวข้อ",
+    "organizer": "ผู้จัด",
+    "starts": "เริ่มต้น",
+    "ends": "สิ้นสุด",
+    "loadingMessage": "กำลังโหลด",
+    "defaultOrganizer": "ผู้จัดประชุมที่ไม่ได้กำหนดล่วงหน้า",
+    "defaultSubject": "การประชุมที่ไม่ได้กำหนดล่วงหน้า"
+  },
+  "details": {
+    "headerTitle": "รายละเอียดการประชุม",
+    "from": "จาก",
+    "attendees": "ผู้เข้าร่วม",
+    "loadingMessage": "กำลังเรียกดูการประชุม",
+    "recurring": "จัดการประชุมอีกครั้ง"
+  },
+  "findRoomData": {
+    "headerTitle": "ห้องที่พร้อมใช้งานใกล้เคียง",
+    "address": "ที่อยู่อาคารที่นี่",
+    "forNext": "ในอีก",
+    "loadingMessage": "กำลังเรียกดูการประชุม",
+    "noRooms": "ไม่มีห้องที่พร้อมใช้งานในขณะนี้"
+  },
+  "screenSaver": {
+    "availableUntil": "ใช้ได้จนถึง",
+    "available": "พร้อมใช้งานได้",
+    "availableOccupied": "ที่ถูกครอบครอง / ไม่ได้กำหนดเวลาไว้",
+    "reserved": "จองแล้ว",
+    "details": "รายละเอียด",
+    "meeting": "การประชุม",
+    "freeAllDay": "สำหรับเวลาที่เหลือของวัน",
+    "nextUp": "ต่อไป",
+    "notify": "แตะหน้าจอเพื่อเริ่มต้น"
+  },
+  "about": {
+    "systemInfo": "ข้อมูลระบบ",
+    "account": "การกำหนดเวลาบัญชี",
+    "serverConnection": "การเชื่อมต่อเซิร์ฟเวอร์",
+    "fusionStatus": "ระบบพุช/ดึงของ Fusion",
+    "googleAuthUserCode": "รหัสผู้ใช้ของ Google Auth",
+    "googleAuthUrl": "Url ของ Google Auth",
+    "firmware": "เฟิร์มแวร์",
+    "appVersion": "เวอร์ชัน",
+    "webVersion": "เวอร์ชันเว็บ",
+    "hardwareId": "ไอดีฮาร์ดแวร์",
+    "online": "ออนไลน์",
+    "offline": "ออฟไลน์",
+    "hostName": "ชื่อโฮสต์",
+    "ip": "ที่อยู่ IP",
+    "configUrl": "Url การกำหนดค่าท้องถิ่น"
+  },
+  "helpLabels": {
+    "roomName": "ชื่อห้อง",
+    "reserveNow": "จองห้องตอนนี้",
+    "moreAction": "ค้นหา จอง และอื่นๆ",
+    "timelineTap": "แตะเพื่อเพิ่มการจอง หรือดูรายละเอียดการประชุม",
+    "timelineSwipe": "เลื่อนเพื่อดูเวลาอื่นๆ"
+  },
+  "error": {
+    "message": "ขออภัย เกิดข้อผิดพลาดขึ้นกับระบบ  โปรดลองอีกครั้ง",
+    "messageAddEvent": "ขออภัย มีข้อผิดพลาดในการสร้างการประชุมนี้ โปรดลองอีกครั้ง"
+  },
+  "success": {
+    "messageAddEvent": "สร้างการประชุมสำเร็จแล้ว"
+  },
+  "offline": {
+    "label1": "ปฏิทินออฟไลน์",
+    "label2": "โปรดตรวจสอบการกำหนดค่า"
+  },
+  "pin": {
+    "enterPasscode": "ป้อนรหัสผ่าน",
+    "delete": "ลบ"
+  }
+}

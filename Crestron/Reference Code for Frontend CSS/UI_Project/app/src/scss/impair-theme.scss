@@ -1,0 +1,32 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+$theme-color-2: rgb(0, 0, 0);
+$theme-color-3: rgb(10, 10, 10);
+$theme-color-4: rgb(31, 31, 31);
+$theme-color-6: rgb(61, 61, 61);
+$theme-color-8: rgb(228, 228, 228);
+$theme-color-9: rgb(255, 255, 255);
+$theme-color-11: rgb(114, 114, 114);
+$theme-color-12: rgb(47, 47, 47);
+
+$main-color-1: rgb(242, 189, 47); //YELLOW
+$main-color-2: rgb(242, 189, 47); //YELLOW
+$second-color-2: rgb(242, 189, 47); //YELLOW
+$main-color-3: rgb(60, 247, 153); //GREEN
+$second-color-3: rgb(87, 241, 113); //GREEN
+$main-color-4: rgb(31, 223, 255); //BLUE
+$main-color-5: rgb(201, 201, 41); //YELLOW - Help text
+
+$brightness: 100%;
+
+@import "utils/mixin";
+@import "utils/colors";
+
+@import "colors-impair-theme";
+@import "impair-size";
+

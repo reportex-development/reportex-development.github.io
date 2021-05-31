@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<lang locale="hr_HR" name="Croatian" alias="hr-HR" rtl="false" variant="Croatia">
+	<lookup key="global:findRoom"><![CDATA[Pronađi]]></lookup>
+	<lookup key="global:help"><![CDATA[Pomoć]]></lookup>
+	<lookup key="global:end"><![CDATA[Kraj]]></lookup>
+	<lookup key="global:extend"><![CDATA[Produži]]></lookup>
+	<lookup key="global:checkIn"><![CDATA[Prijava]]></lookup>
+	<lookup key="global:reserveNow"><![CDATA[Rezerviraj odmah]]></lookup>
+	<lookup key="global:hours"><![CDATA[sati]]></lookup>
+	<lookup key="global:minutes"><![CDATA[minute]]></lookup>
+	<lookup key="global:hour"><![CDATA[sat]]></lookup>
+	<lookup key="global:minute"><![CDATA[minuta]]></lookup>
+	<lookup key="global:and"><![CDATA[i]]></lookup>
+	<lookup key="global:noon"><![CDATA[podne]]></lookup>
+	<lookup key="global:vision"><![CDATA[Vizija]]></lookup>
+	<lookup key="global:private"><![CDATA[privatno]]></lookup>
+
+	<lookup key="statusRoomTitle:availableLabel1"><![CDATA[Dostupno]]></lookup>
+	<lookup key="statusRoomTitle:availableLabel2"><![CDATA[za idući]]></lookup>
+	<lookup key="statusRoomTitle:availableOccupiedLabel1"><![CDATA[Zauzeto / nije zakazano]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel1"><![CDATA[Rezervirano]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel2"><![CDATA[za idući]]></lookup>
+
+	<lookup key="buttons:cancel"><![CDATA[Otkaži]]></lookup>
+	<lookup key="buttons:close"><![CDATA[Zatvori]]></lookup>
+	<lookup key="buttons:end"><![CDATA[Završi odmah]]></lookup>
+	<lookup key="buttons:extend"><![CDATA[Produži]]></lookup>
+	<lookup key="buttons:addEvent"><![CDATA[Rezerviraj odmah]]></lookup>
+	<lookup key="buttons:ok"><![CDATA[Uredu]]></lookup>
+
+	<lookup key="freeAllDay:label1"><![CDATA[dostupno]]></lookup>
+	<lookup key="freeAllDay:label2"><![CDATA[Ostatak dana]]></lookup>
+
+	<lookup key="splash:loadingMessage"><![CDATA[Učitavanje…]]></lookup>
+
+	<lookup key="endEvent:question"><![CDATA[Završi trenutni sastanak]]></lookup>
+	<lookup key="endEvent:loadingMessage"><![CDATA[Učitavanje…]]></lookup>
+	<lookup key="endEvent:endsIn"><![CDATA[završava za]]></lookup>
+
+	<lookup key="extendEvent:headerTitle"><![CDATA[Produži ovaj sastanak]]></lookup>
+	<lookup key="extendEvent:endAt"><![CDATA[završava u]]></lookup>
+	<lookup key="extendEvent:timeRollLabel"><![CDATA[MIN]]></lookup>
+	<lookup key="extendEvent:loadingMessage"><![CDATA[Učitavanje…]]></lookup>
+	<lookup key="extendEvent:endsIn"><![CDATA[završava za]]></lookup>
+
+	<lookup key="checkInEvent:loadingMessage"><![CDATA[Učitavanje…]]></lookup>
+
+	<lookup key="reservation:headerTitle"><![CDATA[Novi sastanak]]></lookup>
+	<lookup key="reservation:subject"><![CDATA[Predmet]]></lookup>
+	<lookup key="reservation:organizer"><![CDATA[Organizator]]></lookup>
+	<lookup key="reservation:starts"><![CDATA[Počinje]]></lookup>
+	<lookup key="reservation:ends"><![CDATA[Završava]]></lookup>
+	<lookup key="reservation:loadingMessage"><![CDATA[Učitavanje…]]></lookup>
+	<lookup key="reservation:defaultOrganizer"><![CDATA[Pristupanje organizatora]]></lookup>
+	<lookup key="reservation:defaultSubject"><![CDATA[Pristupanje sastanku]]></lookup>
+
+
+	<lookup key="details:headerTitle"><![CDATA[Pojedinosti sastanka]]></lookup>
+	<lookup key="details:from"><![CDATA[Od]]></lookup>
+	<lookup key="details:attendees"><![CDATA[Sudionici]]></lookup>
+	<lookup key="details:loadingMessage"><![CDATA[Dohvaćanje sastanka]]></lookup>
+	<lookup key="details:recurring"><![CDATA[ponavljajući sastanak]]></lookup>
+
+	<lookup key="findRoomData:headerTitle"><![CDATA[Dostupne sobe u blizini]]></lookup>
+	<lookup key="findRoomData:address"><![CDATA[Adresa zgrade je ovdje]]></lookup>
+	<lookup key="findRoomData:forNext"><![CDATA[za idući]]></lookup>
+	<lookup key="findRoomData:loadingMessage"><![CDATA[Dohvaćanje sastanka]]></lookup>
+	<lookup key="findRoomData:noRooms"><![CDATA[Trenutno nema dostupnih soba]]></lookup>
+
+
+	<lookup key="screenSaver:availableUntil"><![CDATA[dostupno do]]></lookup>
+	<lookup key="screenSaver:available"><![CDATA[dostupno]]></lookup>
+	<lookup key="screenSaver:availableOccupied"><![CDATA[Zauzeto / nije zakazano]]></lookup>
+	<lookup key="screenSaver:reserved"><![CDATA[rezervirano]]></lookup>
+	<lookup key="screenSaver:details"><![CDATA[pojedinosti]]></lookup>
+	<lookup key="screenSaver:meeting"><![CDATA[sastanak]]></lookup>
+	<lookup key="screenSaver:freeAllDay"><![CDATA[ostatak dana]]></lookup>
+	<lookup key="screenSaver:nextUp"><![CDATA[idući]]></lookup>
+	<lookup key="screenSaver:notify"><![CDATA[Započnite dodirivanjem zaslona]]></lookup>
+
+	<lookup key="about:systemInfo"><![CDATA[Sustavne informacije]]></lookup>
+	<lookup key="about:account"><![CDATA[Zakazivanje računa]]></lookup>
+	<lookup key="about:serverConnection"><![CDATA[Priključak poslužitelja]]></lookup>
+	<lookup key="about:fusionStatus"><![CDATA[Fusion guraj/povuci]]></lookup>
+	<lookup key="about:googleAuthUserCode"><![CDATA[Google autorizacija korisničke šifre]]></lookup>
+	<lookup key="about:googleAuthUrl"><![CDATA[Google autorizacijski URL]]></lookup>
+	<lookup key="about:firmware"><![CDATA[Firmware]]></lookup>
+	<lookup key="about:appVersion"><![CDATA[Verzija]]></lookup>
+	<lookup key="about:webVersion"><![CDATA[Internetska verzija]]></lookup>
+	<lookup key="about:hardwareId"><![CDATA[ID hardvera]]></lookup>
+	<lookup key="about:online"><![CDATA[Na mreži]]></lookup>
+	<lookup key="about:offline"><![CDATA[Izvan mreže]]></lookup>
+	<lookup key="about:hostName"><![CDATA[Naziv glavnog računala]]></lookup>
+	<lookup key="about:ip"><![CDATA[IP adresa]]></lookup>
+	<lookup key="about:configUrl"><![CDATA[URL lokalne konfiguracije]]></lookup>
+
+
+	<lookup key="helpLabels:roomName"><![CDATA[Naziv sobe]]></lookup>
+	<lookup key="helpLabels:reserveNow"><![CDATA[Odmah rezerviraj sobu]]></lookup>
+	<lookup key="helpLabels:moreAction"><![CDATA[Pronađi, rezerviraj i sl.]]></lookup>
+	<lookup key="helpLabels:timelineTap"><![CDATA[Dodirnite za dodavanje rezervacije ili pregled pojedinosti sastanka]]></lookup>
+	<lookup key="helpLabels:timelineSwipe"><![CDATA[Pređite rukom za pregled drugih vremena]]></lookup>
+
+	<lookup key="error:message"><![CDATA[Ispričavamo se, došlo je od sistemske pogreške. Molimo, pokušajte ponovno.]]></lookup>
+	<lookup key="error:messageAddEvent"><![CDATA[Ispričavamo se, došlo je do pogreške prilikom kreiranja sastanka. Molimo, pokušajte ponovno.]]></lookup>
+	<lookup key="success:messageAddEvent"><![CDATA[Sastanak je uspješno kreiran.]]></lookup>
+
+	<lookup key="offline:label1"><![CDATA[Izvanmrežni kalendar]]></lookup>
+	<lookup key="offline:label2"><![CDATA[Molimo, provjerite konfiguraciju]]></lookup>
+
+	<lookup key="pin:enterPasscode"><![CDATA[Unesite lozinku]]></lookup>
+	<lookup key="pin:delete"><![CDATA[Obriši]]></lookup>
+
+</lang>

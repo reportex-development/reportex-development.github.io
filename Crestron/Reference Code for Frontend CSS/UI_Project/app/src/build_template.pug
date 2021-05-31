@@ -1,0 +1,38 @@
+doctype html
+html(data-ng-app='helium' )
+    head
+        if debug
+            base(href='/')
+        title Helium
+        meta(name="viewport" content="width=device-width, initial-scale=1.0001, minimum-scale=1.0001, maximum-scale=1.0001, user-scalable=no")
+        each _, i in libCSS
+            link(rel='stylesheet', href=libCSS[i])
+        if debug
+            link(rel='stylesheet', data-ng-href='splash.css')
+            link(rel='stylesheet', data-ng-href='{{ Helium.state.layout }}.css')
+            link(rel='stylesheet', data-ng-href='{{ Helium.state.theme }}.css')
+            link(rel='stylesheet', data-ng-href='{{ Helium.state.customCss }}')
+        else
+            link(rel='stylesheet', data-ng-href='splash.min.css')
+            link(rel='stylesheet', data-ng-href='{{ Helium.state.theme }}.min.css')
+            link(rel='stylesheet', data-ng-href='{{ Helium.state.layout }}.min.css')
+            link(rel='stylesheet', data-ng-href='{{ Helium.state.customCss }}')
+
+    body(class="color__theme-color-5")
+        div(hlm-loading-mask="" data-loading="Helium.state.loading.state" data-message="Helium.state.loading.message")
+        main(data-ng-view='' class="pull-front-main")
+        if (!emulate)
+            script(src='http://crestron/scheduling-panel-communication')
+        each _, i in libJS
+            script(src=libJS[i])
+        each _, i in emulateJs
+            script(src=emulateJs[i])
+        //- script.
+        //-     var __DEBUG = #{debug};
+        if debug
+            script(src='app.js')
+        else
+            script(src='app.min.js')
+
+        for template in angular_templates
+            script(type='text/ng-template' id=template.src) !{template.content}

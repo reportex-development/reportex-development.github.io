@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="ru" name="Russian (RU)" alias="ru" rtl="false" variant="Russian (RU)">
+	<lookup key="global:findRoom"><![CDATA[Найти]]></lookup>
+	<lookup key="global:help"><![CDATA[Справка]]></lookup>
+	<lookup key="global:end"><![CDATA[Завершить]]></lookup>
+	<lookup key="global:extend"><![CDATA[Продлить]]></lookup>
+	<lookup key="global:checkIn"><![CDATA[Участие]]></lookup>
+	<lookup key="global:reserveNow"><![CDATA[Забронировать сейчас]]></lookup>
+	<lookup key="global:hours"><![CDATA[ч.]]></lookup>
+	<lookup key="global:minutes"><![CDATA[мин.]]></lookup>
+	<lookup key="global:hour"><![CDATA[ч.]]></lookup>
+	<lookup key="global:minute"><![CDATA[мин.]]></lookup>
+	<lookup key="global:and"><![CDATA[и]]></lookup>
+	<lookup key="global:noon"><![CDATA[12 ч.]]></lookup>
+	<lookup key="global:vision"><![CDATA[Контраст]]></lookup>
+	<lookup key="global:private"><![CDATA[конфиденциально]]></lookup>
+	
+	<lookup key="statusRoomTitle:availableLabel1"><![CDATA[Доступно]]></lookup>
+	<lookup key="statusRoomTitle:availableLabel2"><![CDATA[в течение следующих]]></lookup>
+	<lookup key="statusRoomTitle:availableOccupiedLabel1"><![CDATA[Занято / не запланировано]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel1"><![CDATA[Зарезервировано]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel2"><![CDATA[в течение следующих]]></lookup>
+
+	<lookup key="buttons:cancel"><![CDATA[Отмена]]></lookup>
+	<lookup key="buttons:close"><![CDATA[Закрыть]]></lookup>
+	<lookup key="buttons:end"><![CDATA[Завершить сейчас]]></lookup>
+	<lookup key="buttons:extend"><![CDATA[Продлить]]></lookup>
+	<lookup key="buttons:addEvent"><![CDATA[Забронировать сейчас]]></lookup>
+	<lookup key="buttons:ok"><![CDATA[OK]]></lookup>
+	
+	<lookup key="freeAllDay:label1"><![CDATA[доступно]]></lookup>
+	<lookup key="freeAllDay:label2"><![CDATA[До конца текущего дня]]></lookup>
+
+	<lookup key="splash:loadingMessage"><![CDATA[Загрузка...]]></lookup>
+		
+	<lookup key="endEvent:question"><![CDATA[Завершить текущую встречу]]></lookup>
+	<lookup key="endEvent:loadingMessage"><![CDATA[Загрузка]]></lookup>
+	<lookup key="endEvent:endsIn"><![CDATA[завершается через]]></lookup>
+		
+	<lookup key="extendEvent:headerTitle"><![CDATA[Продлить текущую встречу]]></lookup>
+	<lookup key="extendEvent:endAt"><![CDATA[завершается в]]></lookup>
+	<lookup key="extendEvent:timeRollLabel"><![CDATA[МИН]]></lookup>
+	<lookup key="extendEvent:loadingMessage"><![CDATA[Загрузка]]></lookup>
+	<lookup key="extendEvent:endsIn"><![CDATA[завершается через]]></lookup>
+		
+	<lookup key="checkInEvent:loadingMessage"><![CDATA[Загрузка]]></lookup>
+		
+	<lookup key="reservation:headerTitle"><![CDATA[Новая встреча]]></lookup>
+	<lookup key="reservation:subject"><![CDATA[Тема]]></lookup>
+	<lookup key="reservation:organizer"><![CDATA[Организатор]]></lookup>
+	<lookup key="reservation:starts"><![CDATA[Начало]]></lookup>
+	<lookup key="reservation:ends"><![CDATA[Окончание]]></lookup>
+	<lookup key="reservation:loadingMessage"><![CDATA[Загрузка]]></lookup>
+	<lookup key="reservation:defaultOrganizer"><![CDATA[Организатор незапланированных встреч]]></lookup>
+	<lookup key="reservation:defaultSubject"><![CDATA[Незапланированная встреча]]></lookup>
+
+	<lookup key="details:headerTitle"><![CDATA[Параметры встречи]]></lookup>
+	<lookup key="details:from"><![CDATA[От]]></lookup>
+	<lookup key="details:attendees"><![CDATA[Участники]]></lookup>
+	<lookup key="details:loadingMessage"><![CDATA[Считывание встречи]]></lookup>
+	<lookup key="details:recurring"><![CDATA[повторяющаяся встреча]]></lookup>
+		
+	<lookup key="findRoomData:headerTitle"><![CDATA[Свободные помещения поблизости]]></lookup>
+	<lookup key="findRoomData:address"><![CDATA[Адрес текущего здания]]></lookup>
+	<lookup key="findRoomData:forNext"><![CDATA[в течение следующих]]></lookup>
+	<lookup key="findRoomData:loadingMessage"><![CDATA[Считывание встречи]]></lookup>
+	<lookup key="findRoomData:noRooms"><![CDATA[В настоящий момент нет свободных помещений]]></lookup>
+
+	<lookup key="screenSaver:availableUntil"><![CDATA[помещение свободно до]]></lookup>
+	<lookup key="screenSaver:available"><![CDATA[доступно]]></lookup>
+	<lookup key="screenSaver:availableOccupied"><![CDATA[Занято / не запланировано]]></lookup>
+	<lookup key="screenSaver:reserved"><![CDATA[зарезервировано]]></lookup>
+	<lookup key="screenSaver:details"><![CDATA[сведения]]></lookup>
+	<lookup key="screenSaver:meeting"><![CDATA[встреча]]></lookup>
+	<lookup key="screenSaver:freeAllDay"><![CDATA[до конца текущего дня]]></lookup>
+	<lookup key="screenSaver:nextUp"><![CDATA[следующая встреча]]></lookup>
+	<lookup key="screenSaver:notify"><![CDATA[Коснитесь экрана для продолжения]]></lookup>
+
+	<lookup key="about:systemInfo"><![CDATA[Информация о системе]]></lookup>
+	<lookup key="about:account"><![CDATA[Учетная запись для планирования]]></lookup>
+	<lookup key="about:serverConnection"><![CDATA[Подключение к серверу]]></lookup>
+	<lookup key="about:fusionStatus"><![CDATA[Fusion Push/Pull]]></lookup>
+	<lookup key="about:googleAuthUserCode"><![CDATA[Код пользователя Google Auth]]></lookup>
+	<lookup key="about:googleAuthUrl"><![CDATA[URL-адрес Google Auth]]></lookup>
+	<lookup key="about:firmware"><![CDATA[Микропрограмма]]></lookup>
+	<lookup key="about:appVersion"><![CDATA[Версия]]></lookup>
+	<lookup key="about:webVersion"><![CDATA[Веб-версия]]></lookup>
+	<lookup key="about:hardwareId"><![CDATA[Идентификатор аппаратного обеспечения]]></lookup>
+	<lookup key="about:online"><![CDATA[В сети]]></lookup>
+	<lookup key="about:offline"><![CDATA[Не в сети]]></lookup>
+	<lookup key="about:hostName"><![CDATA[Имя хоста]]></lookup>
+	<lookup key="about:ip"><![CDATA[IP-адрес]]></lookup>
+	<lookup key="about:configUrl"><![CDATA[URL локальной конфигурации]]></lookup>
+
+	<lookup key="helpLabels:roomName"><![CDATA[Имя помещения]]></lookup>
+	<lookup key="helpLabels:reserveNow"><![CDATA[Бронировать помещение сейчас]]></lookup>
+	<lookup key="helpLabels:moreAction"><![CDATA[Поиск, бронирование и др.]]></lookup>
+	<lookup key="helpLabels:timelineTap"><![CDATA[Коснитесь для добавления бронирования или просмотра сведений о встрече]]></lookup>
+	<lookup key="helpLabels:timelineSwipe"><![CDATA[Проведите пальцем для просмотра графика]]></lookup>
+
+	<lookup key="error:message"><![CDATA[Извините, произошла системная ошибка.  Повторите попытку.]]></lookup>
+	<lookup key="error:messageAddEvent"><![CDATA[Извините, при создании встречи произошла ошибка. Повторите попытку.]]></lookup>
+	<lookup key="success:messageAddEvent"><![CDATA[Встреча создана.]]></lookup>
+
+	<lookup key="offline:label1"><![CDATA[Календарь вне сети]]></lookup>
+	<lookup key="offline:label2"><![CDATA[Проверьте настройки]]></lookup>
+
+	<lookup key="pin:enterPasscode"><![CDATA[Введите код доступа]]></lookup>
+	<lookup key="pin:delete"><![CDATA[Удалить]]></lookup>
+</lang>

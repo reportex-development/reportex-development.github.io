@@ -1,0 +1,174 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+/******************** TIMELINE COLORS ******************/
+.timeline__content__event__content--active,
+.timeline__content__event__content--selected {
+    border-color: rgba($main-color-1, 1);
+    background-color: rgba($main-color-1, 0.8);
+}
+
+.timeline--vertical .timeline__content__event__content {
+    border-left-color: rgba($main-color-1, 1);
+}
+
+.timeline--vertical .timeline__content__event__content--right {
+    border-right-color: rgba($main-color-1, 1);
+}
+
+.timeline__content__event__content--finished {
+    border-color: rgba($theme-color-8, 0.1);
+    background-color: rgba($theme-color-8, 0.05);
+}
+
+.timeline--vertical .timeline__content__event__content.timeline__content__event__content--finished {
+    border-left-color: rgba($theme-color-8, 0.1);
+}
+
+.timeline--vertical .timeline__content__event__content--right.timeline__content__event__content--finished {
+    border-right-color: rgba($theme-color-8, 0.1);
+}
+
+.timeline__content__now::before {
+    background-color: rgba($main-color-3, 1);
+}
+
+.timeline__content__now--reserved,
+.timeline__content__now--reserved::before {
+    background-color: rgba($main-color-2, 1);
+}
+
+.timeline__content__now__time__label {
+    box-shadow: rgba($theme-color-3, 0.9) 0px 0px 10px 16px inset, rgba($theme-color-3, 0.9) 0px 0px 10px 3px;
+}
+
+.timeline__content__now__time__label {
+    color: rgba($main-color-3, 1);
+}
+
+.timeline__content__now__time__label--reserved {
+    color: rgba($main-color-2, 1);
+}
+/****************** END TIMELINE COLORS ****************/
+
+/****************** ROOM COLORS ************************/
+.room__container__action__reserve-now::before {
+    color: rgba($theme-color-9, 1);
+}
+
+.room__container__status__action-btn::before {
+    color: rgba($theme-color-9, 0.8);
+}
+
+.room__container__theme__button--selected {
+    background-color: rgba($main-color-3, 1);
+}
+
+.room__container__current-time__spacer--reserved {
+	color: rgba($main-color-2, 1);
+}
+
+.room__container__current-time__spacer--available {
+	color: rgba($main-color-3, 1);
+}
+
+.menu__overlay::before {
+    background-color: rgba($theme-color-2, 0.9);
+}
+
+.room__action__check_in__btn::before,
+.room__action__extend__btn::before,
+.room__action__end__btn::before,
+.room__action__help__btn::before,
+.room__action__find-room__btn::before,
+.room__action__vision__btn::before {
+	color: rgba($theme-color-2, 0.9);
+}
+
+.room__action__check_in__btn[disabled],
+.room__action__extend__btn[disabled],
+.room__action__end__btn[disabled],
+.room__action__find-room__btn[disabled] {
+	color: rgba($theme-color-9, 0.7);
+	background-color: rgba($theme-color-9, 0.7);
+}
+
+.room__container__theme__button {
+    border-color: rgba($main-color-3, 1);
+}
+
+.room__container__theme__button--selected {
+    background-color: rgba($main-color-3, 1);
+}
+/****************** END ROOM COLORS ********************/
+
+/****************** SCREENSAVER COLORS ********************/
+.screensaver__container--reserved {
+	border-color: rgba($main-color-2, 0.8);
+}
+
+.screensaver__container--available {
+	border-color: rgba($main-color-3, 1);
+}
+/****************** END SCREENSAVER COLORS ****************/
+
+
+/****************** MODAL COLORS ****************/
+.modal__container__border {
+	border-color: rgba($theme-color-9, 0.2);
+}
+
+.modal-dialog {
+    background-color: rgba($theme-color-4, 0.98);
+}
+
+.modal-content {
+    background-color: inherit;
+    color: rgba($theme-color-9, 0.6);
+    
+    .modal-footer {
+        div:nth-child(n+2) {
+            border-color: rgba($theme-color-9, 0.2);
+        }
+    }
+}
+
+.modal-about::before {
+    background-color: rgba($theme-color-2, 0.7);
+}
+
+.time-roll__viewport__selected span {
+    color: rgba($theme-color-9, 1);
+}
+
+.form-control:focus {
+	color: rgba($main-color-4, 1);
+    border-color: initial;
+}
+
+.border--error {
+    border-color: red !important;
+}
+/****************** END MODAL COLORS ****************/
+
+/****************** MENU ITEM COLORS ****************/
+.menu__item--disabled {
+    background-color: rgba($theme-color-11, 1) !important;
+}
+
+.menu__icon {
+    color: rgba($theme-color-2, 0.9);
+}
+
+.menu__icon--active {
+    color: rgba($main-color-4, 0.9);
+}
+
+.menu__icon--hover {
+    color: rgba($theme-color-2, 0.9);
+}
+/****************** END MENU ITEM COLORS ****************/

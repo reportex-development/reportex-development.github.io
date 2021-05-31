@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="ko" name="Korean" alias="ko" rtl="false" variant="Korean">
+	<lookup key="global:findRoom"><![CDATA[찾기]]></lookup>
+	<lookup key="global:help"><![CDATA[도움말]]></lookup>
+	<lookup key="global:end"><![CDATA[종료]]></lookup>
+	<lookup key="global:extend"><![CDATA[연장]]></lookup>
+	<lookup key="global:checkIn"><![CDATA[체크인]]></lookup>
+	<lookup key="global:reserveNow"><![CDATA[지금 예약]]></lookup>
+	<lookup key="global:hours"><![CDATA[시간]]></lookup>
+	<lookup key="global:minutes"><![CDATA[분]]></lookup>
+	<lookup key="global:hour"><![CDATA[시간]]></lookup>
+	<lookup key="global:minute"><![CDATA[분]]></lookup>
+	<lookup key="global:and"><![CDATA[및]]></lookup>
+	<lookup key="global:noon"><![CDATA[정오]]></lookup>
+	<lookup key="global:vision"><![CDATA[비전]]></lookup>
+	<lookup key="global:private"><![CDATA[비공개]]></lookup>
+	
+	<lookup key="statusRoomTitle:availableLabel1"><![CDATA[다음 시간 동안]]></lookup>
+	<lookup key="statusRoomTitle:availableLabel2"><![CDATA[이용 가능:]]></lookup>
+	<lookup key="statusRoomTitle:availableOccupiedLabel1"><![CDATA[점유 / 예약되지 않음]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel1"><![CDATA[다음 시간 동안]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel2"><![CDATA[예약됨:]]></lookup>
+
+	<lookup key="buttons:cancel"><![CDATA[취소]]></lookup>
+	<lookup key="buttons:close"><![CDATA[닫기]]></lookup>
+	<lookup key="buttons:end"><![CDATA[지금 종료]]></lookup>
+	<lookup key="buttons:extend"><![CDATA[연장]]></lookup>
+	<lookup key="buttons:addEvent"><![CDATA[지금 예약]]></lookup>
+	<lookup key="buttons:ok"><![CDATA[확인]]></lookup>
+	
+	<lookup key="freeAllDay:label1"><![CDATA[이용 가능]]></lookup>
+	<lookup key="freeAllDay:label2"><![CDATA[당일 내내]]></lookup>
+
+	<lookup key="splash:loadingMessage"><![CDATA[로드 중...]]></lookup>
+		
+	<lookup key="endEvent:question"><![CDATA[현재 회의 종료]]></lookup>
+	<lookup key="endEvent:loadingMessage"><![CDATA[로드 중]]></lookup>
+	<lookup key="endEvent:endsIn"><![CDATA[다음 시간 이후 종료:]]></lookup>
+		
+	<lookup key="extendEvent:headerTitle"><![CDATA[이 회의 연장]]></lookup>
+	<lookup key="extendEvent:endAt"><![CDATA[종료 시점:]]></lookup>
+	<lookup key="extendEvent:timeRollLabel"><![CDATA[분]]></lookup>
+	<lookup key="extendEvent:loadingMessage"><![CDATA[로드 중]]></lookup>
+	<lookup key="extendEvent:endsIn"><![CDATA[다음 시간 이후 종료:]]></lookup>
+		
+	<lookup key="checkInEvent:loadingMessage"><![CDATA[로드 중]]></lookup>
+		
+	<lookup key="reservation:headerTitle"><![CDATA[신규 회의]]></lookup>
+	<lookup key="reservation:subject"><![CDATA[주제]]></lookup>
+	<lookup key="reservation:organizer"><![CDATA[주최자]]></lookup>
+	<lookup key="reservation:starts"><![CDATA[시작]]></lookup>
+	<lookup key="reservation:ends"><![CDATA[종료]]></lookup>
+	<lookup key="reservation:loadingMessage"><![CDATA[로드 중]]></lookup>
+	<lookup key="reservation:defaultOrganizer"><![CDATA[미예약 주최자]]></lookup>
+	<lookup key="reservation:defaultSubject"><![CDATA[미예약 회의]]></lookup>
+
+	<lookup key="details:headerTitle"><![CDATA[회의 상세 정보]]></lookup>
+	<lookup key="details:from"><![CDATA[시작]]></lookup>
+	<lookup key="details:attendees"><![CDATA[참석자]]></lookup>
+	<lookup key="details:loadingMessage"><![CDATA[회의 다시 가져오기]]></lookup>
+	<lookup key="details:recurring"><![CDATA[재발생 회의]]></lookup>
+		
+	<lookup key="findRoomData:headerTitle"><![CDATA[근처에 이용 가능한 호실]]></lookup>
+	<lookup key="findRoomData:address"><![CDATA[이 장소의 빌딩 주소]]></lookup>
+	<lookup key="findRoomData:forNext"><![CDATA[예약됨:]]></lookup>
+	<lookup key="findRoomData:loadingMessage"><![CDATA[회의 다시 가져오기]]></lookup>
+	<lookup key="findRoomData:noRooms"><![CDATA[현재 이용 가능한 호실이 없습니다]]></lookup>
+
+	<lookup key="screenSaver:availableUntil"><![CDATA[이용 가능 시점]]></lookup>
+	<lookup key="screenSaver:available"><![CDATA[이용 가능]]></lookup>
+	<lookup key="screenSaver:availableOccupied"><![CDATA[점유 / 예약되지 않음]]></lookup>
+	<lookup key="screenSaver:reserved"><![CDATA[예약됨]]></lookup>
+	<lookup key="screenSaver:details"><![CDATA[상세 정보]]></lookup>
+	<lookup key="screenSaver:meeting"><![CDATA[회의]]></lookup>
+	<lookup key="screenSaver:freeAllDay"><![CDATA[당일 내내]]></lookup>
+	<lookup key="screenSaver:nextUp"><![CDATA[다음 차례]]></lookup>
+	<lookup key="screenSaver:notify"><![CDATA[시작하려면 화면을 터치하십시오]]></lookup>
+
+	<lookup key="about:systemInfo"><![CDATA[시스템 정보]]></lookup>
+	<lookup key="about:account"><![CDATA[예약 계정]]></lookup>
+	<lookup key="about:serverConnection"><![CDATA[서버 연결]]></lookup>
+	<lookup key="about:fusionStatus"><![CDATA[Fusion 푸시/가져오기]]></lookup>
+	<lookup key="about:googleAuthUserCode"><![CDATA[Google Auth 사용자 코드]]></lookup>
+	<lookup key="about:googleAuthUrl"><![CDATA[Google Auth Url]]></lookup>
+	<lookup key="about:firmware"><![CDATA[펌웨어]]></lookup>
+	<lookup key="about:appVersion"><![CDATA[버전]]></lookup>
+	<lookup key="about:webVersion"><![CDATA[웹 버전]]></lookup>
+	<lookup key="about:hardwareId"><![CDATA[하드웨어 ID]]></lookup>
+	<lookup key="about:online"><![CDATA[온라인]]></lookup>
+	<lookup key="about:offline"><![CDATA[오프라인]]></lookup>
+	<lookup key="about:hostName"><![CDATA[호스트 이름]]></lookup>
+	<lookup key="about:ip"><![CDATA[IP 주소]]></lookup>
+	<lookup key="about:configUrl"><![CDATA[로컬 구성 Url]]></lookup>
+
+	<lookup key="helpLabels:roomName"><![CDATA[호실 이름]]></lookup>
+	<lookup key="helpLabels:reserveNow"><![CDATA[지금 호실 예약]]></lookup>
+	<lookup key="helpLabels:moreAction"><![CDATA[검색, 예약 및 기타]]></lookup>
+	<lookup key="helpLabels:timelineTap"><![CDATA[예약을 추가하거나 회의 상세 정보를 확인하려면 탭하십시오]]></lookup>
+	<lookup key="helpLabels:timelineSwipe"><![CDATA[다른 시간대를 확인하려면 스와이프하십시오]]></lookup>
+
+	<lookup key="error:message"><![CDATA[죄송합니다. 시스템 오류가 발생했습니다.  다시 시도해 주십시오.]]></lookup>
+	<lookup key="error:messageAddEvent"><![CDATA[죄송합니다. 회의를 생성하는 도중 오류가 발생했습니다. 다시 시도해 주십시오.]]></lookup>
+	<lookup key="success:messageAddEvent"><![CDATA[회의가 성공적으로 생성되었습니다.]]></lookup>
+
+	<lookup key="offline:label1"><![CDATA[캘린더 오프라인]]></lookup>
+	<lookup key="offline:label2"><![CDATA[구성을 확인하십시오]]></lookup>
+
+	<lookup key="pin:enterPasscode"><![CDATA[패스코드 입력]]></lookup>
+	<lookup key="pin:delete"><![CDATA[삭제]]></lookup>
+</lang>

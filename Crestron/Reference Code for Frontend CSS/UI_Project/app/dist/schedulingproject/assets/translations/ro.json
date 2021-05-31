@@ -1,0 +1,127 @@
+{
+  "findRoom": "Găsiți",
+  "help": "Ajutor",
+  "end": "Încheiați",
+  "extend": "Extindeți",
+  "checkIn": "Înregistrare",
+  "reserveNow": "Rezervați acum",
+  "hours": "ore",
+  "minutes": "minute",
+  "hour": "oră",
+  "minute": "minut",
+  "and": "și",
+  "noon": "prânz",
+  "vision": "Vedere",
+  "private": "confidențial",
+  "statusRoomTitle": {
+    "availableLabel1": "Disponibil",
+    "availableLabel2": "pentru următoarele",
+    "availableOccupiedLabel1": "Ocupat / Nu este programată",
+    "reservedLabel1": "Rezervat",
+    "reservedLabel2": "pentru următoarele"
+  },
+  "buttons": {
+    "cancel": "Revocare",
+    "close": "Închideți",
+    "end": "Încheiați acum",
+    "extend": "Extindeți",
+    "addEvent": "Rezervați acum",
+    "ok": "OK"
+  },
+  "freeAllDay": {
+    "label1": "disponibil",
+    "label2": "Pentru restul zilei"
+  },
+  "splash": {
+    "loadingMessage": "În curs de încărcare..."
+  },
+  "endEvent": {
+    "question": "Încheiați întâlnirea curentă",
+    "loadingMessage": "În curs de încărcare",
+    "endsIn": "se încheie în"
+  },
+  "extendEvent": {
+    "headerTitle": "Prelungiți această întâlnire",
+    "endAt": "se încheie la",
+    "timeRollLabel": "MIN",
+    "loadingMessage": "În curs de încărcare",
+    "endsIn": "se încheie în"
+  },
+  "checkInEvent": {
+    "loadingMessage": "În curs de încărcare"
+  },
+  "reservation": {
+    "headerTitle": "Întâlnire nouă",
+    "subject": "Subiect",
+    "organizer": "Organizator",
+    "starts": "Începe",
+    "ends": "Se încheie",
+    "loadingMessage": "În curs de încărcare",
+    "defaultOrganizer": "Mergeți la organizator",
+    "defaultSubject": "Mergeți la întâlnire"
+  },
+  "details": {
+    "headerTitle": "Detalii privind întâlnirea",
+    "from": "De la",
+    "attendees": "Participanți",
+    "loadingMessage": "Se preia întâlnirea",
+    "recurring": "întâlnire recurentă"
+  },
+  "findRoomData": {
+    "headerTitle": "Încăperi disponibile în apropiere",
+    "address": "Adresa clădirii aici",
+    "forNext": "pentru următoarele",
+    "loadingMessage": "Se preia întâlnirea",
+    "noRooms": "Nicio încăpere nu este momentan disponibilă"
+  },
+  "screenSaver": {
+    "availableUntil": "disponibil până la",
+    "available": "disponibil",
+    "availableOccupied": "Ocupat / Nu este programată",
+    "reserved": "rezervat",
+    "details": "detalii",
+    "meeting": "întâlnire",
+    "freeAllDay": "pentru restul zilei",
+    "nextUp": "următoarea rezervată",
+    "notify": "Atingeți ecranul pentru a începe"
+  },
+  "about": {
+    "systemInfo": "Informații de sistem",
+    "account": "Cont de programare",
+    "serverConnection": "Conexiune server",
+    "fusionStatus": "Push/Pull pentru Fusion",
+    "googleAuthUserCode": "Cod de utilizator pentru Google Auth",
+    "googleAuthUrl": "URL pentru Google Auth",
+    "firmware": "Firmware",
+    "appVersion": "Versiune",
+    "webVersion": "Versiune Web",
+    "hardwareId": "ID hardware",
+    "online": "Conectat",
+    "offline": "Neconectat",
+    "hostName": "Nume gazdă",
+    "ip": "Adresă IP",
+    "configUrl": "URL pentru configurare locală"
+  },
+  "helpLabels": {
+    "roomName": "Nume încăpere",
+    "reserveNow": "Rezervați încăperea acum",
+    "moreAction": "Găsiți, rezervați și multe altele",
+    "timelineTap": "Atingeți pentru a adăuga o rezervare sau pentru a vedea detaliile întâlnirii",
+    "timelineSwipe": "Glisați pentru a vedea alte ore"
+  },
+  "error": {
+    "message": "Ne pare rău, a intervenit o eroare de sistem.  Încercaţi din nou.",
+    "messageAddEvent": "Ne pare rău, a intervenit o eroare la crearea întâlnirii. Încercaţi din nou."
+  },
+  "success": {
+    "messageAddEvent": "Întâlnirea a fost creată cu succes."
+  },
+  "offline": {
+    "label1": "Calendar neconectat",
+    "label2": "Verificați configurarea"
+  },
+  "pin": {
+    "enterPasscode": "Introduceți codul de acces",
+    "delete": "Ștergeți"
+  }
+}

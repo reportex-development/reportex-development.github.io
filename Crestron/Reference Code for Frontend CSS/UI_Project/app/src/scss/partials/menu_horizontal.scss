@@ -1,0 +1,203 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+//config
+$menu-items:6;
+$first-distance-small: 11vw;
+$open-distance-small: 11.5vw;
+
+%goo{
+  filter:url('#shadowed-goo');
+}
+
+.menu__overlay {
+	height: 100%;
+	width: 100%;
+	display: table;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	display: none;
+}
+
+.menu__overlay--display {
+	display: block;
+}
+
+.menu__overlay::before {
+	display: none;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	display: table;
+	content: "";
+	left: 0;
+	top: 0;
+	z-index: -1;
+	display: block;
+}
+
+.menu {
+    @extend %goo;
+    position: absolute;
+    right: 13vmin;
+    width: 80vw;
+    height: 7vmin;
+    bottom: 18.83vmin;
+    z-index: 2;
+    text-align: right;
+}
+
+.arabic {
+  .menu {
+     left: 0;
+     right: initial;
+  }
+}
+
+.menu__open {
+    display: none;
+}
+.menu__open:checked ~ a label {
+    margin-top: 2.5vh;
+    line-height: 1;
+    display: block;
+    word-break: keep-all;
+}
+
+.menu__open__button {
+    position:absolute;
+    width: 8.2vmin;
+    height: 8.2vmin;
+    line-height: 8.2vmin;
+
+    bottom: 11vmin;
+    right: -4vmin;
+
+    border-radius: 100%;
+    border-width: 1px;
+    border-style: solid;
+
+    text-align: center;
+    z-index: 2;
+    cursor: pointer;
+
+    transform: translate3d(0,0,0);
+    transition: transform ease-out 200ms;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+    transition-duration: 400ms;
+    transform: scale(1.2,1.2) translate3d(0,0,0);
+}
+
+.arabic {
+    .menu__open__button {
+        @include setProperty( 'left', 26 );
+        right: initial;
+    }
+}
+
+.menu__open:checked + .menu__open__button {
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+    transform: scale(0.99,0.99) translate3d(0,0,0);
+}
+
+.menu__open+.menu__open__button .menu-open-label {
+    display: inline-block;
+}
+.menu__open+.menu__open__button .menu-close-label {
+    display: none;
+}
+
+.menu__open:checked+.menu__open__button .menu-close-label {
+    display: inline-block;
+}
+
+.menu__open:checked+.menu__open__button .menu-open-label {
+    display: none;
+}
+
+.menu__item {
+    position: absolute;
+    bottom: 9.33vmin;
+    right: -6.5vmin;
+    width: 13vmin;
+    height: 13vmin;
+    line-height: 13vmin;
+    @extend .font-normal-16;
+    border-radius:100%;
+    margin-left: -3.9vw;
+    text-align: center;
+    transition: transform ease-out 200ms;
+    transform: translate3d(0,0,0);
+    visibility: hidden;
+}
+
+.menu__open:checked ~ .menu__item {
+    visibility: visible;
+}
+
+.arabic {
+    .menu__item {
+        @include setProperty( 'left', 66 );
+        right: initial;
+    }
+}
+
+.menu__item i.fa {
+    position: relative;
+    @include setProperty( 'font-size', 25 );
+    vertical-align: middle;
+}
+
+a.menu__item {
+  text-decoration: none;
+}
+
+.menu__label {
+    @extend .font-normal-20;
+    font-weight: 300;
+    text-decoration: none;
+    display: none;
+    margin-top: -4.5em;
+    text-transform: capitalize;
+}
+
+.menu__item {
+    @for $i from 1 through $menu-items{
+        &:nth-child(#{$i+2}){
+            // This duration cannot be changed, because is related to the javascript.
+            transition-duration: 280ms;
+            transform: scale(0.75, 0.75);
+        }
+    }
+}
+
+.menu__open:checked~.menu__item {
+    transition-timing-function:cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    @for $i from 1 through $menu-items {
+        &:nth-of-type(#{$i}) {
+            transition-duration: 90ms+(100ms*$i);
+            transform: translate3d(- ( $first-distance-small + ( $open-distance-small * ($i - 1) ) ), 0, 0);
+        }
+
+    }
+}
+
+.arabic {
+   .menu__open:checked ~ .menu__item {
+       @for $i from 1 through $menu-items {
+            &:nth-of-type(#{$i}) {
+                transform: translate3d( $first-distance-small + ( $open-distance-small * ($i - 1) ), 0, 0 );
+            }
+        }
+    }
+}
+
+svg {
+    display: none;
+}

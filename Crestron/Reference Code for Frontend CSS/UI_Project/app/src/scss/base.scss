@@ -1,0 +1,49 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission
+// to redistribute derivative works of the provided sample code in source code format.  This license is located
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result
+// in unexpected behavior and a diminished user experience.
+
+@import "utils/mixin";
+@import "utils/variables";
+@import "utils/fonts";
+@import "utils/global";
+@import "utils/spacing";
+@import "utils/buttons";
+@import "utils/modals";
+@import "utils/grid";
+
+@import "directives/time-roll";
+@import "modals/details";
+@import "modals/reservation";
+@import "modals/end";
+@import "modals/extend";
+@import "modals/find-room";
+@import "modals/error";
+@import "modals/success";
+@import "modals/loading";
+@import "modals/about";
+@import "modals/pin";
+
+@import "components/timeline";
+@import "components/time-group-roller";
+@import "partials/offline";
+@import "partials/screensaver";
+
+html {
+	@extend .font-normal-24;
+}
+
+body {
+	font-family: Crestron, sans-serif;
+	font-weight: normal;
+	@extend .font-normal-24;
+	-webkit-user-select: none;
+	height: 100vh;
+}
+
+main {
+	box-sizing: border-box;
+	height: 100%;
+}

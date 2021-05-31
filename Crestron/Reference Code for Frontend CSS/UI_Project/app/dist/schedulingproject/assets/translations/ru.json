@@ -1,0 +1,127 @@
+{
+  "findRoom": "Найти",
+  "help": "Справка",
+  "end": "Завершить",
+  "extend": "Продлить",
+  "checkIn": "Участие",
+  "reserveNow": "Забронировать сейчас",
+  "hours": "ч.",
+  "minutes": "мин.",
+  "hour": "ч.",
+  "minute": "мин.",
+  "and": "и",
+  "noon": "12 ч.",
+  "vision": "Контраст",
+  "private": "конфиденциально",
+  "statusRoomTitle": {
+    "availableLabel1": "Доступно",
+    "availableLabel2": "в течение следующих",
+    "availableOccupiedLabel1": "Занято / не запланировано",
+    "reservedLabel1": "Зарезервировано",
+    "reservedLabel2": "в течение следующих"
+  },
+  "buttons": {
+    "cancel": "Отмена",
+    "close": "Закрыть",
+    "end": "Завершить сейчас",
+    "extend": "Продлить",
+    "addEvent": "Забронировать сейчас",
+    "ok": "OK"
+  },
+  "freeAllDay": {
+    "label1": "доступно",
+    "label2": "До конца текущего дня"
+  },
+  "splash": {
+    "loadingMessage": "Загрузка..."
+  },
+  "endEvent": {
+    "question": "Завершить текущую встречу",
+    "loadingMessage": "Загрузка",
+    "endsIn": "завершается через"
+  },
+  "extendEvent": {
+    "headerTitle": "Продлить текущую встречу",
+    "endAt": "завершается в",
+    "timeRollLabel": "МИН",
+    "loadingMessage": "Загрузка",
+    "endsIn": "завершается через"
+  },
+  "checkInEvent": {
+    "loadingMessage": "Загрузка"
+  },
+  "reservation": {
+    "headerTitle": "Новая встреча",
+    "subject": "Тема",
+    "organizer": "Организатор",
+    "starts": "Начало",
+    "ends": "Окончание",
+    "loadingMessage": "Загрузка",
+    "defaultOrganizer": "Организатор незапланированных встреч",
+    "defaultSubject": "Незапланированная встреча"
+  },
+  "details": {
+    "headerTitle": "Параметры встречи",
+    "from": "От",
+    "attendees": "Участники",
+    "loadingMessage": "Считывание встречи",
+    "recurring": "повторяющаяся встреча"
+  },
+  "findRoomData": {
+    "headerTitle": "Свободные помещения поблизости",
+    "address": "Адрес текущего здания",
+    "forNext": "в течение следующих",
+    "loadingMessage": "Считывание встречи",
+    "noRooms": "В настоящий момент нет свободных помещений"
+  },
+  "screenSaver": {
+    "availableUntil": "помещение свободно до",
+    "available": "доступно",
+    "availableOccupied": "Занято / не запланировано",
+    "reserved": "зарезервировано",
+    "details": "сведения",
+    "meeting": "встреча",
+    "freeAllDay": "до конца текущего дня",
+    "nextUp": "следующая встреча",
+    "notify": "Коснитесь экрана для продолжения"
+  },
+  "about": {
+    "systemInfo": "Информация о системе",
+    "account": "Учетная запись для планирования",
+    "serverConnection": "Подключение к серверу",
+    "fusionStatus": "Fusion Push/Pull",
+    "googleAuthUserCode": "Код пользователя Google Auth",
+    "googleAuthUrl": "URL-адрес Google Auth",
+    "firmware": "Микропрограмма",
+    "appVersion": "Версия",
+    "webVersion": "Веб-версия",
+    "hardwareId": "Идентификатор аппаратного обеспечения",
+    "online": "В сети",
+    "offline": "Не в сети",
+    "hostName": "Имя хоста",
+    "ip": "IP-адрес",
+    "configUrl": "URL локальной конфигурации"
+  },
+  "helpLabels": {
+    "roomName": "Имя помещения",
+    "reserveNow": "Бронировать помещение сейчас",
+    "moreAction": "Поиск, бронирование и др.",
+    "timelineTap": "Коснитесь для добавления бронирования или просмотра сведений о встрече",
+    "timelineSwipe": "Проведите пальцем для просмотра графика"
+  },
+  "error": {
+    "message": "Извините, произошла системная ошибка.  Повторите попытку.",
+    "messageAddEvent": "Извините, при создании встречи произошла ошибка. Повторите попытку."
+  },
+  "success": {
+    "messageAddEvent": "Встреча создана."
+  },
+  "offline": {
+    "label1": "Календарь вне сети",
+    "label2": "Проверьте настройки"
+  },
+  "pin": {
+    "enterPasscode": "Введите код доступа",
+    "delete": "Удалить"
+  }
+}

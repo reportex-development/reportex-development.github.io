@@ -1,0 +1,127 @@
+{
+  "findRoom": "Εύρεση",
+  "help": "Βοήθεια",
+  "end": "Λήξη",
+  "extend": "Παράταση",
+  "checkIn": "Check-in",
+  "reserveNow": "Κράτηση τώρα",
+  "hours": "ώρες",
+  "minutes": "λεπτά",
+  "hour": "ώρα",
+  "minute": "λεπτό",
+  "and": "και",
+  "noon": "μεσημέρι",
+  "vision": "Μεγέθυνση",
+  "private": "προσωπικό",
+  "statusRoomTitle": {
+    "availableLabel1": "Διατίθεται",
+    "availableLabel2": "για την/τις επόμενη/ες",
+    "availableOccupiedLabel1": "Κατεχόμενα / Μη προγραμματισμένα",
+    "reservedLabel1": "Κλεισμένο",
+    "reservedLabel2": "για την/τις επόμενη/ες"
+  },
+  "buttons": {
+    "cancel": "Άκυρο",
+    "close": "Κλείσιμο",
+    "end": "Λήξη τώρα",
+    "extend": "Παράταση",
+    "addEvent": "Κράτηση τώρα",
+    "ok": "OK"
+  },
+  "freeAllDay": {
+    "label1": "διατίθεται",
+    "label2": "Για την υπόλοιπη μέρα"
+  },
+  "splash": {
+    "loadingMessage": "Φόρτωση..."
+  },
+  "endEvent": {
+    "question": "Λήξη τρέχουσας συνάντησης",
+    "loadingMessage": "Φόρτωση",
+    "endsIn": "λήγει σε"
+  },
+  "extendEvent": {
+    "headerTitle": "Παράταση αυτής της συνάντησης",
+    "endAt": "λήγει στις",
+    "timeRollLabel": "ΛΕΠ.",
+    "loadingMessage": "Φόρτωση",
+    "endsIn": "λήγει σε"
+  },
+  "checkInEvent": {
+    "loadingMessage": "Φόρτωση"
+  },
+  "reservation": {
+    "headerTitle": "Νέα συνάντηση",
+    "subject": "Αντικείμενο",
+    "organizer": "Οργανωτής",
+    "starts": "Ξεκινά",
+    "ends": "Λήγει",
+    "loadingMessage": "Φόρτωση",
+    "defaultOrganizer": "Άμεσος ορισμός οργανωτή",
+    "defaultSubject": "Άμεσος ορισμός συνάντησης"
+  },
+  "details": {
+    "headerTitle": "Λεπτομέρειες συνάντησης",
+    "from": "Από",
+    "attendees": "Συμμετέχοντες",
+    "loadingMessage": "Ανάκτηση συνάντησης",
+    "recurring": "επαναλαμβανόμενη συνάντηση"
+  },
+  "findRoomData": {
+    "headerTitle": "Κοντινά διαθέσιμα δωμάτια",
+    "address": "Διεύθυνση κτηρίου εδώ",
+    "forNext": "για την/τις επόμενη/ες",
+    "loadingMessage": "Ανάκτηση συνάντησης",
+    "noRooms": "Δεν υπάρχουν διαθέσιμα δωμάτια αυτήν τη στιγμή"
+  },
+  "screenSaver": {
+    "availableUntil": "Διαθέσιμο έως",
+    "available": "διατίθεται",
+    "availableOccupied": "Κατεχόμενα / Μη προγραμματισμένα",
+    "reserved": "κλεισμένο",
+    "details": "λεπτομέρειες",
+    "meeting": "συνάντηση",
+    "freeAllDay": "για την υπόλοιπη μέρα",
+    "nextUp": "επόμενη συνάντηση",
+    "notify": "Αγγίξτε την οθόνη για να ξεκινήσετε"
+  },
+  "about": {
+    "systemInfo": "Πληροφορίες συστήματος",
+    "account": "Λογαριασμός προγραμματισμού",
+    "serverConnection": "Σύνδεση διακομιστή",
+    "fusionStatus": "Fusion Λειτουργία Push/Pull",
+    "googleAuthUserCode": "Κωδικός χρήστη Google Auth",
+    "googleAuthUrl": "Google Auth URL",
+    "firmware": "Υλικολογισμικό",
+    "appVersion": "Έκδοση",
+    "webVersion": "Έκδοση Web",
+    "hardwareId": "Αναγνωριστικό υλικού",
+    "online": "Σε σύνδεση",
+    "offline": "Εκτός σύνδεσης",
+    "hostName": "Όνομα κεντρικού υπολογιστή",
+    "ip": "Διεύθυνση IP",
+    "configUrl": "URL τοπικής διαμόρφωσης"
+  },
+  "helpLabels": {
+    "roomName": "Όνομα δωματίου",
+    "reserveNow": "Κράτηση δωματίου τώρα",
+    "moreAction": "Εύρεση, Κράτηση και άλλα",
+    "timelineTap": "Αγγίξτε για να προσθέσετε μια κράτηση ή για την προβολή λεπτομερειών της συνάντησης",
+    "timelineSwipe": "Σύρετε για να δείτε άλλες ώρες"
+  },
+  "error": {
+    "message": "Λυπούμαστε, παρουσιάστηκε σφάλμα συστήματος.  Δοκιμάστε ξανά.",
+    "messageAddEvent": "Λυπούμαστε, παρουσιάστηκε σφάλμα κατά τη δημιουργία της συνάντησης. Δοκιμάστε ξανά."
+  },
+  "success": {
+    "messageAddEvent": "Η συνάντηση δημιουργήθηκε με επιτυχία."
+  },
+  "offline": {
+    "label1": "Ημερολόγιο εκτός σύνδεσης",
+    "label2": "Ελέγξτε τη διαμόρφωση"
+  },
+  "pin": {
+    "enterPasscode": "Εισαγωγή κωδικού πρόσβασης",
+    "delete": "Διαγραφή"
+  }
+}

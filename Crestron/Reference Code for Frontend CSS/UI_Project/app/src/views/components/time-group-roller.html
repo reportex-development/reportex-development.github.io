@@ -1,0 +1,46 @@
+<!-- This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+    terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+    to redistribute derivative works of the provided sample code in source code format.  This license is located 
+    at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+    with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+    in unexpected behavior and a diminished user experience. -->
+
+<div class="time-group-roll" data-ng-class="{'customTime': !$ctrl.data.options, 'ampmFormat': $ctrl.ampmRange}">
+    <hlm-time-roll
+        data-ng-if="$ctrl.data.options"
+        data-data="$ctrl.data"
+        data-label=" "
+        data-lang-arabic="$ctrl.langArabic"
+        data-format-time="$ctrl.formatTime">
+    </hlm-time-roll>
+    <div data-ng-if="!$ctrl.data.options" class="time-group-roll__custom">
+        <hlm-time-roll
+            data-ng-class="{'float-left': $ctrl.langArabic, 'float-right': !$ctrl.langArabic}"
+            class="hlm-time-roll-ampm"
+            data-ng-if="!$ctrl.data.options && $ctrl.ampmRange"
+            data-format-time="$ctrl.ampmFormat"
+            data-data="$ctrl.ampmRange"
+            data-is-selected="$ctrl.isSelected"
+            data-label=""
+            data-lang-arabic="$ctrl.langArabic">
+        </hlm-time-roll>
+        <hlm-time-roll
+            class="hlm-time-roll-hour"
+            data-ng-if="!$ctrl.data.options"
+            data-data="$ctrl.hoursRange"
+            data-format-time="$ctrl.hoursFormat"
+            data-is-selected="$ctrl.isSelected"
+            data-label=""
+            data-lang-arabic="$ctrl.langArabic">
+        </hlm-time-roll>
+        <hlm-time-roll
+            class="hlm-time-roll-minute"
+            data-ng-if="!$ctrl.data.options"
+            data-data="$ctrl.minutesRange"
+            data-format-time="$ctrl.minutesFormat"
+            data-isSelected="$ctrl.isSelected"
+            data-label=""
+            data-lang-arabic="$ctrl.langArabic">
+        </hlm-time-roll>     
+    </div>
+</div>

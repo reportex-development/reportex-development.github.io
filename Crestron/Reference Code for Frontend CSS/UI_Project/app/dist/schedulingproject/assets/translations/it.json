@@ -1,0 +1,127 @@
+{
+  "findRoom": "Trova",
+  "help": "Guida",
+  "end": "Termina",
+  "extend": "Estendi",
+  "checkIn": "Partecipa",
+  "reserveNow": "Prenota ora",
+  "hours": "ore",
+  "minutes": "minuti",
+  "hour": "ora",
+  "minute": "minuto",
+  "and": "e",
+  "noon": "mezzogiorno",
+  "vision": "Visione",
+  "private": "privato",
+  "statusRoomTitle": {
+    "availableLabel1": "Disponibile",
+    "availableLabel2": "per la/le prossima/e",
+    "availableOccupiedLabel1": "Occupato / Non pianificato",
+    "reservedLabel1": "Prenotata",
+    "reservedLabel2": "per la/le prossima/e"
+  },
+  "buttons": {
+    "cancel": "Annulla",
+    "close": "Chiudi",
+    "end": "Termina ora",
+    "extend": "Estendi",
+    "addEvent": "Prenota ora",
+    "ok": "OK"
+  },
+  "freeAllDay": {
+    "label1": "disponibile",
+    "label2": "Per il resto della giornata"
+  },
+  "splash": {
+    "loadingMessage": "Caricamento..."
+  },
+  "endEvent": {
+    "question": "Termina la riunione in corso",
+    "loadingMessage": "Caricamento",
+    "endsIn": "finisce tra"
+  },
+  "extendEvent": {
+    "headerTitle": "Estendi questa riunione",
+    "endAt": "finisce alle",
+    "timeRollLabel": "MIN",
+    "loadingMessage": "Caricamento",
+    "endsIn": "finisce tra"
+  },
+  "checkInEvent": {
+    "loadingMessage": "Caricamento"
+  },
+  "reservation": {
+    "headerTitle": "Nuova riunione",
+    "subject": "Oggetto",
+    "organizer": "Organizzatore",
+    "starts": "Inizia",
+    "ends": "Finisce",
+    "loadingMessage": "Caricamento",
+    "defaultOrganizer": "Organizzatore estemporaneo",
+    "defaultSubject": "Riunione estemporanea"
+  },
+  "details": {
+    "headerTitle": "Dettagli riunione",
+    "from": "Da",
+    "attendees": "Pertecipanti",
+    "loadingMessage": "Recupero riunione",
+    "recurring": "riunione periodica"
+  },
+  "findRoomData": {
+    "headerTitle": "Sale diponibili nelle vicinanze",
+    "address": "Indirizzo edificio qui",
+    "forNext": "per la/le prossima/e",
+    "loadingMessage": "Recupero riunione",
+    "noRooms": "Nessuna sala disponibile"
+  },
+  "screenSaver": {
+    "availableUntil": "disponibile fino a",
+    "available": "disponibile",
+    "availableOccupied": "Occupato / Non pianificato",
+    "reserved": "prenotata",
+    "details": "dettagli",
+    "meeting": "riunione",
+    "freeAllDay": "per il resto della giornata",
+    "nextUp": "prossima riunione",
+    "notify": "Toccare lo schermo per iniziare"
+  },
+  "about": {
+    "systemInfo": "Informazione di sistema",
+    "account": "Account di pianificazione:",
+    "serverConnection": "Connessione server",
+    "fusionStatus": "Notifiche push/pull Fusion",
+    "googleAuthUserCode": "Codice utente Google Auth",
+    "googleAuthUrl": "Url Google Auth",
+    "firmware": "Firmware",
+    "appVersion": "Versione",
+    "webVersion": "Versione Web",
+    "hardwareId": "ID Hardware",
+    "online": "Online",
+    "offline": "Disconnesso",
+    "hostName": "Nome host",
+    "ip": "Indirizzo IP",
+    "configUrl": "URL configurazione locale"
+  },
+  "helpLabels": {
+    "roomName": "Nome sala",
+    "reserveNow": "Prenota la sala ora",
+    "moreAction": "Trova, prenota e molto altro",
+    "timelineTap": "Toccare per aggiungere una prenotazione o vedere i dettagli della riunione",
+    "timelineSwipe": "Far scorrere per visualizzare altri orari"
+  },
+  "error": {
+    "message": "Siamo spiacenti, si è verificato un errore di sistema.  Si prega di riprovare.",
+    "messageAddEvent": "Siamo spiacenti, si è verificato un errore nella creazione della riunione. Si prega di riprovare."
+  },
+  "success": {
+    "messageAddEvent": "La riunione è stata creata correttamente."
+  },
+  "offline": {
+    "label1": "Calendario offline",
+    "label2": "Verificare la configurazione"
+  },
+  "pin": {
+    "enterPasscode": "Inserire codice d'accesso",
+    "delete": "Eliminare"
+  }
+}

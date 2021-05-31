@@ -1,0 +1,19 @@
+<!-- This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+    terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+    to redistribute derivative works of the provided sample code in source code format.  This license is located 
+    at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+    with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+    in unexpected behavior and a diminished user experience. -->
+
+<div id="loader-wrapper" class="splash" 
+  data-ng-class="{'rtl': $root.isRtl}" 
+  data-ng-controller="SplashCtrl">
+  <div class="splash__content">
+      <img class="splash__content__img" src="assets/images/crestron_logo_light.png" alt="logo">
+      <div class="splash__content__center">
+        <i class="splash__content__center__spinner fa fa-spinner fa-pulse fa-fw margin-bottom"></i>
+      </div>
+      <p class="splash__content__label font-normal-24">{{Helium.labels.splash.loadingMessage | translate}}</p>
+  </div>
+  <div class="splash__loading border--top__theme-color-8"></div>
+</div>

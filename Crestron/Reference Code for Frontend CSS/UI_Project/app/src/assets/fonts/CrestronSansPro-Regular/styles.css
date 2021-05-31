@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'CrestronSansPro-Regular';
+  src: url('CrestronSansPro-Regular.eot?#iefix') format('embedded-opentype'),  url('CrestronSansPro-Regular.otf')  format('opentype'),
+	     url('CrestronSansPro-Regular.woff') format('woff'), url('CrestronSansPro-Regular.ttf')  format('truetype'), url('CrestronSansPro-Regular.svg#CrestronSansPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,127 @@
+{
+  "findRoom": "尋找",
+  "help": "説明",
+  "end": "結束",
+  "extend": "延長",
+  "checkIn": "報到",
+  "reserveNow": "立即預定",
+  "hours": "小時",
+  "minutes": "分鐘",
+  "hour": "小時",
+  "minute": "分鐘",
+  "and": "以及",
+  "noon": "中午",
+  "vision": "無障礙模式",
+  "private": "私人",
+  "statusRoomTitle": {
+    "availableLabel1": "可預定",
+    "availableLabel2": "下個時間",
+    "availableOccupiedLabel1": "已佔用 / 未預定",
+    "reservedLabel1": "已預定",
+    "reservedLabel2": "下個時間"
+  },
+  "buttons": {
+    "cancel": "取消",
+    "close": "關閉",
+    "end": "立即結束",
+    "extend": "延長",
+    "addEvent": "立即預定",
+    "ok": "確定"
+  },
+  "freeAllDay": {
+    "label1": "可預定",
+    "label2": "當天剩餘時間"
+  },
+  "splash": {
+    "loadingMessage": "正在載入..."
+  },
+  "endEvent": {
+    "question": "結束目前的會議",
+    "loadingMessage": "載入",
+    "endsIn": "結束時間"
+  },
+  "extendEvent": {
+    "headerTitle": "延長這場會議",
+    "endAt": "結束時間",
+    "timeRollLabel": "分鐘",
+    "loadingMessage": "載入",
+    "endsIn": "結束時間"
+  },
+  "checkInEvent": {
+    "loadingMessage": "載入"
+  },
+  "reservation": {
+    "headerTitle": "新增會議",
+    "subject": "主題",
+    "organizer": "組織者",
+    "starts": "開始",
+    "ends": "結束",
+    "loadingMessage": "載入",
+    "defaultOrganizer": "臨時會議組織者",
+    "defaultSubject": "臨時會議"
+  },
+  "details": {
+    "headerTitle": "會議詳細資料",
+    "from": "從",
+    "attendees": "參與者",
+    "loadingMessage": "擷取會議",
+    "recurring": "週期性會議"
+  },
+  "findRoomData": {
+    "headerTitle": "附近可預定的房間",
+    "address": "這裡的地址",
+    "forNext": "下個時間",
+    "loadingMessage": "擷取會議",
+    "noRooms": "目前沒有可用的房間"
+  },
+  "screenSaver": {
+    "availableUntil": "可預定的結束時間",
+    "available": "可預定",
+    "availableOccupied": "已佔用 / 未預定",
+    "reserved": "已預定",
+    "details": "詳細資料",
+    "meeting": "會議",
+    "freeAllDay": "當天剩餘時間",
+    "nextUp": "下一個",
+    "notify": "點選螢幕開始進行"
+  },
+  "about": {
+    "systemInfo": "系統資訊",
+    "account": "排程帳戶",
+    "serverConnection": "伺服器連線",
+    "fusionStatus": "Fusion 推送/提取",
+    "googleAuthUserCode": "Google Auth 使用者代碼",
+    "googleAuthUrl": "Google Auth URL",
+    "firmware": "韌體",
+    "appVersion": "版本",
+    "webVersion": "網頁版",
+    "hardwareId": "硬體 ID",
+    "online": "上線",
+    "offline": "離線",
+    "hostName": "主機名稱",
+    "ip": "IP 位址",
+    "configUrl": "本機設定 URL"
+  },
+  "helpLabels": {
+    "roomName": "房間名稱",
+    "reserveNow": "立即預定房間",
+    "moreAction": "尋找、預定及其他",
+    "timelineTap": "點選以新增預定，或者查看會議詳細資料",
+    "timelineSwipe": "輕掃查看其他時間"
+  },
+  "error": {
+    "message": "抱歉，發生系統錯誤，請再試一次。",
+    "messageAddEvent": "抱歉，建立會議時發生錯誤，請再試一次。"
+  },
+  "success": {
+    "messageAddEvent": "會議建立成功。"
+  },
+  "offline": {
+    "label1": "日曆離線",
+    "label2": "請檢查設定"
+  },
+  "pin": {
+    "enterPasscode": "輸入通行碼",
+    "delete": "刪除"
+  }
+}

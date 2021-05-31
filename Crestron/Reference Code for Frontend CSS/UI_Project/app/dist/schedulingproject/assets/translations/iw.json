@@ -1,0 +1,127 @@
+{
+  "findRoom": "מצא",
+  "help": "עזרה",
+  "end": "סיום",
+  "extend": "הארך",
+  "checkIn": "כניסה",
+  "reserveNow": "הזמן כעת",
+  "hours": "שעות",
+  "minutes": "דקות",
+  "hour": "שעה",
+  "minute": "דקה",
+  "and": "ו",
+  "noon": "צהריים",
+  "vision": "נגישות",
+  "private": "פרטי",
+  "statusRoomTitle": {
+    "availableLabel1": "זמין",
+    "availableLabel2": "למשך",
+    "availableOccupiedLabel1": "תפוס / לא מתוזמן",
+    "reservedLabel1": "מוזמן",
+    "reservedLabel2": "למשך"
+  },
+  "buttons": {
+    "cancel": "ביטול",
+    "close": "סגור",
+    "end": "סיום",
+    "extend": "הארך",
+    "addEvent": "הזמן כעת",
+    "ok": "אישור"
+  },
+  "freeAllDay": {
+    "label1": "זמין",
+    "label2": "לשארית היום"
+  },
+  "splash": {
+    "loadingMessage": "טוען ..."
+  },
+  "endEvent": {
+    "question": "סיים את הפגישה הנוכחית",
+    "loadingMessage": "טוען",
+    "endsIn": "מסתיים בעוד"
+  },
+  "extendEvent": {
+    "headerTitle": "הארך את הפגישה",
+    "endAt": "מסתיים ב",
+    "timeRollLabel": "דק'",
+    "loadingMessage": "טוען",
+    "endsIn": "מסתיים בעוד"
+  },
+  "checkInEvent": {
+    "loadingMessage": "טוען"
+  },
+  "reservation": {
+    "headerTitle": "פגישה חדשה",
+    "subject": "נושא",
+    "organizer": "מארגן",
+    "starts": "התחלה",
+    "ends": "סיום",
+    "loadingMessage": "טוען",
+    "defaultOrganizer": "מארגן",
+    "defaultSubject": "פגישה"
+  },
+  "details": {
+    "headerTitle": "פרטי הפגישה",
+    "from": "מ-",
+    "attendees": "משתתפים",
+    "loadingMessage": "מאחזר פגישה",
+    "recurring": "פגישה חוזרת"
+  },
+  "findRoomData": {
+    "headerTitle": "חדרים זמינים בקרבת מקום",
+    "address": "כתובת הבניין כאן",
+    "forNext": "במהלך",
+    "loadingMessage": "מאחזר פגישה",
+    "noRooms": "כרגע אין חדרים זמינים"
+  },
+  "screenSaver": {
+    "availableUntil": "זמין עד",
+    "available": "זמין",
+    "availableOccupied": "תפוס / לא מתוזמן",
+    "reserved": "מוזמן",
+    "details": "פרטים",
+    "meeting": "פגישה",
+    "freeAllDay": "לשארית היום",
+    "nextUp": "הפגישה הבאה",
+    "notify": "גע במסך כדי להתחיל"
+  },
+  "about": {
+    "systemInfo": "פרטי מערכת",
+    "account": "חשבון לביצוע זימון",
+    "serverConnection": "חיבור שרת",
+    "fusionStatus": "משיכה/הודעה בדחיפה מסוג Fusion",
+    "googleAuthUserCode": "קוד משתמש של Google Auth",
+    "googleAuthUrl": "כתובת URL של Google Auth",
+    "firmware": "קושחה",
+    "appVersion": "גרסה",
+    "webVersion": "גרסת אינטרנט",
+    "hardwareId": "מזהה חומרה",
+    "online": "מחובר",
+    "offline": "לא מקוון",
+    "hostName": "שם מארח",
+    "ip": "כתובת IP",
+    "configUrl": "URL של תצורה מקומית"
+  },
+  "helpLabels": {
+    "roomName": "שם החדר",
+    "reserveNow": "הזמן חדר כעת",
+    "moreAction": "חיפוש, הזמנה ועוד",
+    "timelineTap": "לחץ כאן על מנת לראות את פרטי הפגישה, או לזמן פגישה חדשה",
+    "timelineSwipe": "גלול על מנת לראות מועדים נוספים"
+  },
+  "error": {
+    "message": "מצטערים, אך אירעה שגיאת מערכת. אנא נסה שוב.",
+    "messageAddEvent": "מצטערים, אך אירעה שגיאה ביצירת הפגישה. אנא נסה שוב."
+  },
+  "success": {
+    "messageAddEvent": "הפגישה נוצרה בהצלחה."
+  },
+  "offline": {
+    "label1": "לוח שנה לא מקוון",
+    "label2": "אנא בדוק את הגדרות התצורה"
+  },
+  "pin": {
+    "enterPasscode": "הזן סיסמה",
+    "delete": "מחק"
+  }
+}

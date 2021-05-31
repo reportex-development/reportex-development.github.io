@@ -1,0 +1,127 @@
+{
+  "findRoom": "Etsi",
+  "help": "Ohje",
+  "end": "Lopeta",
+  "extend": "Jatka",
+  "checkIn": "Kirjaudu",
+  "reserveNow": "Varaa nyt",
+  "hours": "tuntia",
+  "minutes": "minuuttia",
+  "hour": "tunti",
+  "minute": "minuutti",
+  "and": "ja",
+  "noon": "keskipäivä",
+  "vision": "Näköraj",
+  "private": "yksityinen",
+  "statusRoomTitle": {
+    "availableLabel1": "Saatavilla",
+    "availableLabel2": "seuraavat",
+    "availableOccupiedLabel1": "Miehitetty / ei ajoitettu",
+    "reservedLabel1": "Varattu",
+    "reservedLabel2": "seuraavat"
+  },
+  "buttons": {
+    "cancel": "Peruuta",
+    "close": "Sulje",
+    "end": "Lopeta nyt",
+    "extend": "Jatka",
+    "addEvent": "Varaa nyt",
+    "ok": "OK"
+  },
+  "freeAllDay": {
+    "label1": "saatavilla",
+    "label2": "Loppupäiväksi"
+  },
+  "splash": {
+    "loadingMessage": "Ladataan..."
+  },
+  "endEvent": {
+    "question": "Lopeta nykyinen kokous",
+    "loadingMessage": "Ladataan",
+    "endsIn": "loppuu, kuluttua:"
+  },
+  "extendEvent": {
+    "headerTitle": "Jatka tätä kokousta",
+    "endAt": "loppuu klo",
+    "timeRollLabel": "MIN",
+    "loadingMessage": "Ladataan",
+    "endsIn": "loppuu, kuluttua:"
+  },
+  "checkInEvent": {
+    "loadingMessage": "Ladataan"
+  },
+  "reservation": {
+    "headerTitle": "Uusi kokous",
+    "subject": "Aihe",
+    "organizer": "Järjestäjä",
+    "starts": "Alkaa",
+    "ends": "Loppuu",
+    "loadingMessage": "Ladataan",
+    "defaultOrganizer": "Luo järjestäjä valmistelematta",
+    "defaultSubject": "Luo kokous valmistelematta"
+  },
+  "details": {
+    "headerTitle": "Kokouksen tiedot",
+    "from": "Mistä:",
+    "attendees": "Osallistujat",
+    "loadingMessage": "Kokousta noudetaan",
+    "recurring": "toistuva kokous"
+  },
+  "findRoomData": {
+    "headerTitle": "Lähistöllä saatavilla olevat huoneet",
+    "address": "Rakennuksen osoite tähän",
+    "forNext": "seuraavat",
+    "loadingMessage": "Kokousta noudetaan",
+    "noRooms": "Huoneita ei ole tällä hetkellä saatavilla"
+  },
+  "screenSaver": {
+    "availableUntil": "saatavilla asti",
+    "available": "saatavilla",
+    "availableOccupied": "Miehitetty / ei ajoitettu",
+    "reserved": "varattu",
+    "details": "tiedot",
+    "meeting": "kokous",
+    "freeAllDay": "loppupäiväksi",
+    "nextUp": "seuraavaksi",
+    "notify": "Aloita koskettamalla näyttöä"
+  },
+  "about": {
+    "systemInfo": "Järjestelmän tiedot",
+    "account": "Aikataulun luonnin tili",
+    "serverConnection": "Palvelimen yhteys",
+    "fusionStatus": "Fusion, push-/pull-tekniikka",
+    "googleAuthUserCode": "Google Auth -käyttäjäkoodi",
+    "googleAuthUrl": "Google Auth-URL",
+    "firmware": "Laiteohjelmisto",
+    "appVersion": "Versio",
+    "webVersion": "Verkkoversio",
+    "hardwareId": "Laitteistotunnus",
+    "online": "Online",
+    "offline": "Offline",
+    "hostName": "Isäntänimi",
+    "ip": "IP-osoite",
+    "configUrl": "Paikallisen määrityksen URL"
+  },
+  "helpLabels": {
+    "roomName": "Huoneen nimi",
+    "reserveNow": "Varaa huone nyt",
+    "moreAction": "Etsi, varaa jne.",
+    "timelineTap": "Lisää varaus napauttamalla tai katso kokouksen tiedot",
+    "timelineSwipe": "Katso muut ajat pyyhkäisemällä"
+  },
+  "error": {
+    "message": "Valitettavasti tapahtui järjestelmävirhe.  Yritä uudelleen.",
+    "messageAddEvent": "Valitettavasti kokouksen luomisessa tapahtui virhe. Yritä uudelleen."
+  },
+  "success": {
+    "messageAddEvent": "Kokouksen luonti onnistui."
+  },
+  "offline": {
+    "label1": "Kalenteri offline",
+    "label2": "Tarkista määritys"
+  },
+  "pin": {
+    "enterPasscode": "Anna tunnuskoodi",
+    "delete": "Poista"
+  }
+}

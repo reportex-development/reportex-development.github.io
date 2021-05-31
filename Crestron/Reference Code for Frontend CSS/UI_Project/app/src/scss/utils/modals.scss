@@ -1,0 +1,115 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+.modal {
+
+    /* Center vertically - from https://codepen.io/dimbslmh/full/mKfCc */
+    @media screen and (orientation: portrait) {
+        text-align: center;
+        padding: 0 !important;
+    }
+
+	.modal-dialog {
+        width: 47.75vmax;
+        margin-left: auto;
+        margin-right: auto;
+
+        /* Center vertically - from https://codepen.io/dimbslmh/full/mKfCc */
+        @media screen and (orientation: portrait) {
+            display: inline-block;
+            text-align: left;
+            vertical-align: middle;
+        }
+	}
+}
+
+/* Center vertically - from https://codepen.io/dimbslmh/full/mKfCc */
+@media screen and (orientation: portrait) {
+    .modal:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: -4px;
+    }
+}
+
+.modal__container__border {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.modal-content {
+    .modal-header {
+        padding: 0;
+        @extend .modal__container__border;
+        @include setProperty( 'line-height', 60 );
+        text-align: center;
+        @extend .font-semibold-24;
+
+        @media screen and (orientation: portrait) {
+            line-height: 6vh;
+        }
+    }
+
+    .modal-body {
+         padding: 0;
+
+         .row {
+            @extend .modal__container__border;
+            line-height: 10vmin;
+
+            @media screen and (orientation: portrait) {
+                line-height: 6vh;
+            }
+        }
+    }
+
+    .modal-footer {
+        padding: 0;
+        border-top-width: 1px;
+        border-top-style: solid;
+
+        div {
+            text-align: center;
+            padding: 0;
+            border: 0;
+
+            button {
+                @extend .btn;
+                width: 100%;
+                border: none;
+                line-height: 10vmin;
+                height: 10vmin;
+                text-transform: capitalize;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+
+                @media screen and (orientation: portrait) {
+                    line-height: 6vh;
+                    height: 6vh;
+                }
+            }
+        }
+        div:nth-child(n+2) {
+            border-left-width: 1px;
+            border-left-style: solid;
+        }
+    }
+
+    .rtl {
+        .modal-footer {
+            div:nth-child(n+2) {
+                border-left-width: 0;
+                border-right-width: 1px;
+                border-right-style: solid;
+            }
+        }
+    }
+}
+

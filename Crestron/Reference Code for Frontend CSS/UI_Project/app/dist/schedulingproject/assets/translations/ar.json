@@ -1,0 +1,127 @@
+{
+  "findRoom": "اكتشاف",
+  "help": "مساعدة",
+  "end": "إنهاء",
+  "extend": "تمديد",
+  "checkIn": "تسجيل الوصول",
+  "reserveNow": "حجز الآن",
+  "hours": "ساعات",
+  "minutes": "دقائق",
+  "hour": "ساعة",
+  "minute": "دقيقة",
+  "and": "و",
+  "noon": "الظهيرة",
+  "vision": "الرؤية",
+  "private": "خاصة",
+  "statusRoomTitle": {
+    "availableLabel1": "متاح",
+    "availableLabel2": "لفترة",
+    "availableOccupiedLabel1": "المحتلة / غير المجدولة",
+    "reservedLabel1": "محجوز",
+    "reservedLabel2": "لفترة"
+  },
+  "buttons": {
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "end": "إنهاء الآن",
+    "extend": "تمديد",
+    "addEvent": "حجز الآن",
+    "ok": "موافق"
+  },
+  "freeAllDay": {
+    "label1": "متاح",
+    "label2": "لبقية اليوم"
+  },
+  "splash": {
+    "loadingMessage": "جارٍ التحميل ..."
+  },
+  "endEvent": {
+    "question": "إنهاء الاجتماع الحالي",
+    "loadingMessage": "جارٍ التحميل",
+    "endsIn": "ينتهي في"
+  },
+  "extendEvent": {
+    "headerTitle": "تمديد هذا الاجتماع",
+    "endAt": "ينتهي في",
+    "timeRollLabel": "دقيقة",
+    "loadingMessage": "جارٍ التحميل",
+    "endsIn": "ينتهي في"
+  },
+  "checkInEvent": {
+    "loadingMessage": "جارٍ التحميل"
+  },
+  "reservation": {
+    "headerTitle": "اجتماع جديد",
+    "subject": "الموضوع",
+    "organizer": "المنظم",
+    "starts": "يبدأ",
+    "ends": "ينتهي",
+    "loadingMessage": "جارٍ التحميل",
+    "defaultOrganizer": "منظم الاجتماع العرضي:",
+    "defaultSubject": "الاجتماع العرضي:"
+  },
+  "details": {
+    "headerTitle": "تفاصيل الاجتماع",
+    "from": "من",
+    "attendees": "المشاركون",
+    "loadingMessage": "استعادة الاجتماع",
+    "recurring": "تكرار الاجتماع"
+  },
+  "findRoomData": {
+    "headerTitle": "الغرف القريبة المتاحة",
+    "address": "عنوان المبنى هنا",
+    "forNext": "لفترة",
+    "loadingMessage": "استعادة الاجتماع",
+    "noRooms": "لا توجد غرف متاحة حاليًا"
+  },
+  "screenSaver": {
+    "availableUntil": "متاح حتى",
+    "available": "متاح",
+    "availableOccupied": "المحتلة / غير المجدولة",
+    "reserved": "محجوز",
+    "details": "التفاصيل",
+    "meeting": "اجتماع",
+    "freeAllDay": "لبقية اليوم",
+    "nextUp": "التالي",
+    "notify": "المس الشاشة للبدء"
+  },
+  "about": {
+    "systemInfo": "معلومات النظام",
+    "account": "جدولة الحساب",
+    "serverConnection": "اتصال الخادم",
+    "fusionStatus": "Fusion الدفع/السحب",
+    "googleAuthUserCode": "Google Auth رمز المستخدم",
+    "googleAuthUrl": "رابط Google Auth",
+    "firmware": "البرنامج الثابت",
+    "appVersion": "الإصدار",
+    "webVersion": "إصدار الويب",
+    "hardwareId": "مُعرّف الجهاز",
+    "online": "متصل",
+    "offline": "غير متصل",
+    "hostName": "اسم المضيف",
+    "ip": "عنوان IP",
+    "configUrl": "رابط التكوين المحلي"
+  },
+  "helpLabels": {
+    "roomName": "اسم الغرفة",
+    "reserveNow": "احجز الغرفة الآن",
+    "moreAction": "اكتشف، واحجز، وأكثر من ذلك",
+    "timelineTap": "انقر لإضافة حجز أو رؤية تفاصيل الاجتماع",
+    "timelineSwipe": "امسح لرؤية أوقات أخرى"
+  },
+  "error": {
+    "message": "عذرًا، حدث خطأ في النظام.  يُرجى إعادة المحاولة.",
+    "messageAddEvent": "عذرًا، حدث خطأ أثناء إنشاء الاجتماع. يُرجى إعادة المحاولة."
+  },
+  "success": {
+    "messageAddEvent": "تم إنشاء الاجتماع بنجاح."
+  },
+  "offline": {
+    "label1": "التقويم غير متصل",
+    "label2": "يُرجى التحقق من التكوين"
+  },
+  "pin": {
+    "enterPasscode": "إدخال رمز المرور",
+    "delete": "حذف"
+  }
+}

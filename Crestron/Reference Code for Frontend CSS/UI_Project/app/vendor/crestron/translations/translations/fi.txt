@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="fi" name="Finnish" alias="fi" rtl="false" variant="Finnish">
+	<lookup key="global:findRoom"><![CDATA[Etsi]]></lookup>
+	<lookup key="global:help"><![CDATA[Ohje]]></lookup>
+	<lookup key="global:end"><![CDATA[Lopeta]]></lookup>
+	<lookup key="global:extend"><![CDATA[Jatka]]></lookup>
+	<lookup key="global:checkIn"><![CDATA[Kirjaudu]]></lookup>
+	<lookup key="global:reserveNow"><![CDATA[Varaa nyt]]></lookup>
+	<lookup key="global:hours"><![CDATA[tuntia]]></lookup>
+	<lookup key="global:minutes"><![CDATA[minuuttia]]></lookup>
+	<lookup key="global:hour"><![CDATA[tunti]]></lookup>
+	<lookup key="global:minute"><![CDATA[minuutti]]></lookup>
+	<lookup key="global:and"><![CDATA[ja]]></lookup>
+	<lookup key="global:noon"><![CDATA[keskipäivä]]></lookup>
+	<lookup key="global:vision"><![CDATA[Näköraj]]></lookup>
+	<lookup key="global:private"><![CDATA[yksityinen]]></lookup>
+	
+	<lookup key="statusRoomTitle:availableLabel1"><![CDATA[Saatavilla]]></lookup>
+	<lookup key="statusRoomTitle:availableLabel2"><![CDATA[seuraavat]]></lookup>
+	<lookup key="statusRoomTitle:availableOccupiedLabel1"><![CDATA[Miehitetty / ei ajoitettu]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel1"><![CDATA[Varattu]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel2"><![CDATA[seuraavat]]></lookup>
+
+	<lookup key="buttons:cancel"><![CDATA[Peruuta]]></lookup>
+	<lookup key="buttons:close"><![CDATA[Sulje]]></lookup>
+	<lookup key="buttons:end"><![CDATA[Lopeta nyt]]></lookup>
+	<lookup key="buttons:extend"><![CDATA[Jatka]]></lookup>
+	<lookup key="buttons:addEvent"><![CDATA[Varaa nyt]]></lookup>
+	<lookup key="buttons:ok"><![CDATA[OK]]></lookup>
+	
+	<lookup key="freeAllDay:label1"><![CDATA[saatavilla]]></lookup>
+	<lookup key="freeAllDay:label2"><![CDATA[Loppupäiväksi]]></lookup>
+
+	<lookup key="splash:loadingMessage"><![CDATA[Ladataan...]]></lookup>
+		
+	<lookup key="endEvent:question"><![CDATA[Lopeta nykyinen kokous]]></lookup>
+	<lookup key="endEvent:loadingMessage"><![CDATA[Ladataan]]></lookup>
+	<lookup key="endEvent:endsIn"><![CDATA[loppuu, kuluttua:]]></lookup>
+		
+	<lookup key="extendEvent:headerTitle"><![CDATA[Jatka tätä kokousta]]></lookup>
+	<lookup key="extendEvent:endAt"><![CDATA[loppuu klo]]></lookup>
+	<lookup key="extendEvent:timeRollLabel"><![CDATA[MIN]]></lookup>
+	<lookup key="extendEvent:loadingMessage"><![CDATA[Ladataan]]></lookup>
+	<lookup key="extendEvent:endsIn"><![CDATA[loppuu, kuluttua:]]></lookup>
+		
+	<lookup key="checkInEvent:loadingMessage"><![CDATA[Ladataan]]></lookup>
+		
+	<lookup key="reservation:headerTitle"><![CDATA[Uusi kokous]]></lookup>
+	<lookup key="reservation:subject"><![CDATA[Aihe]]></lookup>
+	<lookup key="reservation:organizer"><![CDATA[Järjestäjä]]></lookup>
+	<lookup key="reservation:starts"><![CDATA[Alkaa]]></lookup>
+	<lookup key="reservation:ends"><![CDATA[Loppuu]]></lookup>
+	<lookup key="reservation:loadingMessage"><![CDATA[Ladataan]]></lookup>
+	<lookup key="reservation:defaultOrganizer"><![CDATA[Luo järjestäjä valmistelematta]]></lookup>
+	<lookup key="reservation:defaultSubject"><![CDATA[Luo kokous valmistelematta]]></lookup>
+
+	<lookup key="details:headerTitle"><![CDATA[Kokouksen tiedot]]></lookup>
+	<lookup key="details:from"><![CDATA[Mistä:]]></lookup>
+	<lookup key="details:attendees"><![CDATA[Osallistujat]]></lookup>
+	<lookup key="details:loadingMessage"><![CDATA[Kokousta noudetaan]]></lookup>
+	<lookup key="details:recurring"><![CDATA[toistuva kokous]]></lookup>
+		
+	<lookup key="findRoomData:headerTitle"><![CDATA[Lähistöllä saatavilla olevat huoneet]]></lookup>
+	<lookup key="findRoomData:address"><![CDATA[Rakennuksen osoite tähän]]></lookup>
+	<lookup key="findRoomData:forNext"><![CDATA[seuraavat]]></lookup>
+	<lookup key="findRoomData:loadingMessage"><![CDATA[Kokousta noudetaan]]></lookup>
+	<lookup key="findRoomData:noRooms"><![CDATA[Huoneita ei ole tällä hetkellä saatavilla]]></lookup>
+
+	<lookup key="screenSaver:availableUntil"><![CDATA[saatavilla asti]]></lookup>
+	<lookup key="screenSaver:available"><![CDATA[saatavilla]]></lookup>
+	<lookup key="screenSaver:availableOccupied"><![CDATA[Miehitetty / ei ajoitettu]]></lookup>
+	<lookup key="screenSaver:reserved"><![CDATA[varattu]]></lookup>
+	<lookup key="screenSaver:details"><![CDATA[tiedot]]></lookup>
+	<lookup key="screenSaver:meeting"><![CDATA[kokous]]></lookup>
+	<lookup key="screenSaver:freeAllDay"><![CDATA[loppupäiväksi]]></lookup>
+	<lookup key="screenSaver:nextUp"><![CDATA[seuraavaksi]]></lookup>
+	<lookup key="screenSaver:notify"><![CDATA[Aloita koskettamalla näyttöä]]></lookup>
+
+	<lookup key="about:systemInfo"><![CDATA[Järjestelmän tiedot]]></lookup>
+	<lookup key="about:account"><![CDATA[Aikataulun luonnin tili]]></lookup>
+	<lookup key="about:serverConnection"><![CDATA[Palvelimen yhteys]]></lookup>
+	<lookup key="about:fusionStatus"><![CDATA[Fusion, push-/pull-tekniikka]]></lookup>
+	<lookup key="about:googleAuthUserCode"><![CDATA[Google Auth -käyttäjäkoodi]]></lookup>
+	<lookup key="about:googleAuthUrl"><![CDATA[Google Auth-URL]]></lookup>
+	<lookup key="about:firmware"><![CDATA[Laiteohjelmisto]]></lookup>
+	<lookup key="about:appVersion"><![CDATA[Versio]]></lookup>
+	<lookup key="about:webVersion"><![CDATA[Verkkoversio]]></lookup>
+	<lookup key="about:hardwareId"><![CDATA[Laitteistotunnus]]></lookup>
+	<lookup key="about:online"><![CDATA[Online]]></lookup>
+	<lookup key="about:offline"><![CDATA[Offline]]></lookup>
+	<lookup key="about:hostName"><![CDATA[Isäntänimi]]></lookup>
+	<lookup key="about:ip"><![CDATA[IP-osoite]]></lookup>
+	<lookup key="about:configUrl"><![CDATA[Paikallisen määrityksen URL]]></lookup>
+
+	<lookup key="helpLabels:roomName"><![CDATA[Huoneen nimi]]></lookup>
+	<lookup key="helpLabels:reserveNow"><![CDATA[Varaa huone nyt]]></lookup>
+	<lookup key="helpLabels:moreAction"><![CDATA[Etsi, varaa jne.]]></lookup>
+	<lookup key="helpLabels:timelineTap"><![CDATA[Lisää varaus napauttamalla tai katso kokouksen tiedot]]></lookup>
+	<lookup key="helpLabels:timelineSwipe"><![CDATA[Katso muut ajat pyyhkäisemällä]]></lookup>
+
+	<lookup key="error:message"><![CDATA[Valitettavasti tapahtui järjestelmävirhe.  Yritä uudelleen.]]></lookup>
+	<lookup key="error:messageAddEvent"><![CDATA[Valitettavasti kokouksen luomisessa tapahtui virhe. Yritä uudelleen.]]></lookup>
+	<lookup key="success:messageAddEvent"><![CDATA[Kokouksen luonti onnistui.]]></lookup>
+
+	<lookup key="offline:label1"><![CDATA[Kalenteri offline]]></lookup>
+	<lookup key="offline:label2"><![CDATA[Tarkista määritys]]></lookup>
+
+	<lookup key="pin:enterPasscode"><![CDATA[Anna tunnuskoodi]]></lookup>
+	<lookup key="pin:delete"><![CDATA[Poista]]></lookup>
+</lang>

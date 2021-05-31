@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="sk" name="Slovak" alias="sk" rtl="false" variant="Slovak">
+	<lookup key="global:findRoom"><![CDATA[Nájsť]]></lookup>
+	<lookup key="global:help"><![CDATA[Pomocník]]></lookup>
+	<lookup key="global:end"><![CDATA[Ukončiť]]></lookup>
+	<lookup key="global:extend"><![CDATA[Predĺžiť]]></lookup>
+	<lookup key="global:checkIn"><![CDATA[Prihlásiť]]></lookup>
+	<lookup key="global:reserveNow"><![CDATA[Rezervovať teraz]]></lookup>
+	<lookup key="global:hours"><![CDATA[hodiny]]></lookup>
+	<lookup key="global:minutes"><![CDATA[minúty]]></lookup>
+	<lookup key="global:hour"><![CDATA[hodina]]></lookup>
+	<lookup key="global:minute"><![CDATA[minúta]]></lookup>
+	<lookup key="global:and"><![CDATA[a]]></lookup>
+	<lookup key="global:noon"><![CDATA[poludnie]]></lookup>
+	<lookup key="global:vision"><![CDATA[Kontrast]]></lookup>
+	<lookup key="global:private"><![CDATA[súkromný]]></lookup>
+	
+	<lookup key="statusRoomTitle:availableLabel1"><![CDATA[Dostupné]]></lookup>
+	<lookup key="statusRoomTitle:availableLabel2"><![CDATA[na ďalších]]></lookup>
+	<lookup key="statusRoomTitle:availableOccupiedLabel1"><![CDATA[Obsadené / Neplánované]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel1"><![CDATA[Rezervované]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel2"><![CDATA[na ďalších]]></lookup>
+
+	<lookup key="buttons:cancel"><![CDATA[Zrušiť]]></lookup>
+	<lookup key="buttons:close"><![CDATA[Zavrieť]]></lookup>
+	<lookup key="buttons:end"><![CDATA[Ukončiť teraz]]></lookup>
+	<lookup key="buttons:extend"><![CDATA[Predĺžiť]]></lookup>
+	<lookup key="buttons:addEvent"><![CDATA[Rezervovať teraz]]></lookup>
+	<lookup key="buttons:ok"><![CDATA[OK]]></lookup>
+	
+	<lookup key="freeAllDay:label1"><![CDATA[dostupné]]></lookup>
+	<lookup key="freeAllDay:label2"><![CDATA[Na zvyšok dňa]]></lookup>
+
+	<lookup key="splash:loadingMessage"><![CDATA[Načítavanie ...]]></lookup>
+		
+	<lookup key="endEvent:question"><![CDATA[Ukončiť aktuálny míting]]></lookup>
+	<lookup key="endEvent:loadingMessage"><![CDATA[Načítavanie]]></lookup>
+	<lookup key="endEvent:endsIn"><![CDATA[končí o]]></lookup>
+		
+	<lookup key="extendEvent:headerTitle"><![CDATA[Predĺžiť tento míting]]></lookup>
+	<lookup key="extendEvent:endAt"><![CDATA[končí sa o]]></lookup>
+	<lookup key="extendEvent:timeRollLabel"><![CDATA[MIN]]></lookup>
+	<lookup key="extendEvent:loadingMessage"><![CDATA[Načítavanie]]></lookup>
+	<lookup key="extendEvent:endsIn"><![CDATA[končí o]]></lookup>
+		
+	<lookup key="checkInEvent:loadingMessage"><![CDATA[Načítavanie]]></lookup>
+		
+	<lookup key="reservation:headerTitle"><![CDATA[Nový míting]]></lookup>
+	<lookup key="reservation:subject"><![CDATA[Predmet]]></lookup>
+	<lookup key="reservation:organizer"><![CDATA[Organizátor]]></lookup>
+	<lookup key="reservation:starts"><![CDATA[Začiatok]]></lookup>
+	<lookup key="reservation:ends"><![CDATA[Koniec]]></lookup>
+	<lookup key="reservation:loadingMessage"><![CDATA[Načítavanie]]></lookup>
+	<lookup key="reservation:defaultOrganizer"><![CDATA[Organizátor voľného mítingu]]></lookup>
+	<lookup key="reservation:defaultSubject"><![CDATA[Voľný míting]]></lookup>
+
+	<lookup key="details:headerTitle"><![CDATA[Podrobnosti o mítingu]]></lookup>
+	<lookup key="details:from"><![CDATA[Od]]></lookup>
+	<lookup key="details:attendees"><![CDATA[Účastníci]]></lookup>
+	<lookup key="details:loadingMessage"><![CDATA[Nahráva sa míting]]></lookup>
+	<lookup key="details:recurring"><![CDATA[pravidelný míting]]></lookup>
+		
+	<lookup key="findRoomData:headerTitle"><![CDATA[Najbližšie dostupné miestnosti]]></lookup>
+	<lookup key="findRoomData:address"><![CDATA[Adresa budovy tu]]></lookup>
+	<lookup key="findRoomData:forNext"><![CDATA[na ďalších]]></lookup>
+	<lookup key="findRoomData:loadingMessage"><![CDATA[Nahráva sa míting]]></lookup>
+	<lookup key="findRoomData:noRooms"><![CDATA[Momentálne nie sú dostupné žiadne miestnosti]]></lookup>
+
+	<lookup key="screenSaver:availableUntil"><![CDATA[k dispozícii do]]></lookup>
+	<lookup key="screenSaver:available"><![CDATA[dostupné]]></lookup>
+	<lookup key="screenSaver:availableOccupied"><![CDATA[Obsadené / Neplánované]]></lookup>
+	<lookup key="screenSaver:reserved"><![CDATA[rezervované]]></lookup>
+	<lookup key="screenSaver:details"><![CDATA[podrobnosti]]></lookup>
+	<lookup key="screenSaver:meeting"><![CDATA[míting]]></lookup>
+	<lookup key="screenSaver:freeAllDay"><![CDATA[na zvyšok dňa]]></lookup>
+	<lookup key="screenSaver:nextUp"><![CDATA[ďalší]]></lookup>
+	<lookup key="screenSaver:notify"><![CDATA[Začnete klepnutím na obrazovku]]></lookup>
+
+	<lookup key="about:systemInfo"><![CDATA[Systémové informácie]]></lookup>
+	<lookup key="about:account"><![CDATA[Plánovací účet]]></lookup>
+	<lookup key="about:serverConnection"><![CDATA[Pripojenie k serveru]]></lookup>
+	<lookup key="about:fusionStatus"><![CDATA[Fusion Push/Pull]]></lookup>
+	<lookup key="about:googleAuthUserCode"><![CDATA[Kód používateľa služby Google Auth]]></lookup>
+	<lookup key="about:googleAuthUrl"><![CDATA[Adresa služby Google Auth]]></lookup>
+	<lookup key="about:firmware"><![CDATA[Firmvér]]></lookup>
+	<lookup key="about:appVersion"><![CDATA[Verzia]]></lookup>
+	<lookup key="about:webVersion"><![CDATA[Webová verzia]]></lookup>
+	<lookup key="about:hardwareId"><![CDATA[ID hardvéru]]></lookup>
+	<lookup key="about:online"><![CDATA[Online]]></lookup>
+	<lookup key="about:offline"><![CDATA[Offline]]></lookup>
+	<lookup key="about:hostName"><![CDATA[Názov hostiteľa]]></lookup>
+	<lookup key="about:ip"><![CDATA[Adresa IP]]></lookup>
+	<lookup key="about:configUrl"><![CDATA[Adresa lokálnej konfigurácie]]></lookup>
+
+	<lookup key="helpLabels:roomName"><![CDATA[Názov miestnosti]]></lookup>
+	<lookup key="helpLabels:reserveNow"><![CDATA[Rezervovať miestnosť teraz]]></lookup>
+	<lookup key="helpLabels:moreAction"><![CDATA[Vyhľadávanie, Rezervácie a iné]]></lookup>
+	<lookup key="helpLabels:timelineTap"><![CDATA[Klepnutím pridáte rezerváciu alebo zobrazíte podrobnosti o mítingu]]></lookup>
+	<lookup key="helpLabels:timelineSwipe"><![CDATA[Potiahnite prstom obrazovku a zobrazia sa iné časy]]></lookup>
+
+	<lookup key="error:message"><![CDATA[Ospravedlňujeme sa, nastala systémová chyba.  Skúste to znova.]]></lookup>
+	<lookup key="error:messageAddEvent"><![CDATA[Ospravedlňujeme sa, nastala chyba pri vytváraní mítingu. Skúste to znova.]]></lookup>
+	<lookup key="success:messageAddEvent"><![CDATA[Míting bol úspešne vytvorený.]]></lookup>
+
+	<lookup key="offline:label1"><![CDATA[Kalendár v stave offline]]></lookup>
+	<lookup key="offline:label2"><![CDATA[Skontrolujte konfiguráciu]]></lookup>
+
+	<lookup key="pin:enterPasscode"><![CDATA[Zadajte heslo]]></lookup>
+	<lookup key="pin:delete"><![CDATA[Vymazať]]></lookup>
+</lang>

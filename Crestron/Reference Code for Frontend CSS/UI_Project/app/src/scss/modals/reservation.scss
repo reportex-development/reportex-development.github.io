@@ -1,0 +1,287 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+.reservation__container {
+    margin: 0px;
+    padding: 0px;
+    overflow-y: auto;
+}
+
+.reservation__container--reserve,
+.reservation__container--room {
+    height: 69vmin;
+    width: auto;
+}
+
+.reservation__container__new-meeting {
+    @extend .modal__container__border;
+    @include setProperty( 'line-height', 70 );
+    margin-left: 5vmin;
+    @extend .font-normal-24;
+}
+
+.rtl {
+    .reservation__container__new-meeting {
+        margin-right: 5vmin;
+        margin-left: 0;
+        text-align: right;
+    }
+}
+
+.reservation__header {
+    position: relative;
+}
+
+.reservation__header__arrow {
+    position: absolute;
+    @include setProperty( 'left', 30 );
+    @include setProperty( 'font-size', 24 );
+    @include setProperty( 'line-height', 60 );
+}
+
+.rtl {
+    .reservation__header__arrow {
+        @extend .flipX;
+        @include setProperty( 'right', 30 );
+        left: initial;
+    }
+}
+
+
+.reservation__container__room {
+    @extend .modal__container__border;
+    @include setProperty( 'line-height', 60 );
+    @include setProperty( 'margin-left', 30 );
+    @extend .font-normal-24;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    @include setProperty( 'width', 387 );
+
+    @media screen and (orientation: portrait) {
+        line-height: 6vh;
+    }
+}
+
+.rtl {
+    .reservation__container__room {
+        @include setProperty( 'margin-right', 30 );
+        margin-left: 0;
+        text-align: right;
+        unicode-bidi: plaintext;
+    }
+}
+
+.reservation__container__subject,
+.reservation__container__organizer  {
+    @extend .modal__container__border;
+    @include setProperty( 'line-height', 60 );
+    @include setProperty( 'margin-left', 30 );
+    @include setProperty( 'padding-right', 30 );
+
+    @media screen and (orientation: portrait) {
+        line-height: 6vh;
+    }
+}
+
+.rtl {
+    .reservation__container__subject,
+    .reservation__container__organizer  {
+        @include setProperty( 'margin-right', 30 );
+        @include setProperty( 'padding-left', 30 );
+        margin-left: 0;
+        padding-right: 0;
+    }
+}
+
+.reservation__container__bottom_spacer {
+    @include setProperty( 'height', 45 );
+    width: 100%;
+    display: block;
+
+    @media screen and (orientation: portrait) {
+        height: 4.6vh;
+    }
+}
+
+.reservation__container__top_spacer {
+    @include setProperty( 'height', 45 );
+    width: 100%;
+    display: block;
+    @extend .modal__container__border;
+
+    @media screen and (orientation: portrait) {
+        height: 4.6vh;
+    }
+}
+
+.reservation__container__subject__input,
+.reservation__container__organizer__input {
+    @include setProperty( 'line-height', 60 );
+    @include setProperty( 'height', 60 );
+    padding-left: 0px;
+    @extend .font-normal-24;
+
+    @media screen and (orientation: portrait) {
+        line-height: 6vh;
+        height: 6vh;
+    }
+}
+.reservation__container__starts,
+.reservation__container__ends {
+    display: inline-block;
+    width: 100%;
+}
+
+.reservation__container__starts__container,
+.reservation__container__ends__container {
+    @include setProperty( 'margin-left', 30 );
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    display: block;
+    @include setProperty( 'line-height', 60 );
+    @include setProperty( 'height', 60 );
+
+    @media screen and (orientation: portrait) {
+        line-height: 6vh;
+        height: 6vh;
+    }
+}
+
+.rtl {
+    .reservation__container__starts__container,
+    .reservation__container__ends__container {
+        @include setProperty( 'margin-right', 30 );
+        @include setProperty( 'margin-left', 0 );
+    }
+}
+
+.reservation__container__starts__container__label,
+.reservation__container__ends__container__label {
+    @include setProperty( 'line-height', 60 );
+    @include setProperty( 'height', 60 );
+    float: left;
+
+    @media screen and (orientation: portrait) {
+        line-height: 6vh;
+        height: 6vh;
+    }
+}
+
+.rtl {
+    .reservation__container__starts__container__label,
+    .reservation__container__ends__container__label {
+        float: right;
+    }
+}
+
+.reservation__container__starts__container__number,
+.reservation__container__ends__container__number {
+    @include setProperty( 'line-height', 60 );
+    @include setProperty( 'height', 60 );
+    float: right;
+    @include setProperty( 'margin-right', 20 );
+
+    @media screen and (orientation: portrait) {
+        line-height: 6vh;
+        height: 6vh;
+    }
+}
+
+.rtl {
+    .reservation__container__starts__container__number,
+    .reservation__container__ends__container__number {
+        float: left;
+        @include setProperty( 'margin-left', 20 );
+        margin-right: 0;
+        unicode-bidi: plaintext;
+    }
+}
+
+.reservation__container__startRange,
+.reservation__container__endRange {
+    display: inline-block;
+    width: 100%;
+}
+
+.modal-footer {
+    .cancel {
+        float: left;
+        width: 50%;
+    }
+    .add {
+        width: 50%;
+        float: right;
+    }
+
+    .cancel__btn {
+        @extend .font-normal-24;
+    }
+
+    .add__btn {
+        @extend .font-normal-24;
+        text-transform: capitalize;
+    }
+}
+
+.rtl {
+    .modal-footer {
+        .cancel {
+            float: right;
+        }
+        .add {
+            float: left;
+        }
+    }
+}
+
+.rtl {
+	.time-roll__viewport {
+        ul {
+            li {
+                text-align: center;
+            }
+        }
+    }
+}
+
+/******************* animation *********************/
+.slideDown.ng-hide {
+  height:0;
+  transition: height 0.35s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideDown {
+  height: 20vh;
+  transition: height 0.35s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-right .modal-dialog .modal-content {
+    float: right;
+	width: 0;
+	opacity: 0;
+    -webkit-transition: width .3s cubic-bezier(0, 0, 0.2, 1);
+    -moz-transition: width .3s cubic-bezier(0, 0, 0.2, 1);
+    transition: width 0.3s cubic-bezier(0, 0, 0.2, 1);
+    overflow: hidden;
+}
+
+.slide-right.modal-show .modal-dialog .modal-content {
+    width: 100%;
+    -webkit-transition: width .5s cubic-bezier(0.85, 0.04, 0.54, 0.98);
+    -moz-transition: width .5s cubic-bezier(0.85, 0.04, 0.54, 0.98);
+    transition: width .5s cubic-bezier(0.85, 0.04, 0.54, 0.98);
+    opacity: 1;
+}
+
+.modal-show {
+    visibility: visible;
+}

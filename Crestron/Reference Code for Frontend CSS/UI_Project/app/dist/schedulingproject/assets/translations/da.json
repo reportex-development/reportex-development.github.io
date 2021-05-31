@@ -1,0 +1,127 @@
+{
+  "findRoom": "Find",
+  "help": "Hjælp",
+  "end": "Afslut",
+  "extend": "Forlæng",
+  "checkIn": "Check-in",
+  "reserveNow": "RESERVÉR NU",
+  "hours": "timer",
+  "minutes": "minutter",
+  "hour": "time",
+  "minute": "minut",
+  "and": "og",
+  "noon": "moddag",
+  "vision": "Vision",
+  "private": "privat",
+  "statusRoomTitle": {
+    "availableLabel1": "Tilgængelig",
+    "availableLabel2": "i de næste",
+    "availableOccupiedLabel1": "Besat / ikke planlagt",
+    "reservedLabel1": "Reserveret",
+    "reservedLabel2": "i de næste"
+  },
+  "buttons": {
+    "cancel": "Annullér",
+    "close": "Luk",
+    "end": "Afslut",
+    "extend": "Forlæng",
+    "addEvent": "RESERVÉR NU",
+    "ok": "OK"
+  },
+  "freeAllDay": {
+    "label1": "tilgængelig",
+    "label2": "Resten af dagen"
+  },
+  "splash": {
+    "loadingMessage": "Indlæser ..."
+  },
+  "endEvent": {
+    "question": "Afslut aktuelt møde",
+    "loadingMessage": "Indlæser",
+    "endsIn": "slutter om"
+  },
+  "extendEvent": {
+    "headerTitle": "Forlæng mødet",
+    "endAt": "slutter:",
+    "timeRollLabel": "MIN",
+    "loadingMessage": "Indlæser",
+    "endsIn": "slutter om"
+  },
+  "checkInEvent": {
+    "loadingMessage": "Indlæser"
+  },
+  "reservation": {
+    "headerTitle": "Nyt møde",
+    "subject": "Emne",
+    "organizer": "Organisator",
+    "starts": "Starter",
+    "ends": "Slutter",
+    "loadingMessage": "Indlæser",
+    "defaultOrganizer": "Organisator:",
+    "defaultSubject": "Møde"
+  },
+  "details": {
+    "headerTitle": "Mødedetaljer",
+    "from": "Fra:",
+    "attendees": "Deltagere",
+    "loadingMessage": "Henter konfiguration...",
+    "recurring": "gentagende"
+  },
+  "findRoomData": {
+    "headerTitle": "Tilgængelige rum",
+    "address": "Adresse her",
+    "forNext": "i de næste",
+    "loadingMessage": "Henter konfiguration...",
+    "noRooms": "Ingen tilgængelige rum"
+  },
+  "screenSaver": {
+    "availableUntil": "tilgængelig til",
+    "available": "tilgængelig",
+    "availableOccupied": "Besat / ikke planlagt",
+    "reserved": "reserveret",
+    "details": "oplysninger",
+    "meeting": "møde",
+    "freeAllDay": "resten af dagen",
+    "nextUp": "NÆSTE MØDE",
+    "notify": "Berøringsskærm"
+  },
+  "about": {
+    "systemInfo": "Systemnavn:",
+    "account": "Planlægning:",
+    "serverConnection": "SIP-server forbindelsestype",
+    "fusionStatus": "Fusion Push/Pull",
+    "googleAuthUserCode": "Google Auth-omfang",
+    "googleAuthUrl": "Google Auth-URL",
+    "firmware": "Firmware-version",
+    "appVersion": "Version",
+    "webVersion": "Version",
+    "hardwareId": "Hardware",
+    "online": "Online",
+    "offline": "Offline",
+    "hostName": "Værtsnavn",
+    "ip": "IP-adresse",
+    "configUrl": "Konfiguration"
+  },
+  "helpLabels": {
+    "roomName": "Navn på rum",
+    "reserveNow": "Reserver rum nu",
+    "moreAction": "Find, reserver og meget andet",
+    "timelineTap": "Tryk for at tilføje reservation eller se mødedetaljer",
+    "timelineSwipe": "Stryg for at se andre tider"
+  },
+  "error": {
+    "message": "Vi beklager, men det er opstået en systemfejl.  Prøv igen.",
+    "messageAddEvent": "Vi beklager, men der er opstået en fejl under oprettelse af mødet. Prøv igen."
+  },
+  "success": {
+    "messageAddEvent": "Mødet er blevet oprettet."
+  },
+  "offline": {
+    "label1": "Kalender",
+    "label2": "Kontrollér dine netværksindstillinger."
+  },
+  "pin": {
+    "enterPasscode": "Kodeord",
+    "delete": "Slet"
+  }
+}

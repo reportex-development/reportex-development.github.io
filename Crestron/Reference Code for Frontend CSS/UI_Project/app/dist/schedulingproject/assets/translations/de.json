@@ -1,0 +1,127 @@
+{
+  "findRoom": "Suchen",
+  "help": "Hilfe",
+  "end": "Beenden",
+  "extend": "Verlängern",
+  "checkIn": "Check-in",
+  "reserveNow": "Jetzt reservieren",
+  "hours": "Stunden",
+  "minutes": "Minuten",
+  "hour": "Stunde",
+  "minute": "Minute",
+  "and": "und",
+  "noon": "Mittag",
+  "vision": "Sehhilfe",
+  "private": "privat",
+  "statusRoomTitle": {
+    "availableLabel1": "Verfügbar",
+    "availableLabel2": "für die nächste(n)",
+    "availableOccupiedLabel1": "Besetzt / nicht geplant",
+    "reservedLabel1": "Reserviert",
+    "reservedLabel2": "für die nächste(n)"
+  },
+  "buttons": {
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "end": "Jetzt beenden",
+    "extend": "Verlängern",
+    "addEvent": "Jetzt reservieren",
+    "ok": "OK"
+  },
+  "freeAllDay": {
+    "label1": "verfügbar",
+    "label2": "Für den Rest des Tages"
+  },
+  "splash": {
+    "loadingMessage": "Ladevorgang ..."
+  },
+  "endEvent": {
+    "question": "Aktuelle Besprechung beenden",
+    "loadingMessage": "Ladevorgang",
+    "endsIn": "endet in"
+  },
+  "extendEvent": {
+    "headerTitle": "Diese Besprechung verlängern",
+    "endAt": "endet um",
+    "timeRollLabel": "MIN",
+    "loadingMessage": "Ladevorgang",
+    "endsIn": "endet in"
+  },
+  "checkInEvent": {
+    "loadingMessage": "Ladevorgang"
+  },
+  "reservation": {
+    "headerTitle": "Neue Besprechung",
+    "subject": "Betreff",
+    "organizer": "Organisator",
+    "starts": "Beginnt",
+    "ends": "Endet",
+    "loadingMessage": "Ladevorgang",
+    "defaultOrganizer": "Spontane Organisation",
+    "defaultSubject": "Spontane Besprechung"
+  },
+  "details": {
+    "headerTitle": "Besprechungsdetails",
+    "from": "Von",
+    "attendees": "Teilnehmer",
+    "loadingMessage": "Besprechung wird abgerufen",
+    "recurring": "wiederkehrende Besprechung"
+  },
+  "findRoomData": {
+    "headerTitle": "Verfügbare Räume in der Nähe",
+    "address": "Gebäudeadresse hier",
+    "forNext": "für die nächste(n)",
+    "loadingMessage": "Besprechung wird abgerufen",
+    "noRooms": "Derzeit sind keine Räume verfügbar"
+  },
+  "screenSaver": {
+    "availableUntil": "verfügbar bis",
+    "available": "verfügbar",
+    "availableOccupied": "Besetzt / nicht geplant",
+    "reserved": "reserviert",
+    "details": "Details",
+    "meeting": "Besprechung",
+    "freeAllDay": "für den Rest des Tages",
+    "nextUp": "Nächstes anzeigen",
+    "notify": "Bildschirm berühren, um zu beginnen"
+  },
+  "about": {
+    "systemInfo": "Systeminformationen",
+    "account": "Terminplanungskonto",
+    "serverConnection": "Serververbindung",
+    "fusionStatus": "Fusion Push/Pull",
+    "googleAuthUserCode": "Google Auth-Benutzercode",
+    "googleAuthUrl": "URL für Google Auth",
+    "firmware": "Firmware",
+    "appVersion": "Version",
+    "webVersion": "Web-Version",
+    "hardwareId": "Hardware-ID",
+    "online": "Online",
+    "offline": "Offline",
+    "hostName": "Hostname",
+    "ip": "IP-Adresse",
+    "configUrl": "URL für lokale Konfiguration"
+  },
+  "helpLabels": {
+    "roomName": "Raumname",
+    "reserveNow": "Raum jetzt reservieren",
+    "moreAction": "Suchen, Reservieren und mehr",
+    "timelineTap": "Tippen, um Reservierung hinzuzufügen oder Besprechungsdetails anzuzeigen",
+    "timelineSwipe": "Wischen, um andere Zeiten zu sehen"
+  },
+  "error": {
+    "message": "Leider ist ein Systemfehler aufgetreten.  Bitte versuchen Sie es erneut.",
+    "messageAddEvent": "Leider ist ein Fehler beim Erstellen der Besprechung aufgetreten. Bitte versuchen Sie es erneut."
+  },
+  "success": {
+    "messageAddEvent": "Die Besprechung wurde erfolgreich erstellt."
+  },
+  "offline": {
+    "label1": "Kalender offline",
+    "label2": "Bitte Konfiguration prüfen"
+  },
+  "pin": {
+    "enterPasscode": "Zugangscode eingeben",
+    "delete": "Löschen"
+  }
+}

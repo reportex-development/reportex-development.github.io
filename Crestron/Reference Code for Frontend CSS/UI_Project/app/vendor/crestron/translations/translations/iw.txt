@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang locale="iw" name="Hebrew" alias="iw" rtl="true" variant="Hebrew">
+	<lookup key="global:findRoom"><![CDATA[מצא]]></lookup>
+	<lookup key="global:help"><![CDATA[עזרה]]></lookup>
+	<lookup key="global:end"><![CDATA[סיום]]></lookup>
+	<lookup key="global:extend"><![CDATA[הארך]]></lookup>
+	<lookup key="global:checkIn"><![CDATA[כניסה]]></lookup>
+	<lookup key="global:reserveNow"><![CDATA[הזמן כעת]]></lookup>
+	<lookup key="global:hours"><![CDATA[שעות]]></lookup>
+	<lookup key="global:minutes"><![CDATA[דקות]]></lookup>
+	<lookup key="global:hour"><![CDATA[שעה]]></lookup>
+	<lookup key="global:minute"><![CDATA[דקה]]></lookup>
+	<lookup key="global:and"><![CDATA[ו]]></lookup>
+	<lookup key="global:noon"><![CDATA[צהריים]]></lookup>
+	<lookup key="global:vision"><![CDATA[נגישות]]></lookup>
+	<lookup key="global:private"><![CDATA[פרטי]]></lookup>
+
+	<lookup key="statusRoomTitle:availableLabel1"><![CDATA[זמין]]></lookup>
+	<lookup key="statusRoomTitle:availableLabel2"><![CDATA[למשך]]></lookup>
+	<lookup key="statusRoomTitle:availableOccupiedLabel1"><![CDATA[תפוס / לא מתוזמן]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel1"><![CDATA[מוזמן]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel2"><![CDATA[למשך]]></lookup>
+
+	<lookup key="buttons:cancel"><![CDATA[ביטול]]></lookup>
+	<lookup key="buttons:close"><![CDATA[סגור]]></lookup>
+	<lookup key="buttons:end"><![CDATA[סיום]]></lookup>
+	<lookup key="buttons:extend"><![CDATA[הארך]]></lookup>
+	<lookup key="buttons:addEvent"><![CDATA[הזמן כעת]]></lookup>
+	<lookup key="buttons:ok"><![CDATA[אישור]]></lookup>
+
+	<lookup key="freeAllDay:label1"><![CDATA[זמין]]></lookup>
+	<lookup key="freeAllDay:label2"><![CDATA[לשארית היום]]></lookup>
+
+	<lookup key="splash:loadingMessage"><![CDATA[טוען ...]]></lookup>
+
+	<lookup key="endEvent:question"><![CDATA[סיים את הפגישה הנוכחית]]></lookup>
+	<lookup key="endEvent:loadingMessage"><![CDATA[טוען]]></lookup>
+	<lookup key="endEvent:endsIn"><![CDATA[מסתיים בעוד]]></lookup>
+
+	<lookup key="extendEvent:headerTitle"><![CDATA[הארך את הפגישה]]></lookup>
+	<lookup key="extendEvent:endAt"><![CDATA[מסתיים ב]]></lookup>
+	<lookup key="extendEvent:timeRollLabel"><![CDATA[דק']]></lookup>
+	<lookup key="extendEvent:loadingMessage"><![CDATA[טוען]]></lookup>
+	<lookup key="extendEvent:endsIn"><![CDATA[מסתיים בעוד]]></lookup>
+
+	<lookup key="checkInEvent:loadingMessage"><![CDATA[טוען]]></lookup>
+
+	<lookup key="reservation:headerTitle"><![CDATA[פגישה חדשה]]></lookup>
+	<lookup key="reservation:subject"><![CDATA[נושא]]></lookup>
+	<lookup key="reservation:organizer"><![CDATA[מארגן]]></lookup>
+	<lookup key="reservation:starts"><![CDATA[התחלה]]></lookup>
+	<lookup key="reservation:ends"><![CDATA[סיום]]></lookup>
+	<lookup key="reservation:loadingMessage"><![CDATA[טוען]]></lookup>
+	<lookup key="reservation:defaultOrganizer"><![CDATA[מארגן]]></lookup>
+	<lookup key="reservation:defaultSubject"><![CDATA[פגישה]]></lookup>
+
+	<lookup key="details:headerTitle"><![CDATA[פרטי הפגישה]]></lookup>
+	<lookup key="details:from"><![CDATA[מ-]]></lookup>
+	<lookup key="details:attendees"><![CDATA[משתתפים]]></lookup>
+	<lookup key="details:loadingMessage"><![CDATA[מאחזר פגישה]]></lookup>
+	<lookup key="details:recurring"><![CDATA[פגישה חוזרת]]></lookup>
+
+	<lookup key="findRoomData:headerTitle"><![CDATA[חדרים זמינים בקרבת מקום]]></lookup>
+	<lookup key="findRoomData:address"><![CDATA[כתובת הבניין כאן]]></lookup>
+	<lookup key="findRoomData:forNext"><![CDATA[במהלך]]></lookup>
+	<lookup key="findRoomData:loadingMessage"><![CDATA[מאחזר פגישה]]></lookup>
+	<lookup key="findRoomData:noRooms"><![CDATA[כרגע אין חדרים זמינים]]></lookup>
+
+	<lookup key="screenSaver:availableUntil"><![CDATA[זמין עד]]></lookup>
+	<lookup key="screenSaver:available"><![CDATA[זמין]]></lookup>
+	<lookup key="screenSaver:availableOccupied"><![CDATA[תפוס / לא מתוזמן]]></lookup>
+	<lookup key="screenSaver:reserved"><![CDATA[מוזמן]]></lookup>
+	<lookup key="screenSaver:details"><![CDATA[פרטים]]></lookup>
+	<lookup key="screenSaver:meeting"><![CDATA[פגישה]]></lookup>
+	<lookup key="screenSaver:freeAllDay"><![CDATA[לשארית היום]]></lookup>
+	<lookup key="screenSaver:nextUp"><![CDATA[הפגישה הבאה]]></lookup>
+	<lookup key="screenSaver:notify"><![CDATA[גע במסך כדי להתחיל]]></lookup>
+
+	<lookup key="about:systemInfo"><![CDATA[פרטי מערכת]]></lookup>
+	<lookup key="about:account"><![CDATA[חשבון לביצוע זימון]]></lookup>
+	<lookup key="about:serverConnection"><![CDATA[חיבור שרת]]></lookup>
+	<lookup key="about:fusionStatus"><![CDATA[משיכה/הודעה בדחיפה מסוג Fusion]]></lookup>
+	<lookup key="about:googleAuthUserCode"><![CDATA[קוד משתמש של Google Auth]]></lookup>
+	<lookup key="about:googleAuthUrl"><![CDATA[כתובת URL של Google Auth]]></lookup>
+	<lookup key="about:firmware"><![CDATA[קושחה]]></lookup>
+	<lookup key="about:appVersion"><![CDATA[גרסה]]></lookup>
+	<lookup key="about:webVersion"><![CDATA[גרסת אינטרנט]]></lookup>
+	<lookup key="about:hardwareId"><![CDATA[מזהה חומרה]]></lookup>
+	<lookup key="about:online"><![CDATA[מחובר]]></lookup>
+	<lookup key="about:offline"><![CDATA[לא מקוון]]></lookup>
+	<lookup key="about:hostName"><![CDATA[שם מארח]]></lookup>
+	<lookup key="about:ip"><![CDATA[כתובת IP]]></lookup>
+	<lookup key="about:configUrl"><![CDATA[URL של תצורה מקומית]]></lookup>
+
+	<lookup key="helpLabels:roomName"><![CDATA[שם החדר]]></lookup>
+	<lookup key="helpLabels:reserveNow"><![CDATA[הזמן חדר כעת]]></lookup>
+	<lookup key="helpLabels:moreAction"><![CDATA[חיפוש, הזמנה ועוד]]></lookup>
+	<lookup key="helpLabels:timelineTap"><![CDATA[לחץ כאן על מנת לראות את פרטי הפגישה, או לזמן פגישה חדשה]]></lookup>
+	<lookup key="helpLabels:timelineSwipe"><![CDATA[גלול על מנת לראות מועדים נוספים]]></lookup>
+
+	<lookup key="error:message"><![CDATA[מצטערים, אך אירעה שגיאת מערכת. אנא נסה שוב.]]></lookup>
+	<lookup key="error:messageAddEvent"><![CDATA[מצטערים, אך אירעה שגיאה ביצירת הפגישה. אנא נסה שוב.]]></lookup>
+	<lookup key="success:messageAddEvent"><![CDATA[הפגישה נוצרה בהצלחה.]]></lookup>
+
+	<lookup key="offline:label1"><![CDATA[לוח שנה לא מקוון]]></lookup>
+	<lookup key="offline:label2"><![CDATA[אנא בדוק את הגדרות התצורה]]></lookup>
+
+	<lookup key="pin:enterPasscode"><![CDATA[הזן סיסמה]]></lookup>
+	<lookup key="pin:delete"><![CDATA[מחק]]></lookup>
+</lang>

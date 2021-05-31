@@ -1,0 +1,127 @@
+{
+  "findRoom": "Trouver",
+  "help": "Aide",
+  "end": "Fin",
+  "extend": "Prolonger",
+  "checkIn": "Enregistrement",
+  "reserveNow": "Réserver maintenant",
+  "hours": "heures",
+  "minutes": "minutes",
+  "hour": "heure",
+  "minute": "minute",
+  "and": "et",
+  "noon": "midi",
+  "vision": "Vision",
+  "private": "privé",
+  "statusRoomTitle": {
+    "availableLabel1": "Disponible",
+    "availableLabel2": "pour suivant",
+    "availableOccupiedLabel1": "Occupé / non prévu",
+    "reservedLabel1": "Réservé",
+    "reservedLabel2": "pour suivant"
+  },
+  "buttons": {
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "end": "Terminer maintenant",
+    "extend": "Prolonger",
+    "addEvent": "Réserver maintenant",
+    "ok": "OK"
+  },
+  "freeAllDay": {
+    "label1": "disponible",
+    "label2": "Le reste de la journée"
+  },
+  "splash": {
+    "loadingMessage": "Chargement en cours…"
+  },
+  "endEvent": {
+    "question": "Terminer la réunion actuelle",
+    "loadingMessage": "Chargement en cours",
+    "endsIn": "se termine dans"
+  },
+  "extendEvent": {
+    "headerTitle": "Prolonger cette réunion",
+    "endAt": "se termine à",
+    "timeRollLabel": "MIN",
+    "loadingMessage": "Chargement en cours",
+    "endsIn": "se termine dans"
+  },
+  "checkInEvent": {
+    "loadingMessage": "Chargement en cours"
+  },
+  "reservation": {
+    "headerTitle": "Nouvelle réunion",
+    "subject": "Objet",
+    "organizer": "Organisateur",
+    "starts": "Début",
+    "ends": "Fin",
+    "loadingMessage": "Chargement en cours",
+    "defaultOrganizer": "Se diriger vers l’organisateur",
+    "defaultSubject": "Se diriger vers la réunion"
+  },
+  "details": {
+    "headerTitle": "Détails de la réunion",
+    "from": "Expéditeur",
+    "attendees": "Participants",
+    "loadingMessage": "Récupération de la réunion",
+    "recurring": "réunion récurrente"
+  },
+  "findRoomData": {
+    "headerTitle": "Salles disponibles à proximité",
+    "address": "Adresse du bâtiment ici",
+    "forNext": "pour suivant",
+    "loadingMessage": "Récupération de la réunion",
+    "noRooms": "Aucune salle n’est actuellement disponible"
+  },
+  "screenSaver": {
+    "availableUntil": "disponible jusqu’à",
+    "available": "disponible",
+    "availableOccupied": "Occupé / non prévu",
+    "reserved": "réservé",
+    "details": "détails",
+    "meeting": "réunion",
+    "freeAllDay": "le reste de la journée",
+    "nextUp": "suivant",
+    "notify": "Toucher l’écran pour commencer"
+  },
+  "about": {
+    "systemInfo": "Infos système",
+    "account": "Compte de planification",
+    "serverConnection": "Connexion au serveur",
+    "fusionStatus": "Fusion Push/Pull",
+    "googleAuthUserCode": "Code d’utilisateur Google Auth",
+    "googleAuthUrl": "URL Google Auth",
+    "firmware": "Microprogramme",
+    "appVersion": "Version",
+    "webVersion": "Version Web",
+    "hardwareId": "ID du matériel",
+    "online": "En ligne",
+    "offline": "Hors ligne",
+    "hostName": "Nom d’hôte",
+    "ip": "Adresse IP",
+    "configUrl": "URL de la configuration locale"
+  },
+  "helpLabels": {
+    "roomName": "Nom de la salle",
+    "reserveNow": "Réserver la salle maintenant",
+    "moreAction": "Trouver, réserver, et plus encore",
+    "timelineTap": "Toucher pour ajouter une réservation ou pour afficher plus de détails sur la réunion",
+    "timelineSwipe": "Balayer pour voir d’autres heures"
+  },
+  "error": {
+    "message": "Désolé, une erreur système s’est produite Veuillez réessayer.",
+    "messageAddEvent": "Désolé, une erreur s’est produite lors de la création de la réunion. Veuillez réessayer."
+  },
+  "success": {
+    "messageAddEvent": "Réunion créée avec succès."
+  },
+  "offline": {
+    "label1": "Calendrier hors ligne",
+    "label2": "Veuillez vérifier la configuration"
+  },
+  "pin": {
+    "enterPasscode": "Saisir le code d’authentification",
+    "delete": "Supprimer"
+  }
+}

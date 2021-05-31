@@ -1,0 +1,136 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+@-webkit-keyframes shake {
+    0%, 100% {-webkit-transform: translateX(0);} 
+    10%, 90% {-webkit-transform: translateX(-30px);} 
+    20%, 80% {-webkit-transform: translateX(20px);} 
+    20%, 80% {-webkit-transform: translateX(10px);} 
+    20%, 80% {-webkit-transform: translateX(0px);} 
+}
+
+@keyframes shake { 
+    0%, 100% {transform: translateX(0);} 
+    10%, 90% {transform: translateX(-30px);} 
+    20%, 80% {transform: translateX(20px);} 
+    20%, 80% {transform: translateX(10px);} 
+    20%, 80% {transform: translateX(0px);} 
+}
+
+.shake { 
+    -webkit-animation-name: shake; 
+    animation-name: shake; 
+}
+
+.modal-pin {
+    .modal-dialog  {
+        margin: 0px auto;
+        padding: 0px;
+        background-color: transparent;
+    }
+}
+
+.pin__container__header {
+    @extend .font-normal-24;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.pin__container__header__label {
+    line-height: 6.67vmin;
+    height: 6.67vmin;
+}
+
+.pin__container__header__password {
+    -webkit-animation-duration: .2s;
+    animation-duration: .2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.pin__container__header__password_circle {
+   @include setProperty( 'font-size', 10 );
+   padding: 0px 10px;
+}
+
+.pin__container__header__spacer {
+    line-height: 3.5vmin;
+    height: 3.5vmin;
+    border-bottom-width: 1px;
+	border-bottom-style: solid;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.pin__container__row {
+    display: inline-block;
+    width: 100%;
+    line-height: 16.7vmin;
+    height: 16.7vmin;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pin__container__row__tel {
+    display: inline-block;
+    text-align: center;
+    height: 16vmin;
+    width: 17vmin;
+    vertical-align: top;
+    padding-top: 3.33vmin;
+    padding-bottom: 3.33vmin;
+}
+
+.pin__container__row__tel__digit {
+    @extend .font-normal-46;
+    line-height: 5vmin;
+    height: 5vmin;
+    width: 100%;
+    display: block;
+}
+
+.pin__container__row__tel__alpha {
+    @extend .font-normal-26;
+    line-height: 5vmin;
+    height: 8vmin;
+    padding-top: 2vmin;
+    width: 100%;
+    display: block;
+}
+
+.pin__container__footer {
+    @extend .font-normal-24;
+    text-align: center;
+    margin: 0 auto;
+    height: 15vmin;
+    width: 100%;
+}
+
+.pin__container__footer__spacer {
+    line-height: 3.5vmin;
+    height: 3.5vmin;
+    border-top-width: 1px;
+	border-top-style: solid;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.pin__container__footer__label {
+    line-height: 6.67vmin;
+    height: 6.67vmin;
+}
+
+.modal.modal-pin {
+    .modal-content {
+        border: 0px;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+}

@@ -1,0 +1,130 @@
+<!-- This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+    terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+    to redistribute derivative works of the provided sample code in source code format.  This license is located 
+    at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+    with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+    in unexpected behavior and a diminished user experience. -->
+
+<div class="modal-pin">
+    <div class="modal-body">
+        <div class="pin__container container-fluid color__theme-color-5">
+            <div class="pin__container__header">
+                <div class="pin__container__header__label">{{ Helium.labels.pin.enterPasscode }}</div>
+                <div class="pin__container__header__password">
+                    <span class="pin__container__header__password_circle fa" 
+                        data-ng-class="{'fa-circle': circle.set, 'fa-circle-o': !circle.set}"
+                        data-ng-repeat="circle in pinCircles track by $index"></span>
+                </div>
+                <div class="pin__container__header__spacer border__theme-color-4"></div>
+
+            </div>
+            <div class="pin__container__row">
+                <div class="pin__container__row__tel"
+                    data-hlm-touch-el="" 
+                    enable-press-action=true
+                    disable-interaction="disablePinEntry"
+                    data-call-fn-short="onClickKeys( '1' )"
+                    data-add-class-name="bg__theme-color-8">
+                    <div class="pin__container__row__tel__digit">1</div>
+                </div>
+                <div class="pin__container__row__tel"
+                    data-hlm-touch-el="" 
+                    enable-press-action=true
+                    disable-interaction="disablePinEntry"
+                    data-call-fn-short="onClickKeys( '2' )"
+                    data-add-class-name="bg__theme-color-8">
+                    <div class="pin__container__row__tel__digit">2</div>
+                    <div class="pin__container__row__tel__alpha color__main-color-6">ABC</div>
+                </div>
+                <div class="pin__container__row__tel"
+                    data-hlm-touch-el=""
+                    enable-press-action=true
+                    disable-interaction="disablePinEntry"
+                    data-call-fn-short="onClickKeys( '3' )"
+                    data-add-class-name="bg__theme-color-8">
+                    <div class="pin__container__row__tel__digit">3</div>
+                    <div class="pin__container__row__tel__alpha color__main-color-6">DEF</div>
+                </div>
+            </div>
+            <div class="pin__container__row">
+                <div class="pin__container__row__tel"
+                    data-hlm-touch-el=""
+                    enable-press-action=true
+                    disable-interaction="disablePinEntry"
+                    data-call-fn-short="onClickKeys( '4' )"
+                    data-add-class-name="bg__theme-color-8">
+                    <div class="pin__container__row__tel__digit">4</div>
+                    <div class="pin__container__row__tel__alpha color__main-color-6">GHI</div>
+                </div>
+                <div class="pin__container__row__tel"
+                    data-hlm-touch-el=""
+                    enable-press-action=true
+                    disable-interaction="disablePinEntry"
+                    data-call-fn-short="onClickKeys( '5' )"
+                    data-add-class-name="bg__theme-color-8">
+                    <div class="pin__container__row__tel__digit">5</div>
+                    <div class="pin__container__row__tel__alpha color__main-color-6">JKL</div>
+                </div>
+                <div class="pin__container__row__tel"
+                    data-hlm-touch-el=""
+                    enable-press-action=true
+                    disable-interaction="disablePinEntry"
+                    data-call-fn-short="onClickKeys( '6' )"
+                    data-add-class-name="bg__theme-color-8">
+                    <div class="pin__container__row__tel__digit">6</div>
+                    <div class="pin__container__row__tel__alpha color__main-color-6">MNO</div>
+                </div>
+            </div>
+            <div class="pin__container__row">
+                <div class="pin__container__row__tel"
+                    data-hlm-touch-el=""
+                    enable-press-action=true
+                    disable-interaction="disablePinEntry"
+                    data-call-fn-short="onClickKeys( '7' )"
+                    data-add-class-name="bg__theme-color-8">
+                    <div class="pin__container__row__tel__digit">7</div>
+                    <div class="pin__container__row__tel__alpha color__main-color-6">PQRS</div>
+                </div>
+                <div class="pin__container__row__tel"
+                    data-hlm-touch-el=""
+                    enable-press-action=true
+                    disable-interaction="disablePinEntry"
+                    data-call-fn-short="onClickKeys( '8' )"
+                    data-add-class-name="bg__theme-color-8">
+                    <div class="pin__container__row__tel__digit">8</div>
+                    <div class="pin__container__row__tel__alpha color__main-color-6">TUV</div>
+                </div>
+                <div class="pin__container__row__tel"
+                    data-hlm-touch-el=""
+                    enable-press-action=true
+                    disable-interaction="disablePinEntry"
+                    data-call-fn-short="onClickKeys( '9' )"
+                    data-add-class-name="bg__theme-color-8">
+                    <div class="pin__container__row__tel__digit">9</div>
+                    <div class="pin__container__row__tel__alpha color__main-color-6">WXYZ</div>
+                </div>
+            </div>
+            <div class="pin__container__row">
+                <div class="pin__container__row__tel"></div>
+                <div class="pin__container__row__tel"
+                    data-hlm-touch-el=""
+                    enable-press-action=true
+                    disable-interaction="disablePinEntry"
+                    data-call-fn-short="onClickKeys( '0' )"
+                    data-add-class-name="bg__theme-color-8">
+                    <div class="pin__container__row__tel__digit">0</div>
+                </div>
+                <div class="pin__container__row__tel"></div>
+            </div>
+            <div class="pin__container__footer"
+                data-hlm-touch-el=""
+                enable-press-action=true
+                disable-interaction="disablePinEntry"
+                data-call-fn-short="deteleCircle( )"
+                data-add-class-name="bg__theme-color-8">
+                <div class="pin__container__footer__spacer border__theme-color-4"></div>
+                <div class="pin__container__footer__label">{{ Helium.labels.pin.delete }}</div>
+            </div>
+        </div>
+    </div>    
+</div>

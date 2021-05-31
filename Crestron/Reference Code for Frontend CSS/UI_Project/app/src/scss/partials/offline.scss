@@ -1,0 +1,82 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+.offline {
+	position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.arabic {
+    .offline {
+        right: 1.3em;
+        left: initial;
+    }
+}
+
+.offline--right {
+    right: 1.3em;
+    left: initial;
+}
+
+.offline__cloud {
+	position: absolute;
+    z-index: 1;
+    left: 6px;
+    top: 5px;
+    font-size: 0.8em;
+}
+
+.offline__none {
+	position: absolute;
+    z-index: 1;
+    transform: rotate(45deg);
+    left: 4px;
+    top: 2vh;
+    width: 1em;
+    height: 4px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+@media screen and (orientation: portrait) {
+    .offline {
+        top: 2.3vh;
+        right: 2.3vh;
+        left: initial;
+    }
+
+    .arabic {
+        .offline {
+            left: 2.3vh;
+            right: initial;
+        }
+    }
+
+    .offline--right {
+        right: 0;
+        left: initial;
+    }
+
+    .offline__cloud {
+        left: -2.3vh;
+        top: 2.3vh;
+        font-size: 4vmin;
+    }
+
+    .offline__none {
+        // position: absolute;
+        // z-index: 1;
+        // transform: rotate(45deg);
+        left: -3vh;
+        top: 3.1vh;
+        width: 1.5em;
+        // height: 4px;
+    }
+}

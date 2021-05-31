@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<lang locale="tr_TR" name="Turkish" alias="tr-TR" rtl="false" variant="Turkey">
+	<lookup key="global:findRoom"><![CDATA[Bul]]></lookup>
+	<lookup key="global:help"><![CDATA[Yardım]]></lookup>
+	<lookup key="global:end"><![CDATA[Sonlandır]]></lookup>
+	<lookup key="global:extend"><![CDATA[Uzat]]></lookup>
+	<lookup key="global:checkIn"><![CDATA[Kaydet]]></lookup>
+	<lookup key="global:reserveNow"><![CDATA[Şimdi ayır]]></lookup>
+	<lookup key="global:hours"><![CDATA[saat]]></lookup>
+	<lookup key="global:minutes"><![CDATA[dakika]]></lookup>
+	<lookup key="global:hour"><![CDATA[saat]]></lookup>
+	<lookup key="global:minute"><![CDATA[dakika]]></lookup>
+	<lookup key="global:and"><![CDATA[ve]]></lookup>
+	<lookup key="global:noon"><![CDATA[öğlen]]></lookup>
+	<lookup key="global:vision"><![CDATA[Görüş]]></lookup>
+	<lookup key="global:private"><![CDATA[gizli]]></lookup>
+
+	<lookup key="statusRoomTitle:availableLabel1"><![CDATA[Uygun]]></lookup>
+	<lookup key="statusRoomTitle:availableLabel2"><![CDATA[sonraki için]]></lookup>
+	<lookup key="statusRoomTitle:availableOccupiedLabel1"><![CDATA[İşgal Edildi / Planlanmadı]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel1"><![CDATA[Ayrıldı]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel2"><![CDATA[sonraki için]]></lookup>
+
+	<lookup key="buttons:cancel"><![CDATA[İptal]]></lookup>
+	<lookup key="buttons:close"><![CDATA[Kapat]]></lookup>
+	<lookup key="buttons:end"><![CDATA[Şimdi sonlandır]]></lookup>
+	<lookup key="buttons:extend"><![CDATA[Uzat]]></lookup>
+	<lookup key="buttons:addEvent"><![CDATA[Şimdi ayır]]></lookup>
+	<lookup key="buttons:ok"><![CDATA[Tamam]]></lookup>
+
+	<lookup key="freeAllDay:label1"><![CDATA[uygun]]></lookup>
+	<lookup key="freeAllDay:label2"><![CDATA[Günün geri kalanı için]]></lookup>
+
+	<lookup key="splash:loadingMessage"><![CDATA[Yükleniyor ...]]></lookup>
+
+	<lookup key="endEvent:question"><![CDATA[Mevcut toplantıyı sonlandır]]></lookup>
+	<lookup key="endEvent:loadingMessage"><![CDATA[Yükleniyor]]></lookup>
+	<lookup key="endEvent:endsIn"><![CDATA[kalan süre]]></lookup>
+
+	<lookup key="extendEvent:headerTitle"><![CDATA[Bu Toplantıyı Uzat]]></lookup>
+	<lookup key="extendEvent:endAt"><![CDATA[bitiş saati]]></lookup>
+	<lookup key="extendEvent:timeRollLabel"><![CDATA[DK]]></lookup>
+	<lookup key="extendEvent:loadingMessage"><![CDATA[Yükleniyor]]></lookup>
+	<lookup key="extendEvent:endsIn"><![CDATA[kalan süre]]></lookup>
+
+	<lookup key="checkInEvent:loadingMessage"><![CDATA[Yükleniyor]]></lookup>
+
+	<lookup key="reservation:headerTitle"><![CDATA[Yeni Toplantı]]></lookup>
+	<lookup key="reservation:subject"><![CDATA[Konu]]></lookup>
+	<lookup key="reservation:organizer"><![CDATA[Organizatör]]></lookup>
+	<lookup key="reservation:starts"><![CDATA[Başlangıç]]></lookup>
+	<lookup key="reservation:ends"><![CDATA[Bitiş]]></lookup>
+	<lookup key="reservation:loadingMessage"><![CDATA[Yükleniyor]]></lookup>
+	<lookup key="reservation:defaultOrganizer"><![CDATA[Walk up organizatör]]></lookup>
+	<lookup key="reservation:defaultSubject"><![CDATA[Walk up toplantı]]></lookup>
+
+
+	<lookup key="details:headerTitle"><![CDATA[Toplantı Ayrıntıları]]></lookup>
+	<lookup key="details:from"><![CDATA[Kimden]]></lookup>
+	<lookup key="details:attendees"><![CDATA[Katılımcılar]]></lookup>
+	<lookup key="details:loadingMessage"><![CDATA[Toplantı alınıyor]]></lookup>
+	<lookup key="details:recurring"><![CDATA[yinelenen toplantı]]></lookup>
+
+	<lookup key="findRoomData:headerTitle"><![CDATA[Yakınlardaki Uygun Odalar]]></lookup>
+	<lookup key="findRoomData:address"><![CDATA[Bina adresi buraya]]></lookup>
+	<lookup key="findRoomData:forNext"><![CDATA[sonraki için]]></lookup>
+	<lookup key="findRoomData:loadingMessage"><![CDATA[Toplantı alınıyor]]></lookup>
+	<lookup key="findRoomData:noRooms"><![CDATA[Şu anda hiçbir oda uygun değil]]></lookup>
+
+
+	<lookup key="screenSaver:availableUntil"><![CDATA[şu zamana kadar uygun]]></lookup>
+	<lookup key="screenSaver:available"><![CDATA[uygun]]></lookup>
+	<lookup key="screenSaver:availableOccupied"><![CDATA[İşgal Edildi / Planlanmadı]]></lookup>
+	<lookup key="screenSaver:reserved"><![CDATA[ayrıldı]]></lookup>
+	<lookup key="screenSaver:details"><![CDATA[ayrıntılar]]></lookup>
+	<lookup key="screenSaver:meeting"><![CDATA[toplantı]]></lookup>
+	<lookup key="screenSaver:freeAllDay"><![CDATA[günün geri kalanı için]]></lookup>
+	<lookup key="screenSaver:nextUp"><![CDATA[sonraki]]></lookup>
+	<lookup key="screenSaver:notify"><![CDATA[Başlamak için ekrana dokunun]]></lookup>
+
+	<lookup key="about:systemInfo"><![CDATA[Sistem Bilgileri]]></lookup>
+	<lookup key="about:account"><![CDATA[Zaman Çizelgesi Hesabı]]></lookup>
+	<lookup key="about:serverConnection"><![CDATA[Sunucu Bağlantısı]]></lookup>
+	<lookup key="about:fusionStatus"><![CDATA[Fusion Sahte Anket]]></lookup>
+	<lookup key="about:googleAuthUserCode"><![CDATA[Google Auth Kullanıcı Kodu]]></lookup>
+	<lookup key="about:googleAuthUrl"><![CDATA[Google Auth Url’si]]></lookup>
+	<lookup key="about:firmware"><![CDATA[Aygıt Yazılımı]]></lookup>
+	<lookup key="about:appVersion"><![CDATA[Sürüm]]></lookup>
+	<lookup key="about:webVersion"><![CDATA[Web Sürümü]]></lookup>
+	<lookup key="about:hardwareId"><![CDATA[Donanım Kimliği]]></lookup>
+	<lookup key="about:online"><![CDATA[Çevrimiçi]]></lookup>
+	<lookup key="about:offline"><![CDATA[Çevrimdışı]]></lookup>
+	<lookup key="about:hostName"><![CDATA[Ana Bilgisayar Adı]]></lookup>
+	<lookup key="about:ip"><![CDATA[IP Adresi]]></lookup>
+	<lookup key="about:configUrl"><![CDATA[Yerel Yapılandırma Url’si]]></lookup>
+
+
+	<lookup key="helpLabels:roomName"><![CDATA[Oda adı]]></lookup>
+	<lookup key="helpLabels:reserveNow"><![CDATA[Odayı şimdi ayır]]></lookup>
+	<lookup key="helpLabels:moreAction"><![CDATA[Bulun, Ayırın ve daha fazlasını yapın]]></lookup>
+	<lookup key="helpLabels:timelineTap"><![CDATA[Rezervasyon eklemek veya toplantı ayrıntılarını görmek için dokunun]]></lookup>
+	<lookup key="helpLabels:timelineSwipe"><![CDATA[Diğer saatleri görmek için kaydırın]]></lookup>
+
+	<lookup key="error:message"><![CDATA[Üzgünüz, bir sistem hatası meydana geldi. Lütfen tekrar deneyin.]]></lookup>
+	<lookup key="error:messageAddEvent"><![CDATA[Üzgünüz, toplantı oluşturulurken bir hata meydana geldi. Lütfen tekrar deneyin.]]></lookup>
+	<lookup key="success:messageAddEvent"><![CDATA[Toplantı başarılı bir şekilde oluşturuldu.]]></lookup>
+
+	<lookup key="offline:label1"><![CDATA[Takvim Çevrimdışı]]></lookup>
+	<lookup key="offline:label2"><![CDATA[Lütfen yapılandırmayı kontrol edin]]></lookup>
+
+	<lookup key="pin:enterPasscode"><![CDATA[Geçiş Kodunu Girin]]></lookup>
+	<lookup key="pin:delete"><![CDATA[Sil]]></lookup>
+
+</lang>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="nb" name="Norwegian (NO)" alias="nb" rtl="false" variant="Norwegian (NO)">
+	<lookup key="global:findRoom"><![CDATA[Finn]]></lookup>
+	<lookup key="global:help"><![CDATA[Hjelp]]></lookup>
+	<lookup key="global:end"><![CDATA[Avslutt]]></lookup>
+	<lookup key="global:extend"><![CDATA[Utvid]]></lookup>
+	<lookup key="global:checkIn"><![CDATA[Delta]]></lookup>
+	<lookup key="global:reserveNow"><![CDATA[Reserver nå]]></lookup>
+	<lookup key="global:hours"><![CDATA[timer]]></lookup>
+	<lookup key="global:minutes"><![CDATA[minutter]]></lookup>
+	<lookup key="global:hour"><![CDATA[time]]></lookup>
+	<lookup key="global:minute"><![CDATA[minutt]]></lookup>
+	<lookup key="global:and"><![CDATA[og]]></lookup>
+	<lookup key="global:noon"><![CDATA[midt på dagen]]></lookup>
+	<lookup key="global:vision"><![CDATA[Høy kontrast]]></lookup>
+	<lookup key="global:private"><![CDATA[privat]]></lookup>
+	
+	<lookup key="statusRoomTitle:availableLabel1"><![CDATA[Tilgjengelig]]></lookup>
+	<lookup key="statusRoomTitle:availableLabel2"><![CDATA[for neste]]></lookup>
+	<lookup key="statusRoomTitle:availableOccupiedLabel1"><![CDATA[Opptatt / ikke planlagt]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel1"><![CDATA[Reservert]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel2"><![CDATA[for neste]]></lookup>
+
+	<lookup key="buttons:cancel"><![CDATA[Avbryt]]></lookup>
+	<lookup key="buttons:close"><![CDATA[Lukk]]></lookup>
+	<lookup key="buttons:end"><![CDATA[Avslutt nå]]></lookup>
+	<lookup key="buttons:extend"><![CDATA[Utvid]]></lookup>
+	<lookup key="buttons:addEvent"><![CDATA[Reserver nå]]></lookup>
+	<lookup key="buttons:ok"><![CDATA[OK]]></lookup>
+	
+	<lookup key="freeAllDay:label1"><![CDATA[tilgjengelig]]></lookup>
+	<lookup key="freeAllDay:label2"><![CDATA[For resten av dagen]]></lookup>
+
+	<lookup key="splash:loadingMessage"><![CDATA[Laster ...]]></lookup>
+		
+	<lookup key="endEvent:question"><![CDATA[Avslutte gjeldende møte]]></lookup>
+	<lookup key="endEvent:loadingMessage"><![CDATA[Laster]]></lookup>
+	<lookup key="endEvent:endsIn"><![CDATA[slutter om]]></lookup>
+		
+	<lookup key="extendEvent:headerTitle"><![CDATA[Utvid dette møtet]]></lookup>
+	<lookup key="extendEvent:endAt"><![CDATA[slutter]]></lookup>
+	<lookup key="extendEvent:timeRollLabel"><![CDATA[MIN]]></lookup>
+	<lookup key="extendEvent:loadingMessage"><![CDATA[Laster]]></lookup>
+	<lookup key="extendEvent:endsIn"><![CDATA[slutter om]]></lookup>
+		
+	<lookup key="checkInEvent:loadingMessage"><![CDATA[Laster]]></lookup>
+		
+	<lookup key="reservation:headerTitle"><![CDATA[Nytt møte]]></lookup>
+	<lookup key="reservation:subject"><![CDATA[Emne]]></lookup>
+	<lookup key="reservation:organizer"><![CDATA[Administrator]]></lookup>
+	<lookup key="reservation:starts"><![CDATA[Starter]]></lookup>
+	<lookup key="reservation:ends"><![CDATA[Slutter]]></lookup>
+	<lookup key="reservation:loadingMessage"><![CDATA[Laster]]></lookup>
+	<lookup key="reservation:defaultOrganizer"><![CDATA[Administrere direkte]]></lookup>
+	<lookup key="reservation:defaultSubject"><![CDATA[Sette opp møte direkte]]></lookup>
+
+	<lookup key="details:headerTitle"><![CDATA[Møteinformasjon]]></lookup>
+	<lookup key="details:from"><![CDATA[Fra]]></lookup>
+	<lookup key="details:attendees"><![CDATA[Deltakere]]></lookup>
+	<lookup key="details:loadingMessage"><![CDATA[Innhenter møte]]></lookup>
+	<lookup key="details:recurring"><![CDATA[gjentagende møte]]></lookup>
+		
+	<lookup key="findRoomData:headerTitle"><![CDATA[Tilgjengelige rom i nærheten]]></lookup>
+	<lookup key="findRoomData:address"><![CDATA[Bygningsadresse her]]></lookup>
+	<lookup key="findRoomData:forNext"><![CDATA[for neste]]></lookup>
+	<lookup key="findRoomData:loadingMessage"><![CDATA[Innhenter møte]]></lookup>
+	<lookup key="findRoomData:noRooms"><![CDATA[Ingen rom tilgjengelig for øyeblikket]]></lookup>
+
+	<lookup key="screenSaver:availableUntil"><![CDATA[tilgjengelig til]]></lookup>
+	<lookup key="screenSaver:available"><![CDATA[tilgjengelig]]></lookup>
+	<lookup key="screenSaver:availableOccupied"><![CDATA[Opptatt / ikke planlagt]]></lookup>
+	<lookup key="screenSaver:reserved"><![CDATA[reservert]]></lookup>
+	<lookup key="screenSaver:details"><![CDATA[detaljer]]></lookup>
+	<lookup key="screenSaver:meeting"><![CDATA[møte]]></lookup>
+	<lookup key="screenSaver:freeAllDay"><![CDATA[for resten av dagen]]></lookup>
+	<lookup key="screenSaver:nextUp"><![CDATA[neste møte]]></lookup>
+	<lookup key="screenSaver:notify"><![CDATA[Trykk på skjermen for å begynne]]></lookup>
+
+	<lookup key="about:systemInfo"><![CDATA[Systeminfo]]></lookup>
+	<lookup key="about:account"><![CDATA[Planleggingskonto]]></lookup>
+	<lookup key="about:serverConnection"><![CDATA[Serverforbindelse]]></lookup>
+	<lookup key="about:fusionStatus"><![CDATA[Fusion push/pull]]></lookup>
+	<lookup key="about:googleAuthUserCode"><![CDATA[Google Auth brukerkode]]></lookup>
+	<lookup key="about:googleAuthUrl"><![CDATA[Google Auth URL]]></lookup>
+	<lookup key="about:firmware"><![CDATA[Firmware]]></lookup>
+	<lookup key="about:appVersion"><![CDATA[Versjon]]></lookup>
+	<lookup key="about:webVersion"><![CDATA[Webversjon]]></lookup>
+	<lookup key="about:hardwareId"><![CDATA[Maskinvare-ID]]></lookup>
+	<lookup key="about:online"><![CDATA[Online]]></lookup>
+	<lookup key="about:offline"><![CDATA[Frakoblet]]></lookup>
+	<lookup key="about:hostName"><![CDATA[Vertsnavn]]></lookup>
+	<lookup key="about:ip"><![CDATA[IP-adresse]]></lookup>
+	<lookup key="about:configUrl"><![CDATA[Lokal konfigurasjons-URL]]></lookup>
+
+	<lookup key="helpLabels:roomName"><![CDATA[Romnavn]]></lookup>
+	<lookup key="helpLabels:reserveNow"><![CDATA[Reservere rom nå]]></lookup>
+	<lookup key="helpLabels:moreAction"><![CDATA[Finn, reserver og mer]]></lookup>
+	<lookup key="helpLabels:timelineTap"><![CDATA[Trykk for å legge til reservasjon eller se møteinformasjon]]></lookup>
+	<lookup key="helpLabels:timelineSwipe"><![CDATA[Sveip for å se andre tidspunkt]]></lookup>
+
+	<lookup key="error:message"><![CDATA[Beklager, det har oppstått en systemfeil.  Vennligst prøv igjen.]]></lookup>
+	<lookup key="error:messageAddEvent"><![CDATA[Beklager, det oppsto en feil ved opprettelse av møtet. Vennligst prøv igjen.]]></lookup>
+	<lookup key="success:messageAddEvent"><![CDATA[Møtet ble opprettet.]]></lookup>
+
+	<lookup key="offline:label1"><![CDATA[Kalender frakoblet]]></lookup>
+	<lookup key="offline:label2"><![CDATA[Sjekk konfigurasjonen]]></lookup>
+
+	<lookup key="pin:enterPasscode"><![CDATA[Tast inn adgangskode]]></lookup>
+	<lookup key="pin:delete"><![CDATA[Slett]]></lookup>
+</lang>

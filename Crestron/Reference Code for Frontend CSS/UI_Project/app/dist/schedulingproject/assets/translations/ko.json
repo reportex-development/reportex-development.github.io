@@ -1,0 +1,127 @@
+{
+  "findRoom": "찾기",
+  "help": "도움말",
+  "end": "종료",
+  "extend": "연장",
+  "checkIn": "체크인",
+  "reserveNow": "지금 예약",
+  "hours": "시간",
+  "minutes": "분",
+  "hour": "시간",
+  "minute": "분",
+  "and": "및",
+  "noon": "정오",
+  "vision": "비전",
+  "private": "비공개",
+  "statusRoomTitle": {
+    "availableLabel1": "다음 시간 동안",
+    "availableLabel2": "이용 가능:",
+    "availableOccupiedLabel1": "점유 / 예약되지 않음",
+    "reservedLabel1": "다음 시간 동안",
+    "reservedLabel2": "예약됨:"
+  },
+  "buttons": {
+    "cancel": "취소",
+    "close": "닫기",
+    "end": "지금 종료",
+    "extend": "연장",
+    "addEvent": "지금 예약",
+    "ok": "확인"
+  },
+  "freeAllDay": {
+    "label1": "이용 가능",
+    "label2": "당일 내내"
+  },
+  "splash": {
+    "loadingMessage": "로드 중..."
+  },
+  "endEvent": {
+    "question": "현재 회의 종료",
+    "loadingMessage": "로드 중",
+    "endsIn": "다음 시간 이후 종료:"
+  },
+  "extendEvent": {
+    "headerTitle": "이 회의 연장",
+    "endAt": "종료 시점:",
+    "timeRollLabel": "분",
+    "loadingMessage": "로드 중",
+    "endsIn": "다음 시간 이후 종료:"
+  },
+  "checkInEvent": {
+    "loadingMessage": "로드 중"
+  },
+  "reservation": {
+    "headerTitle": "신규 회의",
+    "subject": "주제",
+    "organizer": "주최자",
+    "starts": "시작",
+    "ends": "종료",
+    "loadingMessage": "로드 중",
+    "defaultOrganizer": "미예약 주최자",
+    "defaultSubject": "미예약 회의"
+  },
+  "details": {
+    "headerTitle": "회의 상세 정보",
+    "from": "시작",
+    "attendees": "참석자",
+    "loadingMessage": "회의 다시 가져오기",
+    "recurring": "재발생 회의"
+  },
+  "findRoomData": {
+    "headerTitle": "근처에 이용 가능한 호실",
+    "address": "이 장소의 빌딩 주소",
+    "forNext": "예약됨:",
+    "loadingMessage": "회의 다시 가져오기",
+    "noRooms": "현재 이용 가능한 호실이 없습니다"
+  },
+  "screenSaver": {
+    "availableUntil": "이용 가능 시점",
+    "available": "이용 가능",
+    "availableOccupied": "점유 / 예약되지 않음",
+    "reserved": "예약됨",
+    "details": "상세 정보",
+    "meeting": "회의",
+    "freeAllDay": "당일 내내",
+    "nextUp": "다음 차례",
+    "notify": "시작하려면 화면을 터치하십시오"
+  },
+  "about": {
+    "systemInfo": "시스템 정보",
+    "account": "예약 계정",
+    "serverConnection": "서버 연결",
+    "fusionStatus": "Fusion 푸시/가져오기",
+    "googleAuthUserCode": "Google Auth 사용자 코드",
+    "googleAuthUrl": "Google Auth Url",
+    "firmware": "펌웨어",
+    "appVersion": "버전",
+    "webVersion": "웹 버전",
+    "hardwareId": "하드웨어 ID",
+    "online": "온라인",
+    "offline": "오프라인",
+    "hostName": "호스트 이름",
+    "ip": "IP 주소",
+    "configUrl": "로컬 구성 Url"
+  },
+  "helpLabels": {
+    "roomName": "호실 이름",
+    "reserveNow": "지금 호실 예약",
+    "moreAction": "검색, 예약 및 기타",
+    "timelineTap": "예약을 추가하거나 회의 상세 정보를 확인하려면 탭하십시오",
+    "timelineSwipe": "다른 시간대를 확인하려면 스와이프하십시오"
+  },
+  "error": {
+    "message": "죄송합니다. 시스템 오류가 발생했습니다.  다시 시도해 주십시오.",
+    "messageAddEvent": "죄송합니다. 회의를 생성하는 도중 오류가 발생했습니다. 다시 시도해 주십시오."
+  },
+  "success": {
+    "messageAddEvent": "회의가 성공적으로 생성되었습니다."
+  },
+  "offline": {
+    "label1": "캘린더 오프라인",
+    "label2": "구성을 확인하십시오"
+  },
+  "pin": {
+    "enterPasscode": "패스코드 입력",
+    "delete": "삭제"
+  }
+}

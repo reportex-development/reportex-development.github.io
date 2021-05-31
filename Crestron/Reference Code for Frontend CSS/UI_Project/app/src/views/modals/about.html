@@ -1,0 +1,75 @@
+<!-- This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+    terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+    to redistribute derivative works of the provided sample code in source code format.  This license is located 
+    at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+    with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+    in unexpected behavior and a diminished user experience. -->
+
+<div class="about" data-ng-class="{'rtl': $root.isRtl}">
+    <div class="modal-header color__main-color-4">
+        {{ Helium.labels.about.systemInfo }}
+    </div>
+    <div class="modal-body">
+        <div class="about__container container-fluid">
+            <div class="about__container__account">
+                <div class="about__container__account__label color__theme-color-2">{{ Helium.labels.about.account }} :</div>
+                <div class="about__container__account__value color__theme-color-5">
+                    <div class="about__container__account__value__title">
+                       {{ data.helpProviderData.name }}
+                    </div>
+                    <div class="about__container__account__value__button">
+                        <button class="fa fa-refresh about__container_account__value__button__refresh-btn bg__theme-color-4 color__theme-color-4"
+                            data-ng-class="{'fa-spin': working}"
+                            el-touch-end=""
+                                data-touch-end-fn="refresh( )">
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="about__container__connection">
+                <div class="about__container__connection__label color__theme-color-2">{{ Helium.labels.about.serverConnection }} :</div>
+                <div class="about__container__connection__value color__theme-color-5">
+                    <div data-ng-if="data.helpProviderData.isOnline=='1'">{{ Helium.labels.about.online }}</div>
+                    <div data-ng-if="data.helpProviderData.isOnline!='1'">{{ Helium.labels.about.offline }}</div>
+                </div>
+            </div>
+            <div class="about__container__state" ng-repeat="(key, item) in data.helpProviderData.specificProviderData ">
+                <div class="about__container__state__label color__theme-color-2">
+                    {{ Helium.labels.about[key] }} :
+                </div>
+                <div class="about__container__state__value color__theme-color-5">
+                    {{ item }}
+                </div>
+            </div>
+            <div class="about__container__firmware">
+                <div class="about__container__firmware__label color__theme-color-2">{{ Helium.labels.about.firmware }} :</div>
+                <div class="about__container__firmware__value color__theme-color-5">{{ data.helpVersionData.firmware }}</div>
+            </div>
+            <div class="about__container__hostName">
+                <div class="about__container__hostName__label color__theme-color-2">{{ Helium.labels.about.hostName }} :</div>
+                <div class="about__container__hostName__value color__theme-color-5">{{ data.helpDeviceData.hostName }}</div>
+            </div>
+            <div class="about__container__ip">
+                <div class="about__container__ip__label color__theme-color-2">{{ Helium.labels.about.ip }} :</div>
+                <div class="about__container__ip__value color__theme-color-5">{{ data.helpDeviceData.ip }}</div>
+            </div>
+            <div class="about__container__configUrl">
+                <div class="about__container__configUrl__label color__theme-color-2">{{ Helium.labels.about.configUrl }} :</div>
+                <div class="about__container__configUrl__value color__theme-color-5">{{ data.helpDeviceData.configUrl }}</div>
+            </div>
+            <div class="about__container__project">
+                <div class="about__container__project__label color__theme-color-2">{{ Helium.labels.about.appVersion }} :</div>
+                <div class="about__container__project__value color__theme-color-5">{{ data.helpVersionData.application }}</div>
+            </div>
+            <div class="about__container__webproject">
+                <div class="about__container__webproject__label color__theme-color-2">{{ Helium.labels.about.webVersion }} :</div>
+                <div class="about__container__webproject__value color__theme-color-5">{{ data.helpVersionData.web }}</div>
+            </div>
+        </div>
+    </div>
+    <button class="fa fa-times about__container_cancel-btn bg__theme-color-4 color__theme-color-4"
+        el-touch-end=""
+            data-touch-end-fn="cancel( )">
+    </button>
+</div>

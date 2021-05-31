@@ -1,0 +1,87 @@
+<!-- This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+    terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+    to redistribute derivative works of the provided sample code in source code format.  This license is located 
+    at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+    with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+    in unexpected behavior and a diminished user experience. -->
+
+<div class="screensaver color__theme-color-5"
+    data-ng-class="{'rtl': $root.isRtl}"
+    data-ng-controller="ScreensaverCtrl">
+    <video class="screensaver__video"
+        playsinline autoplay muted loop
+        hlm-video-poster="Helium.settings.screenSaverBg.media.poster"
+        data-ng-if="Helium.settings.screenSaverBg.media.video">
+        <source ng-src="{{ Helium.settings.screenSaverBg.media.video }}"
+            type="{{ Helium.settings.screenSaverBg.media.type }}">
+    </video>
+    <img class="screensaver__image" ng-src="{{ Helium.settings.screenSaverBg.img.src }}"
+        data-ng-if="Helium.settings.screenSaverBg.img" />
+    <div class="screensaver__container container-fluid"
+         data-ng-class="{
+            'screensaver__container--reserved': Helium.state.isReserved( ),
+            'screensaver__container--available': (Helium.state.isAvailable( ) && !Helium.state.isAvailableForTheRestOfTheDay( )) || Helium.state.isAvailableForTheRestOfTheDay( ) }"
+        el-touch-end=""
+            data-touch-end-fn="goToRoom( )">
+        <div class="screensaver__container__room-details" ng-class="{ 'swap-details-in': swapFields,
+                                                                      'swap-details-out': !swapFields && firstSwap }">
+          <div class="screensaver__container__room-details__name">{{ Helium.values.roomName }}</div>
+        </div>
+        <div class="screensaver__container__all__cont" ng-class="{  'swap-reserved-cont-in': swapFields,
+                                                                    'swap-reserved-cont-out': !swapFields && firstSwap }">
+          <div class="screensaver__container__reserved" data-ng-if="Helium.state.isReserved( )">
+            <div class="screensaver__container__reserved__content color__main-color-2">
+              <span class="screensaver__container__reserved__date"> {{ Helium.labels.screenSaver.reserved }}</span>
+              {{ currentEvent.dtStart | date: Helium.settings.room.timeFormat }} -
+              {{ currentEvent.dtEnd | date: Helium.settings.room.timeFormat }}
+            </div>
+            <div class="screensaver__container__reserved__content screensaver__container__reserved__content--second color__theme-color-2"
+                data-ng-class="{'unicode-bidi-normal': Helium.state.isArabic}">
+              <div class="screensaver__container__reserved__label2">{{ Helium.labels.screenSaver.meeting }}: </div>
+              <div class="screensaver__container__reserved__subject" ng-bind-html="currentEvent.subject"></div>
+            </div>
+          </div>
+          <div class="screensaver__container__available"
+              data-ng-if="!Helium.state.isAvailableForTheRestOfTheDay( ) && Helium.state.isAvailable( )">
+            <div class="screensaver__container__available__content color__main-color-3">
+              <span class="screensaver__container__available__date"> {{ Helium.labels.screenSaver.availableUntil }}</span>
+              {{ nextEvent.dtStart | date: Helium.settings.room.timeFormat }}
+            </div>
+            <div class="screensaver__container__available__content screensaver__container__available__content--second color__theme-color-2"
+                data-ng-class="{'unicode-bidi-normal': Helium.state.isArabic}">
+              <div class="screensaver__container__available__label2">{{ Helium.labels.screenSaver.nextUp }}: </div>
+              <div class="screensaver__container__available__subject" ng-bind-html="nextEvent.subject"></div>
+            </div>
+          </div>
+          <div class="screensaver__container__freeAllDay" data-ng-if="Helium.state.isAvailableForTheRestOfTheDay( )">
+            <div class="screensaver__container__freeAllDay__label1 color__main-color-3">
+              {{ Helium.labels.screenSaver.available }}
+            </div>
+            <div class="screensaver__container__freeAllDay__label2">
+              {{ Helium.labels.screenSaver.freeAllDay }}
+            </div>
+          </div>
+        </div>
+        <!-- <div class="screensaver__container__time-date" ng-class="{ 'swap-time-in': swapFields,
+                                                                    'swap-time-out': !swapFields && firstSwap }"> -->
+          <div class="screensaver__container__current-time" ng-class="{ 'swap-time-in': swapFields,
+                                                                        'swap-time-out': !swapFields && firstSwap }">
+            <div class="screensaver__container__current-time__date color__theme-color-2">
+              {{ currentTime | date: Helium.settings.room.dateFormat }}
+            </div>
+            <div class="screensaver__container__current-time__time">
+              {{ currentTime | date: Helium.settings.room.timeFormat }}
+            </div>
+          </div>
+          <div class="screensaver__container__logo" ng-class="{ 'swap-time-in': swapFields,
+                                                                'swap-time-out': !swapFields && firstSwap }">
+            <img class="screensaver__container__logo__img" alt="logo" data-ng-if="getLogo( )" data-ng-src="{{ getLogo( ) }}" />
+          </div>
+        <!-- </div> -->
+        <div class="screensaver__container__notify color__theme-color-2">
+             {{ Helium.labels.screenSaver.notify }}
+        </div>
+    </div>
+    <div class="screensaver_flash" ng-class="{  'white-spash-in': swapFields,
+                                            'white-spash-out': !swapFields && firstSwap }"></div>
+</div>

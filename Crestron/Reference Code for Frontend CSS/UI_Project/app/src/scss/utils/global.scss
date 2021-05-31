@@ -1,0 +1,113 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+.push-to-bottom {
+  	position: absolute;
+  	bottom: 0;
+}
+
+// Not used
+// .inline-block {
+// 	display: inline-block;
+// }
+
+// .overflow-y {
+//     overflow-y: scroll;
+// }
+
+// .height-m {
+//     height: 12rem;
+// }
+
+// .align-bottom {
+//     display: flex;
+//     align-items: flex-end;
+// }
+
+// .align-center {
+//     display: flex;
+//     align-items: center;
+// }
+
+.rtl {
+    direction: rtl !important;
+}
+
+// Not used
+// .hidden3 {
+//     display:none;
+// }
+
+/* Added to main div by Javascript when a modal is opened. See Helium.methods.openModal */
+.blur {
+	filter: blur(5px); /* Someday, sigh ... */
+	-webkit-filter: blur(5px); /* Prefixed CSS3 blur filters */
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5'); /* IE lte 9 */
+}
+
+/* Currently only used with PIN modal */
+.modalOpacity {
+    opacity: 0.9 !important;
+}
+
+.flipY {
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+.flipX {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+// Not used
+// .brightness {
+//     filter: brightness(200%);
+// }
+
+/* Used for subject and organizer entry fields in Reserve modal */
+.form-control {
+    padding: 0px;
+    background-color: inherit;
+    border: 0;
+    box-shadow: none;
+    &:focus {
+        border: 0px;
+        outline: 0;
+        -webkit-box-shadow: none;
+        box-shadow: 0px;
+    }
+}
+
+/* Used in Find Rooms modal, for "No rooms found" label */
+.relative-vertical-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+// Not used
+// .absolute-vertical-center {
+//     position: relative;
+//     top: 50%;
+//     transform: translateY(-50%);
+// }
+
+/* Used by time-group-roller  */
+.float-left {
+  float: left !important;
+}
+.float-right {
+  float: right !important;
+}

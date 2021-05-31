@@ -1,0 +1,29 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+.btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    //background-color: Transparent;
+    background-repeat:no-repeat;
+    text-decoration: none;
+    font-size: inherit;
+    cursor: pointer;
+    border-style: none;
+    //transition:all 0.1s linear;
+
+    &:hover, &:active, &:focus {
+        outline: none !important;
+        text-decoration: none;
+        box-shadow: none;
+    }
+}
+
+.btn.disabled, .btn[disabled]{
+    cursor: pointer;
+}

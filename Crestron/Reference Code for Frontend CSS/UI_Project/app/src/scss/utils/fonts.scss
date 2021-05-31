@@ -1,0 +1,123 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+// Font
+@font-face {
+  font-family: 'Crestron';
+  src: url("./assets/fonts/CrestronSansPro-Light/CrestronSansPro-Light.otf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Crestron';
+  src: url("./assets/fonts/CrestronSansPro-Regular/CrestronSansPro-Regular.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Crestron';
+  src: url("./assets/fonts/CrestronSansPro-Semibold/CrestronSansPro-Semibold.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Crestron';
+  src: url("./assets/fonts/CrestronSansPro-Bold/CrestronSansPro-Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Architects Daughter';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/ArchitectsDaughter/ArchitectsDaughter.ttf");
+}
+
+$font-family-default: 'Crestron', sans-serif;
+
+.font-covered-24 {
+    font-family: 'Architects Daughter';
+    @include font-base-covered(24);
+}
+
+.font-normal-16 {
+    @include font-base-normal(16);
+}
+
+.font-normal-18 {
+    @include font-base-normal(18);
+ }
+
+.font-normal-20 {
+    @include font-base-normal(20);
+ }
+
+.font-normal-22 {
+    @include font-base-normal(22);
+}
+
+.font-normal-24 {
+    @include font-base-normal(24);
+}
+
+.font-normal-26 {
+    @include font-base-normal(26);
+}
+
+.font-normal-28 {
+    @include font-base-normal(28);
+}
+
+.font-normal-30 {
+    @include font-base-normal(30);
+}
+
+.font-normal-36 {
+    @include font-base-normal(36);
+}
+
+.font-normal-41 {
+    @include font-base-normal(41);
+    line-height: 1.15em;
+}
+
+.font-normal-46 {
+    @include font-base-normal(46);
+}
+
+.font-normal-60 {
+    @include font-base-normal(60);
+}
+
+.font-normal-66 {
+    @include font-base-normal(66);
+}
+
+.font-normal-72 {
+    @include font-base-normal(72);
+}
+
+.font-normal-78 {
+    @include font-base-normal(78);
+}
+
+.font-normal-118 {
+    @include font-base-normal(118);
+}
+
+.font-semibold-20 {
+    @include font-base-semibold(20);
+}
+
+.font-semibold-24 {
+    @include font-base-semibold(24);
+}
+
+.font-semibold-36 {
+    @include font-base-semibold(36);
+}
+
+.font-semibold-78 {
+    @include font-base-semibold(78);
+}

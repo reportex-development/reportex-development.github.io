@@ -1,0 +1,92 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+@mixin set-background-color($color, $alpha: 1) {
+  background-color: $color;
+  @if $alpha {
+      opacity: $alpha;
+  }
+}
+
+@mixin set-background-gradient($color1, $color2) {
+    background: $color1;
+    background: -webkit-linear-gradient($color1, $color2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin set-outer-glow($color) {
+    text-shadow:
+        -5px 0 5px rgba($color, 1),
+        0 -5px 5px rgba($color, 1),
+        5px 0 5px rgba($color, 1),
+        0 5px 5px rgba($color, 1);
+}
+
+@mixin set-border-gradient($color1, $color2)  {
+    border: 1px solid transparent;
+
+	-moz-border-image: -moz-linear-gradient(top, $color1 0%, $color2 100%);
+	-webkit-border-image: -webkit-linear-gradient(top, $color1 0%, $color2 100%);
+	border-image: linear-gradient(to bottom, $color1 0%, $color2 100%);
+
+	border-image-slice: 1;
+}
+
+@mixin set-blur( $blur ) {
+    filter: blur($blur);
+	-webkit-filter: blur($blur);
+	-moz-filter: blur($blur);
+	-o-filter: blur($blur);
+	-ms-filter: blur($blur);
+}
+
+@mixin setProperty($property, $value) {
+    // Calculate vmin instead of vh
+    #{$property} : $value / 3 * 0.5vmin;
+}
+
+// Fonts
+@mixin font-base( ) {
+    font-family: $font-family-default;
+    font-style: normal;
+    line-height: 0.75em;
+}
+
+@mixin font-light( ) {
+    @include font-base();
+}
+
+@mixin font-base-light( $size ) {
+    @include font-base();
+    @include setProperty( 'font-size', $size );
+    font-weight: 100;
+}
+
+@mixin font-base-normal( $size ) {
+    @include font-base();
+    @include setProperty( 'font-size', $size );
+    font-weight: normal;
+}
+
+@mixin font-base-semibold( $size ) {
+    @include font-base();
+    @include setProperty( 'font-size', $size );
+    font-weight: 500;
+}
+
+@mixin font-base-bold( $size ) {
+    @include font-base();
+    @include setProperty( 'font-size', $size );
+    font-weight: bold;
+}
+
+@mixin font-base-covered( $size ) {
+    @include setProperty( 'font-size', $size );
+    font-style: normal;
+    line-height: 1;
+}

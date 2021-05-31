@@ -1,0 +1,637 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+.flipX {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.flipY {
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.timeline {
+    max-width: 100vw;
+    max-height: 100vh;
+    direction: ltr;
+}
+
+.timeline--horizontal {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: #{$timeline-height}vmin;
+    padding-top: 0;
+    padding-bottom: 23px;
+
+    //TODO * whould like Gaussian blur effect to blur underline background
+    .timeline__content {
+        height: 100%;
+        position: relative;
+    }
+
+    .timeline__content__block {
+        height: 100%;
+        border-left-width: 1px;
+        border-left-style: solid;
+        float: left;
+        position: relative;
+        display: table;
+    }
+
+    .timeline__content__block__subBlocks {
+        height: 100%;
+    }
+
+    .timeline__content__block__subBlocks__subBlock {
+        display: block;
+        height: 100%;
+        float: left;
+    }
+    .timeline__content__block__subBlocks__subBlock:first-of-type {
+        .timeline__content__block__subBlocks__subBlock__border {
+            border: 0;
+        }
+    }
+
+    .timeline__content__block__subBlocks__subBlock__border {
+        @include setProperty( 'height', 48 );
+        border-left-width: 1px;
+        border-left-style: solid;
+    }
+
+    .timeline__content__block__label {
+        width: 100%;
+        position: absolute;
+        @include setProperty( 'bottom', -20 );
+        top: inherit;
+    }
+
+    .timeline__content__block__label--top {
+        bottom: inherit;
+        @include setProperty( 'top', -22 );
+    }
+
+    .timeline__content__block__label_time {
+        @include setProperty( 'font-size', 24 );
+        position: relative;
+        margin-left: 2px;
+        text-transform: uppercase;
+    }
+
+    .timeline__content__block__label_time--top {
+        @include setProperty( 'font-size', 24 );
+        position: relative;
+        margin-left: 2px;
+        text-transform: uppercase;
+    }
+
+    //TODO border-right should be transparent
+    .timeline__content__event {
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .timeline__content__event__content {
+        height: calc( 100% - 3px );
+        width: 100%;
+        margin: 2px auto;
+        border-left-width: 3px;
+        border-left-style: solid;
+        border-right-width: 0;
+        border-right-style: none;
+        position: absolute;
+    }
+
+    .timeline__content__event__content--right {
+        margin-left: 0;
+
+        border-left-width: 0;
+        border-left-style: none;
+        border-right-width: 3px;
+        border-right-style: solid;
+    }
+
+    .timeline__content__now {
+        height: calc( 100% + 3.33vmin );
+        width: 2px;
+        position: absolute;
+        top: inherit;
+        bottom: -20px;
+        transition: all 1s linear;
+        pointer-events: none;
+    }
+
+    .timeline__content__now--top {
+        top: -2.5vmin;
+        bottom: inherit;
+    }
+
+    .timeline__content__now::before {
+        border-radius: 50%;
+        height: 10px;
+        width: 10px;
+        position: absolute;
+        left: -4px;
+        bottom: 0;
+        top: inherit;
+        display: block;
+        transition: all 1s linear;
+        content: "";
+    }
+
+    .timeline__content__now--top::before {
+        top: 0;
+        bottom: inherit;
+    }
+}
+
+.timeline--horizontal--padding-top {
+    padding-top: 5vmin;
+    padding-bottom: 0;
+}
+
+.timeline--vertical {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: #{$timeline-width}vmax;
+    padding-right: #{$timeline-vertical-padding}vmax;
+    padding-left: 0;
+    padding-bottom: 0;
+
+    &.timeline--top {
+        padding-left: #{$timeline-vertical-padding}vmax;
+        padding-right: 0;
+    }
+
+    .timeline__content {
+        position: relative;
+    }
+
+    .timeline__content__block {
+        width: 100%;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        position: relative;
+    }
+
+    .timeline__content__block__subBlocks {
+        float: left;
+        width: 100%;
+    }
+
+    .timeline__content__block__subBlocks__subBlock {
+        width: 100%;
+    }
+
+    .timeline__content__block__subBlocks__subBlock--right {
+        margin: 0;
+        margin-right: 3vw;
+
+    }
+    .timeline__content__block__subBlocks__subBlock__border {
+        margin-right: 3vw;
+        border-top-width: 1px;
+        border-top-style: solid;
+    }
+
+    .timeline__content__block__subBlocks__subBlock__border--top {
+        margin-left: 3vw;
+        margin-right: 0;
+    }
+
+    .timeline__content__block__subBlocks__subBlock:first-of-type {
+        .timeline__content__block__subBlocks__subBlock__border {
+            border: 0;
+        }
+    }
+
+    .timeline__content__block__label {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        position: absolute;
+        transform: translateX(100%);
+        right: 0;
+    }
+
+    .timeline__content__block__label--top {
+        width: 100%;
+        transform: translateX(-100%);
+    }
+
+    .timeline__content__block__label_time--top {
+        @include setProperty( 'font-size', 24 );
+        position: relative;
+        text-transform: uppercase;
+        float: right;
+        margin-right: 1.67vmin;
+        margin-left: initial;
+        line-height: 1;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 10vw;
+        unicode-bidi: plaintext;
+    }
+
+    .timeline__content__block__label_time {
+        @include setProperty( 'font-size', 24 );
+        position: absolute;
+        text-transform: uppercase;
+        margin-left: 1.67vmin;
+        margin-right: initial;
+        line-height: 1;
+        top: 0;
+        left: 0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 10vw;
+        unicode-bidi: plaintext;
+    }
+
+    .timeline__content__block__label_time--flip {
+        @include setProperty( 'font-size', 21 );
+        top: initial;
+        bottom: 0;
+        direction: rtl;
+    }
+
+    .timeline__content__event {
+        width: 100%;
+        position: absolute;
+        overflow: hidden;
+    }
+    .timeline__content__event__content {
+        width: calc( 100% - 2.3vw);
+        height: 100%;
+        margin-left: 2.3vw;
+
+        border-left-width: 3px;
+        border-left-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+    }
+
+    .timeline__content__event__content--right {
+        margin-left: 0;
+
+        border-left-width: 0;
+        border-left-style: none;
+        border-right-width: 3px;
+        border-right-style: solid;
+    }
+
+    .timeline__content__event__content__title {
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    .timeline__content__now {
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        transition: all 1s linear;
+    }
+
+    .timeline__content__now::before {
+        border-radius: 50%;
+        height: 10px;
+        width: 10px;
+        position: absolute;
+        right: 0;
+        top: -3px;
+        transition: all 1s linear;
+        content: "";
+    }
+
+    .timeline__content__now--top::before {
+        left: -3px;
+        right: initial;
+        bottom: -3px;
+        top: initial;
+    }
+
+    .timeline__content__now__time {
+        @include setProperty( 'font-size', 24 );
+        position: absolute;
+        top: -1vh;
+        left: 26vw;
+        width: max-content;
+    }
+
+    .timeline__content__now__time--top {
+        right: 26vw;
+        left: initial;
+    }
+
+    .timeline__content__now__time__label {
+        float: left;
+        position: relative;
+        top: 1vh;
+        left: .25vw;
+        padding-left: .25vw;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 15vw;
+        min-width: 8vw;
+        height: 4vh;
+        unicode-bidi: plaintext;
+    }
+
+    .timeline__content__now__time__label--flip {
+        @include setProperty( 'font-size', 21 );
+        float: left;
+        padding-left: 50px;
+        margin-left: 0;
+        @extend .flipY;
+        direction: rtl;
+    }
+
+    .timeline__content__now__time__label--top {
+        float: right;
+        text-align: right;
+        right: .25vw;
+        left: initial;
+        padding-right: .25vw;
+        padding-left: initial;
+    }
+}
+
+.timeline--portrait {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    touch-action: pan-y;
+    height: 37.5vh;
+    width: 100vw;
+    padding-left: initial;
+    padding-right: 23vw;
+    padding-bottom: 0;
+    border-top-width: 1px;
+    border-top-style: solid;
+
+    &.timeline--top {
+        padding-left: 23vw;
+        padding-right: initial;
+    }
+
+    .timeline__content {
+        position: relative;
+    }
+
+    .timeline__content__block {
+        width: 100%;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        position: relative;
+    }
+
+    .timeline__content__block__subBlocks {
+        float: left;
+        width: 100%;
+    }
+
+    .timeline__content__block__subBlocks__subBlock {
+        margin-left: 6.5vw;
+        margin-right: 0;
+    }
+
+    .timeline__content__block__subBlocks__subBlock--right {
+        margin-left: 0;
+        margin-right: 6.5vw;
+    }
+
+    .timeline__content__block__subBlocks__subBlock__border {
+        margin-right: 6.5vw;
+        border-top-width: 1px;
+        border-top-style: solid;
+    }
+
+    .timeline__content__block__subBlocks__subBlock__border--top {
+        margin-left: 6.5vw;
+        margin-right: 0;
+    }
+
+    .timeline__content__block__subBlocks__subBlock:first-of-type {
+        .timeline__content__block__subBlocks__subBlock__border {
+            border: 0;
+        }
+    }
+
+    .timeline__content__block__label {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        position: absolute;
+        transform: translateX(100%);
+        right: 0;
+    }
+
+    .timeline__content__block__label--top {
+        transform: translateX(-100%);
+    }
+
+    .timeline__content__block__label_time {
+        @include setProperty( 'font-size', 24 );
+        position: absolute;
+        text-transform: uppercase;
+        margin-right: 10vw;
+        padding-right: 2vw;
+        top: 0;
+        left: 0;
+        unicode-bidi: plaintext;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 155px;
+    }
+
+    .timeline__content__block__label_time--top {
+        @include setProperty( 'font-size', 24 );
+        position: relative;
+        text-transform: uppercase;
+        float: right;
+        margin-left: 10vw;
+        padding-right: 2vw;
+        padding-left: initial;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 155px;
+        unicode-bidi: plaintext;
+    }
+
+    .timeline__content__block__label_time--flip {
+        top: initial;
+        bottom: 0;
+        direction: rtl;
+    }
+
+    .timeline__content__event {
+        width: 100%;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .timeline__content__event__content {
+        height: 100%;
+        margin-left: 6.5vw;
+
+        border-left-width: 3px;
+        border-left-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+    }
+
+    .timeline__content__event__content--right {
+        margin-right: 6.5vw;
+        margin-left: initial;
+
+        border-left-width: 0;
+        border-left-style: none;
+        border-right-width: 3px;
+        border-right-style: solid;
+    }
+
+    .timeline__content__event__content__title {
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    .timeline__content__now {
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        transition: all 1s linear;
+    }
+
+    .timeline__content__now--top {
+        right: initial;
+        left: 0;
+    }
+
+    .timeline__content__now::before {
+        border-radius: 50%;
+        height: 10px;
+        width: 10px;
+        position: absolute;
+        right: 0;
+        top: -3px;
+        transition: all 1s linear;
+        content: "";
+    }
+
+    .timeline__content__now--top::before {
+        left: 0;
+        right: initial;
+        bottom: -3px;
+        top: initial;
+    }
+
+    .timeline__content__now__time {
+        @include setProperty( 'font-size', 24 );
+        position: absolute;
+        bottom: -1.5vmin;
+        left: 78vw;
+        width: max-content;
+    }
+
+    .timeline__content__now__time--top {
+        top: -.5vmin;
+        bottom: initial;
+        right: 79vw;
+        left: initial;
+    }
+
+    .timeline__content__now__time__label {
+        float: left;
+        padding-left: .5vw;
+        direction: rtl;
+        unicode-bidi: plaintext;
+        text-transform: uppercase;
+        text-align: left;
+        white-space: nowrap;
+        text-overflow: clip;
+        overflow: hidden;
+        letter-spacing: 1px;
+        min-width: calc(18vw - 25px);
+    }
+
+    .timeline__content__now__time__label--top {
+        float: right;
+        padding-right: .5vw;
+        padding-left: initial;
+        text-align: right;
+        direction: ltr;
+    }
+
+    .timeline__content__now__time__label--flip {
+        float: right;
+        direction: rtl;
+    }
+}
+
+.timeline--disable-interaction {
+    overflow: hidden;
+}
+
+.timeline--horizontal .timeline__content--flip {
+     @extend .flipX;
+
+    .timeline__content__block__label {
+        @extend .flipX;
+        //padding-right: 23px;
+        text-align: right;
+        direction: rtl;
+    }
+}
+
+.timeline--vertical .timeline__content--flip {
+     @extend .flipY;
+
+    .timeline__content__block__label {
+        @extend .flipY;
+        padding-right: 23px;
+        text-align: right;
+    }
+
+    .timeline__content__block__label--top {
+        @extend .flipY;
+        padding-right: 0;
+        text-align: right;
+    }
+}
+
+.timeline--portrait .timeline__content--flip {
+     @extend .flipY;
+
+    .timeline__content__block__label {
+        @extend .flipY;
+        text-align: left;
+        direction: rtl;
+    }
+
+    .timeline__content__block__label--top {
+        @extend .flipY;
+        text-align: left;
+        direction: rtl;
+    }
+}

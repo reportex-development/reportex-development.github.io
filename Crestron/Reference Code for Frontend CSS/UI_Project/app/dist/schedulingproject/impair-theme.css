@@ -1,0 +1,484 @@
+/** COLORS ***/
+.color__theme-color-2 {
+  color: rgba(255, 255, 255, 0.6); }
+
+.color__theme-color-3 {
+  color: rgba(255, 255, 255, 0.7); }
+
+.color__theme-color-4 {
+  color: rgba(255, 255, 255, 0.8); }
+
+.color__theme-color-5 {
+  color: white; }
+
+.color__theme-color-6 {
+  color: rgba(255, 255, 255, 0.4); }
+
+.color__theme-color-7 {
+  color: rgba(255, 255, 255, 0.2); }
+
+.color__theme-color-8 {
+  color: black; }
+
+.color__theme-color-9 {
+  color: rgba(0, 0, 0, 0.9); }
+
+.color__main-color-2 {
+  color: #f2bd2f; }
+
+.color__main-color-3 {
+  color: #3cf799; }
+
+.color__main-color-4 {
+  color: #1fdfff; }
+
+.color__main-color-5 {
+  color: #c9c929; }
+
+.color__main-color-6 {
+  color: rgba(31, 223, 255, 0.6); }
+
+/** END COLORS ***/
+/** BACKGROUD COLORS ***/
+.bg__theme-color-1 {
+  background-color: #3d3d3d; }
+
+.bg__theme-color-2 {
+  background-color: rgba(0, 0, 0, 0.9); }
+
+.bg__theme-color-3 {
+  background-color: rgba(31, 31, 31, 0.8); }
+
+.bg__theme-color-4 {
+  background-color: rgba(31, 31, 31, 0.98); }
+
+.bg__theme-color-6 {
+  background-color: rgba(61, 61, 61, 0.9); }
+
+.bg__theme-color-7 {
+  background-color: #1f1f1f; }
+
+.bg__theme-color-8 {
+  background-color: #727272; }
+
+.bg__theme-color-9 {
+  background-color: rgba(47, 47, 47, 0.9); }
+
+.bg__theme-color-10 {
+  background-color: white; }
+
+.bg__main-color-1 {
+  background-color: rgba(242, 189, 47, 0.1); }
+
+.bg__main-color-2 {
+  background-color: #3cf799; }
+
+.bg__main-color-4 {
+  background-color: rgba(31, 223, 255, 0.8); }
+
+.bg__main-color-5 {
+  background-color: #1fdfff; }
+
+.bg__main-color-6 {
+  background-color: #f2bd2f; }
+
+.bg__main-color-7 {
+  background-color: rgba(31, 223, 255, 0.9); }
+
+.bg__main-color-8 {
+  background-color: rgba(242, 189, 47, 0.9); }
+
+.bg__transparent {
+  background: transparent; }
+
+/** END BACKGROUD COLORS ***/
+/** BORDER COLORS ***/
+.border__theme-color-1 {
+  border-color: rgba(61, 61, 61, 0.9); }
+
+.border__theme-color-4 {
+  border-color: rgba(255, 255, 255, 0.2); }
+
+.border__theme-color-9 {
+  border-color: rgba(255, 255, 255, 0.1); }
+
+.border__main-color-1 {
+  border-color: #f2bd2f; }
+
+.border__main-color-3 {
+  border-color: #3cf799; }
+
+/** OFFLINE ***/
+.border--bottom__main-color-1 {
+  border-bottom-color: white; }
+
+.border--top__main-color-2 {
+  border-top-color: rgba(0, 0, 0, 0.2); }
+
+/** SPLASH ***/
+.border--top__theme-color-8 {
+  border-top-color: rgba(228, 228, 228, 0.5); }
+
+/** TIME-LINE ***/
+.border--left__theme-color-9 {
+  border-left-color: rgba(255, 255, 255, 0.1); }
+
+.border--right__theme-color-1 {
+  border-right-color: rgba(255, 255, 255, 0.1); }
+
+.border--bottom__theme-color-1 {
+  border-bottom-color: rgba(255, 255, 255, 0.1); }
+
+/** END BORDER COLORS ***/
+/******************** TIMELINE COLORS ******************/
+.timeline__content__event__content--active,
+.timeline__content__event__content--selected {
+  border-color: #f2bd2f;
+  background-color: rgba(242, 189, 47, 0.8); }
+
+.timeline--vertical .timeline__content__event__content {
+  border-left-color: #f2bd2f; }
+
+.timeline--vertical .timeline__content__event__content--right {
+  border-right-color: #f2bd2f; }
+
+.timeline__content__event__content--finished {
+  border-color: rgba(228, 228, 228, 0.1);
+  background-color: rgba(228, 228, 228, 0.05); }
+
+.timeline--vertical .timeline__content__event__content.timeline__content__event__content--finished {
+  border-left-color: rgba(228, 228, 228, 0.1); }
+
+.timeline--vertical .timeline__content__event__content--right.timeline__content__event__content--finished {
+  border-right-color: rgba(228, 228, 228, 0.1); }
+
+.timeline__content__now::before {
+  background-color: #3cf799; }
+
+.timeline__content__now--reserved,
+.timeline__content__now--reserved::before {
+  background-color: #f2bd2f; }
+
+.timeline__content__now__time__label {
+  box-shadow: rgba(10, 10, 10, 0.9) 0px 0px 10px 16px inset, rgba(10, 10, 10, 0.9) 0px 0px 10px 3px; }
+
+.timeline__content__now__time__label {
+  color: #3cf799; }
+
+.timeline__content__now__time__label--reserved {
+  color: #f2bd2f; }
+
+/****************** END TIMELINE COLORS ****************/
+/****************** ROOM COLORS ************************/
+.room__container__action__reserve-now::before {
+  color: white; }
+
+.room__container__status__action-btn::before {
+  color: rgba(255, 255, 255, 0.8); }
+
+.room__container__theme__button--selected {
+  background-color: #3cf799; }
+
+.room__container__current-time__spacer--reserved {
+  color: #f2bd2f; }
+
+.room__container__current-time__spacer--available {
+  color: #3cf799; }
+
+.menu__overlay::before {
+  background-color: rgba(0, 0, 0, 0.9); }
+
+.room__action__check_in__btn::before,
+.room__action__extend__btn::before,
+.room__action__end__btn::before,
+.room__action__help__btn::before,
+.room__action__find-room__btn::before,
+.room__action__vision__btn::before {
+  color: rgba(0, 0, 0, 0.9); }
+
+.room__action__check_in__btn[disabled],
+.room__action__extend__btn[disabled],
+.room__action__end__btn[disabled],
+.room__action__find-room__btn[disabled] {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.7); }
+
+.room__container__theme__button {
+  border-color: #3cf799; }
+
+.room__container__theme__button--selected {
+  background-color: #3cf799; }
+
+/****************** END ROOM COLORS ********************/
+/****************** SCREENSAVER COLORS ********************/
+.screensaver__container--reserved {
+  border-color: rgba(242, 189, 47, 0.8); }
+
+.screensaver__container--available {
+  border-color: #3cf799; }
+
+/****************** END SCREENSAVER COLORS ****************/
+/****************** MODAL COLORS ****************/
+.modal__container__border {
+  border-color: rgba(255, 255, 255, 0.2); }
+
+.modal-dialog {
+  background-color: rgba(31, 31, 31, 0.98); }
+
+.modal-content {
+  background-color: inherit;
+  color: rgba(255, 255, 255, 0.6); }
+  .modal-content .modal-footer div:nth-child(n+2) {
+    border-color: rgba(255, 255, 255, 0.2); }
+
+.modal-about::before {
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.time-roll__viewport__selected span {
+  color: white; }
+
+.form-control:focus {
+  color: #1fdfff;
+  border-color: initial; }
+
+.border--error {
+  border-color: red !important; }
+
+/****************** END MODAL COLORS ****************/
+/****************** MENU ITEM COLORS ****************/
+.menu__item--disabled {
+  background-color: #727272 !important; }
+
+.menu__icon {
+  color: rgba(0, 0, 0, 0.9); }
+
+.menu__icon--active {
+  color: rgba(31, 223, 255, 0.9); }
+
+.menu__icon--hover {
+  color: rgba(0, 0, 0, 0.9); }
+
+/****************** END MENU ITEM COLORS ****************/
+/****************** SCREENSAVER COLORS ********************/
+.screensaver__container::before {
+  background: none !important; }
+
+.screensaver__container::after {
+  background-color: black;
+  opacity: 1; }
+
+.screensaver_flash {
+  background-color: #0a0a0a; }
+
+/****************** END SCREENSAVER COLORS ****************/
+/****************** ROOM COLORS ************************/
+.room__container::before {
+  background: none !important; }
+
+.room__container::after {
+  background-color: black;
+  opacity: 1; }
+
+.color__theme-color-2 {
+  color: white; }
+
+.room__container--available .room__container__status__title__label1,
+.room__container--available .room__container__status__countdown__hours__number,
+.room__container--available .room__container__status__countdown__minutes__number {
+  color: #3cf799; }
+
+.room__container--available .room__container__status__countdown__hours__time,
+.room__container--available .room__container__status__countdown__minutes__time {
+  color: #3cf799;
+  border: 1px solid #3cf799; }
+
+.room__container--reserved .room__container__status__title__label1,
+.room__container--reserved .room__container__status__countdown__hours__number,
+.room__container--reserved .room__container__status__countdown__minutes__number {
+  color: #f2bd2f; }
+
+.room__container--reserved .room__container__status__countdown__hours__time,
+.room__container--reserved .room__container__status__countdown__minutes__time {
+  color: #f2bd2f;
+  border: 1px solid #f2bd2f; }
+
+.bg__theme-color-8 {
+  background-color: rgba(114, 114, 114, 0.9); }
+
+.border__theme-color-1 {
+  border-color: rgba(61, 61, 61, 0.9); }
+
+.border__theme-color-2 {
+  border-color: rgba(114, 114, 114, 0.9); }
+
+.border__theme-color-4 {
+  border-color: rgba(255, 255, 255, 0.5); }
+
+.bg__theme-color-6 {
+  background-color: #3d3d3d; }
+
+.menu__open:checked + .menu__open__button .menu-close-label {
+  color: black; }
+
+/****************** END ROOM COLORS ************************/
+/******************** TIMELINE COLORS ******************/
+.border__main-color-1 {
+  border-left-color: black; }
+
+.bg__theme-color-7 {
+  background-color: #1f1f1f; }
+
+.bg__main-color-1 {
+  background-color: rgba(242, 189, 47, 0.7); }
+
+.border__theme-color-9 {
+  border-color: rgba(255, 255, 255, 0.5); }
+
+.timeline__content__event__content--active,
+.timeline__content__event__content--selected {
+  border-color: #f2bd2f;
+  background-color: #f2bd2f; }
+
+.timeline__content__event__content--finished {
+  border-color: black;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.timeline__content__now::before {
+  background-color: #3cf799; }
+
+.timeline__content__now--reserved,
+.timeline__content__now--reserved::before {
+  background-color: #f2bd2f; }
+
+.timeline--vertical .timeline__content__event__content,
+.timeline--vertical .timeline__content__event__content--active,
+.timeline--vertical .timeline__content__event__content--selected {
+  border: 0px; }
+
+.timeline--portrait .timeline__content__event__content,
+.timeline--portrait .timeline__content__event__content--active,
+.timeline--portrait .timeline__content__event__content--selected {
+  border: 0px; }
+
+.timeline--vertical .timeline__content__now__time__label {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+/****************** END TIMELINE COLORS ****************/
+/******************** HELP COLORS ***************************/
+.room--horizontal .room-details::after {
+  background: url(./assets/images/Top_Pointer_Light.png) no-repeat center top;
+  background-size: contain; }
+
+.room--horizontal .reserve-now::after {
+  background: url(./assets/images/Down_Pointer_Light.png) no-repeat center top;
+  background-size: contain; }
+
+.room--horizontal .action-btn::after {
+  background: url(./assets/images/Down_Arrow_Light.png) no-repeat center top;
+  background-size: contain; }
+
+.room--horizontal .timeline-tap::after {
+  background: url(./assets/images/Tap_Icn_Light.png) no-repeat center top;
+  background-size: contain; }
+
+.room--horizontal .timeline-swipe::after {
+  background: url(./assets/images/Swipe_Icn_Light.png) no-repeat center top;
+  background-size: contain; }
+
+.room--vertical .room-details::after {
+  background: url(./assets/images/Top_Pointer_Light.png) no-repeat center top;
+  background-size: contain; }
+
+.room--vertical .reserve-now::after {
+  background: url(./assets/images/Top_Pointer_Light.png) no-repeat center top;
+  background-size: contain; }
+
+.room--vertical .action-btn::after {
+  background: url(./assets/images/Up_Arrow_Light.png) no-repeat center top;
+  background-size: contain; }
+
+.room--vertical .timeline-tap::after {
+  background: url(./assets/images/Tap_Icn_Vertical_Light.png) no-repeat center top;
+  background-size: contain; }
+
+.room--vertical .timeline-swipe::after {
+  background: url(./assets/images/Swipe_Icn_Vertical_Light.png) no-repeat center top;
+  background-size: contain; }
+
+.room--portrait .room-details::after {
+  background: url(./assets/images/Top_Pointer_Light.png) no-repeat center top;
+  background-size: contain; }
+
+.room--portrait .reserve-now::after {
+  background: url(./assets/images/Top_Pointer_Light.png) no-repeat center top;
+  background-size: contain; }
+
+.room--portrait .action-btn::after {
+  background: url(./assets/images/Up_Arrow_Light.png) no-repeat center top;
+  background-size: contain; }
+
+.room--portrait .timeline-tap::after {
+  background: url(./assets/images/Tap_Icn_Vertical_Light.png) no-repeat center top;
+  background-size: contain; }
+
+.room--portrait .timeline-swipe::after {
+  background: url(./assets/images/Swipe_Icn_Vertical_Light.png) no-repeat center top;
+  background-size: contain; }
+
+/******************** END HELP COLORS ***************************/
+/***************** MODAL COLORS ***************************/
+.color__theme-color-6 {
+  color: white; }
+
+.modal-content {
+  background-color: inherit;
+  color: white; }
+  .modal-content .modal-footer div:nth-child(n+2) {
+    border-color: rgba(255, 255, 255, 0.5); }
+
+/***************** END MODAL COLORS ***************************/
+.screensaver__container__notify {
+  font-size: 4vmin; }
+
+.room__container__status__title__label2 {
+  font-size: 4vmin; }
+
+.room__container__status__countdown__hours__time,
+.room__container__status__countdown__minutes__time {
+  font-size: 4vmin; }
+
+.room__container__status__details__organizer,
+.room__container__status__details__date {
+  font-size: 4vmin; }
+
+.timeline--vertical .timeline__content__block__label_time,
+.timeline--vertical .timeline__content__block__label_time--top, .timeline--horizontal .timeline__content__block__label_time,
+.timeline--horizontal .timeline__content__block__label_time--top {
+  font-size: 4vmin; }
+
+.timeline--vertical .timeline__content__now__time__label {
+  padding: 0.8333333333vmin; }
+
+.timeline--vertical .timeline__content__now__time {
+  font-size: 4vmin; }
+
+.timeline--vertical .timeline__content__now__time__label {
+  margin-right: 0.5vmin; }
+
+.timeline--vertical .timeline__content__now__time__label--top {
+  margin-left: -5.6666666667vmin;
+  margin-right: 0; }
+
+.timeline--horizontal--padding-top {
+  padding-top: 5vmin; }
+
+.timeline--horizontal {
+  height: 21.1666666667vmin; }
+
+.extend-event__container__header,
+.end-event__container__header {
+  font-size: 4vmin; }
+
+.extend-event__container__ends,
+.end-event__container__ends {
+  font-size: 4vmin; }

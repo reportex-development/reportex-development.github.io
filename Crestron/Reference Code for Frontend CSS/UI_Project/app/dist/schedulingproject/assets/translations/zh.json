@@ -1,0 +1,127 @@
+{
+  "findRoom": "查找",
+  "help": "帮助",
+  "end": "结束",
+  "extend": "延长",
+  "checkIn": "登记",
+  "reserveNow": "立即预订",
+  "hours": "小时",
+  "minutes": "分钟",
+  "hour": "小时",
+  "minute": "分钟",
+  "and": "和",
+  "noon": "中午",
+  "vision": "视力",
+  "private": "私有",
+  "statusRoomTitle": {
+    "availableLabel1": "可用",
+    "availableLabel2": "接下来的",
+    "availableOccupiedLabel1": "已占用 / 未预定",
+    "reservedLabel1": "已预订",
+    "reservedLabel2": "接下来的"
+  },
+  "buttons": {
+    "cancel": "取消",
+    "close": "关闭",
+    "end": "立即结束",
+    "extend": "延长",
+    "addEvent": "立即预订",
+    "ok": "确定"
+  },
+  "freeAllDay": {
+    "label1": "可用",
+    "label2": "一天剩下的时间"
+  },
+  "splash": {
+    "loadingMessage": "加载中..."
+  },
+  "endEvent": {
+    "question": "结束当前会议",
+    "loadingMessage": "加载中",
+    "endsIn": "在…结束"
+  },
+  "extendEvent": {
+    "headerTitle": "延长此次会议",
+    "endAt": "在…结束",
+    "timeRollLabel": "会议记录",
+    "loadingMessage": "加载中",
+    "endsIn": "在…结束"
+  },
+  "checkInEvent": {
+    "loadingMessage": "加载中"
+  },
+  "reservation": {
+    "headerTitle": "新会议",
+    "subject": "主题",
+    "organizer": "组织者",
+    "starts": "开始",
+    "ends": "结束",
+    "loadingMessage": "加载中",
+    "defaultOrganizer": "即兴会议组织者",
+    "defaultSubject": "即兴会议"
+  },
+  "details": {
+    "headerTitle": "会议详情",
+    "from": "从",
+    "attendees": "与会者",
+    "loadingMessage": "正在检索会议",
+    "recurring": "定期会议"
+  },
+  "findRoomData": {
+    "headerTitle": "附近可用房间",
+    "address": "这里的建筑物地址",
+    "forNext": "接下来的",
+    "loadingMessage": "正在检索会议",
+    "noRooms": "当前无可用房间"
+  },
+  "screenSaver": {
+    "availableUntil": "可用时间为",
+    "available": "可用",
+    "availableOccupied": "已占用 / 未预定",
+    "reserved": "已预订",
+    "details": "详情",
+    "meeting": "会议",
+    "freeAllDay": "一天剩下的时间",
+    "nextUp": "下一场",
+    "notify": "触摸屏幕以开始"
+  },
+  "about": {
+    "systemInfo": "系统信息",
+    "account": "计划账户",
+    "serverConnection": "服务器连接",
+    "fusionStatus": "Fusion 推/拉",
+    "googleAuthUserCode": "Google Auth 用户代码",
+    "googleAuthUrl": "Google Auth URL",
+    "firmware": "固件",
+    "appVersion": "版本",
+    "webVersion": "Web 版本",
+    "hardwareId": "硬件 ID",
+    "online": "在线",
+    "offline": "离线",
+    "hostName": "主机名",
+    "ip": "IP 地址",
+    "configUrl": "本地配置 URL"
+  },
+  "helpLabels": {
+    "roomName": "房间名",
+    "reserveNow": "现在预订房间",
+    "moreAction": "查找、预订等等",
+    "timelineTap": "点击，添加预订或查看会议详情",
+    "timelineSwipe": "滑动，查看其他时间"
+  },
+  "error": {
+    "message": "抱歉，出现一个系统错误。请重试。",
+    "messageAddEvent": "抱歉，创建会议时出现错误。请重试。"
+  },
+  "success": {
+    "messageAddEvent": "会议创建成功。"
+  },
+  "offline": {
+    "label1": "日历离线",
+    "label2": "请检查配置"
+  },
+  "pin": {
+    "enterPasscode": "输入密码",
+    "delete": "删除"
+  }
+}

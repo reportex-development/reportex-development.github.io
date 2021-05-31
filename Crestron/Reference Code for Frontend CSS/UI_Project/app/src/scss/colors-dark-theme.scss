@@ -1,0 +1,152 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission
+// to redistribute derivative works of the provided sample code in source code format.  This license is located
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result
+// in unexpected behavior and a diminished user experience.
+
+@import "colors-theme";
+
+/****************** SCREENSAVER COLORS ********************/
+.screensaver__container::after {
+    @include set-background-color($theme-color-3, 0.5);
+}
+
+.screensaver_flash {
+  background-color: $theme-color-3;
+}
+/****************** END SCREENSAVER COLORS ****************/
+
+/****************** ROOM COLORS ************************/
+.room__container::after  {
+    @include set-background-color($theme-color-3, 0.8);
+}
+
+.room__container--available  {
+	.room__container__status__title__label1 {
+		color: rgba($main-color-3, 1);
+	}
+
+    .room__container__status__countdown__hours__number,
+	.room__container__status__countdown__minutes__number {
+		@include set-background-gradient($main-color-3, $second-color-3);
+    }
+    .room__container__status__countdown__hours__number::after,
+	.room__container__status__countdown__minutes__number::after {
+        color: transparent;
+        @include set-outer-glow($main-color-3);
+    }
+
+    .room__container__status__countdown__hours__time,
+	.room__container__status__countdown__minutes__time {
+		color: rgba($main-color-3, 1);
+		@include set-border-gradient($main-color-3, $second-color-3);
+	}
+}
+
+.room__container--reserved  {
+	.room__container__status__title__label1 {
+		color: rgba($main-color-2, 1);
+	}
+
+	.room__container__status__countdown__hours__number,
+	.room__container__status__countdown__minutes__number {
+		@include set-background-gradient($main-color-2, $second-color-2);
+	}
+
+	.room__container__status__countdown__hours__number::after,
+	.room__container__status__countdown__minutes__number::after {
+		color: transparent;
+		@include set-outer-glow($main-color-2);
+	}
+
+	.room__container__status__countdown__hours__time,
+	.room__container__status__countdown__minutes__time {
+		color: rgba($main-color-2, 1);
+		@include set-border-gradient($main-color-2, $second-color-2);
+	}
+}
+
+.bg__theme-color-8 {
+    background-color: rgba($theme-color-11, 0.9);
+}
+
+.border__theme-color-1 {
+    border-color: rgba($theme-color-6, 0.9);
+}
+
+.border__theme-color-2 {
+    border-color: rgba($theme-color-12, 0.9);
+}
+/****************** END ROOM COLORS ************************/
+
+/******************** HELP COLORS ***************************/
+.room--horizontal {
+	.room-details::after {
+		background: url(./assets/images/Top_Pointer.png) no-repeat center top;
+		background-size: contain;
+	}
+	.reserve-now::after {
+		background: url(./assets/images/Down_Pointer.png) no-repeat center top;
+		background-size: contain;
+	}
+	.action-btn::after {
+		background: url(./assets/images/Down_Arrow.png) no-repeat center top;
+		background-size: contain;
+	}
+	.timeline-tap::after {
+		background: url(./assets/images/Tap_Icn.png) no-repeat center top;
+		background-size: contain;
+	}
+	.timeline-swipe::after {
+		background: url(./assets/images/Swipe_Icn.png) no-repeat center top;
+		background-size: contain;
+	}
+}
+
+.room--vertical {
+	.room-details::after {
+		background: url(./assets/images/Top_Pointer.png) no-repeat center top;
+		background-size: contain;
+	}
+	.reserve-now::after {
+		background: url(./assets/images/Top_Pointer.png) no-repeat center top;
+		background-size: contain;
+	}
+	.action-btn::after {
+		background: url(./assets/images/Up_Arrow.png) no-repeat center top;
+		background-size: contain;
+	}
+	.timeline-tap::after {
+		background: url(./assets/images/Tap_Icn_Vertical.png) no-repeat center top;
+		background-size: contain;
+	}
+	.timeline-swipe::after {
+		background: url(./assets/images/Swipe_Icn_Vertical.png) no-repeat center top;
+		background-size: contain;
+	}
+}
+
+.room--portrait {
+	.room-details::after {
+		background: url(./assets/images/Top_Pointer.png) no-repeat center top;
+		background-size: contain;
+	}
+	.reserve-now::after {
+		background: url(./assets/images/Top_Pointer.png) no-repeat center top;
+		background-size: contain;
+	}
+	.action-btn::after {
+		background: url(./assets/images/Up_Arrow.png) no-repeat center top;
+		background-size: contain;
+	}
+	.timeline-tap::after {
+		background: url(./assets/images/Tap_Icn_Vertical.png) no-repeat center top;
+		background-size: contain;
+	}
+	.timeline-swipe::after {
+		background: url(./assets/images/Swipe_Icn_Vertical.png) no-repeat center top;
+		background-size: contain;
+	}
+}
+/******************** END HELP COLORS ***************************/

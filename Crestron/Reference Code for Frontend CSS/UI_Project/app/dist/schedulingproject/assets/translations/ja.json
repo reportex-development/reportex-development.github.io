@@ -1,0 +1,127 @@
+{
+  "findRoom": "検索",
+  "help": "ヘルプ",
+  "end": "終了",
+  "extend": "延長",
+  "checkIn": "チェックイン",
+  "reserveNow": "予約する",
+  "hours": "時間",
+  "minutes": "分",
+  "hour": "時間",
+  "minute": "分",
+  "and": "および",
+  "noon": "正午",
+  "vision": "ビジョン",
+  "private": "プライベート",
+  "statusRoomTitle": {
+    "availableLabel1": "利用可能",
+    "availableLabel2": "今から",
+    "availableOccupiedLabel1": "占有 / 予定外",
+    "reservedLabel1": "予約済み",
+    "reservedLabel2": "今から"
+  },
+  "buttons": {
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "end": "今すぐ終了",
+    "extend": "延長",
+    "addEvent": "予約する",
+    "ok": "OK"
+  },
+  "freeAllDay": {
+    "label1": "利用可能",
+    "label2": "その日の終了まで"
+  },
+  "splash": {
+    "loadingMessage": "読み込み中…"
+  },
+  "endEvent": {
+    "question": "現在の会議を終了する",
+    "loadingMessage": "読み込み中",
+    "endsIn": "終了までの時間"
+  },
+  "extendEvent": {
+    "headerTitle": "この会議を延長する",
+    "endAt": "終了時間",
+    "timeRollLabel": "分",
+    "loadingMessage": "読み込み中",
+    "endsIn": "終了までの時間"
+  },
+  "checkInEvent": {
+    "loadingMessage": "読み込み中"
+  },
+  "reservation": {
+    "headerTitle": "新しい会議",
+    "subject": "件名",
+    "organizer": "開催者",
+    "starts": "開始",
+    "ends": "終了",
+    "loadingMessage": "読み込み中",
+    "defaultOrganizer": "事前予約なしの開催者",
+    "defaultSubject": "事前予約なしの会議"
+  },
+  "details": {
+    "headerTitle": "会議の詳細",
+    "from": "開始:",
+    "attendees": "参加者",
+    "loadingMessage": "会議の取得中",
+    "recurring": "定期的な会議"
+  },
+  "findRoomData": {
+    "headerTitle": "近くの利用可能な部屋",
+    "address": "建物の住所",
+    "forNext": "今から",
+    "loadingMessage": "会議の取得中",
+    "noRooms": "現在利用可能な部屋はありません"
+  },
+  "screenSaver": {
+    "availableUntil": "利用可能期間",
+    "available": "利用可能",
+    "availableOccupied": "占有 / 予定外",
+    "reserved": "予約済み",
+    "details": "詳細",
+    "meeting": "会議",
+    "freeAllDay": "その日の終了まで",
+    "nextUp": "次回の会議",
+    "notify": "開始のためのタッチスクリーン"
+  },
+  "about": {
+    "systemInfo": "システム情報",
+    "account": "スケジューリングアカウント",
+    "serverConnection": "サーバー接続",
+    "fusionStatus": "Fusion プッシュ／プル",
+    "googleAuthUserCode": "Google Authユーザーコード",
+    "googleAuthUrl": "Google Auth URL",
+    "firmware": "ファームウェア",
+    "appVersion": "バージョン",
+    "webVersion": "ウェブバージョン",
+    "hardwareId": "ハードウェアID",
+    "online": "オンライン",
+    "offline": "オフライン",
+    "hostName": "ホスト名",
+    "ip": "IPアドレス",
+    "configUrl": "ローカル設定Url"
+  },
+  "helpLabels": {
+    "roomName": "部屋名",
+    "reserveNow": "部屋を予約する",
+    "moreAction": "検索、予約、その他",
+    "timelineTap": "タップして予約を追加、または会議の詳細を見る",
+    "timelineSwipe": "スワイプして他の時間をみる"
+  },
+  "error": {
+    "message": "申し訳ございません、システムエラーが発生しました。後ほどやり直してください。",
+    "messageAddEvent": "申し訳ございません、会議の作成中にエラーが発生した。後ほどやり直してください。"
+  },
+  "success": {
+    "messageAddEvent": "会議は正常に作成されました。"
+  },
+  "offline": {
+    "label1": "カレンダーオフライン",
+    "label2": "設定を確認してください"
+  },
+  "pin": {
+    "enterPasscode": "パスコードを入力",
+    "delete": "削除"
+  }
+}

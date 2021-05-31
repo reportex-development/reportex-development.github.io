@@ -1,0 +1,127 @@
+{
+  "findRoom": "Hitta",
+  "help": "Hjälp",
+  "end": "Avsluta",
+  "extend": "Förläng",
+  "checkIn": "Checka in",
+  "reserveNow": "Reservera nu",
+  "hours": "timmar",
+  "minutes": "minuter",
+  "hour": "timme",
+  "minute": "minut",
+  "and": "och",
+  "noon": "kl. 12:00",
+  "vision": "Syn",
+  "private": "privat",
+  "statusRoomTitle": {
+    "availableLabel1": "Tillgängligt",
+    "availableLabel2": "under kommande",
+    "availableOccupiedLabel1": "Upptagen / inte planerad",
+    "reservedLabel1": "Reserverat",
+    "reservedLabel2": "under kommande"
+  },
+  "buttons": {
+    "cancel": "Avbryt",
+    "close": "Stäng",
+    "end": "Avsluta nu",
+    "extend": "Förläng",
+    "addEvent": "Reservera nu",
+    "ok": "Ok"
+  },
+  "freeAllDay": {
+    "label1": "tillgängligt",
+    "label2": "För resten av dagen"
+  },
+  "splash": {
+    "loadingMessage": "Laddar ..."
+  },
+  "endEvent": {
+    "question": "Avsluta aktuellt möte",
+    "loadingMessage": "Laddar",
+    "endsIn": "slutar om"
+  },
+  "extendEvent": {
+    "headerTitle": "Förläng mötet",
+    "endAt": "slutar",
+    "timeRollLabel": "MIN",
+    "loadingMessage": "Laddar",
+    "endsIn": "slutar om"
+  },
+  "checkInEvent": {
+    "loadingMessage": "Laddar"
+  },
+  "reservation": {
+    "headerTitle": "Nytt möte",
+    "subject": "Ämne",
+    "organizer": "Arrangör",
+    "starts": "Startar",
+    "ends": "Slutar",
+    "loadingMessage": "Laddar",
+    "defaultOrganizer": "Spontant möte - arrangör",
+    "defaultSubject": "Spontant möte"
+  },
+  "details": {
+    "headerTitle": "Mötesinformation",
+    "from": "Från",
+    "attendees": "Deltagare",
+    "loadingMessage": "Hämtar möte",
+    "recurring": "återkommande möte"
+  },
+  "findRoomData": {
+    "headerTitle": "Lediga rum i närheten",
+    "address": "Byggnadens adress här",
+    "forNext": "under kommande",
+    "loadingMessage": "Hämtar möte",
+    "noRooms": "Inga rum lediga för närvarande"
+  },
+  "screenSaver": {
+    "availableUntil": "tillgänglig tills",
+    "available": "tillgängligt",
+    "availableOccupied": "Upptagen / inte planerad",
+    "reserved": "reserverat",
+    "details": "information",
+    "meeting": "möte",
+    "freeAllDay": "för resten av dagen",
+    "nextUp": "nästa",
+    "notify": "Peka på skärmen för att börja"
+  },
+  "about": {
+    "systemInfo": "Systeminformation",
+    "account": "Schemaläggningskonto",
+    "serverConnection": "Serveranslutning",
+    "fusionStatus": "Fusion Push/Hämta",
+    "googleAuthUserCode": "Google Auth inloggningskod",
+    "googleAuthUrl": "Google Auth URL",
+    "firmware": "Firmware-",
+    "appVersion": "version",
+    "webVersion": "Webbversion",
+    "hardwareId": "Hårdvarukod",
+    "online": "Online",
+    "offline": "Utloggad",
+    "hostName": "Värdnamn",
+    "ip": "IP-adress",
+    "configUrl": "Lokal konfigurations-URL"
+  },
+  "helpLabels": {
+    "roomName": "Rumsnamn",
+    "reserveNow": "Boka rum nu",
+    "moreAction": "Hitta, boka och mer",
+    "timelineTap": "Klicka för bokning, eller se mötesinformation",
+    "timelineSwipe": "Svep för att se andra tider"
+  },
+  "error": {
+    "message": "Tyvärr har ett systemfel uppstått.  Var vänlig försök igen.",
+    "messageAddEvent": "Tyvärr uppstod ett fel när mötet skulle skapas. Var vänlig försök igen."
+  },
+  "success": {
+    "messageAddEvent": "Mötet skapades."
+  },
+  "offline": {
+    "label1": "Kalender utloggad",
+    "label2": "Vänligen kontrollera konfigurationen"
+  },
+  "pin": {
+    "enterPasscode": "Ange lösenord",
+    "delete": "Radera"
+  }
+}

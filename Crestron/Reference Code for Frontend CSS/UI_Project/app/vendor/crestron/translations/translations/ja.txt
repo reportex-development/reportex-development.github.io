@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="ja" name="Japanese (JP)" alias="ja" rtl="false" variant="Japanese (JP)">
+	<lookup key="global:findRoom"><![CDATA[検索]]></lookup>
+	<lookup key="global:help"><![CDATA[ヘルプ]]></lookup>
+	<lookup key="global:end"><![CDATA[終了]]></lookup>
+	<lookup key="global:extend"><![CDATA[延長]]></lookup>
+	<lookup key="global:checkIn"><![CDATA[チェックイン]]></lookup>
+	<lookup key="global:reserveNow"><![CDATA[予約する]]></lookup>
+	<lookup key="global:hours"><![CDATA[時間]]></lookup>
+	<lookup key="global:minutes"><![CDATA[分]]></lookup>
+	<lookup key="global:hour"><![CDATA[時間]]></lookup>
+	<lookup key="global:minute"><![CDATA[分]]></lookup>
+	<lookup key="global:and"><![CDATA[および]]></lookup>
+	<lookup key="global:noon"><![CDATA[正午]]></lookup>
+	<lookup key="global:vision"><![CDATA[ビジョン]]></lookup>
+	<lookup key="global:private"><![CDATA[プライベート]]></lookup>
+	
+	<lookup key="statusRoomTitle:availableLabel1"><![CDATA[利用可能]]></lookup>
+	<lookup key="statusRoomTitle:availableLabel2"><![CDATA[今から]]></lookup>
+	<lookup key="statusRoomTitle:availableOccupiedLabel1"><![CDATA[占有 / 予定外]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel1"><![CDATA[予約済み]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel2"><![CDATA[今から]]></lookup>
+
+	<lookup key="buttons:cancel"><![CDATA[キャンセル]]></lookup>
+	<lookup key="buttons:close"><![CDATA[閉じる]]></lookup>
+	<lookup key="buttons:end"><![CDATA[今すぐ終了]]></lookup>
+	<lookup key="buttons:extend"><![CDATA[延長]]></lookup>
+	<lookup key="buttons:addEvent"><![CDATA[予約する]]></lookup>
+	<lookup key="buttons:ok"><![CDATA[OK]]></lookup>
+	
+	<lookup key="freeAllDay:label1"><![CDATA[利用可能]]></lookup>
+	<lookup key="freeAllDay:label2"><![CDATA[その日の終了まで]]></lookup>
+
+	<lookup key="splash:loadingMessage"><![CDATA[読み込み中…]]></lookup>
+		
+	<lookup key="endEvent:question"><![CDATA[現在の会議を終了する]]></lookup>
+	<lookup key="endEvent:loadingMessage"><![CDATA[読み込み中]]></lookup>
+	<lookup key="endEvent:endsIn"><![CDATA[終了までの時間]]></lookup>
+		
+	<lookup key="extendEvent:headerTitle"><![CDATA[この会議を延長する]]></lookup>
+	<lookup key="extendEvent:endAt"><![CDATA[終了時間]]></lookup>
+	<lookup key="extendEvent:timeRollLabel"><![CDATA[分]]></lookup>
+	<lookup key="extendEvent:loadingMessage"><![CDATA[読み込み中]]></lookup>
+	<lookup key="extendEvent:endsIn"><![CDATA[終了までの時間]]></lookup>
+		
+	<lookup key="checkInEvent:loadingMessage"><![CDATA[読み込み中]]></lookup>
+		
+	<lookup key="reservation:headerTitle"><![CDATA[新しい会議]]></lookup>
+	<lookup key="reservation:subject"><![CDATA[件名]]></lookup>
+	<lookup key="reservation:organizer"><![CDATA[開催者]]></lookup>
+	<lookup key="reservation:starts"><![CDATA[開始]]></lookup>
+	<lookup key="reservation:ends"><![CDATA[終了]]></lookup>
+	<lookup key="reservation:loadingMessage"><![CDATA[読み込み中]]></lookup>
+	<lookup key="reservation:defaultOrganizer"><![CDATA[事前予約なしの開催者]]></lookup>
+	<lookup key="reservation:defaultSubject"><![CDATA[事前予約なしの会議]]></lookup>
+
+	<lookup key="details:headerTitle"><![CDATA[会議の詳細]]></lookup>
+	<lookup key="details:from"><![CDATA[開始:]]></lookup>
+	<lookup key="details:attendees"><![CDATA[参加者]]></lookup>
+	<lookup key="details:loadingMessage"><![CDATA[会議の取得中]]></lookup>
+	<lookup key="details:recurring"><![CDATA[定期的な会議]]></lookup>
+		
+	<lookup key="findRoomData:headerTitle"><![CDATA[近くの利用可能な部屋]]></lookup>
+	<lookup key="findRoomData:address"><![CDATA[建物の住所]]></lookup>
+	<lookup key="findRoomData:forNext"><![CDATA[今から]]></lookup>
+	<lookup key="findRoomData:loadingMessage"><![CDATA[会議の取得中]]></lookup>
+	<lookup key="findRoomData:noRooms"><![CDATA[現在利用可能な部屋はありません]]></lookup>
+
+	<lookup key="screenSaver:availableUntil"><![CDATA[利用可能期間]]></lookup>
+	<lookup key="screenSaver:available"><![CDATA[利用可能]]></lookup>
+	<lookup key="screenSaver:availableOccupied"><![CDATA[占有 / 予定外]]></lookup>
+	<lookup key="screenSaver:reserved"><![CDATA[予約済み]]></lookup>
+	<lookup key="screenSaver:details"><![CDATA[詳細]]></lookup>
+	<lookup key="screenSaver:meeting"><![CDATA[会議]]></lookup>
+	<lookup key="screenSaver:freeAllDay"><![CDATA[その日の終了まで]]></lookup>
+	<lookup key="screenSaver:nextUp"><![CDATA[次回の会議]]></lookup>
+	<lookup key="screenSaver:notify"><![CDATA[開始のためのタッチスクリーン]]></lookup>
+
+	<lookup key="about:systemInfo"><![CDATA[システム情報]]></lookup>
+	<lookup key="about:account"><![CDATA[スケジューリングアカウント]]></lookup>
+	<lookup key="about:serverConnection"><![CDATA[サーバー接続]]></lookup>
+	<lookup key="about:fusionStatus"><![CDATA[Fusion プッシュ／プル]]></lookup>
+	<lookup key="about:googleAuthUserCode"><![CDATA[Google Authユーザーコード]]></lookup>
+	<lookup key="about:googleAuthUrl"><![CDATA[Google Auth URL]]></lookup>
+	<lookup key="about:firmware"><![CDATA[ファームウェア]]></lookup>
+	<lookup key="about:appVersion"><![CDATA[バージョン]]></lookup>
+	<lookup key="about:webVersion"><![CDATA[ウェブバージョン]]></lookup>
+	<lookup key="about:hardwareId"><![CDATA[ハードウェアID]]></lookup>
+	<lookup key="about:online"><![CDATA[オンライン]]></lookup>
+	<lookup key="about:offline"><![CDATA[オフライン]]></lookup>
+	<lookup key="about:hostName"><![CDATA[ホスト名]]></lookup>
+	<lookup key="about:ip"><![CDATA[IPアドレス]]></lookup>
+	<lookup key="about:configUrl"><![CDATA[ローカル設定Url]]></lookup>
+
+	<lookup key="helpLabels:roomName"><![CDATA[部屋名]]></lookup>
+	<lookup key="helpLabels:reserveNow"><![CDATA[部屋を予約する]]></lookup>
+	<lookup key="helpLabels:moreAction"><![CDATA[検索、予約、その他]]></lookup>
+	<lookup key="helpLabels:timelineTap"><![CDATA[タップして予約を追加、または会議の詳細を見る]]></lookup>
+	<lookup key="helpLabels:timelineSwipe"><![CDATA[スワイプして他の時間をみる]]></lookup>
+
+	<lookup key="error:message"><![CDATA[申し訳ございません、システムエラーが発生しました。後ほどやり直してください。]]></lookup>
+	<lookup key="error:messageAddEvent"><![CDATA[申し訳ございません、会議の作成中にエラーが発生した。後ほどやり直してください。]]></lookup>
+	<lookup key="success:messageAddEvent"><![CDATA[会議は正常に作成されました。]]></lookup>
+
+	<lookup key="offline:label1"><![CDATA[カレンダーオフライン]]></lookup>
+	<lookup key="offline:label2"><![CDATA[設定を確認してください]]></lookup>
+
+	<lookup key="pin:enterPasscode"><![CDATA[パスコードを入力]]></lookup>
+	<lookup key="pin:delete"><![CDATA[削除]]></lookup>
+</lang>

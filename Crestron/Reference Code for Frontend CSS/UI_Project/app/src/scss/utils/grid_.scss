@@ -1,0 +1,189 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.no-gutters > .col,
+.no-gutters[class*="col-"] ,
+.no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col {
+  -webkit-flex-basis: 0;
+      -ms-flex-preferred-size: 0;
+          flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  max-width: 100%;
+}
+
+.col-auto {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: auto;
+}
+
+.col-8 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.col-7 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 87.5%;
+  -ms-flex: 0 0 87.5%;
+  flex: 0 0 87.5%;
+  max-width: 87.5%;
+}
+.col-6 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 75%;
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+.col-5 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 62.5%;
+  -ms-flex: 0 0 62.5%;
+  flex: 0 0 62.5%;
+  max-width: 62.5%;
+}
+.col-4 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;;
+  max-width: 50%;
+}
+.col-3 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 37.5%;
+  -ms-flex: 0 0 37.5%;
+  flex: 0 0 37.5%;
+  max-width: 37.5%;
+}
+.col-2 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 25%;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.col-1 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 12.5%;
+  -ms-flex: 0 0 12.5%;;
+  flex: 0 0 12.5%;
+  max-width: 12.5%;
+}
+
+.row-5 {
+  height: 100%;
+}
+.row-4 {
+  height: 80%;
+}
+.row-3 {
+  height: 60%;
+}
+.row-2 {
+  height: 40%;
+}
+.row-1 {
+  height: 20%;
+}
+
+
+
+
+  .push-md-0 {
+    left: auto;
+  }
+  .push-1 {
+    left: 12.5%;
+  }
+  .push-2 {
+    left: 25%;
+  }
+  .push-3 {
+    left: 37.5%;
+  }
+  .push-4 {
+    left: 50%;
+  }
+  .push-5 {
+    left: 62.5%;
+  }
+  .push-6 {
+    left: 75%;
+  }
+  .push-7 {
+    left: 87.5%;
+  }
+  .push-8 {
+    left: 100%;
+  }
+
+  .offset-0 {
+    margin-left: 0%;
+  }
+  .offset-1 {
+    margin-left: 12.5%;
+  }
+  .offset-2 {
+    margin-left: 37.5%;
+  }
+  .offset-3 {
+    margin-left: 25%;
+  }
+  .offset-4 {
+    margin-left: 50%;
+  }
+  .offset-5 {
+    margin-left: 62.5%;
+  }
+  .offset-6 {
+    margin-left: 76%;
+  }
+  .offset-7 {
+    margin-left: 87.5%;
+  }
+  .offset-8 {
+    margin-left: 100%;
+  }

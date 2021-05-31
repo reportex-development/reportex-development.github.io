@@ -1,0 +1,71 @@
+<!-- This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+    terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+    to redistribute derivative works of the provided sample code in source code format.  This license is located 
+    at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+    with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+    in unexpected behavior and a diminished user experience. -->
+
+<div class="modal-event-details" data-ng-class="{'rtl': $root.isRtl}">
+    <div class="modal-header border__theme-color-9 color__theme-color-5">
+        {{ Helium.labels.details.headerTitle }}
+    </div>
+    <div class="modal-body">
+        <div class="details__container container-fluid">
+            <div class="details__container__subject border__theme-color-9 color__theme-color-5"
+                ng-bind-html="event.subject">
+            </div>
+            <div class="details__container__organizer color__theme-color-5"
+                ng-bind-html="event.organizer">
+            </div>
+            <div class="details__container__date color__theme-color-6">
+               <span class="details__container__date__label"> {{ Helium.labels.details.from }}</span> {{ event.dtStart | date: Helium.settings.room.timeFormat }} - {{ event.dtEnd | date: Helium.settings.room.timeFormat }}
+            </div>
+            <div class="details__container__room color__theme-color-5">
+                {{ Helium.values.roomName }}
+            </div>
+            <div class="details__container__frequency color__theme-color-6"
+                data-ng-if="event.isRecurring">
+                <p>{{ Helium.labels.details.recurring }}</p>
+            </div>
+            <div class="details__container__timeline">
+                <hlm-timeline
+                    data-timeline-block-horizontal-size="250"
+                    data-timeline-placement=""
+                    data-timeline-arabic="{{ Helium.state.isArabic }}"
+                    data-timeline-events="Helium.values.mainRoom.events"
+                    data-timeline-dt-start-event="timelineDtStartEvent"
+                    data-timeline-disable-interaction=true
+                    data-timeline-dialog=true
+                    data-timeline-label-top=true
+                    data-timeline-event="event"
+                    data-timeline-label-noon="Helium.labels.noon"
+                    data-timeline-date-time-format="Helium.settings.room.timeFormat"
+                    data-timeline-date-hour-format="Helium.settings.room.hoursAmpmFormat">
+                </hlm-timeline>
+            </div>
+            <div class="details__container__attendee color__theme-color-5">
+                {{ Helium.labels.details.attendees }}
+            </div>
+            <div class="details__container__attendees">
+               <ul>
+                   <li class="border__theme-color-9" data-ng-repeat="required in event.attendees.required track by $index">
+                       <div class="details__container__attendees__attendee">{{ required }}</div>
+                   </li>
+                   <li class="border__theme-color-9" data-ng-repeat="optional in event.attendees.optional track by $index">
+                       <div class="details__container__attendees__attendee">{{ optional }}</div>
+                   </li>
+               </ul>
+            </div>
+            <div class="details__container__spacer border__theme-color-9"></div>
+        </div>
+    </div>
+    <div class="modal-footer border__theme-color-4">
+        <div class="col-xs-12">
+            <button type="button" class="bg__theme-color-4 color__theme-color-5"
+                data-hlm-touch-el=""
+                data-add-class-name="bg__theme-color-8"
+                enable-press-action=true
+                data-call-fn-short="cancel( )">{{ Helium.labels.buttons.close }}</button>
+        </div>
+    </div>
+</div>

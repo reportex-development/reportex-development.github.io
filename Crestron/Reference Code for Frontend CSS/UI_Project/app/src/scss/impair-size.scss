@@ -1,0 +1,66 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+.screensaver__container__notify {
+	@include setProperty( 'font-size', 24 );
+}
+
+.room__container__status__title__label2 {
+    @include setProperty( 'font-size', 24 );
+}
+
+.room__container__status__countdown__hours__time,
+.room__container__status__countdown__minutes__time {
+    @include setProperty( 'font-size', 24 );
+}
+
+.room__container__status__details__organizer,
+.room__container__status__details__date  {
+    @include setProperty( 'font-size', 24 );
+} 
+
+.timeline--vertical, .timeline--horizontal {
+    .timeline__content__block__label_time,
+    .timeline__content__block__label_time--top {
+        @include setProperty( 'font-size', 24 );
+    }
+}
+
+.timeline--vertical .timeline__content__now__time__label {
+    @include setProperty( 'padding', 5 );
+}
+
+.timeline--vertical .timeline__content__now__time {
+    @include setProperty( 'font-size', 24 );
+}
+
+.timeline--vertical .timeline__content__now__time__label {
+    @include setProperty( 'margin-right', 3);
+}
+
+.timeline--vertical .timeline__content__now__time__label--top {
+    @include setProperty( 'margin-left', -34);
+    margin-right: 0;
+}
+
+.timeline--horizontal--padding-top {
+    @include setProperty( 'padding-top', 30);
+}
+
+.timeline--horizontal {
+    @include setProperty( 'height', 127);
+}
+
+.extend-event__container__header,
+.end-event__container__header {
+    @include setProperty( 'font-size', 24 );
+}
+
+.extend-event__container__ends,
+.end-event__container__ends {
+    @include setProperty( 'font-size', 24 );
+}

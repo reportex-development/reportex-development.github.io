@@ -1,0 +1,137 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+.details__container {
+	margin: 0px;
+	padding: 0px;
+	margin-left: 5vmin;
+}
+
+.rtl {
+	.details__container {
+		margin-right: 5vmin;
+		margin-left: initial;
+	}
+}
+
+.details__container__subject {
+	@extend .font-normal-36;
+	padding-top: 7.4vmin;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+	width: 100%;
+	line-height: 1.2;
+}
+
+.details__container__organizer {
+	@extend .font-normal-24;
+	@include setProperty( 'padding-top', 16 );
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+	line-height: 1.2;
+}
+
+.rtl {
+	.details__container__subject,
+	.details__container__organizer {
+		text-align: right;
+		unicode-bidi: plaintext;
+	}
+}
+
+.details__container__attendee {
+	@extend .font-normal-24;
+	@include setProperty( 'padding-bottom', 16 );
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+	line-height: 1.2;
+}
+
+.details__container__attendees__attendee {
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+}
+
+.rtl {
+	.details__container__attendee {
+		text-align: right;
+	}
+}
+
+.details__container__date {
+	text-transform: uppercase;
+	@include setProperty( 'padding-top', 14 );
+	width: 100%;
+}
+.details__container__date__label {
+	text-transform: lowercase;
+	width: 100%;
+}
+
+.rtl {
+	.details__container__date {
+		text-align: right;
+		unicode-bidi: plaintext;
+	}
+}
+
+
+.details__container__room {
+	padding-top: 6.67vmin;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+	line-height: 1.2;
+}
+
+.rtl {
+	.details__container__room {
+		text-align: right;
+		unicode-bidi: plaintext;
+	}
+}
+
+.details__container__timeline {
+	padding-top: 6.67vmin;
+	padding-bottom: 6.67vmin;
+}
+
+.modal-event-details {
+	.modal-body {
+		overflow-y: auto;
+		height:70vh;
+
+		@media screen and (orientation: portrait) {
+			height: 60vh;
+		}
+	}
+	ul {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		li {
+			@extend .modal__container__border;
+			line-height: 10vmin;
+		}
+	}
+}
+
+.rtl {
+	ul {
+		li {
+			text-align: right;
+		}
+	}
+}

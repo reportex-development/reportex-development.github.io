@@ -1,0 +1,127 @@
+{
+  "findRoom": "Nájsť",
+  "help": "Pomocník",
+  "end": "Ukončiť",
+  "extend": "Predĺžiť",
+  "checkIn": "Prihlásiť",
+  "reserveNow": "Rezervovať teraz",
+  "hours": "hodiny",
+  "minutes": "minúty",
+  "hour": "hodina",
+  "minute": "minúta",
+  "and": "a",
+  "noon": "poludnie",
+  "vision": "Kontrast",
+  "private": "súkromný",
+  "statusRoomTitle": {
+    "availableLabel1": "Dostupné",
+    "availableLabel2": "na ďalších",
+    "availableOccupiedLabel1": "Obsadené / Neplánované",
+    "reservedLabel1": "Rezervované",
+    "reservedLabel2": "na ďalších"
+  },
+  "buttons": {
+    "cancel": "Zrušiť",
+    "close": "Zavrieť",
+    "end": "Ukončiť teraz",
+    "extend": "Predĺžiť",
+    "addEvent": "Rezervovať teraz",
+    "ok": "OK"
+  },
+  "freeAllDay": {
+    "label1": "dostupné",
+    "label2": "Na zvyšok dňa"
+  },
+  "splash": {
+    "loadingMessage": "Načítavanie ..."
+  },
+  "endEvent": {
+    "question": "Ukončiť aktuálny míting",
+    "loadingMessage": "Načítavanie",
+    "endsIn": "končí o"
+  },
+  "extendEvent": {
+    "headerTitle": "Predĺžiť tento míting",
+    "endAt": "končí sa o",
+    "timeRollLabel": "MIN",
+    "loadingMessage": "Načítavanie",
+    "endsIn": "končí o"
+  },
+  "checkInEvent": {
+    "loadingMessage": "Načítavanie"
+  },
+  "reservation": {
+    "headerTitle": "Nový míting",
+    "subject": "Predmet",
+    "organizer": "Organizátor",
+    "starts": "Začiatok",
+    "ends": "Koniec",
+    "loadingMessage": "Načítavanie",
+    "defaultOrganizer": "Organizátor voľného mítingu",
+    "defaultSubject": "Voľný míting"
+  },
+  "details": {
+    "headerTitle": "Podrobnosti o mítingu",
+    "from": "Od",
+    "attendees": "Účastníci",
+    "loadingMessage": "Nahráva sa míting",
+    "recurring": "pravidelný míting"
+  },
+  "findRoomData": {
+    "headerTitle": "Najbližšie dostupné miestnosti",
+    "address": "Adresa budovy tu",
+    "forNext": "na ďalších",
+    "loadingMessage": "Nahráva sa míting",
+    "noRooms": "Momentálne nie sú dostupné žiadne miestnosti"
+  },
+  "screenSaver": {
+    "availableUntil": "k dispozícii do",
+    "available": "dostupné",
+    "availableOccupied": "Obsadené / Neplánované",
+    "reserved": "rezervované",
+    "details": "podrobnosti",
+    "meeting": "míting",
+    "freeAllDay": "na zvyšok dňa",
+    "nextUp": "ďalší",
+    "notify": "Začnete klepnutím na obrazovku"
+  },
+  "about": {
+    "systemInfo": "Systémové informácie",
+    "account": "Plánovací účet",
+    "serverConnection": "Pripojenie k serveru",
+    "fusionStatus": "Fusion Push/Pull",
+    "googleAuthUserCode": "Kód používateľa služby Google Auth",
+    "googleAuthUrl": "Adresa služby Google Auth",
+    "firmware": "Firmvér",
+    "appVersion": "Verzia",
+    "webVersion": "Webová verzia",
+    "hardwareId": "ID hardvéru",
+    "online": "Online",
+    "offline": "Offline",
+    "hostName": "Názov hostiteľa",
+    "ip": "Adresa IP",
+    "configUrl": "Adresa lokálnej konfigurácie"
+  },
+  "helpLabels": {
+    "roomName": "Názov miestnosti",
+    "reserveNow": "Rezervovať miestnosť teraz",
+    "moreAction": "Vyhľadávanie, Rezervácie a iné",
+    "timelineTap": "Klepnutím pridáte rezerváciu alebo zobrazíte podrobnosti o mítingu",
+    "timelineSwipe": "Potiahnite prstom obrazovku a zobrazia sa iné časy"
+  },
+  "error": {
+    "message": "Ospravedlňujeme sa, nastala systémová chyba.  Skúste to znova.",
+    "messageAddEvent": "Ospravedlňujeme sa, nastala chyba pri vytváraní mítingu. Skúste to znova."
+  },
+  "success": {
+    "messageAddEvent": "Míting bol úspešne vytvorený."
+  },
+  "offline": {
+    "label1": "Kalendár v stave offline",
+    "label2": "Skontrolujte konfiguráciu"
+  },
+  "pin": {
+    "enterPasscode": "Zadajte heslo",
+    "delete": "Vymazať"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "findRoom": "Finn",
+  "help": "Hjelp",
+  "end": "Avslutt",
+  "extend": "Utvid",
+  "checkIn": "Delta",
+  "reserveNow": "Reserver nå",
+  "hours": "timer",
+  "minutes": "minutter",
+  "hour": "time",
+  "minute": "minutt",
+  "and": "og",
+  "noon": "midt på dagen",
+  "vision": "Høy kontrast",
+  "private": "privat",
+  "statusRoomTitle": {
+    "availableLabel1": "Tilgjengelig",
+    "availableLabel2": "for neste",
+    "availableOccupiedLabel1": "Opptatt / ikke planlagt",
+    "reservedLabel1": "Reservert",
+    "reservedLabel2": "for neste"
+  },
+  "buttons": {
+    "cancel": "Avbryt",
+    "close": "Lukk",
+    "end": "Avslutt nå",
+    "extend": "Utvid",
+    "addEvent": "Reserver nå",
+    "ok": "OK"
+  },
+  "freeAllDay": {
+    "label1": "tilgjengelig",
+    "label2": "For resten av dagen"
+  },
+  "splash": {
+    "loadingMessage": "Laster ..."
+  },
+  "endEvent": {
+    "question": "Avslutte gjeldende møte",
+    "loadingMessage": "Laster",
+    "endsIn": "slutter om"
+  },
+  "extendEvent": {
+    "headerTitle": "Utvid dette møtet",
+    "endAt": "slutter",
+    "timeRollLabel": "MIN",
+    "loadingMessage": "Laster",
+    "endsIn": "slutter om"
+  },
+  "checkInEvent": {
+    "loadingMessage": "Laster"
+  },
+  "reservation": {
+    "headerTitle": "Nytt møte",
+    "subject": "Emne",
+    "organizer": "Administrator",
+    "starts": "Starter",
+    "ends": "Slutter",
+    "loadingMessage": "Laster",
+    "defaultOrganizer": "Administrere direkte",
+    "defaultSubject": "Sette opp møte direkte"
+  },
+  "details": {
+    "headerTitle": "Møteinformasjon",
+    "from": "Fra",
+    "attendees": "Deltakere",
+    "loadingMessage": "Innhenter møte",
+    "recurring": "gjentagende møte"
+  },
+  "findRoomData": {
+    "headerTitle": "Tilgjengelige rom i nærheten",
+    "address": "Bygningsadresse her",
+    "forNext": "for neste",
+    "loadingMessage": "Innhenter møte",
+    "noRooms": "Ingen rom tilgjengelig for øyeblikket"
+  },
+  "screenSaver": {
+    "availableUntil": "tilgjengelig til",
+    "available": "tilgjengelig",
+    "availableOccupied": "Opptatt / ikke planlagt",
+    "reserved": "reservert",
+    "details": "detaljer",
+    "meeting": "møte",
+    "freeAllDay": "for resten av dagen",
+    "nextUp": "neste møte",
+    "notify": "Trykk på skjermen for å begynne"
+  },
+  "about": {
+    "systemInfo": "Systeminfo",
+    "account": "Planleggingskonto",
+    "serverConnection": "Serverforbindelse",
+    "fusionStatus": "Fusion push/pull",
+    "googleAuthUserCode": "Google Auth brukerkode",
+    "googleAuthUrl": "Google Auth URL",
+    "firmware": "Firmware",
+    "appVersion": "Versjon",
+    "webVersion": "Webversjon",
+    "hardwareId": "Maskinvare-ID",
+    "online": "Online",
+    "offline": "Frakoblet",
+    "hostName": "Vertsnavn",
+    "ip": "IP-adresse",
+    "configUrl": "Lokal konfigurasjons-URL"
+  },
+  "helpLabels": {
+    "roomName": "Romnavn",
+    "reserveNow": "Reservere rom nå",
+    "moreAction": "Finn, reserver og mer",
+    "timelineTap": "Trykk for å legge til reservasjon eller se møteinformasjon",
+    "timelineSwipe": "Sveip for å se andre tidspunkt"
+  },
+  "error": {
+    "message": "Beklager, det har oppstått en systemfeil.  Vennligst prøv igjen.",
+    "messageAddEvent": "Beklager, det oppsto en feil ved opprettelse av møtet. Vennligst prøv igjen."
+  },
+  "success": {
+    "messageAddEvent": "Møtet ble opprettet."
+  },
+  "offline": {
+    "label1": "Kalender frakoblet",
+    "label2": "Sjekk konfigurasjonen"
+  },
+  "pin": {
+    "enterPasscode": "Tast inn adgangskode",
+    "delete": "Slett"
+  }
+}

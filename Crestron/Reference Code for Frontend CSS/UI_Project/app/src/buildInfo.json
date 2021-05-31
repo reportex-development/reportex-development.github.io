@@ -1,0 +1,67 @@
+{
+    "externalLibs": {
+        "js": [
+            "bower_components/jquery/dist/jquery.min.js",
+            "bower_components/bootstrap/dist/js/bootstrap.min.js",
+            "bower_components/angular/angular.min.js",
+            "bower_components/angular-route/angular-route.min.js",
+            "bower_components/angular-animate/angular-animate.min.js",
+            "bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js",
+            "bower_components/angular-translate/angular-translate.min.js",
+            "bower_components/angular-dynamic-locale/dist/tmhDynamicLocale.min.js",
+            "bower_components/angular-sanitize/angular-sanitize.min.js"
+        ],
+        "css": [
+            "bower_components/bootstrap/dist/css/bootstrap.min.css",
+            "bower_components/font-awesome/css/font-awesome.min.css",
+            "bower_components/angular-bootstrap/ui-bootstrap-csp.css"
+        ],
+        "extra": [
+            "bower_components/font-awesome/fonts/**",
+            "bower_components/angular-dynamic-locale/dist/tmhDynamicLocale.min.js.map",
+            "bower_components/angular-route/angular-route.min.js.map",
+            "bower_components/angular-animate/angular-animate.min.js.map",
+            "bower_components/angular-i18n/angular-locale_ar.js",
+            "bower_components/angular-i18n/angular-locale_cs.js",
+            "bower_components/angular-i18n/angular-locale_da.js",
+            "bower_components/angular-i18n/angular-locale_de.js",
+            "bower_components/angular-i18n/angular-locale_el.js",
+            "bower_components/angular-i18n/angular-locale_en.js",
+            "bower_components/angular-i18n/angular-locale_en-us.js",
+            "bower_components/angular-i18n/angular-locale_en-gb.js",
+            "bower_components/angular-i18n/angular-locale_es.js",
+            "bower_components/angular-i18n/angular-locale_fi.js",
+            "bower_components/angular-i18n/angular-locale_fr.js",
+            "bower_components/angular-i18n/angular-locale_fr-fr.js",
+            "bower_components/angular-i18n/angular-locale_fr-ca.js",
+            "bower_components/angular-i18n/angular-locale_fr-ch.js",
+            "bower_components/angular-i18n/angular-locale_he.js",
+            "bower_components/angular-i18n/angular-locale_hr.js",
+            "bower_components/angular-i18n/angular-locale_hr-hr.js",
+            "bower_components/angular-i18n/angular-locale_hu.js",
+            "bower_components/angular-i18n/angular-locale_it.js",
+            "bower_components/angular-i18n/angular-locale_iw.js",
+            "bower_components/angular-i18n/angular-locale_ja.js",
+            "bower_components/angular-i18n/angular-locale_ko.js",
+            "bower_components/angular-i18n/angular-locale_nb.js",
+            "bower_components/angular-i18n/angular-locale_nl.js",
+            "bower_components/angular-i18n/angular-locale_pl.js",
+            "bower_components/angular-i18n/angular-locale_pt.js",
+            "bower_components/angular-i18n/angular-locale_pt-br.js",
+            "bower_components/angular-i18n/angular-locale_ro.js",
+            "bower_components/angular-i18n/angular-locale_ru.js",
+            "bower_components/angular-i18n/angular-locale_sk.js",
+            "bower_components/angular-i18n/angular-locale_sr.js",
+            "bower_components/angular-i18n/angular-locale_sv.js",
+            "bower_components/angular-i18n/angular-locale_th.js",
+            "bower_components/angular-i18n/angular-locale_tr.js",
+            "bower_components/angular-i18n/angular-locale_tr-tr.js",
+            "bower_components/angular-i18n/angular-locale_zh.js",
+            "bower_components/angular-i18n/angular-locale_zh-tw.js"
+        ],
+        "emulate": [
+            "vendor/crestron/schedulingPanel.js",
+            "vendor/crestron/schedulingPanelEmu.js"
+        ]
+    }
+}

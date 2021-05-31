@@ -1,0 +1,1 @@
+Name used for default OOTB project

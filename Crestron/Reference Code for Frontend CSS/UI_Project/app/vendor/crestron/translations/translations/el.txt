@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="el" name="Greek" alias="el" rtl="false" variant="Greek">
+	<lookup key="global:findRoom"><![CDATA[Εύρεση]]></lookup>
+	<lookup key="global:help"><![CDATA[Βοήθεια]]></lookup>
+	<lookup key="global:end"><![CDATA[Λήξη]]></lookup>
+	<lookup key="global:extend"><![CDATA[Παράταση]]></lookup>
+	<lookup key="global:checkIn"><![CDATA[Check-in]]></lookup>
+	<lookup key="global:reserveNow"><![CDATA[Κράτηση τώρα]]></lookup>
+	<lookup key="global:hours"><![CDATA[ώρες]]></lookup>
+	<lookup key="global:minutes"><![CDATA[λεπτά]]></lookup>
+	<lookup key="global:hour"><![CDATA[ώρα]]></lookup>
+	<lookup key="global:minute"><![CDATA[λεπτό]]></lookup>
+	<lookup key="global:and"><![CDATA[και]]></lookup>
+	<lookup key="global:noon"><![CDATA[μεσημέρι]]></lookup>
+	<lookup key="global:vision"><![CDATA[Μεγέθυνση]]></lookup>
+	<lookup key="global:private"><![CDATA[προσωπικό]]></lookup>
+	
+	<lookup key="statusRoomTitle:availableLabel1"><![CDATA[Διατίθεται]]></lookup>
+	<lookup key="statusRoomTitle:availableLabel2"><![CDATA[για την/τις επόμενη/ες]]></lookup>
+	<lookup key="statusRoomTitle:availableOccupiedLabel1"><![CDATA[Κατεχόμενα / Μη προγραμματισμένα]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel1"><![CDATA[Κλεισμένο]]></lookup>
+	<lookup key="statusRoomTitle:reservedLabel2"><![CDATA[για την/τις επόμενη/ες]]></lookup>
+
+	<lookup key="buttons:cancel"><![CDATA[Άκυρο]]></lookup>
+	<lookup key="buttons:close"><![CDATA[Κλείσιμο]]></lookup>
+	<lookup key="buttons:end"><![CDATA[Λήξη τώρα]]></lookup>
+	<lookup key="buttons:extend"><![CDATA[Παράταση]]></lookup>
+	<lookup key="buttons:addEvent"><![CDATA[Κράτηση τώρα]]></lookup>
+	<lookup key="buttons:ok"><![CDATA[OK]]></lookup>
+	
+	<lookup key="freeAllDay:label1"><![CDATA[διατίθεται]]></lookup>
+	<lookup key="freeAllDay:label2"><![CDATA[Για την υπόλοιπη μέρα]]></lookup>
+
+	<lookup key="splash:loadingMessage"><![CDATA[Φόρτωση...]]></lookup>
+		
+	<lookup key="endEvent:question"><![CDATA[Λήξη τρέχουσας συνάντησης]]></lookup>
+	<lookup key="endEvent:loadingMessage"><![CDATA[Φόρτωση]]></lookup>
+	<lookup key="endEvent:endsIn"><![CDATA[λήγει σε]]></lookup>
+		
+	<lookup key="extendEvent:headerTitle"><![CDATA[Παράταση αυτής της συνάντησης]]></lookup>
+	<lookup key="extendEvent:endAt"><![CDATA[λήγει στις]]></lookup>
+	<lookup key="extendEvent:timeRollLabel"><![CDATA[ΛΕΠ.]]></lookup>
+	<lookup key="extendEvent:loadingMessage"><![CDATA[Φόρτωση]]></lookup>
+	<lookup key="extendEvent:endsIn"><![CDATA[λήγει σε]]></lookup>
+		
+	<lookup key="checkInEvent:loadingMessage"><![CDATA[Φόρτωση]]></lookup>
+		
+	<lookup key="reservation:headerTitle"><![CDATA[Νέα συνάντηση]]></lookup>
+	<lookup key="reservation:subject"><![CDATA[Αντικείμενο]]></lookup>
+	<lookup key="reservation:organizer"><![CDATA[Οργανωτής]]></lookup>
+	<lookup key="reservation:starts"><![CDATA[Ξεκινά]]></lookup>
+	<lookup key="reservation:ends"><![CDATA[Λήγει]]></lookup>
+	<lookup key="reservation:loadingMessage"><![CDATA[Φόρτωση]]></lookup>
+	<lookup key="reservation:defaultOrganizer"><![CDATA[Άμεσος ορισμός οργανωτή]]></lookup>
+	<lookup key="reservation:defaultSubject"><![CDATA[Άμεσος ορισμός συνάντησης]]></lookup>
+
+	<lookup key="details:headerTitle"><![CDATA[Λεπτομέρειες συνάντησης]]></lookup>
+	<lookup key="details:from"><![CDATA[Από]]></lookup>
+	<lookup key="details:attendees"><![CDATA[Συμμετέχοντες]]></lookup>
+	<lookup key="details:loadingMessage"><![CDATA[Ανάκτηση συνάντησης]]></lookup>
+	<lookup key="details:recurring"><![CDATA[επαναλαμβανόμενη συνάντηση]]></lookup>
+		
+	<lookup key="findRoomData:headerTitle"><![CDATA[Κοντινά διαθέσιμα δωμάτια]]></lookup>
+	<lookup key="findRoomData:address"><![CDATA[Διεύθυνση κτηρίου εδώ]]></lookup>
+	<lookup key="findRoomData:forNext"><![CDATA[για την/τις επόμενη/ες]]></lookup>
+	<lookup key="findRoomData:loadingMessage"><![CDATA[Ανάκτηση συνάντησης]]></lookup>
+	<lookup key="findRoomData:noRooms"><![CDATA[Δεν υπάρχουν διαθέσιμα δωμάτια αυτήν τη στιγμή]]></lookup>
+
+	<lookup key="screenSaver:availableUntil"><![CDATA[Διαθέσιμο έως]]></lookup>
+	<lookup key="screenSaver:available"><![CDATA[διατίθεται]]></lookup>
+	<lookup key="screenSaver:availableOccupied"><![CDATA[Κατεχόμενα / Μη προγραμματισμένα]]></lookup>
+	<lookup key="screenSaver:reserved"><![CDATA[κλεισμένο]]></lookup>
+	<lookup key="screenSaver:details"><![CDATA[λεπτομέρειες]]></lookup>
+	<lookup key="screenSaver:meeting"><![CDATA[συνάντηση]]></lookup>
+	<lookup key="screenSaver:freeAllDay"><![CDATA[για την υπόλοιπη μέρα]]></lookup>
+	<lookup key="screenSaver:nextUp"><![CDATA[επόμενη συνάντηση]]></lookup>
+	<lookup key="screenSaver:notify"><![CDATA[Αγγίξτε την οθόνη για να ξεκινήσετε]]></lookup>
+
+	<lookup key="about:systemInfo"><![CDATA[Πληροφορίες συστήματος]]></lookup>
+	<lookup key="about:account"><![CDATA[Λογαριασμός προγραμματισμού]]></lookup>
+	<lookup key="about:serverConnection"><![CDATA[Σύνδεση διακομιστή]]></lookup>
+	<lookup key="about:fusionStatus"><![CDATA[Fusion Λειτουργία Push/Pull]]></lookup>
+	<lookup key="about:googleAuthUserCode"><![CDATA[Κωδικός χρήστη Google Auth]]></lookup>
+	<lookup key="about:googleAuthUrl"><![CDATA[Google Auth URL]]></lookup>
+	<lookup key="about:firmware"><![CDATA[Υλικολογισμικό]]></lookup>
+	<lookup key="about:appVersion"><![CDATA[Έκδοση]]></lookup>
+	<lookup key="about:webVersion"><![CDATA[Έκδοση Web]]></lookup>
+	<lookup key="about:hardwareId"><![CDATA[Αναγνωριστικό υλικού]]></lookup>
+	<lookup key="about:online"><![CDATA[Σε σύνδεση]]></lookup>
+	<lookup key="about:offline"><![CDATA[Εκτός σύνδεσης]]></lookup>
+	<lookup key="about:hostName"><![CDATA[Όνομα κεντρικού υπολογιστή]]></lookup>
+	<lookup key="about:ip"><![CDATA[Διεύθυνση IP]]></lookup>
+	<lookup key="about:configUrl"><![CDATA[URL τοπικής διαμόρφωσης]]></lookup>
+
+	<lookup key="helpLabels:roomName"><![CDATA[Όνομα δωματίου]]></lookup>
+	<lookup key="helpLabels:reserveNow"><![CDATA[Κράτηση δωματίου τώρα]]></lookup>
+	<lookup key="helpLabels:moreAction"><![CDATA[Εύρεση, Κράτηση και άλλα]]></lookup>
+	<lookup key="helpLabels:timelineTap"><![CDATA[Αγγίξτε για να προσθέσετε μια κράτηση ή για την προβολή λεπτομερειών της συνάντησης]]></lookup>
+	<lookup key="helpLabels:timelineSwipe"><![CDATA[Σύρετε για να δείτε άλλες ώρες]]></lookup>
+
+	<lookup key="error:message"><![CDATA[Λυπούμαστε, παρουσιάστηκε σφάλμα συστήματος.  Δοκιμάστε ξανά.]]></lookup>
+	<lookup key="error:messageAddEvent"><![CDATA[Λυπούμαστε, παρουσιάστηκε σφάλμα κατά τη δημιουργία της συνάντησης. Δοκιμάστε ξανά.]]></lookup>
+	<lookup key="success:messageAddEvent"><![CDATA[Η συνάντηση δημιουργήθηκε με επιτυχία.]]></lookup>
+
+	<lookup key="offline:label1"><![CDATA[Ημερολόγιο εκτός σύνδεσης]]></lookup>
+	<lookup key="offline:label2"><![CDATA[Ελέγξτε τη διαμόρφωση]]></lookup>
+
+	<lookup key="pin:enterPasscode"><![CDATA[Εισαγωγή κωδικού πρόσβασης]]></lookup>
+	<lookup key="pin:delete"><![CDATA[Διαγραφή]]></lookup>
+</lang>

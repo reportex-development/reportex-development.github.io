@@ -1,0 +1,27 @@
+<!-- This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+    terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+    to redistribute derivative works of the provided sample code in source code format.  This license is located 
+    at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+    with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+    in unexpected behavior and a diminished user experience. -->
+
+<div class="modal-error" data-ng-class="{'rtl': $root.isRtl}">
+    <div class="modal-body">
+        <div class="error__container container-fluid">
+            <div class="error__container__message color__theme-color-5">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                {{ addEvent ? Helium.labels.error.messageAddEvent : Helium.labels.error.message }}
+            </div>
+            <div class="error__container__spacer"></div>
+        </div>
+    </div>
+    <div class="modal-footer border__theme-color-4">
+        <div class="cancel">
+            <button type="button" class="cancel__btn bg__theme-color-4 color__theme-color-5"
+                data-hlm-touch-el="" 
+                data-add-class-name="bg__theme-color-8"
+                enable-press-action=true
+                data-call-fn-short="cancel()">{{ Helium.labels.buttons.ok }}</button>
+        </div>
+    </div>
+</div>

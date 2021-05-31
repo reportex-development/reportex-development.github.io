@@ -1,0 +1,61 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+.extend-event__container {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.extend-event__container__header {
+    @extend .font-semibold-20;
+    margin-top: 4vmin;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.extend-event__container__subject {
+    margin-top: 10.4vmin;
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    @extend .font-normal-36;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 1.5em;
+}
+
+.extend-event__container__ends {
+    @extend .font-semibold-20;
+    margin-top: 1.8vmin;
+}
+
+.extend-event__container__spacer {
+    height: 10.4vmin;
+    width: 100%;
+    display: block;
+}
+
+.modal-footer {
+    .cancel {
+        width: 50%;
+        float: left;
+    }
+    .extend {
+        width: 50%;
+        float: left;
+    }
+
+    .cancel__btn {
+        @extend .font-normal-24;
+    }
+
+    .extend__btn {
+        @extend .font-normal-24;
+        text-transform: capitalize;
+    }
+}

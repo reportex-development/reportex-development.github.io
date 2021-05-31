@@ -1,0 +1,127 @@
+{
+  "findRoom": "Keresés",
+  "help": "Súgó",
+  "end": "Befejezés",
+  "extend": "Hosszabbít",
+  "checkIn": "Belépés",
+  "reserveNow": "Lefoglalás most",
+  "hours": "óra",
+  "minutes": "perc",
+  "hour": "óra",
+  "minute": "perc",
+  "and": "és",
+  "noon": "dél",
+  "vision": "Kontrasztos",
+  "private": "magánjellegű",
+  "statusRoomTitle": {
+    "availableLabel1": "Elérhető",
+    "availableLabel2": "a következő időtartamban:",
+    "availableOccupiedLabel1": "Foglalva / Nem ütemezett",
+    "reservedLabel1": "Fenntartva",
+    "reservedLabel2": "a következő időtartamban:"
+  },
+  "buttons": {
+    "cancel": "Mégse",
+    "close": "Bezárás",
+    "end": "Befejezés most",
+    "extend": "Hosszabbít",
+    "addEvent": "Lefoglalás most",
+    "ok": "OK"
+  },
+  "freeAllDay": {
+    "label1": "elérhető",
+    "label2": "A nap további részére"
+  },
+  "splash": {
+    "loadingMessage": "Betöltés..."
+  },
+  "endEvent": {
+    "question": "Jelenlegi találkozó befejezése",
+    "loadingMessage": "Betöltés",
+    "endsIn": "hátralévő idő:"
+  },
+  "extendEvent": {
+    "headerTitle": "Találkozó meghosszabbítása",
+    "endAt": "befejeződik:",
+    "timeRollLabel": "P",
+    "loadingMessage": "Betöltés",
+    "endsIn": "hátralévő idő:"
+  },
+  "checkInEvent": {
+    "loadingMessage": "Betöltés"
+  },
+  "reservation": {
+    "headerTitle": "Új találkozó",
+    "subject": "Tárgy",
+    "organizer": "Szervező",
+    "starts": "Kezdés",
+    "ends": "Befejezés",
+    "loadingMessage": "Betöltés",
+    "defaultOrganizer": "Azonnali találkozó szervezője",
+    "defaultSubject": "Azonnali találkozó"
+  },
+  "details": {
+    "headerTitle": "Találkozó részletei",
+    "from": "Kezdet:",
+    "attendees": "Résztvevők",
+    "loadingMessage": "Találkozó lekérése",
+    "recurring": "ismétlődő találkozó"
+  },
+  "findRoomData": {
+    "headerTitle": "Közeli szabad helyiségek",
+    "address": "Épület címe",
+    "forNext": "a következő időtartamban:",
+    "loadingMessage": "Találkozó lekérése",
+    "noRooms": "Jelenleg nincsenek szabad helyiségek"
+  },
+  "screenSaver": {
+    "availableUntil": "rendelkezésre állás határideje",
+    "available": "elérhető",
+    "availableOccupied": "Foglalva / Nem ütemezett",
+    "reserved": "foglalt",
+    "details": "részletek",
+    "meeting": "találkozó",
+    "freeAllDay": "a nap további részére",
+    "nextUp": "következő:",
+    "notify": "A kezdéshez érintse meg a képernyőt"
+  },
+  "about": {
+    "systemInfo": "Rendszeradatok",
+    "account": "Ütemező fiók",
+    "serverConnection": "Kiszolgálói kapcsolat",
+    "fusionStatus": "Fusion leküldés/ciklikus lekérdezés",
+    "googleAuthUserCode": "Google Hitelesítő felhasználói kódja",
+    "googleAuthUrl": "Google Hitelesítő URL-címe",
+    "firmware": "Firmware",
+    "appVersion": "Verzió",
+    "webVersion": "Webes verzió",
+    "hardwareId": "Hardverazonosító",
+    "online": "Online",
+    "offline": "Offline",
+    "hostName": "Kiszolgálónév",
+    "ip": "IP-cím",
+    "configUrl": "Helyi konfiguráció URL-címe"
+  },
+  "helpLabels": {
+    "roomName": "Helyiség neve",
+    "reserveNow": "Helyiség lefoglalása most",
+    "moreAction": "Keresés, lefoglalás és további funkciók",
+    "timelineTap": "Lefoglalás hozzáadásához vagy a találkozó részleteinek megjelenítéséhez koppintson",
+    "timelineSwipe": "Pöccintsen további időpontok megjelenítéséhez"
+  },
+  "error": {
+    "message": "Sajnáljuk, rendszerhiba történt.  Kérjük, próbálkozzon újra.",
+    "messageAddEvent": "Sajnáljuk, hiba történt a találkozó létrehozása során. Kérjük, próbálkozzon újra."
+  },
+  "success": {
+    "messageAddEvent": "A találkozó sikeresen létrejött."
+  },
+  "offline": {
+    "label1": "A naptár offline állapotban van",
+    "label2": "Ellenőrizze a konfigurációt"
+  },
+  "pin": {
+    "enterPasscode": "Jelszó megadása",
+    "delete": "Törlés"
+  }
+}

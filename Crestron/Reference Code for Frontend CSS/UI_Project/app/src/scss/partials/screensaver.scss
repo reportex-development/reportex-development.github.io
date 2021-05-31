@@ -1,0 +1,564 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+$room-animation-time: 600ms;
+
+$room-details-swap: 75vh;
+$room-reserved-cont-swap: 40vh;
+
+@media screen and (orientation: portrait) {
+  $room-animation-time: 1000ms;
+  $room-reserved-cont-swap: 15vh;
+}
+
+
+@keyframes white-flash-in-ani {
+    0% {opacity: 0;}
+    15% {opacity: .20;}
+    50% {opacity: .85;}
+    85% {opacity: .20;}
+    100% {opacity: 0;}
+}
+@keyframes white-flash-out-ani {
+    0% {opacity: 0;}
+    15% {opacity: .20;}
+    50% {opacity: .85;}
+    85% {opacity: .20;}
+    100% {opacity: 0;}
+}
+
+.white-spash-in {
+  animation-name: white-flash-in-ani;
+  animation-duration: $room-animation-time;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.white-spash-out {
+  animation-name: white-flash-out-ani;
+  animation-duration: $room-animation-time;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.screensaver_flash {
+	height: 100vh;
+  width: 100%;
+  z-index: 100;
+  // background-color: white; //Move to theme files
+  pointer-events: none;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@keyframes swap-details-in-ani {
+  // 30% {opacity: 0.1;}
+  50% {opacity: 0;}
+  // 70% {opacity: 0.1;}
+  to {transform: translateY($room-details-swap);}
+}
+@keyframes swap-details-out-ani {
+  from {transform: translateY($room-details-swap);}
+  // 30% {opacity: 0.1;}
+  50%{opacity: 0;}
+  // 70% {opacity: 0.1;}
+  // to {transform: translateY(-$room-details-swap);}
+}
+
+.screensaver__container__room-details.swap-details-in {
+  animation-name: swap-details-in-ani;
+  animation-duration: $room-animation-time;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards; // Without this, the field will jump back to where it started, as soon as the animation was done
+
+  margin-top: 0;
+}
+.screensaver__container__room-details.swap-details-out {
+  animation-name: swap-details-out-ani;
+  animation-duration: $room-animation-time;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes swap-reserved-cont-in-ani {
+  // 30% {opacity: 0.1;}
+  50% {opacity: 0;}
+  // 70% {opacity: 0.1;}
+  to {margin-top: 0; transform: translateY($room-reserved-cont-swap);}
+}
+@keyframes swap-reserved-cont-out-ani {
+  from {transform: translateY($room-reserved-cont-swap);}
+  // 30% {opacity: 0.1;}
+  50% {opacity: 0;}
+  // 70% {opacity: 0.1;}
+}
+
+@keyframes swap-time-in-ani {
+  // 30% {opacity: 0.1;}
+  50% {opacity: 0;}
+  // 70% {opacity: 0.1;}
+  to {top: 0;}
+}
+@keyframes swap-time-out-ani {
+  // from {top: 0;}
+  // 30% {opacity: 0.1;}
+  50% {opacity: 0;}
+  // 70% {opacity: 0.1;}
+}
+
+.screensaver {
+	height: 100vh;
+	width: 100%;
+}
+
+.screensaver__image, .screensaver__video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+ 	background-size: cover;
+  transition: 1s opacity;
+}
+
+.screensaver__container {
+	height: 100%;
+	width: 100%;
+	display: table;
+	margin: 0;
+	padding: 0;
+}
+
+.screensaver__container {
+	border-left-width: 20px;
+	border-left-style: solid;
+	border-right-width: 20px;
+  border-right-style: solid;
+
+  @media screen and ( orientation: portrait ) {
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-style: solid;
+    border-top-width: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 20px;
+  }
+}
+
+.screensaver__container::before {
+	background-size: 100% 100%;
+	height: 100%;
+	width: calc(100% - 40px);
+	position: absolute;
+	content: "";
+  z-index: -1;
+
+  @media screen and (orientation: portrait) {
+    top: 20px;
+    height: calc(100% - 40px);
+    width: 100%;
+  }
+}
+
+.screensaver__container::after {
+	background-blend-mode: multiply;
+	background-position: top left;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	content: "";
+	height: 100%;
+	width: calc(100% - 40px);
+	z-index: -1;
+
+  @media screen and (orientation: portrait) {
+    top: 20px;
+    height: calc(100% - 40px);
+    width: 100%;
+  }
+}
+
+.screensaver__container__time-date {
+  bottom: 0;
+}
+
+.screensaver__container__room-details {
+  @extend .font-semibold-78;
+	display: block;
+	margin-top: 3.33vmin;
+  padding-left: 9.35vmin;
+
+  transform: translateY(0);
+
+  @media screen and (orientation: portrait) {
+    font-size: 7vh;
+	  padding-left: 7.4vw;
+  }
+}
+
+.rtl {
+	.screensaver__container__room-details {
+		padding-right: 9.35vmin;
+    padding-left: 0;
+
+    @media screen and (orientation: portrait) {
+      width: 100vw;
+      padding-right: 7.4vw;
+      text-align: right;
+    }
+	}
+}
+
+.screensaver__container__room-details__id,
+.screensaver__container__room-details__name {
+	@extend .font-semibold-78;
+	text-transform: none;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	line-height: 1.5em;
+	max-width: calc((100vw - 10vmin) - 40px);
+
+	@media screen and (orientation: portrait) {
+		line-height: 1.3;
+		max-width: calc((100vw - 7.6vw) - 40px);
+	}
+}
+
+.rtl {
+  .screensaver__container__room-details__id,
+  .screensaver__container__room-details__name {
+    text-align: right;
+    unicode-bidi: plaintext;
+  }
+}
+
+.screensaver__container__all__cont {
+	padding-left: 9.5vmin;
+	text-transform: uppercase;
+  display: inline-block;
+
+  @media screen and (orientation: portrait) {
+    margin-top: 20vh;
+    padding-left: 7.4vw;
+  }
+}
+.rtl {
+  .screensaver__container__all__cont {
+    padding-right: 9.5vmin;
+    padding-left: 0;
+
+    @media screen and (orientation: portrait) {
+      width: 100vw;
+      padding-right: 7.4vw;
+      text-align: right;
+    }
+  }
+}
+
+.swap-reserved-cont-in {
+  animation-name: swap-reserved-cont-in-ani;
+  animation-duration: $room-animation-time;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+.swap-reserved-cont-out {
+  animation-name: swap-reserved-cont-out-ani;
+  animation-duration: $room-animation-time;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.screensaver__container__reserved,
+.screensaver__container__available,
+.screensaver__container__available-occupied {
+  text-transform: uppercase;
+  display: inline-block;
+  max-width: calc((100vw - 9.35vmin) - 40px);
+}
+
+.rtl {
+  .screensaver__container__reserved,
+  .screensaver__container__available,
+  .screensaver__container__available-occupied {
+    @media screen and (orientation: portrait) {
+      max-width: calc((100vw - 9.35vmin) - 40px);
+
+      text-align: right;
+    }
+  }
+}
+
+.screensaver__container__reserved__date,
+.screensaver__container__available__date-start,
+.screensaver__container__available__spacer,
+.screensaver__container__available__date-end {
+    @extend .font-semibold-36;
+
+    @media screen and (orientation: portrait) {
+        font-size: 3.8vh;
+    }
+}
+
+.screensaver__container__reserved__label2,
+.screensaver__container__available__label2 {
+	@extend .font-normal-30;
+	line-height: 1.2;
+	text-transform: capitalize;
+	display: inline-block;
+	overflow: hidden;
+    @include setProperty( 'margin-right', 10 );
+
+    @media screen and (orientation: portrait) {
+        font-size: 3.12vh;
+    }
+}
+
+.screensaver__container__reserved__content--second,
+.screensaver__container__available__content--second {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.screensaver__container__reserved__subject,
+.screensaver__container__available__subject {
+	@extend .font-normal-30;
+	text-transform: none;
+	line-height: 1.2;
+	display: inline-block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	max-width: calc((100vw - 10vmin) - 40px);
+
+	@media screen and (orientation: portrait) {
+		font-size: 3.12vh;
+		max-width: 90vw;
+	}
+}
+
+.rtl {
+	.screensaver__container__reserved__subject,
+	.screensaver__container__available__subject {
+		unicode-bidi: plaintext;
+	}
+}
+
+.screensaver__container__current-time {
+	@include setProperty( 'padding-left', 56 );
+	@include setProperty( 'padding-bottom', 56 );
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+
+	@media screen and (orientation: portrait) {
+		display: inline-block;
+		padding-left: 7.4vw;
+		padding-bottom: 10vh;
+		left: 0;
+		width: auto;
+	}
+}
+
+.screensaver__container__current-time__date {
+	@extend .font-normal-26;
+}
+
+.screensaver__container__current-time__time {
+	@include setProperty( 'margin-top', 22 );
+	@extend .font-normal-78;
+
+	@media screen and (orientation: portrait) {
+		margin-top: 1.5vh;
+		font-size: 8.1vh;
+	}
+}
+
+.rtl {
+	.screensaver__container__current-time {
+		@include setProperty( 'padding-right', 56 );
+		padding-left: 0;
+		right: 20px;
+		left: inherit;
+
+		@media screen and (orientation: portrait) {
+			padding-right: 7.4vw;
+			right: 0;
+		}
+	}
+	.screensaver__container__current-time__time,
+	.screensaver__container__current-time__date {
+		text-align: right;
+		unicode-bidi: plaintext;
+	}
+}
+
+.screensaver__container__logo {
+	@include setProperty( 'padding-right', 56 );
+	@include setProperty( 'padding-bottom', 56 );
+	position: absolute;
+	display: inline-block;
+	bottom: 0;
+	right: 0;
+	padding-top: 10vh;
+
+  @media screen and (orientation: portrait) {
+    padding-right: 7.4vw;
+    padding-bottom: 10vh;
+    padding-top: 8vh;
+  }
+}
+
+.rtl {
+	.screensaver__container__logo {
+		@include setProperty( 'padding-left', 56 );
+		padding-right: 0;
+		left: 0;
+		right: inherit;
+
+		@media screen and (orientation: portrait) {
+			padding-left: 7.4vw;
+		}
+	}
+}
+
+.screensaver__container__logo__img {
+	@include setProperty( 'height', 54 );
+
+	@media screen and (orientation: portrait) {
+		height: 6.3vh;
+		max-width: calc(100vw - 14.8vw);
+	}
+}
+
+//Animation
+.swap-time-in {
+  bottom: unset;
+  padding-bottom: 0;
+  @include setProperty( 'padding-top', 56 );
+
+  animation-name: swap-time-in-ani;
+  animation-duration: $room-animation-time;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+.swap-time-out {
+  animation-name: swap-time-out-ani;
+  animation-duration: $room-animation-time;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+//
+
+.screensaver__container__notify {
+	@include setProperty( 'padding-bottom', 22 );
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	@extend .font-normal-16;
+
+	@media screen and (orientation: portrait) {
+		font-size: 2vh;
+		padding-bottom: calc(2vh + 20px);
+	}
+}
+
+.screensaver__container__status__title__label3 {
+	@include setProperty( 'margin-top', 56 );
+	@include setProperty( 'padding-left', 56 );
+	@extend .font-semibold-36;
+	text-transform: uppercase;
+}
+
+.rtl {
+	.screensaver__container__status__title__label3 {
+		@include setProperty( 'padding-right', 56 );
+		padding-left: 0;
+	}
+}
+
+// .screensaver__container__freeAllDay {
+// 	@include setProperty( 'margin-top', 56 );
+//   @include setProperty( 'padding-left', 56 );
+
+//   @media screen and (orientation: portrait) {
+//     margin-top: 20vh;
+// 	  padding-left: 7.4vw;
+//   }
+// }
+
+.rtl {
+	.screensaver__container__freeAllDay {
+    text-align: right;
+
+    @media screen and (orientation: portrait) {
+      width: 100vw;
+    }
+	}
+}
+
+.screensaver__container__freeAllDay__label1 {
+	display: block;
+	width: 100%;
+	@extend .font-normal-60;
+	text-transform: uppercase;
+	font-weight: 450;
+	letter-spacing: 1px;
+}
+
+.screensaver__container__freeAllDay__label2 {
+	@include setProperty( 'margin-top', 14 );
+	display: block;
+	width: 100%;
+	@extend .font-normal-30;
+	text-transform: uppercase;
+}
+
+.screensaver__container__available__content,
+.screensaver__container__reserved__content {
+	@extend .font-semibold-36;
+	line-height: 1.2;
+}
+
+.screensaver__container__available-occupied {
+	line-height: 1.2;
+}
+
+.screensaver__container__available-occupied__label1 {
+  display: block;
+  max-width: calc((100vw - 9.35vmin) - 40px);
+  @extend .font-normal-46;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  unicode-bidi: plaintext;
+}
+
+.rtl {
+	.screensaver__container__available__content,
+	.screensaver__container__reserved__content {
+		text-align: right;
+		unicode-bidi: plaintext;
+	}
+
+	.screensaver__container__available__label2,
+	.screensaver__container__reserved__label2 {
+		unicode-bidi: plaintext;
+	}
+}
+
+.rtl {
+	.unicode-bidi-normal {
+		unicode-bidi: normal;
+	}
+}

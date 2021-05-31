@@ -1,0 +1,130 @@
+// This software development kit (SDK) consisting of HTML and JavaScript sample code is licensed under the general 
+// terms of Crestron’s Software Development Tools License Agreement, with the exception that you are granted permission 
+// to redistribute derivative works of the provided sample code in source code format.  This license is located 
+// at http://www.crestron.com/legal/software-license-agreement.  This SDK can be used to customize the user experience 
+// with Crestron scheduling panels.  If edited in a way that’s contrary to our instructions, this SDK could result 
+// in unexpected behavior and a diminished user experience.
+
+.room__container__action__reserve-now {
+	position: relative;
+}
+
+.tooltip-help--layout {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
+	opacity: 0.1;
+}
+
+.tooltip-help {
+    @extend .font-covered-24;
+	&.room-details {
+		position: absolute;
+		left: 8vw;
+		top: 0;
+		padding-left: 11.7vw;
+		padding-top: 15.8vh;
+		font-style: italic;
+		width: 50vmin;
+		@include setProperty( 'font-size', 24 );
+	}
+	&.room-details::after {
+		content: '';
+		position: absolute;
+		left: .975vw;
+		top: 8.3vh;
+		width: 9.4vw;
+		height: 9.7vh;
+		border: 0;
+	}
+
+	&.reserve-now {
+		position: absolute;
+    	bottom: 6.2vh;
+    	right: 0;
+		padding-right: 12.7vw;
+		padding-bottom: 7.5vh;
+		font-style: italic;
+		width: 55vmin;
+		@include setProperty( 'font-size', 24 );
+		text-align: right;
+	}
+	&.reserve-now::after {
+		content: '';
+		position: absolute;
+		right: 2.3vw;
+    	bottom: 5vh;
+		width: 9.4vw;
+		height: 8vh;
+		border: 0;
+	}
+	&.action-btn {
+		position: absolute;
+    	bottom: 12.7vh;
+		right: .8vw;
+		font-style: italic;
+		padding-bottom: 10.3vh;
+		width: 9.8vw;
+		@include setProperty( 'font-size', 24 );
+		text-align: right;
+	}
+	&.action-btn::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 3vw;
+		width: 9.4vw;
+		height: 9.7vh;
+		border: 0;
+	}
+	&.timeline-tap {
+		position: absolute;
+    	bottom: 6vh;
+		left: 9.8vw;
+		font-style: italic;
+		width: 29vw;
+		@include setProperty( 'font-size', 24 );
+		padding-bottom: 18.3vh;
+		text-align: center;
+	}
+	&.timeline-tap::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 16vh;
+	}
+	&.timeline-swipe {
+		position: absolute;
+    	bottom: 6vh;
+		right: 9.8vw;
+		font-style: italic;
+		width: 34.2vw;
+		@include setProperty( 'font-size', 24 );
+		padding-bottom: 18.3vh;
+		text-align: center;
+	}
+	&.timeline-swipe::after {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: 16vh;
+		content: '';
+	}
+}
+
+.arabic {
+	.tooltip-help {
+		&.room-details {
+			right: 19.5vw;
+			left: initial
+		}
+		&.room-details::after {
+			@extend .flipX;
+			left: 29vw;
+		}
+	}
+}
